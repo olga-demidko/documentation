@@ -1,30 +1,40 @@
 # Starting A New Scan
 
-1. Once you are logged into the system, you’ll be taken to your dashboard. Here you can click the <img src="user-guide/scans/media/new-scan-button.png" width="8%"> button to create a new scan.
+1. Once you are logged into the system, you’ll be taken to your dashboard. Here you can click the <img src="user-guide/scans/media/new-scan-button.png" width="8%" style="margin-bottom:-5px;"> button to create a new scan.
 
-<img src="user-guide/scans/media/new-scan-01.png">
+    <img src="user-guide/scans/media/new-scan-01.png">
 
 2. The scan creation form will pop up. Fill in a name for your scan.
 
-<img src="user-guide/scans/media/new-scan-02.png">
-
+     <img src="user-guide/scans/media/new-scan-02.png">
 
 3. Select the module you’d like to use in your scan (if applicable, depending on your subscription), the discovery type that suits you and, optionally, a scan profile.
 
+    <img src="user-guide/scans/media/new-scan-03.png">
 
-<br><br>
-<img src="user-guide/scans/media/new-scan-03.png">
-<br><br>
+    Modules:
+    <ol type="A"; style="margin-top:-18px;">
+    <li>DAST - scan your application for OWASP Top 10 + vulnerabilities and many different CVEs.</li>
+    <li>Fuzzer - scan your application for OWASP Top 10 + vulnerabilities, as well as business logic vulnerabilities, 0-Days and many unknown vulnerabilities. This module can be harmful to your system and so must be used only on a testing environment.</li>
+    </ol>
 
-4. Select the module you’d like to use in your scan (if applicable, depending on your subscription), the discovery type that suits you and, optionally, a scan profile.
-<br><br>
-<img src="user-guide/scans/media/new-scan-02.png">
-<br><br>
+    d
+    <ol type="A"; style="margin-top:-18px;">
+    <li>Recording - use a pre-recorded session of your application (a HAR or WSAR file) which was created either manually or automatically with QA tools such as Selenium to scan your application. With this discovery type you can define the scope of the scan and store login information to scan areas in your application which require authentication.</li>
+    <li>Crawler - use our Crawler to scan your application or parts of it automatically. All you need is a URL.</li>
+    <li>Open API - NexPloit supports scanning APIs. You’ll need a *.yml file.</li>
+    </ol>
 
-## With Crawler
-Crawler
+    Scan Profiles:
+    <ul type=""; style="margin-top:-18px">
+    <li>Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.</li>
+    </ul>
 
+4. Proceed according to your choice of Discovery Types (notice that you can combine <a href="#/user-guide/scans/new-scan?id=Discovery_Types" style="text-decoration: inherit; color: inherit; font: inherit">options A. and B.</a> in a single scan):
 
-## From HAR / WSAR
+    ### Use a HAR/WSAR file
+    Upload your HAR/WSAR file by clicking the <img src="user-guide/scans/media/new-scan-button.png" width="8%" style="margin-bottom:-5px;"> icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
 
-## From API Specification
+    ### Use a Crawler
+
+    ### Use an API Specification
