@@ -1,5 +1,6 @@
 # Starting A New Scan
 
+<<<<<<< HEAD
 1. Once you are logged into the system, you’ll be taken to your dashboard. Here you can click the <img src="user-guide/scans/media/new-scan-button.png" width="8%" style="margin-bottom:-5px;"> button to create a new scan.
 
     <img src="user-guide/scans/media/new-scan-01.png">
@@ -7,9 +8,23 @@
 2. The scan creation form will pop up. Fill in a name for your scan.
 
      <img src="user-guide/scans/media/new-scan-02.png">
+=======
+1. Once you are logged into the system, you’ll be taken to your dashboard. 
+Here you can click the ![New Scan](media/new-scan-button.png ':size=8%') button to create a new scan.
 
-3. Select the module you’d like to use in your scan (if applicable, depending on your subscription), the discovery type that suits you and, optionally, a scan profile.
+![New Scan 1](media/new-scan-01.png ':size=80%')
 
+
+2. The scan creation form will pop up. Fill in a name for your scan.
+
+![New Scan 1](media/new-scan-02.png ':size=80%')
+
+>>>>>>> 83a277932e6e95c8151f86d18067c9b821778d82
+
+3. Select the module you’d like to use in your scan (if applicable, depending on your subscription), 
+the discovery type that suits you and, optionally, a scan profile.
+
+<<<<<<< HEAD
     <img src="user-guide/scans/media/new-scan-03.png">
 
     Modules:
@@ -29,6 +44,12 @@
     <ul type=""; style="margin-top:-18px">
     <li>Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.</li>
     </ul>
+=======
+![New Scan 1](media/new-scan-03.png ':size=80%')
+
+
+4. Select the module you’d like to use in your scan (if applicable, depending on your subscription), the discovery type that suits you and, optionally, a scan profile.
+>>>>>>> 83a277932e6e95c8151f86d18067c9b821778d82
 
 4. Proceed according to your choice of Discovery Types (notice that you can combine <a href="#/user-guide/scans/new-scan?id=Discovery_Types" style="text-decoration: inherit; color: inherit; font: inherit">options A. and B.</a> in a single scan):
 
