@@ -30,9 +30,9 @@
     - [Jenkins](integrations/jenkins/connect-account.md)
     - [CircleCI](integrations/circleci/connect-account.md)
     - [Travis CI](integrations/travis-ci/connect-account.md)
-    - [ServiceNow](integrations/servicenow/connect-account.md)
+    <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
     - [Slack](integrations/slack/connect-account.md)
-    - [TeamCity](integrations/teamcity/connect-account.md)
+    <!-- - [TeamCity](integrations/teamcity/connect-account.md) -->
     <!-- - [Azure DevOps](integrations/github/connect-account.md) -->
 
   - [API Guide](api-guide/overview.md)
