@@ -1,5 +1,3 @@
-<!-- docs/main_sidebar.md -->
-
 - Quick Navigation
   - [Home](/ "About")
 
@@ -24,7 +22,7 @@
   
   - [Integrations](integrations/overview.md)
     - [GitHub](integrations/github/connect-account.md)
-    - [Jira](integrations/jira/connect-account.md)
+    - [Jira](integrations/jira/jira-integration.md)
     - [Bamboo](integrations/bamboo/connect-account.md)
     - [GitHub Actions](integrations/github-actions/connect-account.md)
     - [Jenkins](integrations/jenkins/connect-account.md)
