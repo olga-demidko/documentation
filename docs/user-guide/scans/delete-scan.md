@@ -1,7 +1,13 @@
-### Under Construction!
-<img src="https://www.kindpng.com/picc/m/168-1689925_icon-hd-building-under-construction-icons-png-transparent.png" width="27%">
-<br>
-<br>
-This page needs more work...
-<br>
-Want to help out? submit a PR <a href=https://github.com/neuraLegion/documentation >here</a>
+## Deleting a Scan
+
+To delete a scan, simply go to your dashboard and click the <img src="user-guide/scans/media/vertical_dots.png" width="1.5%" style="margin-bottom:-5px;"> button next to the name of the scan that you wish to delete.
+
+![Delete Scan 01](media/delete-scan-01.png ':size=100%')
+
+Now coose the "Delete" option.
+
+![Delete Scan 02](media/delete-scan-02.png ':size=100%')
+
+And finally, click "Delete".
+
+![Delete Scan 03](media/delete-scan-03.png ':size=100%')

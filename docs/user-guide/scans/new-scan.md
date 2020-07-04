@@ -36,7 +36,7 @@ the discovery type that suits you and, optionally, a scan profile.
 
 4. Proceed according to your choice of Discovery Types (notice that you can combine <a href="#/user-guide/scans/new-scan?id=Discovery_Types" style="text-decoration: inherit; color: inherit; font: inherit">options A. and B.</a> in a single scan):
 
-    #### Use a HAR/WSAR file
+    ### Use a HAR/WSAR file
     You can either use a new file or select a pre uploaded file (either a file you've used before or a file that was pre-uploaded using our browser extension, which you can read about here).
     <ol type="A"; style="margin-top:-18px;">
     <li>Upload your HAR/WSAR file by clicking the <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
@@ -71,7 +71,7 @@ the discovery type that suits you and, optionally, a scan profile.
 
     Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
     
-    #### Use a Crawler
+    ### Use a Crawler
 
     Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button to the right.
 
@@ -97,7 +97,7 @@ the discovery type that suits you and, optionally, a scan profile.
 
     Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
     
-    #### Scan an API
+    ### Scan an API
     To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
 
     ![New Scan 13](media/new-scan-13.png ':size=100%')
