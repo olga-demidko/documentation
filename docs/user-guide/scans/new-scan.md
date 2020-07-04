@@ -68,7 +68,33 @@ the discovery type that suits you and, optionally, a scan profile.
     There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
 
     ![New Scan 10](media/new-scan-10.png ':size=100%')
+
+    Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
     
     #### Use a Crawler
+
+    Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button to the right.
+
+    ![New Scan 11](media/new-scan-11.png ':size=100%')
+
+    Now select the tests you’d like to perform in the scan.
+
+    ![New Scan 12](media/new-scan-12.png ':size=100%')
+
+    Optionally, you can schedule your scan for later. You have two options to schedule a scan:
+    <ol type="A"; style="margin-top:-18px;">
+    <li>Schedule a single scan for later. Click “Enable Scheduling” on the right, select the "Single Scan" option and then choose a date and a time for the scan to run.
+
+    ![New Scan 8](media/new-scan-08.png ':size=100%')</li>
+    <li>Schedule a recurring scan. Click “Enable Scheduling” on the right, then select the settings that suit you best.
+
+    ![New Scan 9](media/new-scan-09.png ':size=100%')</li>
+    </ol>
+
+    There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
+
+    ![New Scan 10](media/new-scan-10.png ':size=100%')
+
+    Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
     
     #### Use an API Specification
