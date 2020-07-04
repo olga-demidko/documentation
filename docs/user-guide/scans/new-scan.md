@@ -97,4 +97,35 @@ the discovery type that suits you and, optionally, a scan profile.
 
     Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
     
-    #### Use an API Specification
+    #### Scan an API
+    To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
+
+    ![New Scan 13](media/new-scan-13.png ':size=100%')
+    
+    Fill in the required extra headers for your scan (to add more than one use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button on the right). If you chose to scan a Postman collection you'll also have the option to add the relevant variables.
+
+    ![New Scan 14](media/new-scan-14.png ':size=100%')
+
+    Now choose the file to scan. You can either upload a file from your computer by clicking <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> and then clicking the textbox to the left, or import a file from a link by clicking <img src="user-guide/scans/media/link_button.png" width="3.2%" style="margin-bottom:-5px;"> and then pasting a link in the textbox to the left.
+
+    ![New Scan 15](media/new-scan-15.png ':size=100%')
+
+    Now select the tests you’d like to perform in the scan.
+
+    ![New Scan 16](media/new-scan-16.png ':size=100%')
+
+    Optionally, you can schedule your scan for later. You have two options to schedule a scan:
+    <ol type="A"; style="margin-top:-18px;">
+    <li>Schedule a single scan for later. Click “Enable Scheduling” on the right, select the "Single Scan" option and then choose a date and a time for the scan to run.
+
+    ![New Scan 8](media/new-scan-08.png ':size=100%')</li>
+    <li>Schedule a recurring scan. Click “Enable Scheduling” on the right, then select the settings that suit you best.
+
+    ![New Scan 9](media/new-scan-09.png ':size=100%')</li>
+    </ol>
+
+    There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
+
+    ![New Scan 10](media/new-scan-10.png ':size=100%')
+
+    Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
