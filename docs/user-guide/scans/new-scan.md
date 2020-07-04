@@ -1,20 +1,20 @@
-# Starting A New Scan
+## Starting A New Scan
 
 1. Once you are logged into the system, you’ll be taken to your dashboard. 
 Here you can click the ![New Scan](media/new-scan-button.png ':size=8%') button to create a new scan.
 
-![New Scan 1](media/new-scan-01.png ':size=80%')
+    ![New Scan 1](media/new-scan-01.png ':size=80%')
 
 
 2. The scan creation form will pop up. Fill in a name for your scan.
 
-![New Scan 1](media/new-scan-02.png ':size=80%')
+    ![New Scan 1](media/new-scan-02.png ':size=80%')
 
 
 3. Select the module you’d like to use in your scan (if applicable, depending on your subscription), 
 the discovery type that suits you and, optionally, a scan profile.
 
-    <img src="user-guide/scans/media/new-scan-03.png">
+    ![New Scan 1](media/new-scan-03.png ':size=80%')
 
     Modules:
     <ol type="A"; style="margin-top:-18px;">
@@ -22,7 +22,7 @@ the discovery type that suits you and, optionally, a scan profile.
     <li>Fuzzer - scan your application for OWASP Top 10 + vulnerabilities, as well as business logic vulnerabilities, 0-Days and many unknown vulnerabilities. This module can be harmful to your system and so must be used only on a testing environment.</li>
     </ol>
 
-    d
+    <p id="Discovery_Types">Discovery Types</p>
     <ol type="A"; style="margin-top:-18px;">
     <li>Recording - use a pre-recorded session of your application (a HAR or WSAR file) which was created either manually or automatically with QA tools such as Selenium to scan your application. With this discovery type you can define the scope of the scan and store login information to scan areas in your application which require authentication.</li>
     <li>Crawler - use our Crawler to scan your application or parts of it automatically. All you need is a URL.</li>
@@ -37,7 +37,9 @@ the discovery type that suits you and, optionally, a scan profile.
 4. Proceed according to your choice of Discovery Types (notice that you can combine <a href="#/user-guide/scans/new-scan?id=Discovery_Types" style="text-decoration: inherit; color: inherit; font: inherit">options A. and B.</a> in a single scan):
 
     ### Use a HAR/WSAR file
-    Upload your HAR/WSAR file by clicking the <img src="user-guide/scans/media/new-scan-button.png" width="8%" style="margin-bottom:-5px;"> icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
+    Upload your HAR/WSAR file by clicking the <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
+
+    ![New Scan 1](media/new-scan-04.png ':size=80%')
 
     ### Use a Crawler
 
