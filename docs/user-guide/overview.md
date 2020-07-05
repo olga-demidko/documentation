@@ -1,7 +1,17 @@
-### Under Construction!
-<img src="https://www.kindpng.com/picc/m/168-1689925_icon-hd-building-under-construction-icons-png-transparent.png" width="27%">
-<br>
-<br>
-This page needs more work...
-<br>
-Want to help out? submit a PR <a href=https://github.com/neuraLegion/documentation >here</a>
+# Overview
+This section provides a brief guide on how to get started with our solutions. Each section includes references to the documented topics which provide a more detailed explanation.
+
+
+|Organization Administration| 
+| --- |
+| [Read more](user-guide/organization-administration/overview.md) |
+
+| Personal Account Administration |
+| --- |
+| [Read more](user-guide/personal-account-administration/overview.md) |
+
+
+|Scans|
+| --- |
+| [Read more](user-guide/scans/new-scan.md) |
+
