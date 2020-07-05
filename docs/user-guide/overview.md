@@ -2,7 +2,7 @@
 This section provides a brief guide on how to get started with our solutions. Each section includes references to the documented topics which provide a more detailed explanation.
 
 
-|Organization Administration| 
+| Organization Administration | 
 | --- |
 | [Read more](user-guide/organization-administration/overview.md) |
 
@@ -10,8 +10,11 @@ This section provides a brief guide on how to get started with our solutions. Ea
 | --- |
 | [Read more](user-guide/personal-account-administration/overview.md) |
 
-
-|Scans|
+| Scans |
 | --- |
 | [Read more](user-guide/scans/new-scan.md) |
+
+| Storage |
+| --- |
+| [Read more](user-guide/storage/overview.md) |
 
