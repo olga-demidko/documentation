@@ -16,18 +16,18 @@
         - [Issue Details](user-guide/scans/issue-details.md)
         - [Re-Test Issue](user-guide/scans/re-test-issue.md)
 
-      <!-- - [Re-Test Scan](user-guide/scans/re-test-scan.md)
-      - [Schedueling](user-guide/scans/schedueling.md)
+      - [Re-Test Scan](user-guide/scans/re-test-scan.md)
+      <!-- - [Schedueling](user-guide/scans/schedueling.md) -->
       - [Export Scan](user-guide/scans/export-scan.md)
-      - [Delete Scan](user-guide/scans/delete-scan.md) -->
-    <!-- - [Scan Profiles](user-guide/scan-profiles/profile-details/overview.md)
-      - [Profile Details](user-guide/scan-profiles/profile-details.md)
-      - [New Profile](user-guide/scan-profiles/new-profile.md)
-      - [Edit Profile](user-guide/scan-profiles/edit-profile.md)
-      - [Delete Profile](user-guide/scan-profiles/delete-profile.md) -->
+      - [Delete Scan](user-guide/scans/delete-scan.md) 
+      <!-- - [Scan Profiles](user-guide/scan-profiles/profile-details/overview.md) -->
+      <!-- - [Profile Details](user-guide/scan-profiles/profile-details.md) -->
+      <!-- - [New Profile](user-guide/scan-profiles/new-profile.md) -->
+      <!-- - [Edit Profile](user-guide/scan-profiles/edit-profile.md) -->
+      <!-- - [Delete Profile](user-guide/scan-profiles/delete-profile.md) -->
     - [Agents (Repteaters)](user-guide/agents/overview.md)
     <!-- - [Analysis](user-guide/analysis/overview.md) -->
-    <!-- - [Storage](user-guide/storage/overview.md) -->
+    - [Storage](user-guide/storage/overview.md)
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
   
   - [Integrations](integrations/overview.md)
