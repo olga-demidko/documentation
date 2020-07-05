@@ -1,7 +1,8 @@
-### Under Construction!
-<img src="https://www.kindpng.com/picc/m/168-1689925_icon-hd-building-under-construction-icons-png-transparent.png" width="27%">
-<br>
-<br>
-This page needs more work...
-<br>
-Want to help out? submit a PR <a href=https://github.com/neuraLegion/documentation >here</a>
+# Agent (Repeater) Guide
+
+## About
+Repeater allows you to run NexPloit scans without exposing your ports outside. Also, it can be useful, if you want to run a local scan without deploying.
+
+By design, repeater is just a docker image with a utility, that keeps connection with amq.nexploit.app:5672, performs requests on local target and sends responses to NexPloit backend.
+
+More information about our GitHub Actions Integration can be found here: https://hub.docker.com/r/neuralegion/repeater
