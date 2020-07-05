@@ -1,5 +1,7 @@
 # Jira Integration
 
+![jira_logo](media/jira-software-blue.svg ':size=50%')
+
 ## About
 To enable full automation into your CI/CD pipeline, you can configure our solutions to automatically open tickets in your selected Jira repositories. Each new ticket will provide all the information from NexPloit to give developers everything they need to solve the problems, without leaving the comfort of their development environment.
 
