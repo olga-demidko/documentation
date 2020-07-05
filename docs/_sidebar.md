@@ -33,7 +33,7 @@
     - [GitHub](integrations/github/connect-account.md)
     - [Jira](integrations/jira/jira-integration.md)
     - [Bamboo](integrations/bamboo/connect-account.md)
-    - [GitHub Actions](integrations/github-actions/connect-account.md)
+    - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
     - [Jenkins](integrations/jenkins/connect-account.md)
     - [CircleCI](integrations/circleci/circleci-integration.md)
     - [Travis CI](integrations/travis-ci/connect-account.md)
