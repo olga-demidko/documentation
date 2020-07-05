@@ -13,6 +13,9 @@
 
 <body>
   <div id="app"></div>
+  <!-- plugins -->
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+
   <script>
     window.$docsify = {
       name: 'NeuraLegion Documentation',
@@ -34,13 +37,20 @@
       loadSidebar: true,
       subMaxLevel: 3,
 
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/NeuraLegion/documentation/tree/master/docs/',
+          'https://github.com/NeuraLegion/documentation/tree/master/docs/'
+        ),
+      ],
+
       loadNavbar: false,
       executeScript: true,
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
-  <!-- plugins -->
+  <!-- more plugins -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
