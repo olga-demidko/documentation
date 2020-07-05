@@ -40,9 +40,24 @@
       plugins: [
         EditOnGithubPlugin.create(
           'https://github.com/NeuraLegion/documentation/tree/master/docs/',
-          'https://github.com/NeuraLegion/documentation/tree/master/docs/'
+          'https://github.com/NeuraLegion/documentation/tree/master/docs/',
+          'Edit on GitHub'
         ),
       ],
+
+      footer: {
+        copy: '<span><a href="www.neuralegion.com" >NeuraLegion</a> &copy; 2020 | </span>',
+        auth: '',
+        pre: '<p style="font-size:18px;"><b>\
+        <br>\
+        Could not find what you were looking for?\
+        please contact our support at <a href="mailto: support@neuralegion.com" >support@neuralegion.com</a></b>\
+        <br>\
+        <\p>',
+        style: 'text-align: left;',
+        // style: 'className',
+      },
+
 
       loadNavbar: false,
       executeScript: true,
@@ -55,6 +70,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 
 </body>
 
