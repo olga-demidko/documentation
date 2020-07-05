@@ -46,14 +46,14 @@ the discovery type that suits you and, optionally, a scan profile.
     <li>If you want to use a HAR/WSAR file that you have already uploaded before or that you have recorded via our web browser extension, click the <img src="user-guide/scans/media/cloud_button.png" width="3.2%" style="margin-bottom:-5px;"> button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
 
     ![New Scan 5](media/new-scan-05.png ':size=100%')</li>
+    <li>Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
+
+    ![New Scan 6](media/new-scan-06.png ':size=100%')</li>
+
+    <li>Now select the tests you’d like to perform in the scan.
+
+    ![New Scan 7](media/new-scan-07.png ':size=100%')</li>
     </ol>
-    Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
-
-    ![New Scan 6](media/new-scan-06.png ':size=100%')
-
-    Now select the tests you’d like to perform in the scan.
-
-    ![New Scan 7](media/new-scan-07.png ':size=100%')
 
     Optionally, you can schedule your scan for later. You have two options to schedule a scan:
     <ol type="A"; style="margin-top:-18px;">
@@ -73,11 +73,11 @@ the discovery type that suits you and, optionally, a scan profile.
     
     ### Use a Crawler
 
-    Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button to the right.
+    1. Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button to the right.
 
     ![New Scan 11](media/new-scan-11.png ':size=100%')
 
-    Now select the tests you’d like to perform in the scan.
+    2. Now select the tests you’d like to perform in the scan.
 
     ![New Scan 12](media/new-scan-12.png ':size=100%')
 
@@ -98,7 +98,8 @@ the discovery type that suits you and, optionally, a scan profile.
     Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
     
     ### Scan an API
-    To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
+    To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). 
+    Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
 
     ![New Scan 13](media/new-scan-13.png ':size=100%')
     
