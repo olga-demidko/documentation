@@ -35,7 +35,7 @@
     - [Bamboo](integrations/bamboo/connect-account.md)
     - [GitHub Actions](integrations/github-actions/connect-account.md)
     - [Jenkins](integrations/jenkins/connect-account.md)
-    - [CircleCI](integrations/circleci/connect-account.md)
+    - [CircleCI](integrations/circleci/circleci-integration.md)
     - [Travis CI](integrations/travis-ci/connect-account.md)
     <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
     - [Slack](integrations/slack/connect-account.md)
