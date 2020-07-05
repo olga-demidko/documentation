@@ -9,7 +9,7 @@
     - [Personal Account Administration](user-guide/personal-account-administration/overview.md)
       - [Profile Details & Settings](user-guide/personal-account-administration/details-and-settings.md)
       - [2FA Configuration](user-guide/personal-account-administration/2fa.md)
-    - [Scans](user-guide/scans/new-scan.md)
+    - [Scans](user-guide/scans/overview.md)
       - [New Scan](user-guide/scans/new-scan.md)
       - [Scan Details](user-guide/scans/scan-details.md)
       - [Issues / Results](user-guide/scans/issues-results.md)
