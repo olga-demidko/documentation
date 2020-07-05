@@ -1,7 +1,17 @@
-### Under Construction!
-<img src="https://www.kindpng.com/picc/m/168-1689925_icon-hd-building-under-construction-icons-png-transparent.png" width="27%">
-<br>
-<br>
-This page needs more work...
-<br>
-Want to help out? submit a PR <a href=https://github.com/neuraLegion/documentation >here</a>
+# Integrations
+
+# About
+To enable full automation into your CI/CD pipeline, you can configure our solutions to integrate with many SDLC tools and platforms.
+
+|Jira Integration| 
+| --- |
+| [Read more](integrations/jira/jira-integration.md) |
+
+|GitHub Actions Integration| 
+| --- |
+| [Read more](integrations/github-actions/github-actions-integration.md) |
+
+
+|CircleCI Integration| 
+| --- |
+| [Read more](integrations/circleci/circleci-integration.md) |
