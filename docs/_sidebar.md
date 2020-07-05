@@ -15,6 +15,7 @@
       - [Issues / Results](user-guide/scans/issues-results.md)
         - [Issue Details](user-guide/scans/issue-details.md)
         - [Re-Test Issue](user-guide/scans/re-test-issue.md)
+        
       <!-- - [Re-Test Scan](user-guide/scans/re-test-scan.md)
       - [Schedueling](user-guide/scans/schedueling.md)
       - [Export Scan](user-guide/scans/export-scan.md)
@@ -30,15 +31,15 @@
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
   
   - [Integrations](integrations/overview.md)
-    - [GitHub](integrations/github/connect-account.md)
+    <!-- - [GitHub](integrations/github/connect-account.md) -->
     - [Jira](integrations/jira/jira-integration.md)
-    - [Bamboo](integrations/bamboo/connect-account.md)
+    <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->
     - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
-    - [Jenkins](integrations/jenkins/connect-account.md)
+    <!-- - [Jenkins](integrations/jenkins/connect-account.md) -->
     - [CircleCI](integrations/circleci/circleci-integration.md)
-    - [Travis CI](integrations/travis-ci/connect-account.md)
+    <!-- - [Travis CI](integrations/travis-ci/connect-account.md) -->
     <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
-    - [Slack](integrations/slack/connect-account.md)
+    <!-- - [Slack](integrations/slack/connect-account.md) -->
     <!-- - [TeamCity](integrations/teamcity/connect-account.md) -->
     <!-- - [Azure DevOps](integrations/github/connect-account.md) -->
 
