@@ -1,4 +1,4 @@
-# Personal Account Administration {docsify-ignore}
+# Personal Account Administration
 1. To get to your account's settings click the ![User_button](media/user_button.png ':size=2%') button on the top right, and then choose "User Settings".
 
 ![Personal Account Details 01](media/personal-account-details-01.png ':size=100%')
