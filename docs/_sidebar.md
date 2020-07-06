@@ -1,5 +1,5 @@
 - Quick Navigation
-  - [Home](/ "About")
+  - [Home](/ "Documentation Home")
 
   - [User Guide](user-guide/overview.md "Overview")
     - [Organization Administration](user-guide/organization-administration/overview.md)
