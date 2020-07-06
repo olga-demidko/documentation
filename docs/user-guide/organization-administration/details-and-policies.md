@@ -28,16 +28,6 @@ To create a new group, simply click the <img src="user-guide/organization-admini
 
 ![Organization Policies 04](media/organization-administration-06.png ':size=100%')
 
-Now fill in the details of the group and set you desired settings (integrations, concurrent scans limit) and add members to the group. Once done just click the <img src="user-guide/organization-administration/media/create_button.png" width="3.5%" style="margin-bottom:-4px;"> button at the top.
+Now fill in the details of the group and set you desired settings (integrations, concurrent scans limit) and add members to the group. Once done just click the <img src="user-guide/organization-administration/media/create_button.png" width="4.5%" style="margin-bottom:-4px;"> button at the top.
 
 ![Organization Policies 05](media/organization-administration-07.png ':size=100%')
-
-### Manage your API keys
-
-To get a new API key, simply go to the "MANAGE YOUR USER API KEYS" panel and click the <img src="user-guide/organization-administration/media/api_button.png" width="11.5%" style="margin-bottom:-4px;"> button.
-
-![Organization Policies 05](media/organization-administration-08.png ':size=100%')
-
-Now give the API key a name and select which scopes to apply to it and click the <img src="user-guide/organization-administration/media/create_button.png" width="5%" style="margin-bottom:-4px;"> button.
-
-![Organization Policies 06](media/organization-administration-09.png ':size=100%')

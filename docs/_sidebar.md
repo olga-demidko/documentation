@@ -4,7 +4,7 @@
   - [User Guide](user-guide/overview.md "Overview")
     - [Organization Administration](user-guide/organization-administration/overview.md)
       - [Organization Details & Policies](user-guide/organization-administration/details-and-policies.md)
-      - [Groups & Members Control](user-guide/organization-administration/2fa.md)
+      - [Groups & Members Control](user-guide/organization-administration/groups-and-members.md)
       - [Manage API Keys](user-guide/organization-administration/manage-api-keys.md)
     - [Personal Account Administration](user-guide/personal-account-administration/overview.md)
       - [Profile Details & Settings](user-guide/personal-account-administration/details-and-settings.md)
