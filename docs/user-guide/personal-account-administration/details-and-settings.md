@@ -1,31 +1,68 @@
-## Account Details and Settings
-
-To get to your account's settings click the <img src="user-guide/personal-account-administration/media/user_button.png" width="2.5%" style="margin-bottom:-4px;"> button on the top right, and then choose "User Settings".
+# Personal Account Administration {docsify-ignore}
+1. To get to your account's settings click the ![User_button](media/user_button.png ':size=2%') button on the top right, and then choose "User Settings".
 
 ![Personal Account Details 01](media/personal-account-details-01.png ':size=100%')
 
-You'll see your account details and setting. Here you can edit your name, enable/disable 2fa, add integrations, set your email and feed notification settings and manage your API keys.
+2. You will reach the **Profile** page, where you can:
+  - [Edit Your Name](#editing-your-name)
+  - [Configure 2FA](#2fa-configuration)
+    - [Enabling 2FA](#enabling-2fa)
+    - [Disable 2FA](#disabling-2fa)
+    - [Change 2FA App](#changing-2fa-app)
+  - [Change Your Notification Settings](#setting-your-notification-preferences)
+  - [Configure Integration Settings](#configuring-integration-settings)
+  - [Manage Your API Keys](#managing-your-api-keys)
 
 ![Personal Account Details 02](media/personal-account-details-02.png ':size=100%')
 
-### Edit Your Name
-
-Just make the changes you wish in the PROFILE panel and click the <img src="user-guide/personal-account-administration/media/save_button.png" width="4.5%" style="margin-bottom:-4px;"> button.
+## Editing Your Name
+Under the **PROFILE** panel, make the changes you wish in and click the ![Save_button](media/save_button.png ':size=5%') button.
 
 ![Personal Account Details 03](media/personal-account-details-03.png ':size=100%')
 
-### Set Your Notification Preferences
+## 2FA Configuration
+### Enabling 2FA
+1. In the **TWO-FACTOR AUTHENTICATION** panel, click the ![Setup_button](media/set-up_button.png ':size=10%') button.
 
-Tick the boxes next to the types of notifications you'd like to receive by email or in your feed, and then click the <img src="user-guide/personal-account-administration/media/save_button.png" width="4.5%" style="margin-bottom:-4px;"> button.
+![Personal Account 2FA 02](media/personal-account-2fa-02.png ':size=100%')
+
+2. Now follow the instructions in the prompt, when you finish just paste your authentication code into the text box at the bottom of the prompt and click the ![Enable_button](media/enable_button.png ':size=6%') button.
+
+![Personal Account 2fa 03](media/personal-account-2fa-03.png ':size=100%')
+
+### Disabling 2FA
+1. In the **TWO-FACTOR AUTHENTICATION** panel, click the ![Disable_button](media/disable_button.png ':size=6%') button.
+
+![Personal Account 2FA 05](media/personal-account-2fa-04.png ':size=100%')
+
+### Changing 2FA App
+1. In the **TWO-FACTOR AUTHENTICATION** panel, click the ![Change_button](media/change_button.png ':size=12%') button.
+
+![Personal Account 2FA 07](media/personal-account-2fa-04.png ':size=100%')
+
+2. Now follow the instructions in the prompt, when you finish just paste your authentication code into the text box at the bottom of the prompt and click the ![Enable_button](media/enable_button.png ':size=6%') button.
+
+![Personal Account 2FA 08](media/personal-account-2fa-03.png ':size=100%')
+
+## Setting Your Notification Preferences
+Tick the boxes next to the types of notifications you'd like to receive by email or in your feed, and then click the ![Save_button](media/save_button.png ':size=5%') button.
 
 ![Personal Account Details 04](media/personal-account-details-04.png ':size=100%')
 
-### Manage Your API Keys
-
-To get a new API key, simply go to the "MANAGE YOUR USER API KEYS" panel and click the <img src="user-guide/personal-account-administration/media/api_button.png" width="11.5%" style="margin-bottom:-4px;"> button.
+## Configuring Integration Settings
+To get a new API key, simply go to the "MANAGE YOUR USER API KEYS" panel and click the ![api_button](media/api_button.png ':size=15%') button.
 
 ![Personal Account Details 05](media/personal-account-details-05.png ':size=100%')
 
-Now give the API key a name and select which scopes to apply to it and click the <img src="user-guide/personal-account-administration/media/create_button.png" width="5%" style="margin-bottom:-4px;"> button.
+Now give the API key a name and select which scopes to apply to it and click the ![Create_button](media/create_button.png ':size=5%') button.
+
+![Personal Account Details 06](media/personal-account-details-06.png ':size=100%')
+
+## Managing Your API Keys
+1. To get a new API key, simply go to the **MANAGE YOUR USER API KEYS** panel and click the ![api_button](media/api_button.png ':size=15%') button.
+
+![Personal Account Details 05](media/personal-account-details-05.png ':size=100%')
+
+2. Now give the API key a name and select which scopes to apply to it and click the ![Create_button](media/create_button.png ':size=5%') button.
 
 ![Personal Account Details 06](media/personal-account-details-06.png ':size=100%')

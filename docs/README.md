@@ -5,5 +5,3 @@ This documentation provides a guide on how to use NeuraLegion's solutions and it
 <br><br>
 
 ![nexploit_logo](media/nexploit-logo.svg ':size=40%')
-<!-- <br><br><br>
-![nexdast_logo](media/nexdast-logo.png ':size=44%') -->

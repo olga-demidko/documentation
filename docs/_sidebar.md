@@ -4,20 +4,16 @@
   - [User Guide](user-guide/overview.md "Overview")
     - [Organization Administration](user-guide/organization-administration/overview.md)
       - [Organization Details & Policies](user-guide/organization-administration/details-and-policies.md)
-      - [Groups & Members Control](user-guide/organization-administration/2fa.md)
+      - [Groups & Members Control](user-guide/organization-administration/groups-and-members.md)
       - [Manage API Keys](user-guide/organization-administration/manage-api-keys.md)
-    - [Personal Account Administration](user-guide/personal-account-administration/overview.md)
-      - [Profile Details & Settings](user-guide/personal-account-administration/details-and-settings.md)
-      - [2FA Configuration](user-guide/personal-account-administration/2fa.md)
+    - [Personal Account Administration](user-guide/personal-account-administration/details-and-settings.md)
     - [Scans](user-guide/scans/overview.md)
       - [New Scan](user-guide/scans/new-scan.md)
       - [Scan Details](user-guide/scans/scan-details.md)
       - [Issues / Results](user-guide/scans/issues-results.md)
         - [Issue Details](user-guide/scans/issue-details.md)
         - [Re-Test Issue](user-guide/scans/re-test-issue.md)
-
       - [Re-Test Scan](user-guide/scans/re-test-scan.md)
-      <!-- - [Schedueling](user-guide/scans/schedueling.md) -->
       - [Export Scan](user-guide/scans/export-scan.md)
       - [Delete Scan](user-guide/scans/delete-scan.md) 
       <!-- - [Scan Profiles](user-guide/scan-profiles/profile-details/overview.md) -->
