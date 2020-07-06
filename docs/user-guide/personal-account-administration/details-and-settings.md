@@ -1,4 +1,4 @@
-## Account details and settings
+## Account Details and Settings
 
 To get to your account's settings click the <img src="user-guide/personal-account-administration/media/user_button.png" width="2.5%" style="margin-bottom:-4px;"> button on the top right, and then choose "User Settings".
 
@@ -8,19 +8,19 @@ You'll see your account details and setting. Here you can edit your name, enable
 
 ![Personal Account Details 02](media/personal-account-details-02.png ':size=100%')
 
-### Edit your name
+### Edit Your Name
 
 Just make the changes you wish in the PROFILE panel and click the <img src="user-guide/personal-account-administration/media/save_button.png" width="4.5%" style="margin-bottom:-4px;"> button.
 
 ![Personal Account Details 03](media/personal-account-details-03.png ':size=100%')
 
-### Set your notification preferences
+### Set Your Notification Preferences
 
 Tick the boxes next to the types of notifications you'd like to receive by email or in your feed, and then click the <img src="user-guide/personal-account-administration/media/save_button.png" width="4.5%" style="margin-bottom:-4px;"> button.
 
 ![Personal Account Details 04](media/personal-account-details-04.png ':size=100%')
 
-### Manage your API keys
+### Manage Your API Keys
 
 To get a new API key, simply go to the "MANAGE YOUR USER API KEYS" panel and click the <img src="user-guide/personal-account-administration/media/api_button.png" width="11.5%" style="margin-bottom:-4px;"> button.
 

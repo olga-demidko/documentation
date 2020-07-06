@@ -1,6 +1,4 @@
 # Integrations
-
-# About
 To enable full automation into your CI/CD pipeline, you can configure our solutions to integrate with many SDLC tools and platforms.
 
 |Jira Integration| 

@@ -3,130 +3,101 @@
 1. Once you are logged into the system, you’ll be taken to your dashboard. 
 Here you can click the ![New Scan](media/new-scan-button.png ':size=8%') button to create a new scan.
 
-    ![New Scan 1](media/new-scan-01.png ':size=100%')
+![New Scan 1](media/new-scan-01.png ':size=100%')
 
 
 2. The scan creation form will pop up. Fill in a name for your scan.
 
-    ![New Scan 2](media/new-scan-02.png ':size=100%')
+![New Scan 2](media/new-scan-02.png ':size=100%')
 
 
-3. Select the module you’d like to use in your scan (if applicable, depending on your subscription), 
-the discovery type that suits you and, optionally, a scan profile.
+3. Select the **[Module](#modules)** you’d like to use in your scan (if applicable, depending on your subscription), 
+the **[Discovery Type](#discovery-types)** that suits you and, optionally, a **[Scan Profile](#scan-profiles)**.
 
-    ![New Scan 3](media/new-scan-03.png ':size=100%')
+!> **Pro tip:** To enjoy both full automation and deeper attack surface analysis, you can combine **[Crawling](#using-a-crawler)** & **[Recoding (HAR)](#using-a-harwsar-file)** in a single scan!
 
-    Modules:
-    <ol type="A"; style="margin-top:-18px;">
-    <li>DAST - scan your application for OWASP Top 10 + vulnerabilities and many different CVEs.</li>
-    <li>Fuzzer - scan your application for OWASP Top 10 + vulnerabilities, as well as business logic vulnerabilities, 0-Days and many unknown vulnerabilities. This module can be harmful to your system and so must be used only on a testing environment.</li>
-    </ol>
 
-    <p id="Discovery_Types">Discovery Types</p>
-    <ol type="A"; style="margin-top:-18px;">
-    <li>Recording - use a pre-recorded session of your application (a HAR or WSAR file) which was created either manually or automatically with QA tools such as Selenium to scan your application. With this discovery type you can define the scope of the scan and store login information to scan areas in your application which require authentication.</li>
-    <li>Crawler - use our Crawler to scan your application or parts of it automatically. All you need is a URL.</li>
-    <li>Open API - NexPloit supports scanning APIs. You’ll need a *.yml file.</li>
-    </ol>
+![New Scan 3](media/new-scan-03.png ':size=100%')
 
-    Scan Profiles:
-    <ul type=""; style="margin-top:-18px">
-    <li>Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.</li>
-    </ul>
+4. Now select the tests you’d like to perform in the scan.
 
-4. Proceed according to your choice of Discovery Types (notice that you can combine <a href="#/user-guide/scans/new-scan?id=Discovery_Types" style="text-decoration: inherit; color: inherit; font: inherit">options A. and B.</a> in a single scan):
+![New Scan 7](media/new-scan-07.png ':size=100%')
 
-    ### Use a HAR/WSAR file
-    You can either use a new file or select a pre uploaded file (either a file you've used before or a file that was pre-uploaded using our browser extension, which you can read about here).
-    <ol type="A"; style="margin-top:-18px;">
-    <li>Upload your HAR/WSAR file by clicking the <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
+5. Optionally, you can:
+  - **[Set Up Scheduling](#scan-scheduling)** for your scan, such as scanning at a later date or recurring scan.
+  - **[Configure Additional Settings](#additional-scan-settings)** for your scan, such as maximum concurrent requests for the scan, additional headers, integrations and/or agent.
 
-    ![New Scan 4](media/new-scan-04.png ':size=100%')</li>
+6. Once you've configured your scan, click on the ![Upload_Clip](media/run_button.png ':size=5%') button.
 
-    <li>If you want to use a HAR/WSAR file that you have already uploaded before or that you have recorded via our web browser extension, click the <img src="user-guide/scans/media/cloud_button.png" width="3.2%" style="margin-bottom:-5px;"> button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
 
-    ![New Scan 5](media/new-scan-05.png ':size=100%')</li>
-    <li>Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
+## Modules
+- **DAST** - scan your application for OWASP Top 10+ vulnerabilities and many different CVEs
+- **Fuzzer** - scan your application for OWASP Top 10+ vulnerabilities, as well as business logic vulnerabilities, 0-Days and many unknown vulnerabilities. This module can be harmful to your system and so must be used only on a testing environment
 
-    ![New Scan 6](media/new-scan-06.png ':size=100%')</li>
+![New Scan 3](media/new-scan-03.png ':size=100%')
 
-    <li>Now select the tests you’d like to perform in the scan.
+## Discovery Types
+Discovery types are the way your applications attack surface is mapped, there are several options:
+- **[Recording (HAR)](#using-a-harwsar-file)** - use a pre-recorded session of your application (a HAR or WSAR file) which was created either manually or automatically with QA tools such as Selenium to scan your application. With this discovery type you can define the scope of the scan and store login information to scan areas in your application which require authentication
+- **[Crawler](#using-a-crawler)** - use our Crawler to scan your application or parts of it automatically. All you need is a URL
+- **[Open API](#scanning-an-api)** - NexPloit supports scanning APIs. You’ll need a *.yml file
 
-    ![New Scan 7](media/new-scan-07.png ':size=100%')</li>
-    </ol>
+![New Scan 3](media/new-scan-03.png ':size=100%')
 
-    Optionally, you can schedule your scan for later. You have two options to schedule a scan:
-    <ol type="A"; style="margin-top:-18px;">
-    <li>Schedule a single scan for later. Click “Enable Scheduling” on the right, select the "Single Scan" option and then choose a date and a time for the scan to run.
+### Using a HAR/WSAR File
+You can either use a new file or select a pre uploaded file (either a file you've used before or a file that was pre-uploaded using our browser extension, which you can read about here).
+1. Upload your HAR/WSAR file by clicking the ![Upload_Clip](media/clip_button.png ':size=4%') icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
 
-    ![New Scan 8](media/new-scan-08.png ':size=100%')</li>
-    <li>Schedule a recurring scan. Click “Enable Scheduling” on the right, then select the settings that suit you best.
+![New Scan 4](media/new-scan-04.png ':size=100%')
 
-    ![New Scan 9](media/new-scan-09.png ':size=100%')</li>
-    </ol>
+2. If you want to use a HAR/WSAR file that you have already uploaded before or that you have recorded via our web browser extension, click on the ![Cloud_button](media/cloud_button.png ':size=4%') button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
 
-    There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
+![New Scan 5](media/new-scan-05.png ':size=100%')
+3. Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
 
-    ![New Scan 10](media/new-scan-10.png ':size=100%')
+![New_Scan_6](media/new-scan-06.png ':size=100%')
 
-    Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
-    
-    ### Use a Crawler
+### Using a Crawler
+Crawling is the simplest and fastest way to start a scan, by providing a target host(s) the crawler will map the entire application's basic attack surface automatically.
+1. Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the ![Plus_button](media/plus_button.png ':size=2%') button to the right.
 
-    1. Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button to the right.
+![New Scan 11](media/new-scan-11.png ':size=100%')
 
-    ![New Scan 11](media/new-scan-11.png ':size=100%')
+### Scanning an API
+To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). 
+1. Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
 
-    2. Now select the tests you’d like to perform in the scan.
+![New Scan 13](media/new-scan-13.png ':size=100%')
 
-    ![New Scan 12](media/new-scan-12.png ':size=100%')
+2. Fill in the required extra headers for your scan (to add more than one use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button on the right). If you chose to scan a Postman collection you'll also have the option to add the relevant variables.
 
-    Optionally, you can schedule your scan for later. You have two options to schedule a scan:
-    <ol type="A"; style="margin-top:-18px;">
-    <li>Schedule a single scan for later. Click “Enable Scheduling” on the right, select the "Single Scan" option and then choose a date and a time for the scan to run.
+![New Scan 14](media/new-scan-14.png ':size=100%')
 
-    ![New Scan 8](media/new-scan-08.png ':size=100%')</li>
-    <li>Schedule a recurring scan. Click “Enable Scheduling” on the right, then select the settings that suit you best.
+3. Now choose the file to scan. You can either upload a file from your computer by clicking <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> and then clicking the textbox to the left, or import a file from a link by clicking <img src="user-guide/scans/media/link_button.png" width="3.2%" style="margin-bottom:-5px;"> and then pasting a link in the textbox to the left.
 
-    ![New Scan 9](media/new-scan-09.png ':size=100%')</li>
-    </ol>
+![New Scan 15](media/new-scan-15.png ':size=100%')
 
-    There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
+## Scan Profiles
+Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
+There are 3 default profiles:
+- **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
+- **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
+- **API Scanning** - Preconfigured tests that are relevant for API targets
 
-    ![New Scan 10](media/new-scan-10.png ':size=100%')
+## Scan Scheduling
+You can set up a scan to start running at a later time, with two options:
 
-    Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
-    
-    ### Scan an API
-    To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). 
-    Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
+### Schedule a Single Scan For Later
+1. Click “Enable Scheduling” on the right, select the "Single Scan" option and then choose a date and a time for the scan to run.
 
-    ![New Scan 13](media/new-scan-13.png ':size=100%')
-    
-    Fill in the required extra headers for your scan (to add more than one use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button on the right). If you chose to scan a Postman collection you'll also have the option to add the relevant variables.
+![New Scan 8](media/new-scan-08.png ':size=100%')
 
-    ![New Scan 14](media/new-scan-14.png ':size=100%')
+### Schedule a Recurring Scan
+1. Click “Enable Scheduling” on the right, then select the settings that suit you best.
 
-    Now choose the file to scan. You can either upload a file from your computer by clicking <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> and then clicking the textbox to the left, or import a file from a link by clicking <img src="user-guide/scans/media/link_button.png" width="3.2%" style="margin-bottom:-5px;"> and then pasting a link in the textbox to the left.
+![New Scan 9](media/new-scan-09.png ':size=100%')
 
-    ![New Scan 15](media/new-scan-15.png ':size=100%')
+## Additional Scan Settings
+There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
 
-    Now select the tests you’d like to perform in the scan.
-
-    ![New Scan 16](media/new-scan-16.png ':size=100%')
-
-    Optionally, you can schedule your scan for later. You have two options to schedule a scan:
-    <ol type="A"; style="margin-top:-18px;">
-    <li>Schedule a single scan for later. Click “Enable Scheduling” on the right, select the "Single Scan" option and then choose a date and a time for the scan to run.
-
-    ![New Scan 8](media/new-scan-08.png ':size=100%')</li>
-    <li>Schedule a recurring scan. Click “Enable Scheduling” on the right, then select the settings that suit you best.
-
-    ![New Scan 9](media/new-scan-09.png ':size=100%')</li>
-    </ol>
-
-    There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
-
-    ![New Scan 10](media/new-scan-10.png ':size=100%')
-
-    Once you've configured your scan, click on the <img src="user-guide/scans/media/run_button.png" width="5%" style="margin-bottom:-5px;"> button.
+![New Scan 10](media/new-scan-10.png ':size=100%')

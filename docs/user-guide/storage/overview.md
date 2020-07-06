@@ -1,6 +1,6 @@
-## NexPloit's file storage
+# NexPloit's File Storage
 
-To get to your file storage, click on the "Storage" tab on the left side of your dashboard.
+To get to your file storage, click on the **Storage** tab on the left side of your dashboard.
 
 ![Storage 01](media/storage-01.png ':size=100%')
 
