@@ -1,4 +1,4 @@
-## Deleting a Scan
+# Deleting a Scan
 
 To delete a scan, simply go to your dashboard and click the <img src="user-guide/scans/media/vertical_dots.png" width="1.5%" style="margin-bottom:-5px;"> button next to the name of the scan that you wish to delete.
 

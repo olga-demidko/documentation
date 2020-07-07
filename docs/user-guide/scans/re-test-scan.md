@@ -1,4 +1,4 @@
-## Re-testing a Scan
+# Re-testing a Scan
 
 To re-test an existing scan, simply click on it's status in your dashboard
 

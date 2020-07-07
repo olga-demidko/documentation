@@ -7,3 +7,8 @@ More info here:
   - [Use a HAR File](user-guide/scans/new-scan.md#use-a-har-file)
   - [Use a Crawler](user-guide/scans/new-scan.md#use-a-crawler)
   - [Scan an API](user-guide/scans/new-scan.md#scan-an-api)
+- [Scan Details](user-guide/scans/scan-details.md)
+- [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
+- [Re-Test Scan](user-guide/scans/re-test-scan.md)
+- [Export Scan](user-guide/scans/export-scan.md)
+- [Delete Scan](user-guide/scans/delete-scan.md)

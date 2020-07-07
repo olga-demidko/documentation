@@ -25,7 +25,7 @@ When the scanner finds a new issues, it will immediately appear under the **DISC
 
 ![discovered_issues_closed](media/discovered-issues-closed.png ':size=100%')
 
-To open a specific issue, click on the relevant group. A list of all the issues of that category will open, now click on the relevenat issue to see the all [issue details](issues/overview.md) about it.
+To open a specific issue, click on the relevant group. A list of all the issues of that category will open, now click on the relevenat issue to see the all [issue details](user-guide/scans/issues/overview.md) about it.
 
 ![discovered_issues_open](media/discovered-issues-opened-category.png ':size=100%')
 
