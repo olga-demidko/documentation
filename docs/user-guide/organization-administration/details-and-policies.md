@@ -1,5 +1,5 @@
 # Organization Administration {docsify-ignore}
-To get to your organization's settings go to the **Organization** tab on the left of your dashboard.
+1. To get to your organization's settings go to the **Organization** tab on the left of your dashboard.
 
 ![Organization Administration 01](media/organization-administration-01.png ':size=100%')
 

@@ -14,7 +14,7 @@ Here you can click the ![New Scan](media/new-scan-button.png ':size=8%') button 
 3. Select the **[Module](#modules)** you’d like to use in your scan (if applicable, depending on your subscription), 
 the **[Discovery Type](#discovery-types)** that suits you and, optionally, a **[Scan Profile](#scan-profiles)**.
 
-!> **Pro tip:** To enjoy both full automation and deeper attack surface analysis, you can combine **[Crawling](#using-a-crawler)** & **[Recoding (HAR)](#using-a-harwsar-file)** in a single scan!
+!> **Pro tip:** To enjoy both full automation and deeper attack surface analysis, you can combine **[Crawling](#using-a-crawler)** & **[Recoding (HAR)](#using-a-har-file)** in a single scan!
 
 
 ![New Scan 3](media/new-scan-03.png ':size=100%')
@@ -38,19 +38,19 @@ the **[Discovery Type](#discovery-types)** that suits you and, optionally, a **[
 
 ## Discovery Types
 Discovery types are the way your applications attack surface is mapped, there are several options:
-- **[Recording (HAR)](#using-a-harwsar-file)** - use a pre-recorded session of your application (a HAR or WSAR file) which was created either manually or automatically with QA tools such as Selenium to scan your application. With this discovery type you can define the scope of the scan and store login information to scan areas in your application which require authentication
+- **[Recording (HAR)](#using-a-har-file)** - use a pre-recorded session of your application (HAR file) which was created either manually or automatically with QA tools such as Selenium to scan your application. With this discovery type you can define the scope of the scan and store login information to scan areas in your application which require authentication
 - **[Crawler](#using-a-crawler)** - use our Crawler to scan your application or parts of it automatically. All you need is a URL
 - **[Open API](#scanning-an-api)** - NexPloit supports scanning APIs. You’ll need a *.yml file
 
 ![New Scan 3](media/new-scan-03.png ':size=100%')
 
-### Using a HAR/WSAR File
+### Using a HAR File
 You can either use a new file or select a pre uploaded file (either a file you've used before or a file that was pre-uploaded using our browser extension, which you can read about here).
-1. Upload your HAR/WSAR file by clicking the ![Upload_Clip](media/clip_button.png ':size=4%') icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
+1. Upload your HAR file by clicking the ![Upload_Clip](media/clip_button.png ':size=4%') icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
 
 ![New Scan 4](media/new-scan-04.png ':size=100%')
 
-2. If you want to use a HAR/WSAR file that you have already uploaded before or that you have recorded via our web browser extension, click on the ![Cloud_button](media/cloud_button.png ':size=4%') button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
+2. If you want to use a HAR file that you have already uploaded before or that you have recorded via our web browser extension, click on the ![Cloud_button](media/cloud_button.png ':size=4%') button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
 
 ![New Scan 5](media/new-scan-05.png ':size=100%')
 3. Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
