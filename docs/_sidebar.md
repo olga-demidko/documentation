@@ -7,9 +7,9 @@
     - [Scans](user-guide/scans/overview.md)
       - [New Scan](user-guide/scans/new-scan.md)
       - [Scan Details](user-guide/scans/scan-details.md)
-      - [Discovered Issues (Results)](user-guide/scans/discovered-issues.md)
-        - [Issue Details](user-guide/scans/issue-details.md)
-        - [Re-Test Issue](user-guide/scans/re-test-issue.md)
+      - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
+        <!-- - [Issue Details](user-guide/scans/issue-details.md)
+        - [Re-Test Issue](user-guide/scans/re-test-issue.md) -->
       - [Re-Test Scan](user-guide/scans/re-test-scan.md)
       - [Export Scan](user-guide/scans/export-scan.md)
       - [Delete Scan](user-guide/scans/delete-scan.md) 
