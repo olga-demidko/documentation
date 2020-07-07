@@ -33,6 +33,8 @@ Under the **PROFILE** panel, make the changes you wish in and click the ![Save_b
 ### Disabling 2FA
 1. In the **TWO-FACTOR AUTHENTICATION** panel, click the ![Disable_button](media/disable_button.png ':size=6%') button.
 
+!> **Note:** If an organization-wide 2FA policy is set. a user cannot disable their own 2FA.
+
 ![Personal Account 2FA 05](media/personal-account-2fa-04.png ':size=100%')
 
 ### Changing 2FA App

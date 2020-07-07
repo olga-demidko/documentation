@@ -19,6 +19,12 @@
 You can require all the users in your organization to use 2FA. Before you apply this policy it is recommended that you notify your users so that they have time to enable 2FA for their accounts.
 To apply this policy simply tick the checkbox under the **ORGANIZATION SETTINGS** panel.
 
+In addition, an admin can see the 2FA status of all users in the organization under the **MEMBERS** panel.
+
+!> **Note:** An organization-wide 2FA policy can not be set to mendatory untill all admin users set up their own 2FA.
+
+!> **Note:** When enabling an organization-wide 2FA policy, users without 2FA already set up will have their account disabled until they do. An email notification will be sent automatically to each user in this case.
+
 ![Organization Policies 01](media/organization-administration-03.png ':size=100%')
 
 <!-- ## Organization Plan Details
