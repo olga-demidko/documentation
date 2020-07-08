@@ -24,18 +24,23 @@
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
   
   - [Integrations](integrations/overview.md)
-    - [Okta](integrations/okta/okta-integration.md)
-    <!-- - [GitHub](integrations/github/connect-account.md) -->
-    - [Jira](integrations/jira/jira-integration.md)
-    <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->
-    - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
-    <!-- - [Jenkins](integrations/jenkins/connect-account.md) -->
-    - [CircleCI](integrations/circleci/circleci-integration.md)
-    <!-- - [Travis CI](integrations/travis-ci/connect-account.md) -->
-    <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
-    <!-- - [Slack](integrations/slack/connect-account.md) -->
-    <!-- - [TeamCity](integrations/teamcity/connect-account.md) -->
-    <!-- - [Azure DevOps](integrations/github/connect-account.md) -->
+    - Oauth Providers
+      - [Okta](integrations/okta/okta-integration.md)
+    - Ticketing Systems
+      - [Jira](integrations/jira/jira-integration.md)
+      - [GitHub](integrations/github/github-issues-integration.md)
+      <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->
+    - Pipe Management
+      - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
+      - [CircleCI](integrations/circleci/circleci-integration.md)
+      <!-- - [Jenkins](integrations/jenkins/connect-account.md) -->
+      <!-- - [Travis CI](integrations/travis-ci/connect-account.md) -->
+      <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
+      <!-- - [Slack](integrations/slack/connect-account.md) -->
+      <!-- - [TeamCity](integrations/teamcity/connect-account.md) -->
+      <!-- - [Azure DevOps](integrations/github/connect-account.md) -->
+    <!-- - QA Automation -->
+    <!-- - Misc -->
 
   - [API Guide](api-guide/overview.md)
   
