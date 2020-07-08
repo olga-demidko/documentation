@@ -24,6 +24,7 @@
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
   
   - [Integrations](integrations/overview.md)
+    - [Okta](integrations/okta/okta-integration.md)
     <!-- - [GitHub](integrations/github/connect-account.md) -->
     - [Jira](integrations/jira/jira-integration.md)
     <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->

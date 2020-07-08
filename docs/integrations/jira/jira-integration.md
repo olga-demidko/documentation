@@ -11,7 +11,7 @@ To enable full automation into your CI/CD pipeline, you can configure our soluti
 ![organization](../../media/organization-from-scans.png ':size=80%')
 
 
-2. Scroll down to **TICKET MANAGEMENT OPTIONS**
+2. Scroll down to the **TICKET MANAGEMENT OPTIONS** section.
 
 ![ticket_management_integration](../../media/ticket-management-integration.png ':size=80%')
 
