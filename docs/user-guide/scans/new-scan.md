@@ -48,6 +48,8 @@ Discovery types are the way your applications attack surface is mapped, there ar
 You can either use a new file or select a pre uploaded file (either a file you've used before or a file that was pre-uploaded using our browser extension, which you can read about here).
 1. Upload your HAR file by clicking the ![Upload_Clip](media/clip_button.png ':size=4%') icon and then the textbox on its left. When you’ll click the textbox you’ll be asked to select your file to upload.
 
+!> **Note:** HAR file names must be unique in the cloud storage, but you can use the **Delete after scan** option (below) when uploading the files in case of automation.
+
 ![New Scan 4](media/new-scan-04.png ':size=100%')
 
 2. If you want to use a HAR file that you have already uploaded before or that you have recorded via our web browser extension, click on the ![Cloud_button](media/cloud_button.png ':size=4%') button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
@@ -64,7 +66,14 @@ Crawling is the simplest and fastest way to start a scan, by providing a target 
 ![New Scan 11](media/new-scan-11.png ':size=100%')
 
 ### Scanning an API
-To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json). 
+To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json).
+
+| Schema | Supported Versions |
+| -- | -- |
+| Swagger | 2+ |
+| OpenAPI | 3+ |
+| Postman | 2+ |
+
 1. Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
 
 ![New Scan 13](media/new-scan-13.png ':size=100%')
