@@ -18,7 +18,7 @@
       <!-- - [New Profile](user-guide/scan-profiles/new-profile.md) -->
       <!-- - [Edit Profile](user-guide/scan-profiles/edit-profile.md) -->
       <!-- - [Delete Profile](user-guide/scan-profiles/delete-profile.md) -->
-    - [Agents (Repteaters)](user-guide/agents/overview.md)
+    - [Agents (Repeaters)](user-guide/agents/overview.md)
     <!-- - [Analysis](user-guide/analysis/overview.md) -->
     - [Storage](user-guide/storage/overview.md)
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
