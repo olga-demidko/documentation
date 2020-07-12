@@ -5,7 +5,7 @@
 
 2. You will reach the **Organization** page, where you can:
   - [Configure 2FA Policy](#2fa-policy-configuration)
-  <!-- - [See Organization Plan Details](#editing-your-name) -->
+  - [See Organization Plan Details](#organization-plan-details)
   - [Manage Users](#user-management)
     - [Add Users](#adding-new-user)
   - [Manage Groups](#group-management)
