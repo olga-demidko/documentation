@@ -25,13 +25,12 @@ In addition, an admin can see the 2FA status of all users in the organization un
 
 !> **Note:** When enabling an organization-wide 2FA policy, users without 2FA already set up will have their account disabled until they do. An email notification will be sent automatically to each user in this case.
 
-![Organization Policies 01](media/organization-administration-03.png ':size=100%')
+![Organization Policies 03](media/organization-administration-03.png ':size=100%')
 
-<!-- ## Organization Plan Details
-You can require all the users in your organization to use 2FA. Before you apply this policy it is recommended that you notify your users so that they have time to enable 2fa for their accounts.
-To apply this policy simply tick the checkbox in the ORGANIZATION SETTINGS panel.
+## Organization Plan Details
+In the Organization Plan Details panel you can see information about you plan, such as whether you are using NexPloit or NexDast, how much storage does your Organization have in total, the plan's expiration date and more.
 
-![Organization Policies 01](media/organization-administration-03.png ':size=100%') -->
+![Organization Policies 12](media/organization-administration-12.png ':size=100%')
 
 ## User Management
 Here you can manage the users in your organization
