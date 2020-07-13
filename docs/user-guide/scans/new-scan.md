@@ -3,12 +3,12 @@
 1. Once you are logged into the system, you’ll be taken to your dashboard. 
 Here you can click the ![New Scan](media/new-scan-button.png ':size=8%') button to create a new scan.
 
-![New Scan 1](media/new-scan-01.png ':size=100%')
+![New_Scan_1](media/new-scan-01.png ':size=100%')
 
 
 2. The scan creation form will pop up. Fill in a name for your scan.
 
-![New Scan 2](media/new-scan-02.png ':size=100%')
+![New_Scan_2](media/new-scan-02.png ':size=100%')
 
 
 3. Select the **[Module](#modules)** you’d like to use in your scan (if applicable, depending on your subscription), 
@@ -17,11 +17,11 @@ the **[Discovery Type](#discovery-types)** that suits you and, optionally, a **[
 !> **Pro tip:** To enjoy both full automation and deeper attack surface analysis, you can combine **[Crawling](#using-a-crawler)** & **[Recoding (HAR)](#using-a-har-file)** in a single scan!
 
 
-![New Scan 3](media/new-scan-03.png ':size=100%')
+![New_Scan_3](media/new-scan-03.png ':size=100%')
 
 4. Now select the tests you’d like to perform in the scan.
 
-![New Scan 7](media/new-scan-07.png ':size=100%')
+![New_Scan_7](media/new-scan-07.png ':size=100%')
 
 5. Optionally, you can:
   - **[Set Up Scheduling](#scan-scheduling)** for your scan, such as scanning at a later date or recurring scan.
@@ -34,7 +34,7 @@ the **[Discovery Type](#discovery-types)** that suits you and, optionally, a **[
 - **DAST** - scan your application for OWASP Top 10+ vulnerabilities and many different CVEs
 - **Fuzzer** - scan your application for OWASP Top 10+ vulnerabilities, as well as business logic vulnerabilities, 0-Days and many unknown vulnerabilities. This module can be harmful to your system and so must be used only on a testing environment
 
-![New Scan 3](media/new-scan-03.png ':size=100%')
+![New_Scan_3](media/new-scan-03.png ':size=100%')
 
 ## Discovery Types
 Discovery types are the way your applications attack surface is mapped, there are several options:
@@ -50,11 +50,11 @@ You can either use a new file or select a pre uploaded file (either a file you'v
 
 !> **Note:** HAR file names must be unique in the cloud storage, but you can use the **Delete after scan** option (below) when uploading the files in case of automation.
 
-![New Scan 4](media/new-scan-04.png ':size=100%')
+![New_Scan_4](media/new-scan-04.png ':size=100%')
 
 2. If you want to use a HAR file that you have already uploaded before or that you have recorded via our web browser extension, click on the ![Cloud_button](media/cloud_button.png ':size=4%') button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
 
-![New Scan 5](media/new-scan-05.png ':size=100%')
+![New_Scan_5](media/new-scan-05.png ':size=100%')
 3. Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
 
 ![New_Scan_6](media/new-scan-06.png ':size=100%')
@@ -63,7 +63,7 @@ You can either use a new file or select a pre uploaded file (either a file you'v
 Crawling is the simplest and fastest way to start a scan, by providing a target host(s) the crawler will map the entire application's basic attack surface automatically.
 1. Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the ![Plus_button](media/plus_button.png ':size=2%') button to the right.
 
-![New Scan 11](media/new-scan-11.png ':size=100%')
+![New_Scan_11](media/new-scan-11.png ':size=100%')
 
 ### Scanning an API
 To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json).
@@ -76,13 +76,13 @@ To scan an API you’ll need either an Open API specification (Swagger) or a Pos
 
 1. Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
 
-![New Scan 13](media/new-scan-13.png ':size=100%')
+![New_Scan_13](media/new-scan-13.png ':size=100%')
 
-2. Fill in the required extra headers for your scan (to add more than one use the <img src="user-guide/scans/media/plus_button.png" width="2.5%" style="margin-bottom:-5px;"> button on the right). If you chose to scan a Postman collection you'll also have the option to add the relevant variables.
+2. Fill in the required extra headers for your scan (to add more than one use the ![plus](media/plus_button.png ':size=2%') button on the right). If you chose to scan a Postman collection you'll also have the option to add the relevant variables.
 
-![New Scan 14](media/new-scan-14.png ':size=100%')
+![New_Scan_14](media/new-scan-14.png ':size=100%')
 
-3. Now choose the file to scan. You can either upload a file from your computer by clicking <img src="user-guide/scans/media/clip_button.png" width="3.2%" style="margin-bottom:-5px;"> and then clicking the textbox to the left, or import a file from a link by clicking <img src="user-guide/scans/media/link_button.png" width="3.2%" style="margin-bottom:-5px;"> and then pasting a link in the textbox to the left.
+3. Now choose the file to scan. You can either upload a file from your computer by clicking ![clip](media/clip_button.png ':size=3%') and then clicking the textbox to the left, or import a file from a link by clicking ![link](media/link_button.png ':size=3%') and then pasting a link in the textbox to the left.
 
 ![New Scan 15](media/new-scan-15.png ':size=100%')
 
