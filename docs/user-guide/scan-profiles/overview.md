@@ -14,9 +14,3 @@ There are 3 default profiles:
 - **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
 - **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
 - **API Scanning** - Preconfigured tests that are relevant for API targets
-
-
-<!-- - [Profile Details](user-guide/scan-profiles/profile-details.md) -->
-<!-- - [New Profile](user-guide/scan-profiles/new-profile.md) -->
-<!-- - [Edit Profile](user-guide/scan-profiles/edit-profile.md) -->
-<!-- - [Delete Profile](user-guide/scan-profiles/delete-profile.md) -->
