@@ -1,7 +1,22 @@
-### Under Construction!
-<img src="https://www.kindpng.com/picc/m/168-1689925_icon-hd-building-under-construction-icons-png-transparent.png" width="27%">
-<br>
-<br>
-This page needs more work...
-<br>
-Want to help out? submit a PR <a href=https://github.com/neuraLegion/documentation >here</a>
+# Scan Profiles
+
+Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
+
+To see and edit your scan profiles, go to the "Scan Profiles" tab from your dashboard.
+
+![go-to-scan-profiles-tab](media/scan-profiles-01.png ':size=100%')
+
+You'll be taken to your scna profiles management tab.
+
+![scan-profiles-tab](media/scan-profiles-02.png ':size=100%')
+
+There are 3 default profiles:
+- **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
+- **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
+- **API Scanning** - Preconfigured tests that are relevant for API targets
+
+
+<!-- - [Profile Details](user-guide/scan-profiles/profile-details.md) -->
+<!-- - [New Profile](user-guide/scan-profiles/new-profile.md) -->
+<!-- - [Edit Profile](user-guide/scan-profiles/edit-profile.md) -->
+<!-- - [Delete Profile](user-guide/scan-profiles/delete-profile.md) -->
