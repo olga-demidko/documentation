@@ -26,6 +26,7 @@
   - [Integrations](integrations/overview.md)
     - Oauth Providers
       - [Okta](integrations/okta/okta-integration.md)
+      - [GitHub](integrations/github/github-sso-integration.md)
     - Ticketing Systems
       - [Jira](integrations/jira/jira-integration.md)
       - [GitHub](integrations/github/github-issues-integration.md)

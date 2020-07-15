@@ -13,7 +13,7 @@ To make it much easier for users to access our solutions, it is possible to conf
 
 <!-- ![okta_organization_page1](media/okta-organization-page-01.png ':size=100%') -->
 
-2. Add NexPloit app, if it is not already added, and assign users to the app.
+2. Add the NexPloit app, if it is not already added, and assign users to the app.
 
 <!-- ![okta_organization_page2](media/okta-organization-page-02.png ':size=100%') -->
 
@@ -50,7 +50,7 @@ After **Okta SSO** was configured for the organization, the SSO option is availa
 
 ![sso_button](media/sso-button.png ':size=100%')
 
-2. Enter your organization name and click on **Continue**
+2. Enter your NexPloit organization name and click on **Continue**
 
 ![sso_organization](media/sso-organization.png ':size=100%')
 
