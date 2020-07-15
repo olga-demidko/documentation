@@ -12,11 +12,15 @@ Now you'll be taken to the scan page. Here you can see information about the sca
 
 You can leave comments about the scan at the bottom of the page.
 
-<!-- ## Scan Progress
-TODO
+## Scan Progress
+In this panel you can see how the scan is prgressing, how many tests have been completed and how many are still left.
+
+![progress](media/scan-progress.png ':size=100%')
 
 ## Site Map
-TODO -->
+The sitemap shows the scope of the scan, here you can see all the parts of your application that NexPloit has identified and scanned.
+
+![sitemap](media/sitemap.png ':size=100%')
 
 ## Discovered Issues
 When the scanner finds a new issues, it will immediately appear under the **DISCOVERED ISSUES** panel, even if the scan is still running. Here you will see all the types of discovered issues and their quantitiy.
@@ -34,9 +38,9 @@ In the Response Statueses panel you'll be able to see all the kinds of responses
 
 ![response_statuses](media/response_statuses.png ':size=100%')
 
-<!-- 
 ## Technical Stack
-TODO -->
+At the "Technical Stack" panel you'll see what NexPloit has detected your application is using for its technical stack, for example - which programming language is used, what kind of database and/or web server, the front-end stack etc. This can be useful to see how easy it is to discover your technical stack so if you want to cover something up and NexPloit has detected it, it means you didn't cover it up properly.
+
 
 ## User Comments
 At the bottom of the page there is a section for user comments, here you can leave notes about the scan for yourself or others in your organization. You can format the comment using markdown or with the formatting tools, and mention other users in your organization using "@". Once your comment is ready just clock the ![New Scan](media/comment_button.png ':size=7%') button.

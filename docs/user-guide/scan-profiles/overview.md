@@ -6,7 +6,7 @@ To see and edit your scan profiles, go to the "Scan Profiles" tab from your dash
 
 ![go-to-scan-profiles-tab](media/scan-profiles-01.png ':size=100%')
 
-You'll be taken to your scna profiles management tab.
+You'll be taken to your scan profiles management tab.
 
 ![scan-profiles-tab](media/scan-profiles-02.png ':size=100%')
 
