@@ -15,9 +15,51 @@ There are 3 default profiles:
 - **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
 - **API Scanning** - Preconfigured tests that are relevant for API targets
 
-### Quick Start {docsify-ignore}
-More info here:
-- [Creating a New Scan Profile](user-guide/scan-profiles/new-profile.md)
-- [Editing a Scan Profile](user-guide/scan-profiles/edit-profile.md)
-- [Scan Profile Details](user-guide/scan-profiles/profile-details.md)
-- [Deleting a Scan Profile](user-guide/scan-profiles/delete-profile.md)
+## Creating a New Profile
+
+To create a new profile, simply click on the ![plus](media/plus_button.png ':size=2%') button at the top of the page.
+
+![scan-profile-new](media/scan-profiles-05.png ':size=100%')
+
+Now fill in the your desired settings:
+
+1. Give the profile a name.
+2. (optional) Give your profile a description.
+3. Select the discovery type for the profile.
+4. Depending on the discovery type you have selected, either add link(s) for the crawler, upload a HAR file or upload/add a link to an open API specification.
+5. Select the tests to run with this profile.
+6. Configure additional settings for the scans taht'll run with this profile.
+
+Once done, just click the ![save-profile](media/save-profile_button.png ':size=8%') button.
+
+![scan-profile-configure](media/scan-profiles-06.png ':size=100%')
+
+## Editing a Profile
+
+To edit a profile, simply click on its name.
+
+!> **Note:** You can't edit the default profiles.
+
+![scan-profile-edit](media/scan-profiles-07.png ':size=100%')
+
+Now make the changes you'd like to and click the ![update-profile](media/update-profile_button.PNG ':size=8%') button.
+
+![scan-profile-update](media/scan-profiles-08.png ':size=100%')
+
+## Profile Details
+
+To see details about a specific profile, simply click on its name.
+
+![scan-profile-click](media/scan-profiles-03.png ':size=100%')
+
+In the pop up window, you'll see all the information about the scan profile - its name, description, discovery types, which tests it's set to run and the additional settings it applies to the scan.
+
+!> **Note:** If you are looking at one of the default profiles, you won't be able to edit them.
+
+![scan-profile-details](media/scan-profiles-04.png ':size=100%')
+
+# Deleting a Profile
+
+To delete a profile, click the ![dots](media/dots_button.png ':size=1%') button next to the profile's name and then choose the "Delete" option.
+
+![scan-profile-delete](media/scan-profiles-09.png ':size=100%')
