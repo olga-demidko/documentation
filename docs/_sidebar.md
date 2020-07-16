@@ -14,10 +14,6 @@
       - [Export Scan](user-guide/scans/export-scan.md)
       - [Delete Scan](user-guide/scans/delete-scan.md)
     - [Scan Profiles](user-guide/scan-profiles/overview.md)
-      - [Profile Details](user-guide/scan-profiles/overview.md#profile-details)
-      - [New Profile](user-guide/scan-profiles/overview.md#creating-a-new-profile)
-      - [Edit Profile](user-guide/scan-profiles/overview.md#editing-a-profile)
-      - [Delete Profile](user-guide/scan-profiles/overview.md#deleting-a-profile)
     - [Agents (Repeaters)](user-guide/agents/overview.md)
     <!-- - [Analysis](user-guide/analysis/overview.md) -->
     - [Storage](user-guide/storage/overview.md)
