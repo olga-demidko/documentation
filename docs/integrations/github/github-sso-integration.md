@@ -13,7 +13,7 @@ To make it much easier for users to access our solutions, it is possible to conf
 
 2. Scroll down to the **AUTHENTICATION** section.
 
-![authentication-pnale](media/authentication-panel.png ':size=100%')
+![authentication-panel](media/authentication-panel.png ':size=100%')
 
 3. Click on the ![dots](media/dots_button.png ':size=1%') button next to "GitHub" and then choose the "Install" option.
 
