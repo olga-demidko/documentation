@@ -6,6 +6,8 @@
     - [Personal Account Administration](user-guide/personal-account-administration/details-and-settings.md)
     - [Scans](user-guide/scans/overview.md)
       - [New Scan](user-guide/scans/new-scan.md)
+      - [Creating a HAR file](user-guide/scans/creating-HAR-file.md)
+      - [Authenticated Scans](user-guide/scans/authenticated-scans.md)
       - [Scan Details](user-guide/scans/scan-details.md)
       - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
         - [Issue Details](user-guide/scans/issues/overview.md#issue-overview)
@@ -23,6 +25,7 @@
     - Oauth Providers
       - [Okta](integrations/okta/okta-integration.md)
       - [GitHub](integrations/github/github-sso-integration.md)
+      - [Google](integrations/google/google-sso-integration.md)
     - Ticketing Systems
       - [Jira](integrations/jira/jira-integration.md)
       - [GitHub](integrations/github/github-issues-integration.md)
