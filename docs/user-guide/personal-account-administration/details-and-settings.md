@@ -1,11 +1,13 @@
 # Personal Account Administration
+
+### Quick Start {docsify-ignore}
 1. To get to your account's settings click the ![User_button](media/user_button.png ':size=2%') button on the top right, and then choose "User Settings".
 
 ![Personal Account Details 01](media/personal-account-details-01.png ':size=100%')
 
 2. You will reach the **Profile** page, where you can:
   - [Edit Your Name](#editing-your-name)
-  - [Configure 2FA](#2fa-configuration)
+  - [Configure 2FA Policy](#configure-2fa-policy)
     - [Enabling 2FA](#enabling-2fa)
     - [Disable 2FA](#disabling-2fa)
     - [Change 2FA App](#changing-2fa-app)
@@ -20,7 +22,7 @@ Under the **PROFILE** panel, make the changes you wish in and click the ![Save_b
 
 ![Personal Account Details 03](media/personal-account-details-03.png ':size=100%')
 
-## 2FA Configuration
+## Configure 2FA Policy
 ### Enabling 2FA
 1. In the **TWO-FACTOR AUTHENTICATION** panel, click the ![Setup_button](media/set-up_button.png ':size=10%') button.
 

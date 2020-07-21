@@ -7,6 +7,8 @@ More info here:
   - [Use a HAR File](user-guide/scans/new-scan.md#using-a-har-file)
   - [Use a Crawler](user-guide/scans/new-scan.md#using-a-crawler)
   - [Scan an API](user-guide/scans/new-scan.md#scanning-an-api)
+  - [Creating a HAR file](user-guide/scans/creating-HAR-file.md)
+  - [Authenticated Scans](user-guide/scans/authenticated-scans.md)
 - [Scan Details](user-guide/scans/scan-details.md)
 - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
 - [Re-Test Scan](user-guide/scans/re-test-scan.md)

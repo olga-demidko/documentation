@@ -1,10 +1,12 @@
 # Organization Administration {docsify-ignore}
+
+### Quick Start {docsify-ignore}
 1. To get to your organization's settings go to the **Organization** tab on the left of your dashboard.
 
 ![Organization Administration 01](media/organization-administration-01.png ':size=100%')
 
 2. You will reach the **Organization** page, where you can:
-  - [Configure 2FA Policy](#2fa-policy-configuration)
+  - [Configure 2FA Policy](#configure-2fa-policy)
   - [See Organization Plan Details](#organization-plan-details)
   - [Manage Users](#user-management)
     - [Add Users](#adding-new-user)
@@ -15,7 +17,7 @@
 
 ![Organization Administration 02](media/organization-administration-02.png ':size=100%')
 
-## 2FA Policy Configuration
+## Configure 2FA Policy
 You can require all the users in your organization to use 2FA. Before you apply this policy it is recommended that you notify your users so that they have time to enable 2FA for their accounts.
 To apply this policy simply tick the checkbox under the **ORGANIZATION SETTINGS** panel.
 
