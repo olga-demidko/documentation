@@ -1,8 +1,8 @@
-## Authenticated Scans
+# Authenticated Scans
 
 There are a few ways to scan applications that require authentication, you can either [make a HAR file](user-guide/scans/creating-HAR-file.md) which includes the login process to your application, or add an authentication header to your scan.
 
-### Adding an Authentication Header to Your Scans
+## Adding an Authentication Header to Your Scans
 
 1. While in your application, after you've logged in, open the devtools panel of your browser (in most browsers, this can be done by hitting the F12 key on your keyboard) and go to the "Network" tab.
 

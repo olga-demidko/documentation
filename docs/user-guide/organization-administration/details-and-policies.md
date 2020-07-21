@@ -1,19 +1,25 @@
 # Organization Administration {docsify-ignore}
 
 ### Quick Start {docsify-ignore}
+- [Overview](#overview)
+- [Configure 2FA Policy](#configure-2fa-policy)
+- [See Organization Plan Details](#organization-plan-details)
+- [Manage Users](#user-management)
+  - [Add Users](#adding-new-user)
+- [Manage Groups](#group-management)
+  - [Create New Groups](#creating-new-groups)
+  - [Add / Remove a User From a Group](#adding-or-removing-a-user-from-a-group)
+- [Manage Organization API Keys](#managing-organization-api-keys)
+- [Manage Organization Integrations](integrations/overview.md)
+
+<hr style="height:2px;background-color:#d1d3d4">
+
+## Overview
 1. To get to your organization's settings go to the **Organization** tab on the left of your dashboard.
 
 ![Organization Administration 01](media/organization-administration-01.png ':size=100%')
 
-2. You will reach the **Organization** page, where you can:
-  - [Configure 2FA Policy](#configure-2fa-policy)
-  - [See Organization Plan Details](#organization-plan-details)
-  - [Manage Users](#user-management)
-    - [Add Users](#adding-new-user)
-  - [Manage Groups](#group-management)
-    - [Create New Groups](#creating-new-groups)
-    - [Add / Remove a User From a Group](#adding-or-removing-a-user-from-a-group)
-  - [Manage Organization API Keys](#managing-organization-api-keys)
+2. You will reach the **Organization** page, where you can manage organization level settings and policies.
 
 ![Organization Administration 02](media/organization-administration-02.png ':size=100%')
 

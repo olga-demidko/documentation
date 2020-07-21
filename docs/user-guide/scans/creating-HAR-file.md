@@ -1,7 +1,7 @@
-## Creating a HAR file
+# Creating a HAR file
 A HAR file is basically a recording of a user session with an application. It can be gathered in a few ways - you can either use a QA tool (such as Selenium) or gather it manually with your web browser's built in DevTools.
 
-### Gathering a HAR file using DevTools
+## Gathering a HAR file using DevTools
 
 1. In your browser, open the DevTools (in most browsers you can do that by hitting the F12 key on your keyboard). Once open, go to the "Network" tab.
 

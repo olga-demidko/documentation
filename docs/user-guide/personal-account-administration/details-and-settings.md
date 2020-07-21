@@ -1,19 +1,24 @@
 # Personal Account Administration
 
 ### Quick Start {docsify-ignore}
+- [Overview](#overview)
+- [Edit Your Name](#editing-your-name)
+- [Configure 2FA Policy](#configure-2fa-policy)
+  - [Enabling 2FA](#enabling-2fa)
+  - [Disable 2FA](#disabling-2fa)
+  - [Change 2FA App](#changing-2fa-app)
+- [Change Your Notification Settings](#setting-your-notification-preferences)
+- [Configure Integration Settings](#configuring-integration-settings)
+- [Manage Your API Keys](#managing-your-api-keys)
+
+<hr style="height:2px;background-color:#d1d3d4">
+
+## Overview
 1. To get to your account's settings click the ![User_button](media/user_button.png ':size=2%') button on the top right, and then choose "User Settings".
 
 ![Personal Account Details 01](media/personal-account-details-01.png ':size=100%')
 
-2. You will reach the **Profile** page, where you can:
-  - [Edit Your Name](#editing-your-name)
-  - [Configure 2FA Policy](#configure-2fa-policy)
-    - [Enabling 2FA](#enabling-2fa)
-    - [Disable 2FA](#disabling-2fa)
-    - [Change 2FA App](#changing-2fa-app)
-  - [Change Your Notification Settings](#setting-your-notification-preferences)
-  - [Configure Integration Settings](#configuring-integration-settings)
-  - [Manage Your API Keys](#managing-your-api-keys)
+2. You will reach the **Profile** page, where you can change your personal settings and prefences.
 
 ![Personal Account Details 02](media/personal-account-details-02.png ':size=100%')
 

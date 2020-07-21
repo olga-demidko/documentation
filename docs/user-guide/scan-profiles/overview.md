@@ -1,7 +1,16 @@
 # Scan Profiles
-
 Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
 
+### Quick Start {docsify-ignore}
+- [Overview](#overview)
+- [Creating a New Profile](#creating-a-new-profile)
+- [Editing a Profile](#editing-a-profile)
+- [Profile Details](#profile-details)
+- [Deleting a Profile](#deleting-a-profile)
+
+<hr style="height:2px;background-color:#d1d3d4">
+
+## Overview
 To see and edit your scan profiles, go to the "Scan Profiles" tab from your dashboard.
 
 ![go-to-scan-profiles-tab](media/scan-profiles-01.png ':size=100%')

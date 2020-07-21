@@ -14,3 +14,7 @@ More info here:
 - [Re-Test Scan](user-guide/scans/re-test-scan.md)
 - [Export Scan](user-guide/scans/export-scan.md)
 - [Delete Scan](user-guide/scans/delete-scan.md)
+
+<!-- <hr style="height:2px;background-color:#d1d3d4"> -->
+
+<!-- TODO: Add overview of 'Scans' page -->

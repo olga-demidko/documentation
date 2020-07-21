@@ -2,15 +2,16 @@
 After clicking on a specific finding under **DISCOVERED ISSUES**, you will reach the issue page.
 
 ### Quick Start {docsify-ignore}
-- [Issue Overview](#issue-overview)
-- [Additional Information](#additional-information)
+- [Issue Details](#issue-details)
 - [Quick Navigation Between Issues](#quick-navigation-between-issues)
 - [Download Issue Script](#download-issue-script)
 - [Re-Test Issue](#re-test-issue)
 - [Mark Issue as Resolved](#mark-issue-as-resolved)
 - [Assign Users To Issue](#assign-users-to-issue)
 
-## Issue Overview
+<hr style="height:2px;background-color:#d1d3d4">
+
+## Issue Details
 Here you will see general useful information about the issue:
 1. **Status** - Current status of this specific issue, can be [marked as resolved](#mark-as-resolved) at any point.
 2. **Asignees** - Users that are assined to this specific issue, see [assign users to issue](#assign-users-to-issue) for more info.
@@ -20,9 +21,9 @@ Here you will see general useful information about the issue:
 6. **CVSS Scoring** - A summerized [Common Vulnerability Scoring System](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System) score for this specific issue.
 7. **Resources** - Additonal resources in case more detailed explantions are required.
 
-![issue_overview](media/issue-details-overview.png)
+![issue_details](media/issue-details-overview.png)
 
-## Additional Information
+#### Additional Information {docsify-ignore}
 Here you will see specific useful technical information about the issue:
 
 8. **Additional Information** - When relevant, more technical inforamtion about the specific issue, which includes: database emumeration info, targeted DOM elemnet info, etc.

@@ -10,8 +10,6 @@
       - [Authenticated Scans](user-guide/scans/authenticated-scans.md)
       - [Scan Details](user-guide/scans/scan-details.md)
       - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
-        - [Issue Details](user-guide/scans/issues/overview.md#issue-overview)
-        - [Re-Test Issue](user-guide/scans/issues/overview.md#re-test-issue)
       - [Re-Test Scan](user-guide/scans/re-test-scan.md)
       - [Export Scan](user-guide/scans/export-scan.md)
       - [Delete Scan](user-guide/scans/delete-scan.md)
@@ -42,7 +40,7 @@
     <!-- - QA Automation -->
     <!-- - Misc -->
 
-  - [API Guide](api-guide/overview.md)
+  - [REST API Guide](api-guide/overview.md)
   
   - [NexPloit-CLI](nexploit-cli/overview.md)
   

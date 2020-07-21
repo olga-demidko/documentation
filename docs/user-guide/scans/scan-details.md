@@ -1,5 +1,16 @@
 # Scan Details
 
+- [Scan Summary](#scan-summary)
+- [Scan Progress](#scan-progress)
+- [Site Map](#site-map)
+- [Discovered Issues](#discovered-issues)
+- [Response Statuses](#response-statuses)
+- [Technical Stack](#technical-stack)
+- [User Comments](#user-comments)
+
+<hr style="height:2px;background-color:#d1d3d4">
+
+## Overview
 To see details about a scan simply click on your desired scan in your dashboard.
 
 ![Scan Details 01](media/scan-details-01.png ':size=100%')
