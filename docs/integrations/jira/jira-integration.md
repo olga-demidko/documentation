@@ -8,24 +8,24 @@ To enable full automation into your CI/CD pipeline, you can configure our soluti
 ## Connect A Jira Account
 1. To connect your account go to https://nexploit.app/organization
 
-![organization](../../media/organization-from-scans.png ':size=80%')
+![organization](../../media/organization-from-scans.png ':size=45%')
 
 
 2. Scroll down to the **TICKET MANAGEMENT OPTIONS** section.
 
-![ticket_management_integration](../../media/ticket-management-integration.png ':size=80%')
+![ticket_management_integration](../../media/ticket-management-integration.png ':size=45%')
 
 
 3. Click on **⋮** and then on **Settings** next to **Jira**
 
-![jira_settings](media/jira-settings.png ':size=80%')
+![jira_settings](media/jira-settings.png ':size=45%')
 
 
 3. Fill out your **Jira Integration Details** and click on **Connect**
 
 !> **Make sure the API token you use is for a <u>specific profile</u> (not Admin/Organization level API key), this is done for security purposes.**
 
-![jira_integration_details](media/jira-integration-details.png ':size=80%')
+![jira_integration_details](media/jira-integration-details.png ':size=45%')
 
 
 ## Add a Jira Repository To a Scan
@@ -34,17 +34,17 @@ When starting a **new scan**, you can select a **Jira Repository** to automatica
 ### Using The UI
 1.  Selecting the repository can be done by clicking on **Additional settings**
 
-![new_scan_additional_settings](../../media/new-scan-additional-settings.png ':size=80%')
+![new_scan_additional_settings](../../media/new-scan-additional-settings.png ':size=45%')
 
 
 2. Under Additional settings, scroll down and click on **Integrations**.
 
-![new_scan_integrations](../../media/new-scan-integrations.png ':size=80%')
+![new_scan_integrations](../../media/new-scan-integrations.png ':size=45%')
 
 
 3. Select the relevant **Jira Repository** and scan away!
 
-![new_scan_jira_integration](media/new-scan-jira-integration.png ':size=80%')
+![new_scan_jira_integration](media/new-scan-jira-integration.png ':size=45%')
 
 
 ### Using The NeuraLegion API

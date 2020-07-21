@@ -13,11 +13,11 @@ Scan profiles make the process of initiating a scan quicker, they allow you to u
 ## Overview
 To see and edit your scan profiles, go to the "Scan Profiles" tab from your dashboard.
 
-![go-to-scan-profiles-tab](media/scan-profiles-01.png ':size=100%')
+![go-to-scan-profiles-tab](media/scan-profiles-01.png ':size=45%')
 
 You'll be taken to your scan profiles management tab.
 
-![scan-profiles-tab](media/scan-profiles-02.png ':size=100%')
+![scan-profiles-tab](media/scan-profiles-02.png ':size=45%')
 
 There are 3 default profiles:
 - **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
@@ -28,7 +28,7 @@ There are 3 default profiles:
 
 To create a new profile, simply click on the ![plus](media/plus_button.png ':size=2%') button at the top of the page.
 
-![scan-profile-new](media/scan-profiles-05.png ':size=100%')
+![scan-profile-new](media/scan-profiles-05.png ':size=45%')
 
 Now fill in the your desired settings:
 
@@ -41,7 +41,7 @@ Now fill in the your desired settings:
 
 Once done, just click the ![save-profile](media/save-profile_button.png ':size=8%') button.
 
-![scan-profile-configure](media/scan-profiles-06.png ':size=100%')
+![scan-profile-configure](media/scan-profiles-06.png ':size=45%')
 
 ## Editing a Profile
 
@@ -49,26 +49,26 @@ To edit a profile, simply click on its name.
 
 !> **Note:** You can't edit the default profiles.
 
-![scan-profile-edit](media/scan-profiles-07.png ':size=100%')
+![scan-profile-edit](media/scan-profiles-07.png ':size=45%')
 
 Now make the changes you'd like to and click the ![update-profile](media/update-profile_button.PNG ':size=8%') button.
 
-![scan-profile-update](media/scan-profiles-08.png ':size=100%')
+![scan-profile-update](media/scan-profiles-08.png ':size=45%')
 
 ## Profile Details
 
 To see details about a specific profile, simply click on its name.
 
-![scan-profile-click](media/scan-profiles-03.png ':size=100%')
+![scan-profile-click](media/scan-profiles-03.png ':size=45%')
 
 In the pop up window, you'll see all the information about the scan profile - its name, description, discovery types, which tests it's set to run and the additional settings it applies to the scan.
 
 !> **Note:** If you are looking at one of the default profiles, you won't be able to edit them.
 
-![scan-profile-details](media/scan-profiles-04.png ':size=100%')
+![scan-profile-details](media/scan-profiles-04.png ':size=45%')
 
 # Deleting a Profile
 
 To delete a profile, click the ![dots](media/dots_button.png ':size=1%') button next to the profile's name and then choose the "Delete" option.
 
-![scan-profile-delete](media/scan-profiles-09.png ':size=100%')
+![scan-profile-delete](media/scan-profiles-09.png ':size=45%')

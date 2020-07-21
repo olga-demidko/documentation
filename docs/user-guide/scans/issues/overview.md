@@ -18,10 +18,10 @@ Here you will see general useful information about the issue:
 3. **Details** - A short description of the specific issue, with information about what happened dynamically generated at the bottom of the explanation.
 4. **Remedy Suggestions** - A short explanation about how this issue should be fixed.
 5. **Possible Exposure** - A brief non-technical explanation about what kind of impact this specific issue might have on the application in case of a malicious breach.
-6. **CVSS Scoring** - A summerized [Common Vulnerability Scoring System](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System) score for this specific issue.
+6. **CVSS Scoring** - A summerized [Common Vulnerability Scoring System](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System ) score for this specific issue.
 7. **Resources** - Additonal resources in case more detailed explantions are required.
 
-![issue_details](media/issue-details-overview.png)
+![issue_details](media/issue-details-overview.png ':size=45%')
 
 #### Additional Information {docsify-ignore}
 Here you will see specific useful technical information about the issue:
@@ -33,19 +33,20 @@ Here you will see specific useful technical information about the issue:
 
 !> **Protip:** You can use the **Copy as cURL** button at the top right of the request display, in case you want to execute it manually.
 
-![additiona_info](media/issue-details-additional-info.png)
+![additiona_info](media/issue-details-additional-info.png ':size=45%')
 
 ## Quick Navigation Between Issues
 You can quickly navigate between issues by clicking on the title, which will open a scrollable list of all the issues in this scan.
 
-![quick_navigation_1](media/issue-details-quick-navigation-01.png ':size=100%') &nbsp;
-![quick_navigation_2](media/issue-details-quick-navigation-02.png ':size=100%')
+![quick_navigation_1](media/issue-details-quick-navigation-01.png ':size=45%')
+&nbsp;&nbsp;&nbsp;&nbsp;
+![quick_navigation_2](media/issue-details-quick-navigation-02.png ':size=45%')
 
 
 ## Download Issue Script
 You can download a specific issues details as a `JSON` file, to be used later.
 
-![download_script](media/issue-details-download-script-button.png)
+![download_script](media/issue-details-download-script-button.png ':size=45%')
 
 Example script:
 ```js
@@ -64,19 +65,20 @@ Example script:
 ## Re-Test Issue
 You can modify and re-test a specific issue by using the **script editor** at the top toolbar.
 
-![retest_script](media/issue-details-modify-script-button.png)
+![retest_script](media/issue-details-modify-script-button.png ':size=45%')
 
 In the script editor, you can edit any of the specific request fields and send it again by clicking on **Execute**
 
-![request_editor_script](media/issue-details-request-editor.png)
+![request_editor_script](media/issue-details-request-editor.png ':size=45%')
 
 ## Mark Issue as Resolved
 You can mark an issue as resolved, by clicking on the **Mark As Resolved** button at the top toolbar.
 
-![mark_resolved_button](media/issue-details-mark-resolved-button.png)
+![mark_resolved_button](media/issue-details-mark-resolved-button.png ':size=45%')
 
 ## Assign Users To Issue
 You can assign a specific user to a specific issue, simply click on the **Assignee** field, select the relevant user, and clock on the **Plus** button to the right of the field. You can un-assign the user by clicking on the **Cross** button to the right of a user name.
 
-![assign_user](media/issue-details-assign-user-01.png) &nbsp;
-![assign_user](media/issue-details-assign-user-02.png)
+![assign_user](media/issue-details-assign-user-01.png ':size=45%') 
+&nbsp;&nbsp;&nbsp;&nbsp;
+![assign_user](media/issue-details-assign-user-02.png ':size=45%')
