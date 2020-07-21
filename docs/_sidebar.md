@@ -22,7 +22,7 @@
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
   
   - [Integrations](integrations/overview.md)
-    - Oauth Providers
+    - SSO
       - [Okta](integrations/okta/okta-integration.md)
       - [GitHub](integrations/github/github-sso-integration.md)
       - [Google](integrations/google/google-sso-integration.md)
