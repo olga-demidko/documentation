@@ -55,6 +55,7 @@ You can either use a new file or select a pre uploaded file (either a file you'v
 2. If you want to use a HAR file that you have already uploaded before or that you have recorded via our web browser extension, click on the ![Cloud_button](media/cloud_button.png ':size=4%') button and then the textbox on its left. A drop down menu will open with a list of your uploaded files, choose the one that you’d like to use.
 
 ![New_Scan_5](media/new-scan-05.png ':size=45%')
+
 3. Once you’ll choose a file, you will need to select the hosts that you’d like to scan. Make sure to only select hosts that you are allowed to scan.
 
 ![New_Scan_6](media/new-scan-06.png ':size=45%')
