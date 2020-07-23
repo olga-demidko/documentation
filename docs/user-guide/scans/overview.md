@@ -9,6 +9,7 @@ More info here:
   - [Scan an API](user-guide/scans/new-scan.md#scanning-an-api)
   - [Creating a HAR file](user-guide/scans/creating-HAR-file.md)
   - [Authenticated Scans](user-guide/scans/authenticated-scans.md)
+  - [Additional Settings](user-guide/scans/additional-settings.md)
 - [Scan Details](user-guide/scans/scan-details.md)
 - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
 - [Re-Test Scan](user-guide/scans/re-test-scan.md)

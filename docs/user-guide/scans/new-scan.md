@@ -108,6 +108,6 @@ You can set up a scan to start running at a later time, with two options:
 ![New Scan 9](media/new-scan-09.png ':size=45%')
 
 ## Additional Scan Settings
-There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent.
+There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent. Read more **[here](user-guide/scans/additional-settings)**.
 
 ![New Scan 10](media/new-scan-10.png ':size=45%')
