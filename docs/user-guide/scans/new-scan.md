@@ -111,11 +111,13 @@ To scan an API you’ll need either an Open API specification (Swagger) or a Pos
 ![New Scan 15](media/new-scan-15.png ':size=45%')
 
 ## Scan Templates
-Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
-There are 3 default profiles:
+Scan Templates make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
+There are 3 default Template:
 - **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
 - **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
 - **API Scanning** - Preconfigured tests that are relevant for API targets
+
+You can also create your own [Scan Templates](user-guide/scans/templates/overview.md)
 
 ## Scheduling
 You can set up a scan to start running at a later time, with two options:

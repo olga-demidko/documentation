@@ -9,11 +9,11 @@
       - [New Scan](user-guide/scans/new-scan.md)
       - [Scan Details](user-guide/scans/scan-details.md)
       - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
+      - [Scan Templates](user-guide/scans/templates/overview.md)
       - [Authenticated Scans](user-guide/scans/authenticated-scans.md)
       - [Re-Test Scan](user-guide/scans/re-test-scan.md)
       - [Export Scan](user-guide/scans/export-scan.md)
       - [Delete Scan](user-guide/scans/delete-scan.md)
-    - [Scan Profiles](user-guide/scan-profiles/overview.md)
     - [Agents (Repeaters)](user-guide/agents/overview.md)
     <!-- - [Analysis](user-guide/analysis/overview.md) -->
     - [Storage](user-guide/storage/overview.md)
@@ -40,7 +40,7 @@
     <!-- - QA Automation -->
     <!-- - Misc -->
 
-  - [REST API Guide](api-guide/overview.md)
+  - [REST API](api-guide/overview.md)
   
   - [NexPloit-CLI](nexploit-cli/overview.md)
   
