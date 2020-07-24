@@ -1,7 +1,30 @@
-## Starting A New Scan
+# Starting A New Scan
+Here you will get all the information regarding how to start a new scan.
 
-1. Once you are logged into the system, you’ll be taken to your dashboard. 
-Here you can click the ![New Scan](media/new-scan-button.png ':size=8%') button to create a new scan.
+### Quick Start {docsify-ignore}
+- [Overview](#overview)
+- [Modules](#modules)
+- [Discovery Types](#discovery-types)
+  - [Using a HAR File](#using-a-har-file)
+  - [Using a Crawler](#using-a-crawler)
+  - [Scanning an API](#scanning-an-api)
+- [Scan Templates](#scan-templates)
+- [Scheduling](#scheduling)
+  - [Schedule a Single Scan For Later](#schedule-a-single-scan-for-later)
+  - [Schedule a Recurring Scan](#schedule-a-recurring-scan)
+- [Additional Settings](#Additional-settings)
+  - [Concurrent Requests](#concurrent-requests)
+  - [Smart Scan](#smart-scan)
+  - [Target Parameter Locations](#target-parameter-locations)
+  - [Additional Hosts](#additional-hosts)
+  - [Additional Headers](#additional-headers)
+  - [Integrations](#integrations)
+  - [Agents](#agents)
+
+<hr style="height:2px;background-color:#d1d3d4">
+
+## Overview
+1. In the **Scans** page, click on the ![New Scan](media/new-scan-button.png ':size=8%') button to create a new scan.
 
 ![New_Scan_1](media/new-scan-01.png ':size=45%')
 
@@ -25,7 +48,7 @@ the **[Discovery Type](#discovery-types)** that suits you and, optionally, a **[
 
 5. Optionally, you can:
   - **[Set Up Scheduling](#scan-scheduling)** for your scan, such as scanning at a later date or recurring scan.
-  - **[Configure Additional Settings](#additional-scan-settings)** for your scan, such as maximum concurrent requests for the scan, additional headers, integrations and/or agent.
+  - **[Configure Additional Settings](#additional-settings)** for your scan, such as maximum concurrent requests for the scan, additional headers, integrations and/or agent.
 
 6. Once you've configured your scan, click on the ![Upload_Clip](media/run_button.png ':size=5%') button.
 
@@ -87,14 +110,14 @@ To scan an API you’ll need either an Open API specification (Swagger) or a Pos
 
 ![New Scan 15](media/new-scan-15.png ':size=45%')
 
-## Scan Profiles
+## Scan Templates
 Scan profiles make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
 There are 3 default profiles:
 - **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
 - **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
 - **API Scanning** - Preconfigured tests that are relevant for API targets
 
-## Scan Scheduling
+## Scheduling
 You can set up a scan to start running at a later time, with two options:
 
 ### Schedule a Single Scan For Later
@@ -107,7 +130,32 @@ You can set up a scan to start running at a later time, with two options:
 
 ![New Scan 9](media/new-scan-09.png ':size=45%')
 
-## Additional Scan Settings
-There are more additional settings you may want to use, such as setting the maximum concurrent scans for the scan to control the load on your server, adding additional headers to the scan (for example, you may want to add an authentication header to the scan to scan parts of your application that require authentication), select an integration to use and/or add an agent. Read more **[here](user-guide/scans/additional-settings)**.
+## Additional settings
+At the bottom of the scan initiation panel, you will find the **Additional Settings** category. 
 
-![New Scan 10](media/new-scan-10.png ':size=45%')
+![additional-settings](media/additional-settings-open.png ':size=45%')
+
+### Concurrent Requests
+This setting allows your to set the maximum concurrent requests for the scan, to control the load on your server.
+
+### Smart Scan
+Use automatic smart decisions such as: parameter skipping, detection phases, etc. to minimize scan time. When turned off, all the tests will be run on all the parameters, which increases the coverage at the expense of scan time.
+
+### Target Parameter Locations
+- **URL Path** - Main part of the URL, after the hostname and before the query parameters. Used to identify the specific resource in the host that the client wants to access. In cases like API endpoints, may contain dynamic parameters (for example, object id).
+- **URL Query** - Query parameters string, after the question mark (?) and, if relevant, before the hash sign (#). Used to provide additional information from the client to the request, such as data to search for in the target resource.
+- **URL Fragment** - Last part of a URL, after the hash sign (#). Used as an internal page reference or by DOM elements such as JavaScript, only used on the client side.
+- **Headers** - Request Headers, used to provide additional information from the client to the server in each HTTP request, such as cookies, information formats, security settings, etc.
+- **Body** - Request Body, can contain anything, but in many cases contains data bytes transmitted from the client to the server, such as files.
+
+### Additional Hosts
+Defines host placeholders with specific addresses, for example, replacing `localhost` with a specific IP address.
+
+### Additional Headers
+Defines additional headers to append to each request, for example authentication cookies.
+
+### Integrations
+Connects the scan to a specific ticketing platform and repository, which will automatically add all the information about each found vulnerability to the repository.
+
+### Agents
+Connects the scan to a [Repeater](user-guide/agents/overview) agent, which provides secure access to local networks.
