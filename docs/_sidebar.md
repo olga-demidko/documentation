@@ -39,6 +39,8 @@
       <!-- - [Azure DevOps](integrations/github/connect-account.md) -->
     <!-- - QA Automation -->
     <!-- - Misc -->
+  
+  - [Repeater](repeater/overview.md)
 
   - [REST API](api-guide/overview.md)
   

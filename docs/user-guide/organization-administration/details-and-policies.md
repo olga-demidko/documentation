@@ -73,7 +73,6 @@ Now fill in the details of the group and set you desired settings (integrations,
 ![Organization Policies 05](media/organization-administration-07.png ':size=45%')
 
 ### Adding or Removing a User From a Group
-
 To add or remove a user from an existing group, first select this user from the members panel.
 
 ![Groups 03](media/organization-administration-10.png ':size=45%')
@@ -83,7 +82,6 @@ Now just tick the checkboxes next to the groups you'd like this user to be a mem
 ![Groups 04](media/organization-administration-11.png ':size=45%')
 
 ## Managing Organization API Keys
-
 To get a new API key, simply go to the **MANAGE YOUR USER API KEYS** panel and click the ![api_button](media/api_button.png ':size=14%') button.
 
 ![Organization Policies 05](media/organization-administration-08.png ':size=45%')
