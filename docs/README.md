@@ -5,3 +5,22 @@ This documentation provides a guide on how to use NeuraLegion's solutions and it
 <br><br>
 
 ![nexploit_logo](media/nexploit-logo.svg ':size=40%')
+
+
+<!-- ## Style tests
+
+Regular text
+
+**Bold text**
+
+[Link Text](www.google.com)
+
+`in-line snippet`
+
+```yaml
+{
+  "code": "block",
+  "number": 1
+}
+
+``` -->
