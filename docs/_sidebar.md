@@ -36,7 +36,7 @@
     - **Pipe Management**
       - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
       - [CircleCI](integrations/circleci/circleci-integration.md)
-      <!-- - [Jenkins](integrations/jenkins/connect-account.md) -->
+      - [Jenkins](integrations/jenkins/jenkins-integration.md)
       <!-- - [Travis CI](integrations/travis-ci/connect-account.md) -->
       <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
       <!-- - [Slack](integrations/slack/connect-account.md) -->
