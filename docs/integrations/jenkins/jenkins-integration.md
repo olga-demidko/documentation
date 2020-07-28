@@ -26,7 +26,7 @@ Now jenkins is fully configured for use.
 
 After configuring "jenkins" on NexPloit our API is able to access Jenkins API. You can start a scan during build and if NexPloit discovers an issue it will stop the current build process.
 
-1. Create a new API key for your user ([instractions](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)), and enable required scopes (`files:read`, `files:write`, `scans:run`, `scans:read`).
+1. Create a new API key for your user ([instructions](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)), and enable required scopes (`files:read`, `files:write`, `scans:run`, `scans:read`).
 
 2. Configure a build as you usually would in Jenkins.
 
