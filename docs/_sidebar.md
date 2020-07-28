@@ -1,7 +1,7 @@
 - Quick Navigation
-  - [Home](/ "Documentation Home")
+  - [**Home**](/ "Documentation Home")
 
-  - [User Guide](user-guide/overview.md "Overview")
+  - [**User Guide**](user-guide/overview.md "Overview")
     - [Organization Administration](user-guide/organization-administration/details-and-policies.md)
     - [Personal Account Administration](user-guide/personal-account-administration/details-and-settings.md)
     - [Scans](user-guide/scans/overview.md)
@@ -19,16 +19,21 @@
     - [Storage](user-guide/storage/overview.md)
     <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
   
-  - [Integrations](integrations/overview.md)
-    - SSO
+  - [**Deployment Options**](deployment/overview.md)
+    - [SaaS](deployment/saas.md)
+    - [On-Prem Agent (Repeater)](deployment/repeater.md)
+    - [Private Cloud](deployment/private-cloud.md)
+
+  - [**Integrations**](integrations/overview.md)
+    - **SSO**
       - [Okta](integrations/okta/okta-integration.md)
       - [GitHub](integrations/github/github-sso-integration.md)
       - [Google](integrations/google/google-sso-integration.md)
-    - Ticketing Systems
+    - **Ticketing Systems**
       - [Jira](integrations/jira/jira-integration.md)
       - [GitHub](integrations/github/github-issues-integration.md)
       <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->
-    - Pipe Management
+    - **Pipe Management**
       - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
       - [CircleCI](integrations/circleci/circleci-integration.md)
       <!-- - [Jenkins](integrations/jenkins/connect-account.md) -->
@@ -40,9 +45,7 @@
     <!-- - QA Automation -->
     <!-- - Misc -->
   
-  - [Repeater](repeater/overview.md)
-
-  - [REST API](api-guide/overview.md)
+  - [**REST API**](api-guide/overview.md)
   
-  - [NexPloit-CLI](nexploit-cli/overview.md)
+  - [**NexPloit-CLI**](nexploit-cli/overview.md)
   

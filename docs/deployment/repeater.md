@@ -1,4 +1,4 @@
-# NeuraLegion's Repeater
+# NeuraLegion's Repeater (On-prem Agent)
 ![repeater_image](https://d36jcksde1wxzq.cloudfront.net/be7833db9bddb4494d2a7c3dd659199a.png ':size=10%')
 
 <!-- NeuraLegion’s **Repeater** is a local agent that provides a secure connection between NeuraLegion's cloud engine and a target on a local network. -->
@@ -43,7 +43,7 @@ After starting a scan with a configured Repeater, the communication works as fol
 5. The **Repeater** sends the response to the engine
 6. Back to 1, until the scan is finished
 
-![repeater-architecture](media/repeater-architecture.png ':size=45%')
+![repeater-architecture](media/repeater-architecture.svg ':size=45%')
 
 
 ## Technical Requirements
