@@ -1,6 +1,6 @@
 # Slack Integration
 
-![slack_logo](media/go-to-organization.png ':size=40%')
+![slack_logo](media/okta-logo.png ':size=40%')
 
 ## About
 To enable full automation into your CI/CD pipeline, you can configure our solutions to automatically send messages about found issues to your selected Slack channel.
