@@ -5,6 +5,8 @@
 ## About
 To enable full automation into your CI/CD pipeline, you can configure our solutions to automatically send messages about found issues to your selected Slack channel.
 
+View [NexPloit on Slack App Directory](https://neuralegion.slack.com/apps/APTQSHNES-nexploit)
+
 ## Connecting NexPloit to your Slack
 
 !> **Note:** You'll need to create a Slack channel for NexPloit to send messages to in your Slack organization.
