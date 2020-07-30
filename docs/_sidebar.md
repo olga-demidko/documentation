@@ -32,6 +32,7 @@
     - **Ticketing Systems**
       - [Jira](integrations/jira/jira-integration.md)
       - [GitHub](integrations/github/github-issues-integration.md)
+      - [Slack](integrations/slack/slack-integration.md)
       <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->
     - **Pipe Management**
       - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
@@ -39,7 +40,6 @@
       - [Jenkins](integrations/jenkins/jenkins-integration.md)
       <!-- - [Travis CI](integrations/travis-ci/connect-account.md) -->
       <!-- - [ServiceNow](integrations/servicenow/connect-account.md) -->
-      <!-- - [Slack](integrations/slack/connect-account.md) -->
       <!-- - [TeamCity](integrations/teamcity/connect-account.md) -->
       <!-- - [Azure DevOps](integrations/github/connect-account.md) -->
     <!-- - QA Automation -->

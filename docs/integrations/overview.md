@@ -5,4 +5,4 @@ To enable full automation into your CI/CD pipeline, you can configure our soluti
 |---------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------------------|
 | [Okta](integrations/okta/okta-integration.md)           | [Jira](integrations/jira/jira-integration.md)                  | [GitHub Actions](integrations/github-actions/github-actions-integration.md)  |
 | [GitHub](integrations/github/github-sso-integration.md) | [GitHub](integrations/github/github-issues-integration.md)     | [CircleCI](integrations/circleci/circleci-integration.md)                    |
-| [Google](integrations/google/google-sso-integration.md) |                                                                | [Jenkins](integrations/jenkins/jenkins-integration.md)                       |
+| [Google](integrations/google/google-sso-integration.md) | [Slack](integrations/slack/slack-integration.md)               | [Jenkins](integrations/jenkins/jenkins-integration.md)                       |
