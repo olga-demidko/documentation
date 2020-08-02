@@ -25,16 +25,16 @@
     - [Private Cloud](deployment/private-cloud.md)
 
   - [**Integrations**](integrations/overview.md)
-    - **SSO**
+    - [**SSO**](integrations/overview.md#sso)
       - [Okta](integrations/okta/okta-integration.md)
       - [GitHub](integrations/github/github-sso-integration.md)
       - [Google](integrations/google/google-sso-integration.md)
-    - **Ticketing Systems**
+    - [**Ticketing Systems**](integrations/overview.md#ticketing)
       - [Jira](integrations/jira/jira-integration.md)
       - [GitHub](integrations/github/github-issues-integration.md)
       - [Slack](integrations/slack/slack-integration.md)
       <!-- - [Bamboo](integrations/bamboo/connect-account.md) -->
-    - **Pipe Management**
+    - [**Pipe Management**](integrations/overview.md#pipe)
       - [GitHub Actions](integrations/github-actions/github-actions-integration.md)
       - [CircleCI](integrations/circleci/circleci-integration.md)
       - [Jenkins](integrations/jenkins/jenkins-integration.md)
