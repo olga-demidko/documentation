@@ -69,8 +69,22 @@ Here you can manage the users in your organization
 
 ![Organization Policies 03](media/organization-administration-05.png ':size=45%')
 
+### Removing a user from the organization
+
+To remove a user, click on their tab in the "MEMBERS" panel.
+
+![remove-user-01](media/remove-user-01.png ':size=45%')
+
+Now click on the ![remove_button](media/remove_button.png ':size=2%') button at the top of the screen.
+
+![remove-user-02](media/remove-user-02.png ':size=45%')
+
+Finally, click on the ![ok_button](media/ok_button.png ':size=4%') button on the prompt that pops up.
+
+![remove-user-03](media/remove-user-03.png ':size=45%')
+
 ## Group Management
-Here you can manage groups of users
+Here you can manage groups of users.
 
 ### Creating new Groups
 To create a new group, simply click the ![new-group_button](media/new-group_button.png ':size=3%') button at the top of the page.
