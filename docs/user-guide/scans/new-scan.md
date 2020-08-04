@@ -90,7 +90,8 @@ To start a crawler scan simply select the "Crawler" option, then add the URL tha
 ![New_Scan_11](media/new-scan-11.png ':size=45%')
 
 #### Crawler Scoping
-If you'd like to scan specific parts of your application, you can use the ![Plus_button](media/plus_button.png ':size=2%') button at the right side of the "hosts" section to add multiple URLs. For example:
+If you'd like to scan specific parts of your application, you can use the ![Plus_button](media/plus_button.png ':size=2%') button at the right side of the "hosts" section to add multiple URLs. 
+For example:
 - `kb.neuralegion.com/user-guide/`
 - `kb.neuralegion.com/Integrations/`
 

@@ -1,6 +1,10 @@
 # Scanning with NeuraLegion
 Starting a scan is is extremely simple, and can be done in minutes!
 
+## Overview
+
+The "Scans" page is where you create, view and manage your scans. Here you will be able to manage all your scans, see some important stats for each scan, read scans' logs and much more, all in a very simple and intuitive UI.
+
 ### Quick Start {docsify-ignore}
 - [Creating a HAR File](user-guide/scans/creating-HAR-file.md)
 - [New Scan](user-guide/scans/new-scan.md)
@@ -11,7 +15,3 @@ Starting a scan is is extremely simple, and can be done in minutes!
 - [Re-Test Scan](user-guide/scans/re-test-scan.md)
 - [Export Scan](user-guide/scans/export-scan.md)
 - [Delete Scan](user-guide/scans/delete-scan.md)
-
-<!-- <hr style="height:2px;background-color:#d1d3d4"> -->
-
-<!-- TODO: Add overview of 'Scans' page -->
