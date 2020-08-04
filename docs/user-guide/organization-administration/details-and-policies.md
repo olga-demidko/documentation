@@ -3,6 +3,7 @@
 ### Quick Start {docsify-ignore}
 - [Overview](#overview)
 - [Configure 2FA Policy](#configure-2fa-policy)
+- [Host Authorization](#host-authorization)
 - [See Organization Plan Details](#organization-plan-details)
 - [Manage Users](#user-management)
   - [Add Users](#adding-new-user)
