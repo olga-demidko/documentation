@@ -85,18 +85,25 @@ You can either use a new file or select a pre uploaded file (either a file you'v
 
 ### Using a Crawler
 Crawling is the simplest and fastest way to start a scan, by providing a target host(s) the crawler will map the entire application's basic attack surface automatically.
-1. Select the "Crawler" option, then add the URL that you'd like to scan. If you'd like to add more than one URL use the ![Plus_button](media/plus_button.png ':size=2%') button to the right.
+To start a crawler scan simply select the "Crawler" option, then add the URL that you'd like to scan.
 
 ![New_Scan_11](media/new-scan-11.png ':size=45%')
+
+#### Crawler Scoping
+If you'd like to scan specific parts of your application, you can use the ![Plus_button](media/plus_button.png ':size=2%') button at the right side of the "hosts" section to add multiple URLs. For example:
+- `kb.neuralegion.com/user-guide/`
+- `kb.neuralegion.com/Integrations/`
+
+In which case, only those 2 sections (and everything "downstream") will be scanned.
 
 ### Scanning an API
 To scan an API you’ll need either an Open API specification (Swagger) or a Postman collection (*.yml / *.yaml / *.json).
 
-| Schema | Supported Versions |
-| -- | -- |
-| Swagger | 2+ |
-| OpenAPI | 3+ |
-| Postman | 2+ |
+| Schema  | Supported Versions |
+| ------- | ------------------ |
+| Swagger | 2+                 |
+| OpenAPI | 3+                 |
+| Postman | 2+                 |
 
 1. Select the "Open API" Discovery Type and then choose whether you'd like to scan an Open API specification or a Postman collection.
 
