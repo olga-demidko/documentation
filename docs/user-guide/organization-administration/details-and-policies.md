@@ -37,6 +37,14 @@ In addition, an admin can see the 2FA status of all users in the organization un
 
 ![Organization Policies 03](media/organization-administration-03.png ':size=45%')
 
+## Host Authorization
+For safety reasons we restrict scanning hosts only to the hosts that you should have access to. In order to add your target to the authorized hosts, you'll simply need to add a `.nex` file to your application's root directory.
+To get this file, click on the `nex` link at the bottom of the "ORGANIZATION SETTINGS" panel.
+
+![get-nex-file](media/get-nex-file.png ':size=45%')
+
+Save this file in a convenient place and the put it in your application's root directory. You can reuse this file as many times as needed.
+
 ## Organization Plan Details
 In the Organization Plan Details panel you can see information about you plan, such as whether you are using NexPloit or NexDast, how much storage does your Organization have in total, the plan's expiration date and more.
 
@@ -66,26 +74,26 @@ Here you can manage groups of users
 ### Creating new Groups
 To create a new group, simply click the ![new-group_button](media/new-group_button.png ':size=3%') button at the top of the page.
 
-![Organization Policies 04](media/organization-administration-06.png ':size=45%')
+![Organization-Policies-04](media/organization-administration-06.png ':size=45%')
 
 Now fill in the details of the group and set you desired settings (integrations, concurrent scans limit) and add members to the group. Once done just click the ![new-group_button](media/create_button.png ':size=5%') button at the top.
 
-![Organization Policies 05](media/organization-administration-07.png ':size=45%')
+![Organization-Policies-05](media/organization-administration-07.png ':size=45%')
 
 ### Adding or Removing a User From a Group
 To add or remove a user from an existing group, first select this user from the members panel.
 
-![Groups 03](media/organization-administration-10.png ':size=45%')
+![Groups-03](media/organization-administration-10.png ':size=45%')
 
 Now just tick the checkboxes next to the groups you'd like this user to be a member of.
 
-![Groups 04](media/organization-administration-11.png ':size=45%')
+![Groups-04](media/organization-administration-11.png ':size=45%')
 
 ## Managing Organization API Keys
 To get a new API key, simply go to the **MANAGE YOUR USER API KEYS** panel and click the ![api_button](media/api_button.png ':size=14%') button.
 
-![Organization Policies 05](media/organization-administration-08.png ':size=45%')
+![Organization-Policies-05](media/organization-administration-08.png ':size=45%')
 
 Now give the API key a name and select which scopes to apply to it and click the ![create_button](media/create_button.png ':size=5%') button.
 
-![Organization Policies 06](media/organization-administration-09.png ':size=45%')
+![Organization-Policies-06](media/organization-administration-09.png ':size=45%')
