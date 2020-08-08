@@ -27,7 +27,11 @@ In order to start scanning, please make sure that the following applies:
 - The target application can be accessed from the internet
 - Our Static IP (see below) is whitelisted by your WAF / Firewall (recommended to avoid auto-blacklisting our solutions)
 
-!> <font color="red" size="3"><b>IMPORTANT:</b> Our public static IP is <b>34.228.94.55</b></font>
+!> <font color="red" size="3"><b>IMPORTANT:</b> We have two public static IPs:
+<br>
+&emsp; American: <b>34.228.94.55</b>
+<br>
+&emsp; European: <b>52.215.195.32</b></font>
 
 ## Deployment Options
 Currently, deployment is possible on AWS, but deployment to other cloud vendors can be added if needed for specific scenarios. NeuraLegion fully manages the deployment process for you.
