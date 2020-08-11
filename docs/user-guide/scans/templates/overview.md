@@ -11,7 +11,7 @@ Scan Templates make the process of initiating a scan quicker, they allow you to 
 <hr style="height:2px;background-color:#d1d3d4">
 
 ## Overview
-To see and edit your scan Templates, go to the "Scan Templates" tab from your dashboard.
+To see and edit your scan Templates, go to "My Templates" from your dashboard.
 
 ![go-to-scan-profiles-tab](media/scan-profiles-01.png ':size=45%')
 
@@ -20,8 +20,8 @@ You'll be taken to your scan Templates management tab.
 ![scan-profiles-tab](media/scan-profiles-02.png ':size=45%')
 
 There are 3 default templates:
-- **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
 - **Comprehensive Scan** - All the possible tests will be performed during the scan. This is the most thorough scan, which accordingly takes the longest time to finish
+- **Fast Scan** - Preconfigured optimized scan, the engine will determine automatically which tests to run, based on the data types that are detected. Some tests will be skipped in favour of speed.
 - **API Scanning** - Preconfigured tests that are relevant for API targets
 
 ## Creating a New Template
@@ -30,7 +30,7 @@ To create a new Template, simply click on the ![plus](media/plus_button.png ':si
 
 ![scan-profile-new](media/scan-profiles-05.png ':size=45%')
 
-Now fill in the your desired settings:
+Now fill in your desired settings:
 
 1. Give the Template a name.
 2. (optional) Give your Template a description.
@@ -65,7 +65,7 @@ In the pop up window, you'll see all the information about the scan profile - it
 
 !> **Note:** If you are looking at one of the default Template, you won't be able to edit them.
 
-![scan-profile-details](media/scan-profiles-04.png ':size=45%')
+![scan-profile-details](media/scan-profiles-08.png ':size=45%')
 
 # Deleting a Template
 
