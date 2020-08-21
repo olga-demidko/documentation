@@ -5,16 +5,5 @@ This section provides a brief guide on how to get started with our solutions. Ea
   - [Organization Administration](user-guide/organization-administration/details-and-policies.md)
   - [Personal Account Administration](user-guide/personal-account-administration/details-and-settings.md)
   - [Scans](user-guide/scans/overview.md)
-    <!-- - [Creating a HAR File](user-guide/scans/creating-HAR-file.md)
-    - [New Scan](user-guide/scans/new-scan.md)
-    - [Scan Details](user-guide/scans/scan-details.md)
-    - [Discovered Issues (Results)](user-guide/scans/issues/overview.md)
-    - [Scan Templates](user-guide/scans/templates/overview.md)
-    - [Authenticated Scans](user-guide/scans/authenticated-scans.md)
-    - [Re-Test Scan](user-guide/scans/re-test-scan.md)
-    - [Export Scan](user-guide/scans/export-scan.md)
-    - [Delete Scan](user-guide/scans/delete-scan.md) -->
-  - [Agents (Repteaters)](user-guide/agents/overview.md)
-  <!-- - [Analysis](user-guide/analysis/overview.md) -->
+  - [Agents (Repeaters)](user-guide/agents/overview.md)
   - [Storage](user-guide/storage/overview.md)
-  <!-- - [Activity Log](user-guide/activity-log/overview.md) -->
