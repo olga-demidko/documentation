@@ -1,7 +1,7 @@
 # Private Cloud Solution
 By using NeuraLegion’s **Private Cloud** offering, your organization will get a dedicated, isolated, NexPloit service environment.
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Overview](#overview)
 - [How it Works](#how-it-works)
 - [Benefits Over the Standard SaaS Offering](#benefits-over-the-standard-saas-offering)
@@ -38,14 +38,14 @@ Currently, deployment is possible on AWS, but deployment to other cloud vendors 
 !> **If you are interested in other deployment options, please reach out to your sales contact.**
 
 ## FAQ
-#### Will using a Private Cloud remove the need to use a Repeater? {docsify-ignore}
+#### Will using a Private Cloud remove the need to use a Repeater? <!-- {docsify-ignore} -->
 If the reason for using the Repeater is only to control network flow, and a site2site VPN tunnel can be created which will allow full access from the private cloud into the organization’s network, then the repeater is not needed. Otherwise, the Repeater is still needed for secure access to a local target from the cloud.
 
-#### Do I still need to use whitelisting in my Firewall if I have a Private Cloud? {docsify-ignore}
+#### Do I still need to use whitelisting in my Firewall if I have a Private Cloud? <!-- {docsify-ignore} -->
 Yes, unless a Site2Site VPN is configured and used.
 
-#### Can I use a private data center instead of a private cloud? {docsify-ignore}
+#### Can I use a private data center instead of a private cloud? <!-- {docsify-ignore} -->
 This is not an option we offer at this time.
 
-#### Will NeuraLegion have access to my vulnerabilities that are found? {docsify-ignore}
+#### Will NeuraLegion have access to my vulnerabilities that are found? <!-- {docsify-ignore} -->
 Only if the owner of the organization will invite one of NeuraLegion’s engineers to the organization for support needs. A NeuraLegion representative will never be able to access your scan results without your permission.

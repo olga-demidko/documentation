@@ -1,6 +1,6 @@
 # Personal Account Administration
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Overview](#overview)
 - [Edit Your Name](#editing-your-name)
 - [Configure 2FA Policy](#configure-2fa-policy)

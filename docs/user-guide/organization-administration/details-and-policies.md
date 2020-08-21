@@ -1,6 +1,6 @@
-# Organization Administration {docsify-ignore}
+# Organization Administration
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Overview](#overview)
 - [Configure 2FA Policy](#configure-2fa-policy)
 - [Host Authorization](#host-authorization)
@@ -19,8 +19,6 @@
 1. To get to your organization's settings go to the **Organization** tab on the left of your dashboard.
 
 ![Organization Administration 01](media/organization-administration-01.png ':size=45%') 
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;
-![Organization Administration 01](media/organization-administration-01.png ':size=45%') -->
 
 2. You will reach the **Organization** page, where you can manage organization level settings and policies.
 

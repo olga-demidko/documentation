@@ -1,5 +1,5 @@
 # On-prem Agent (Repeater) Solution
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Overview](#overview)
 - [How the Repeater Works](#how-the-repeater-works)
 - [Technical Requirements](#technical-requirements)
@@ -60,21 +60,21 @@ You can find full installation instructions in the [NexPloit CLI > Installation]
 You can find usage examples in the [NexPloit CLI > Usage Examples](/nexploit-cli/usage-examples.md) section
 
 ## FAQ
-#### What is the maintenance / patching frequency? {docsify-ignore}
+#### What is the maintenance / patching frequency? <!-- {docsify-ignore} -->
 The engine requires no maintenance or patching from the client side, since it is in the cloud and gets the latest updates immediately.
 
 The Repeater will require periodic updates, which can be performed manually by a simple CLI update command or automatically if the Repeater is installed during a build as part of the CI process.
 
-#### Can I use a single machine with a Repeater to access multiple internal targets? {docsify-ignore}
+#### Can I use a single machine with a Repeater to access multiple internal targets? <!-- {docsify-ignore} -->
 Yes, as long as the local machine with the Repeater has access to the internal applications, multiple scans can be done via the same Repeater.
 
 In addition, by installing the Repeater on a personal computer,  it is possible to create scans on local running applications, which is useful for developers that want to do quick tests without deploying code.
 
-#### Do I need to change Firewall / Port settings for the Repeater? {docsify-ignore}
+#### Do I need to change Firewall / Port settings for the Repeater? <!-- {docsify-ignore} -->
 Not at all, using the Repeater does not require ANY changes to your network INBOUND traffic settings, because all the generated traffic is based on OUTBOUND requests from inside the network.
 
-#### I have a Firewall between different internal applications, what do I need to do? {docsify-ignore}
+#### I have a Firewall between different internal applications, what do I need to do? <!-- {docsify-ignore} -->
 In this case, you can either install a separate Repeater behind the relevant Firewalls to avoid any need for whitelisting, use open ports between the internal applications or configure new ports for the Repeater.
 
-#### Will a Firewall affect the scan results or add False Positives? {docsify-ignore}
+#### Will a Firewall affect the scan results or add False Positives? <!-- {docsify-ignore} -->
 Not at all, the Repeater does not contain any complicated logic. All the decision making and False Positive removal by active validation are still performed by the engine in the cloud. This means that all the computation and advanced algorithms are available to scans that use a Repeater the same way as for regular scans.

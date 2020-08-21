@@ -1,7 +1,7 @@
 # Discovered Issues (Results)
 After clicking on a specific finding under **DISCOVERED ISSUES**, you will reach the issue page.
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Issue Details](#issue-details)
 - [Quick Navigation Between Issues](#quick-navigation-between-issues)
 - [Download Issue Script](#download-issue-script)
@@ -23,7 +23,7 @@ Here you will see general useful information about the issue:
 
 ![issue_details](media/issue-details-overview.png ':size=45%')
 
-#### Additional Information {docsify-ignore}
+#### Additional Information <!-- {docsify-ignore} -->
 Here you will see specific useful technical information about the issue:
 
 8. **Additional Information** - When relevant, more technical inforamtion about the specific issue, which includes: database emumeration info, targeted DOM elemnet info, etc.

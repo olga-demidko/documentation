@@ -3,7 +3,7 @@ To see details about a scan simply click on your desired scan in your dashboard.
 
 ![Scan Details 01](media/scan-details-01.png ':size=45%')
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Scan Summary](#scan-summary)
 - [Scan Progress](#scan-progress)
 - [Site Map](#site-map)

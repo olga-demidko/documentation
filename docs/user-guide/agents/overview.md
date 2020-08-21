@@ -1,7 +1,7 @@
 # Agents (Repeaters)
 NeuraLegion’s [Repeater](repeater/overview.md) is a local agent that provides a secure connection between NeuraLegion's cloud engine and a target on a local network.
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Overview](#overview)
 - [Adding a New Agent](#adding-a-new-agent)
 - [Editing Agent Details](#editing-agent-details)

@@ -1,7 +1,7 @@
 # SaaS Solution
 By using NeuraLegion’s **SaaS** offering, your organization will not need to worry about complicated deployments.
 
-### 🌎 Section Map {docsify-ignore}
+### 🌎 Section Map <!-- {docsify-ignore} -->
 - [Overview](#overview)
 - [How it Works](#how-it-works)
 - [Requirements](#requirements)
@@ -39,8 +39,8 @@ Currently, deployment is possible on AWS, but deployment to other cloud vendors 
 !> **If you are interested in other deployment options, please reach out to your sales contact.**
 
 ## FAQ
-#### No False Positives? How is that possible? {docsify-ignore}
+#### No False Positives? How is that possible? <!-- {docsify-ignore} -->
 It is quite simple, our solutions do not “just scan”, they **Interact** with the target application. Which means that every reported vulnerability is **validated in real time**. And if it cannot be validated, it will not be reported, saving you from unnecessary noise and many hours of manual results triage.
 
-#### Will NeuraLegion have access to my vulnerabilities that are found? {docsify-ignore}
+#### Will NeuraLegion have access to my vulnerabilities that are found? <!-- {docsify-ignore} -->
 Only if the owner of the organization will invite one of NeuraLegion’s engineers to the organization for support needs. A NeuraLegion representative will never be able to access your scan results without your permission.
