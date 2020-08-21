@@ -1,7 +1,7 @@
 # Starting A New Scan
 Here you will get all the information regarding how to start a new scan.
 
-### Quick Start {docsify-ignore}
+### 🌎 Section Map {docsify-ignore}
 - [Overview](#overview)
 - [Modules](#modules)
 - [Discovery Types](#discovery-types)

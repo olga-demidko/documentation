@@ -1,7 +1,7 @@
 # Scan Templates
 Scan Templates make the process of initiating a scan quicker, they allow you to use predefined scan settings when creating a new scan.
 
-### Quick Start {docsify-ignore}
+### 🌎 Section Map {docsify-ignore}
 - [Overview](#overview)
 - [Creating a New Template](#creating-a-new-template)
 - [Editing a Template](#editing-a-template)

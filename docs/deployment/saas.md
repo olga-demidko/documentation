@@ -1,7 +1,7 @@
 # SaaS Solution
 By using NeuraLegion’s **SaaS** offering, your organization will not need to worry about complicated deployments.
 
-### Quick Start {docsify-ignore}
+### 🌎 Section Map {docsify-ignore}
 - [Overview](#overview)
 - [How it Works](#how-it-works)
 - [Requirements](#requirements)

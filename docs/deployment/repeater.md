@@ -1,18 +1,11 @@
-# NeuraLegion's Repeater (On-prem Agent)
-![repeater_image](https://d36jcksde1wxzq.cloudfront.net/be7833db9bddb4494d2a7c3dd659199a.png ':size=10%')
-
-<!-- NeuraLegion’s **Repeater** is a local agent that provides a secure connection between NeuraLegion's cloud engine and a target on a local network. -->
-
-### Quick Start {docsify-ignore}
+# On-prem Agent (Repeater) Solution
+### 🌎 Section Map {docsify-ignore}
 - [Overview](#overview)
 - [How the Repeater Works](#how-the-repeater-works)
 - [Technical Requirements](#technical-requirements)
 - [Benefits](#benefits)
-- [Installation via Docker](#installation-via-docker)
+- [Installation](#installation)
 - [Usage Examples](#usage-examples)
-  - [Run a New Scan With NexPloit-CLI](#run-a-new-scan-with-nexploit-cli)
-  - [Re-Run an Existing Scan](#re-run-an-existing-scan)
-  - [Extra Headers](#extra-headers)
 - [FAQ](#faq)
 
 <hr style="height:2px;background-color:#d1d3d4">
@@ -33,7 +26,7 @@ Using NeuraLegion’s Repeater will enable you to securely scan targets sitting 
 This section explains the benefits and requirements of using a **Repeater** for scans.
 
 ## How the Repeater Works
-NeuraLegion’s **Repeater** is an [Open Source](https://hub.docker.com/r/neuralegion/repeater) component. It is a lightweight local agent that securely connects to NeuraLegion’s cloud engines and mediates the traffic from the cloud to any local target.
+NeuraLegion’s **Repeater** is an [Open Source](https://www.npmjs.com/package/@neuralegion/nexploit-cli) component. It is a lightweight local agent that securely connects to NeuraLegion’s cloud engines and mediates the traffic from the cloud to any local target.
 
 After starting a scan with a configured Repeater, the communication works as follows:
 1. The **Repeater** initiates a GET request to the cloud engine via AMQ server
@@ -60,142 +53,11 @@ After starting a scan with a configured Repeater, the communication works as fol
 - No exposure of internal IPs or authentication information to the cloud
 - Complete transparency of the Repeater code
 
-## Installation via Docker
-To install the **Repeater**, you must have [Docker Compose](https://docs.docker.com/compose/install/) installed.
+## Installation
+You can find full installation instructions in the [NexPloit CLI > Installation](/nexploit-cli/installation.md) section
 
-1. Pull the **Repeater Docker** using the command:
-```
-docker pull neuralegion/repeater
-```
-2. Create a new `API-KEY` with the scope `agents:write:repeater`
- - You can set up an [Organization level API Key](user-guide/organization-administration/details-and-policies.md#managing-organization-api-keys)
- - Or, a [User level API Key](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)
-
-3. Set up a [New Agent](user-guide/agents/overview.md) to create a new `AGENT-ID`
-
-4. Create a `docker-compose.yml` file with the following content:
-```yaml
-version: '3'
-services:
-  target.local:
-    image: path/image-name
-  repeater:
-    image: neuralegion/repeater:latest
-    restart: always
-    environment:
-      AGENT_KEY: API-KEY # from step 2
-      AGENT_ID: AGENT-ID # from step 3
-```
-
-5. Install the **Repeater Docker** by running the command
-```
-docker-compose up
-```
-
-!> **Note**: If did not add a valid `API-KEY` and `AGENT-ID` you will get the following error: `repeater_1 | Unhandled exception in spawn: 403 - ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (AMQP::Client::Connection::ClosedException)`
-
-6. Now, when [Starting a New Scan](user-guide/scans/new-scan), you can connect the Repeater under [Addition Settings](user-guide/scans/new-scan#additional-settings)
-
-
-More info on our **Docker Hub** page: https://hub.docker.com/r/neuralegion/repeater
-
-## Usage Examples
-### Run a New Scan With NexPloit-CLI
-The Docker version of the Repeater comes with a built-in [NexPloit-CLI](nexploit-cli/overview.md)
-```yaml
-version: '3'
-services:
-  target.local:
-    image: path/image-name
-    ports:
-      - "3000:3000"
-  repeater:
-    image: neuralegion/repeater:latest
-    restart: always
-    environment:
-      AGENT_KEY: API-KEY
-      AGENT_ID: AGENT-ID
-      WEBDRIVERS: '[{"host": "xssdriver", "port": 2828}, {"host": "crawldriver", "port": 2829}]'
-  nexploit:
-    depends_on: 
-    - repeater
-    - target.local
-    image: neuralegion/repeater:nexploit-cli
-    environment:
-      API_KEY: API-KEY
-      AGENT_ID: AGENT-ID
-    entrypoint:
-    - bash
-    - -c
-    - >
-      sleep 10;
-      HARID=$$(nexploit-cli archive:upload --discovery oas --api-key=$$API_KEY /opt/repeater/swagger.yaml);
-      echo Your HAR ID is $$HARID;
-      SCANID=$$(nexploit-cli scan:run --name='My Scan' --agent=$$AGENT_ID --archive $$HARID --tests header_security --api-key $$API_KEY);
-      echo Scan started $$SCAN_ID;
-      echo Poll for scan results;
-      RESULT=$$(nexploit-cli scan:polling --api-key $$API_KEY --failure-on=first-high-severity-issue \
-        --interval=10000 --timeout=5min $$SCAN_ID);
-      nexploit-cli scan:stop --api-key=$$API_KEY $$SCAN_ID;
-      exit $$RESULT;
-```
-
-### Re-Run an Existing Scan
-```yaml
-version: '3'
-services:
-  target.local:
-    image: path/image-name
-    ports:
-      - "3000:3000"
-  repeater:
-    image: neuralegion/repeater:latest
-    restart: always
-    environment:
-      AGENT_KEY: API-KEY
-      AGENT_ID: AGENT-ID
-  nexploit:
-    depends_on: 
-    - repeater
-    - target.local
-    image: neuralegion/repeater:nexploit-cli
-    environment:
-      API_KEY: API-KEY
-      SCAN_PROTOTYPE: 6WL3Gi74xzyc1Pvqz6qEdM # previous scan ID
-    entrypoint:
-    - bash
-    - -c
-    - >
-      sleep 10;
-      SCAN_ID=$$(nexploit-cli scan:retest --api-key=$$API_KEY $$SCAN_PROTOTYPE);
-      echo Scan started $$SCAN_ID;
-      echo Poll for scan results;
-      RESULT=$$(nexploit-cli scan:polling --api-key $$API_KEY --failure-on=first-high-severity-issue \
-        --interval=10000 --timeout=5min $$SCAN_ID);
-      nexploit-cli scan:stop --api-key=$$API_KEY $$SCAN_ID;
-      exit $$RESULT;
-```
-
-### Extra Headers
-The Repeater allows a user to overload extra headers onto the Repeater's requests **LOCALLY**, without the need to set them up in NexPloit's cloud engine. This is done by setting the `EXTRA_HEADERS` environment variable.
-
-For example:
-```yaml
-version: '3'
-services:
-  repeater:
-    image: neuralegion/repeater:latest
-    restart: always
-    environment:
-      AGENT_KEY: g5f1clg.lkfcjgnyyuzp34a1fnzmxn8lrxcjuwgu
-      AGENT_ID: cdf07782-bc6c-486a-b459-e182808faa33
-      EXTRA_HEADERS: {"my_header": "special token"}
-```
-
-Or as a command line configuration:
-```
-docker run neuralegion/repeater -e 'EXTRA_HEADERS={"my_header": "special token"}'
-```
+## Usage examples
+You can find usage examples in the [NexPloit CLI > Usage Examples](/nexploit-cli/usage-examples.md) section
 
 ## FAQ
 #### What is the maintenance / patching frequency? {docsify-ignore}

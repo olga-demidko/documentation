@@ -6,7 +6,7 @@
 
 ![cloud-architecture.png](media/cloud-architecture.svg ':size=45%')
 
-## Data Security FAQ
+## Data Security FAQ {docsify-ignore}
 #### What kind of information does NeuraLegion access DURING a scan? {docsify-ignore}
 During a scan, our solutions collect both application data and user data, which are used as part of the scan.
 - **Application Data** - Refers to anything related to the application structure and functionality, for example parameter names and object strucure. This infomation is used to determine the application's attack surface.

@@ -23,6 +23,7 @@
     - [SaaS](deployment/saas.md)
     - [On-Prem Agent (Repeater)](deployment/repeater.md)
     - [Private Cloud](deployment/private-cloud.md)
+    - [Data Security FAQ](deployment/overview.md#data-security-faq)
 
   - [**Integrations**](integrations/overview.md)
     - [**SSO**](integrations/overview.md#sso)
@@ -47,5 +48,11 @@
   
   - [**REST API**](api-guide/overview.md)
   
-  - [**NexPloit-CLI**](nexploit-cli/overview.md)
+  - [**NexPloit CLI**](nexploit-cli/overview.md)
+    - [🚀 Quick Start](nexploit-cli/quick-start.md)
+    - [🛠️ Installation](nexploit-cli/installation.md)
+    - [📃 Command List](nexploit-cli/commands.md)
+    - [⚙️ Configuration Files](nexploit-cli/configuration.md)
+    - [✔ Usage Examples](nexploit-cli/usage-examples.md)
+
   

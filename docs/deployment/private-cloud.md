@@ -1,9 +1,7 @@
 # Private Cloud Solution
 By using NeuraLegion’s **Private Cloud** offering, your organization will get a dedicated, isolated, NexPloit service environment.
 
-
-
-### Quick Start {docsify-ignore}
+### 🌎 Section Map {docsify-ignore}
 - [Overview](#overview)
 - [How it Works](#how-it-works)
 - [Benefits Over the Standard SaaS Offering](#benefits-over-the-standard-saas-offering)

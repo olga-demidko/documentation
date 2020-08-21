@@ -1,6 +1,6 @@
 # Organization Administration {docsify-ignore}
 
-### Quick Start {docsify-ignore}
+### 🌎 Section Map {docsify-ignore}
 - [Overview](#overview)
 - [Configure 2FA Policy](#configure-2fa-policy)
 - [Host Authorization](#host-authorization)

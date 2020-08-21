@@ -1,7 +1,7 @@
 # Discovered Issues (Results)
 After clicking on a specific finding under **DISCOVERED ISSUES**, you will reach the issue page.
 
-### Quick Start {docsify-ignore}
+### 🌎 Section Map {docsify-ignore}
 - [Issue Details](#issue-details)
 - [Quick Navigation Between Issues](#quick-navigation-between-issues)
 - [Download Issue Script](#download-issue-script)

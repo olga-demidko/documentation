@@ -1,5 +1,9 @@
 # Scan Details
+To see details about a scan simply click on your desired scan in your dashboard.
 
+![Scan Details 01](media/scan-details-01.png ':size=45%')
+
+### 🌎 Section Map {docsify-ignore}
 - [Scan Summary](#scan-summary)
 - [Scan Progress](#scan-progress)
 - [Site Map](#site-map)
@@ -9,12 +13,6 @@
 - [User Comments](#user-comments)
 
 <hr style="height:2px;background-color:#d1d3d4">
-
-## Overview
-To see details about a scan simply click on your desired scan in your dashboard.
-
-![Scan Details 01](media/scan-details-01.png ':size=45%')
-
 
 ## Scan Summary
 Now you'll be taken to the scan page. Here you can see information about the scan (is it done yet, number of vulnerabilities found, list of detected vulnerabilities, the response statuses the system was getting from your application and more).
