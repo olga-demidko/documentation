@@ -6,9 +6,10 @@
 - [Host Authorization](#host-authorization)
 - [See Organization Plan Details](#organization-plan-details)
 - [Manage Users](#user-management)
-  - [Add Users](#adding-new-user)
+  - [Adding new Users](#adding-new-users)
+  - [Removing Existing Users](#removing-existing-users)
 - [Manage Groups](#group-management)
-  - [Create New Groups](#creating-new-groups)
+  - [Creating New Groups](#creating-new-groups)
   - [Add / Remove a User From a Group](#adding-or-removing-a-user-from-a-group)
 - [Manage Organization API Keys](#managing-organization-api-keys)
 - [Manage Organization Integrations](integrations/overview.md)
@@ -52,7 +53,7 @@ In the Organization Plan Details panel you can see information about you plan, s
 ## User Management
 Here you can manage the users in your organization
 
-### Adding new Users
+### Adding New Users
 1. To add a new user to your organization simply click the ![Organization_Policies_01](media/new-user_button.png ':size=3%') button at the top of the page.
 
 ![Organization Policies 02](media/organization-administration-04.png ':size=45%')
@@ -67,7 +68,7 @@ Here you can manage the users in your organization
 
 ![Organization Policies 03](media/organization-administration-05.png ':size=45%')
 
-### Removing a user from the organization
+### Removing Existing Users
 
 To remove a user, click on their tab in the "MEMBERS" panel.
 
@@ -84,7 +85,7 @@ Finally, click on the ![ok_button](media/ok_button.png ':size=4%') button on the
 ## Group Management
 Here you can manage groups of users.
 
-### Creating new Groups
+### Creating New Groups
 To create a new group, simply click the ![new-group_button](media/new-group_button.png ':size=3%') button at the top of the page.
 
 ![Organization-Policies-04](media/organization-administration-06.png ':size=45%')
