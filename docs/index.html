@@ -14,8 +14,12 @@
   <link rel="icon" href="media/neuralegion-favicon.png">
 </head>
 
-<!-- <style>
+<style>
   :root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: #ef4036;
+    --docsifytabs-border-px: 1px;
+
     /* Reduce the font size */
     /* --base-font-size: 14px; */
 
@@ -23,13 +27,13 @@
     /* --theme-hue: 325; */
 
     /* Add sidebar navigation bullets */
-    --sidebar-nav-link-before-content: "x";
+    /* --sidebar-nav-link-before-content: "x"; */
     /* --sidebar-nav-link-before-content-l1: "😀";
     --sidebar-nav-link-before-content-l2: "💩"; */
-    --sidebar-padding: 0 25px;
+    /* --sidebar-padding: 0 25px; */
 
   }
-</style> -->
+</style>
 
 <body>
   <div id="app"></div>
@@ -73,6 +77,14 @@
         ),
       ],
 
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+
       pagination: {
         // previousText: '上一章节',
         // nextText: '下一章节',
@@ -109,6 +121,8 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
 
 
   <!-- 

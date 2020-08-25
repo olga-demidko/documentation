@@ -22,178 +22,102 @@ After entering the information, click the ![connect](media/connect_button.png ':
 
 Now jenkins is fully configured for use.
 
-## Use jenkins integration with NexPloit (CLI)
 
-After configuring "jenkins" on NexPloit our API is able to access Jenkins API. You can start a scan during build and if NexPloit discovers an issue it will stop the current build process.
+## Adding NexPloit to a Jenkins Pipeline
 
-1. Create a new API key for your user ([instructions](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)), and enable required scopes (`files:read`, `files:write`, `scans:run`, `scans:read`).
+Here is a collection of steps, that creates a typical Jenkins flow. You can get an idea of how to use the NexPloit API and repeater.
 
-2. Configure a build as you usually would in Jenkins.
+### Prerequisites
 
-3. Select discovery type.
+You will first need to install the following on **your Jenkins machine**:
+- [docker](https://docs.docker.com/engine/install/ubuntu/)
+- [docker-compose](https://docs.docker.com/compose/install/)
+- [npm](https://www.npmjs.com/)
+- [NexPloit CLI package](/nexploit-cli/overview.md)
 
-  a. (If you are using a file) Upload your file.
-    - To upload a pre-recorded HAR file use this curl command:
-    ```bash
-    $ curl -X POST "https://nexploit.app/api/v1/files?discard=true"     \
-      -H "Content-Type: multipart/form-data"                          \
-      -H "Authorization: Api-Key yufn0f6.yourapikeykuj069zopv0b1i"    \
-      -F "har=@/path/to/the/file.har"
-    ```
-    The result of this request has the following structure:
-    ```json
-    {
-        "ids": [ "6xkFraa5ecfmHhxTEnabZg" ]
-    }
-    ```
-    - To upload an open-api specification use this curl command:
-    ```bash
-    $ curl -X POST "https://nexploit.app/api/v1/specs?discard=true"     \
-      -H "Content-Type: multipart/form-data"                          \
-      -H "Authorization: Api-Key yufn0f6.yourapikeykuj069zopv0b1i"    \
-      -F "file=@/path/to/the/oas.json"
-      -F "spec=OpenAPI" 
-    ```
-    
-    - To use a url instead of file to scan an API use this curl command:  
-    ```bash
-    $ curl -X POST "https://nexploit.app/api/v1/specs?discard=true"     \
-      -H "Content-Type: multipart/form-data"                          \
-      -H "Authorization: Api-Key yufn0f6.yourapikeykuj069zopv0b1i"    \
-      -F "url=https://site.swagger.io/v2/swagger.json"
-      -F "spec=OpenAPI"
-    ```
-    The result of this request has the following structure:
-    ```json
-    {
-      "id": "upcNrqjhujPfMysTzaNrMW"
-    }
-    ```
-  Where `discard` - indicates the life circle of this archive. If you would like to use NexPloit within CI/CD flow, we recommend to set the `discard` option to `true` to remove the archive after running the scan.
+And you will need to set up the following on **www.nexploit.app**:
+- A valid `API_KEY`
+  - For this example these scopes are required: `agents:write:repeater`, `scans:run` and `scans:read`
+  - More info about [setting up an API key](../user-guide/organization-administration/details-and-policies#managing-organization-api-keys)
+- An active `REPEATER_ID`
+  - More info about [Setting up a New Repeater](user-guide/agents/overview.md)
 
-  b. (If you want to use a crawler) To use a crawler instead of a HAR file, the crawler options are set as part of the scan creation process so there is no need to do anything before.
-  The urls for the crawler are defined under the `crawlerUrls` property and they are an array of absolute urls.
+### Step-by-step Guide
+Every step should be a separate `Execute Shell` script, for example:
 
-  Note that you can only run a scan in combination of `archive + crawler` or `oas standalone`. To specify the discovery type use the proper values for `discoveryTypes` in the `create scan` request body.
+![Run Docker](/media/pipeline-example-step-1.png ':size=30%')
 
-  example:
-  ```json
-  {
-      ...
-       "discoveryTypes": [
-          "archive",
-          "crawler"
-      ],
-      ...
-  }
-  ```
+Add the following `.sh` scripts to your Jenkins flow:
 
-  or 
+<!-- tabs:start -->
 
-  ```json
-  {
-      ...
-      "discoveryTypes": [
-          "oas"
-      ],
-      ...
-  }
-  ```
+### **STEP 1 - Run Docker**
 
-4. Add a step to run the scan with `sh: Shell Script` stage.
+```bash
+echo "Run docker image with target service and nexploit repeater image";
 
-  ```bash
-  $ curl --request POST \
-      --url http://localhost:8000/api/v1/scans \
-      --header 'accept: application/json, text/plain, */*' \
-      --header "authorization: Api-Key yufn0f6.yourapikeykuj069zopv0b1i"    \
-      --header 'content-type: application/json' \
-      --data '{
-          "name": "App scan",
-          "discoveryTypes": [
-              "archive",
-              "crawler"
-          ],
-          "module": "core",
-          "crawlerUrls": [
-              "https://vulnerable-bank.com"
-          ],
-          "poolSize": 10,
-          "fileId": "6xkFraa5ecfmHhxTEnabZg",
-          "hostsFilter": [
-              "vulnerable-bank.com"
-          ],
-          "schedule": null,
-          "tests": [
-              "angular_csti",
-              "backup_locations",
-              "jwt"
-          ],
-          "build": {
-              "service": "jenkins",
-              "project": "myapp",
-              "buildNumber": 1
-          }
-      }'
-  ```
+echo "
+version: '3'
+services:
+  juiceshop.local:
+    image: bkimminich/juice-shop
+  repeater:
+    image: neuralegion/repeater:latest
+    restart: always
+    environment:
+      REPEATER_TOKEN: $API_KEY
+      REPEATER_AGENT: $REPEATER_ID
+      DEBUG: nexploit-cli" > docker-compose.yml;
 
-  The result of this request has the following structure:
-
-  ```json
-  {
-      "id": "6xkFraa5ecfmHhxTEnawZa" 
-  }
-  ```
-
-5. Finish build configuration and run build.
-
-### Additional Notes
-In case the build processes faster than the scan you can use the jenkins wait for stage option, on which you can read more on this [link](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY).
-
-Alternatively you can add a script to check for the scan status by calling 
-
-```bash  
-$ curl --request GET \
-  --url https://nexploit.app/api/v1/scans/6xkFraa5ecfmHhxTEnawZa \
-  --header 'authorization: Api-Key yufn0f6.yourapikeykuj069zopv0b1i'
+docker-compose up -d;
 ```
 
-The result of this request has the following structure:
+### **STEP 2 - Wait for Setup**
 
-```json
-{
-    "id": "5e74d7f9-e56a-40e5-a668-ba008de1a5cb",
-	"nodeId": "cEvifiF6eNwoE281NhSNRH",
-	"name": "App scan",
-	"module": "core",
-	"entryPoints": 0,
-	"totalParams": 0,
-	"startedBy": {
-        ...
-	},
-	"organization": {
-		...
-	},
-	"status": "pending", // done
-	"elapsed": 0,
-	"discoveryTypes": [
-		"archive",
-		"crawler"
-	],
-	"issuesLength": 0,
-	"targets": [
-		"vulnerable-bank.com"
-	],
-	"requests": 0,
-	"parentId": null,
-    "checks": {
-        ...
-    },
-    "issuesBySeverity": [],
-	"startTime": null,
-	"requestStatuses": null,
-	"techStack": []
-}
+```bash
+echo "Waiting 10s for setup"
+
+sleep 10s;
 ```
 
-This endpoint will return scan information with property `status`. The script can put the build on hold until NexPloit returns status `done`. To get the id of the scan use the return value of the create scan call.
+### **STEP 3 - Run a Scan (Re-Test)**
+
+```bash
+echo "Retest a scan"
+
+# Retest scan with id gYJFr5vb6e6GkbJ4tinBms
+SCAN_ID=$(nexploit-cli scan:retest --api-key=$API_KEY gYJFr5vb6e6GkbJ4tinBms);
+echo "Scan started $SCAN_ID";
+
+# Store a scan id
+echo $SCAN_ID > env_scan_id.txt
+```
+
+### **STEP 4 - Poll Results**
+
+```bash
+echo "Poll for scan results";
+
+# Pull Scan id from a file
+SCAN_ID=`cat env_scan_id.txt`
+
+# Poll the scan until it returns something, or its time runs out
+RESULT=$(nexploit-cli scan:polling --api-key=$API_KEY --failure-on=first-issue --interval=10000 $SCAN_ID);
+
+# After that - stop the scan
+nexploit-cli scan:stop --api-key=$API_KEY $SCAN_ID;
+
+# And put down the docker-compose
+docker-compose down;
+
+# Exit step with a code from nexploit-cli
+exit $RESULT;
+```
+
+<!-- tabs:end -->
+
+And that's it! Your Jenkins flow with NexPloit is configured!
+
+!> See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow.
+
+!> In case the build processes is faster than the scan you can use the jenkins wait for stage option, on which you can read more [here](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY).
