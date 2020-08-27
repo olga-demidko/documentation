@@ -9,9 +9,9 @@ If you are using Jenkins for automation in your development, this section will s
 ## Adding NexPloit to a Jenkins Pipeline
 
 There are many different methodologies for building a Jenkins pipeline, here are a few examples of different approaches:
-- [Using Only our REST API](#using-only-our-rest-api)
-- [Using NexPloit CLI](#using-nexploit-cli)
-- [Using NexPloit CLI with a Repeater](#using-nexploit-cli-with-a-repeater)
+- [Example: Using Only our REST API](#using-only-our-rest-api)
+- [Example: Using NexPloit CLI](#using-nexploit-cli)
+- [Example: Using NexPloit CLI with a Repeater](#using-nexploit-cli-with-a-repeater)
 
 <hr style="height:2px;background-color:#d1d3d4">
 
@@ -23,12 +23,11 @@ Using this approach, you do not need to install anything on your Jenkins machine
   <tr>
     <td style="width:50%" valign="top">
       <li> No need to install anything </li>
+      <li> Raw APIs are, the customizable option </li>
     </td>
     <td style="width:50%" valign="top">
-      <li> Need to write the <b>curl</b> commands manually </li>
+      <li> Need to write the <b>API calls</b> manually </li>
       <li> The target of the scan must be accessible from our static IP </li>
-      <li> Less control over the build (for example scan time) </li>
-      </p>
     </td>
   <tr>
 </table>
@@ -96,14 +95,12 @@ Using this approach, you will need to install [NexPloit CLI](/nexploit-cli/overv
   <th>Cons</th>
   <tr>
     <td style="width:50%" valign="top">
-      <li> Better control over scans (for example scan time) </li>
-      <li> Better interface for commands </li>
-      <li> Additional capabilities with the CLI (mock HAR generation, Repeater, etc.) </li>
+      <li> Better interface for commands, including pre-configured flows for CI/CD and usage automation </li>
+      <li> Additional built-in capabilities such as: mock HAR generation, Repeater, etc. </li>
     </td>
     <td style="width:50%" valign="top">
       <li> Requires installation </li>
       <li> The target of the scan must be accessible from our static IP </li>
-      </p>
     </td>
   <tr>
 </table>
@@ -169,14 +166,12 @@ Using this approach, you will need to install [NexPloit CLI](/nexploit-cli/overv
   <th>Cons</th>
   <tr>
     <td style="width:50%" valign="top">
-      <li> Better control over scans (for example scan time) </li>
-      <li> Better interface for commands </li>
-      <li> Additional capabilities with the CLI (mock HAR generation, Repeater, etc.) </li>
+      <li> Better interface for commands, including pre-configured flows for CI/CD and usage automation </li>
+      <li> Additional built-in capabilities such as: mock HAR generation, Repeater, etc. </li>
       <li> Can scan local targets </li>
     </td>
     <td style="width:50%" valign="top">
       <li> Requires installation </li>
-      </p>
     </td>
   <tr>
 </table>
