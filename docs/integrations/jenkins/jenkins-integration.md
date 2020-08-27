@@ -23,7 +23,7 @@ Using this approach, you do not need to install anything on your Jenkins machine
   <tr>
     <td style="width:50%" valign="top">
       <li> No need to install anything </li>
-      <li> Raw APIs are, the customizable option </li>
+      <li> Raw APIs are the most customizable option </li>
     </td>
     <td style="width:50%" valign="top">
       <li> Need to write the <b>API calls</b> manually </li>
