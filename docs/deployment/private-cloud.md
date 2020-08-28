@@ -20,7 +20,7 @@ All the relevant components that may include sensitive information, such as Data
 
 Currently the **Private Cloud** offer is deployed on **AWS**, but deployment to other cloud vendors can be added as needed.
 
-![cloud-architecture](media/cloud-architecture.svg ':size=45%')
+![cloud-architecture](media/cloud-architecture.png ':size=45%')
 
 
 ## Benefits Over the Standard SaaS Offering

@@ -36,7 +36,7 @@ After starting a scan with a configured Repeater, the communication works as fol
 5. The **Repeater** sends the response to the engine
 6. Back to 1, until the scan is finished
 
-![repeater-architecture](media/repeater-architecture.svg ':size=45%')
+![repeater-architecture](media/repeater-architecture.png ':size=45%')
 
 
 ## Technical Requirements

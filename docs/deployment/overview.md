@@ -4,7 +4,7 @@
 - [On-prem agent (AKA Repeater)](deployment/repeater.md)
 - [Private cloud offering](deployment/private-cloud.md)
 
-![cloud-architecture.png](media/cloud-architecture.svg ':size=45%')
+![cloud-architecture](media/cloud-architecture.png ':size=45%')
 
 ## Data Security FAQ <!-- {docsify-ignore} -->
 #### What kind of information does NeuraLegion access DURING a scan? <!-- {docsify-ignore} -->

@@ -20,7 +20,7 @@ By using our **SaaS** deployment option, you will not need to install anything l
 
 Simply log in to our platform, point at the target application you would like to scan, and that’s it. Our state of the art AIAST® powered engines will start scanning the target for vulnerabilities. You will receive immediate reports on found issues, with no False-Positives!
 
-![standard-saas-architecture](media/standard-saas-architecture.svg ':size=45%')
+![standard-saas-architecture](media/standard-saas-architecture.png ':size=45%')
 
 ## Requirements
 In order to start scanning, please make sure that the following applies:
