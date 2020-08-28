@@ -32,12 +32,11 @@ Using this approach, you do not need to install anything on your Jenkins machine
   <tr>
 </table>
 
-#### Prerequisites
-
-- A valid `API_KEY`
-  - For the example below you will need the following scopes: `scans:run`, `scans:read` and `scans:stop`
-  - More info about [setting up an API key](../user-guide/organization-administration/details-and-policies#managing-organization-api-keys)
-- The target of the scan is accessible from the internet
+> [!NOTE|label:Prerequisites]
+> - The target of the scan is accessible from the internet
+> - A valid `AUTH_TOKEN` with the scope: `scans:run`, `scans:read`, `scans:stop`
+>   - You can set up an [Organization level Authentication Token](user-guide/organization-administration/details-and-policies.md#managing-organization-api-keys)
+>   - Or, a [User level Authentication Token](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)
 
 #### Step-by-step Guide
 Every step should be a separate `Execute Shell` script, for example:
@@ -51,21 +50,21 @@ Add the following `.sh` scripts to your Jenkins flow:
 ##### **STEP 1 - Run a Scan (Re-Test)**
 
 ```bash
-# Retest a scan with ID `SCAN_ID` and API key `API_KEY`
-SCAN_ID=$(curl -X POST https://nexploit.app/api/v1/scans/$SCAN_ID/retest -H "Authorization: Api-Key $API_KEY" | jq -r '.id')
+# Retest a scan with ID `SCAN_ID` and API key `AUTH_TOKEN`
+SCAN_ID=$(curl -X POST https://nexploit.app/api/v1/scans/$SCAN_ID/retest -H "Authorization: Api-Key $AUTH_TOKEN" | jq -r '.id')
 ```
 
 ##### **STEP 2 - Wait For Issues**
 
 ```bash
 # Check if there are any found issues
-until [ $(curl https://nexploit.app/api/v1/scans/$SCAN_ID -H "Authorization: Api-Key $API_KEY" | jq '.issuesBySeverity | length') -gt 0 ]
+until [ $(curl https://nexploit.app/api/v1/scans/$SCAN_ID -H "Authorization: Api-Key $AUTH_TOKEN" | jq '.issuesBySeverity | length') -gt 0 ]
 do
     sleep 10s;
 done
 
 echo "Found issues: "
-curl https://nexploit.app/api/v1/scans/$SCAN_ID -H "Authorization: Api-Key $API_KEY" | jq '.issuesBySeverity'
+curl https://nexploit.app/api/v1/scans/$SCAN_ID -H "Authorization: Api-Key $AUTH_TOKEN" | jq '.issuesBySeverity'
 
 echo "Detailed scan status at: https://nexploit.app/scans/$SCAN_ID"
 ```
@@ -74,16 +73,16 @@ echo "Detailed scan status at: https://nexploit.app/scans/$SCAN_ID"
 
 ```bash
 # Stop the scan
-curl https://nexploit.app/api/v1/scans/$SCAN_ID/stop -H "Authorization: Api-Key $API_KEY"
+curl https://nexploit.app/api/v1/scans/$SCAN_ID/stop -H "Authorization: Api-Key $AUTH_TOKEN"
 ```
 
 <!-- tabs:end -->
 
 And that's it! Your Jenkins flow with NexPloit is configured!
 
-!> See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow.
-
-!> In case the build processes is faster than the scan you can use the jenkins wait for stage option, on which you can read more [here](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY).
+> [!TIP]
+> - See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow
+> - If the build processes is faster than the scan you can use the Jenkins [wait for stage](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY) option
 
 <hr style="height:2px;background-color:#d1d3d4">
 
@@ -107,11 +106,12 @@ Using this approach, you will need to install [NexPloit CLI](/nexploit-cli/overv
 
 #### Prerequisites
 
-- Installed [NexPloit CLI package](/nexploit-cli/overview.md) on **your Jenkins machine**
-- A valid `API_KEY`
-  - For the example below you will need the following scopes: `scans:run`, `scans:read` and `scans:stop`
-  - More info about [setting up an API key](../user-guide/organization-administration/details-and-policies#managing-organization-api-keys)
-- The target of the scan is accessible from the internet
+> [!NOTE|label:Prerequisites]
+> - The target of the scan is accessible from the internet
+> - Installed [NexPloit CLI package](/nexploit-cli/overview.md) on **your Jenkins machine**
+> - A valid `AUTH_TOKEN` with the scope: `scans:run`, `scans:read`, `scans:stop`
+>   - You can set up an [Organization level Authentication Token](user-guide/organization-administration/details-and-policies.md#managing-organization-api-keys)
+>   - Or, a [User level Authentication Token](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)
 
 #### Step-by-step Guide
 Every step should be a separate `Execute Shell` script, for example:
@@ -127,8 +127,8 @@ Add the following `.sh` scripts to your Jenkins flow:
 ```bash
 echo "Retest a scan"
 
-# Retest a scan with ID `OLD_SCAN_ID` and API key `API_KEY`
-NEW_SCAN_ID=$(nexploit-cli scan:retest --token=$API_KEY $OLD_SCAN_ID;
+# Retest a scan with ID `OLD_SCAN_ID` and API key `AUTH_TOKEN`
+NEW_SCAN_ID=$(nexploit-cli scan:retest --token=$AUTH_TOKEN $OLD_SCAN_ID;
 echo "Scan started $NEW_SCAN_ID";
 ```
 
@@ -138,10 +138,10 @@ echo "Scan started $NEW_SCAN_ID";
 echo "Poll for scan results";
 
 # Poll the scan until it returns something, or its time runs out
-RESULT=$(nexploit-cli scan:polling --token=$API_KEY --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
+RESULT=$(nexploit-cli scan:polling --token=$AUTH_TOKEN --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
 
 # After that - stop the scan
-nexploit-cli scan:stop --token=$API_KEY $NEW_SCAN_ID;
+nexploit-cli scan:stop --token=$AUTH_TOKEN $NEW_SCAN_ID;
 
 # Exit step with a code from nexploit-cli
 exit $RESULT;
@@ -151,9 +151,9 @@ exit $RESULT;
 
 And that's it! Your Jenkins flow with NexPloit is configured!
 
-!> See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow.
-
-!> In case the build processes is faster than the scan you can use the jenkins wait for stage option, on which you can read more [here](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY).
+> [!TIP]
+> - See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow
+> - If the build processes is faster than the scan you can use the Jenkins [wait for stage](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY) option
 
 <hr style="height:2px;background-color:#d1d3d4">
 
@@ -176,14 +176,13 @@ Using this approach, you will need to install [NexPloit CLI](/nexploit-cli/overv
   <tr>
 </table>
 
-#### Prerequisites
-
-- Installed [NexPloit CLI package](/nexploit-cli/overview.md) on **your Jenkins machine**
-- A valid `API_KEY`
-  - For the example below you will need the following scopes: `agents:write:repeater`, `scans:run`, `scans:read` and `scans:stop`
-  - More info about [setting up an API key](../user-guide/organization-administration/details-and-policies#managing-organization-api-keys)
-- An active `REPEATER_ID`
-  - More info about [Setting up a New Repeater](user-guide/agents/overview.md)
+> [!NOTE|label:Prerequisites]
+> - The target of the scan is accessible from the internet
+> - A valid `AUTH_TOKEN` with the scope: `agents:write:repeater`, `scans:run`, `scans:read`, `scans:stop`
+>   - You can set up an [Organization level Authentication Token](user-guide/organization-administration/details-and-policies.md#managing-organization-api-keys)
+>   - Or, a [User level Authentication Token](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)
+> - An active `REPEATER_ID`
+>  - More info about [Setting up a New Repeater](user-guide/agents/overview.md)
 
 #### Step-by-step Guide
 Every step should be a separate `Execute Shell` script, for example:
@@ -198,7 +197,7 @@ Add the following `.sh` scripts to your Jenkins flow:
 
 ```bash
 # Run the repeater
-PID_REPEATER=$(nexploit-cli repeater --token=plhzeup.nexp.0lhtc7ib5pogcibaqprz6gz994sltelu --agent=b5b03145-1f30-4002-bab1-8f1b58df4bf9 &> /dev/null & echo $!)
+PID_REPEATER=$(nexploit-cli repeater --token=$AUTH_TOKEN --agent=$REPEATER_ID &> /dev/null & echo $!)
 echo "Repeater PID: $PID_REPEATER"
 ```
 
@@ -207,8 +206,8 @@ echo "Repeater PID: $PID_REPEATER"
 ```bash
 echo "Retest a scan"
 
-# Retest a scan with ID `OLD_SCAN_ID` and API key `API_KEY`
-NEW_SCAN_ID=$(nexploit-cli scan:retest --token=$API_KEY $OLD_SCAN_ID;
+# Retest a scan with ID `OLD_SCAN_ID` and API key `AUTH_TOKEN`
+NEW_SCAN_ID=$(nexploit-cli scan:retest --token=$AUTH_TOKEN $OLD_SCAN_ID;
 echo "Scan started $NEW_SCAN_ID";
 ```
 
@@ -218,10 +217,10 @@ echo "Scan started $NEW_SCAN_ID";
 echo "Poll for scan results";
 
 # Poll the scan until it returns something, or its time runs out
-RESULT=$(nexploit-cli scan:polling --token=$API_KEY --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
+RESULT=$(nexploit-cli scan:polling --token=$AUTH_TOKEN --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
 
 # After that - stop the scan
-nexploit-cli scan:stop --token=$API_KEY $NEW_SCAN_ID;
+nexploit-cli scan:stop --token=$AUTH_TOKEN $NEW_SCAN_ID;
 
 # Kill repeater process
 kill -9 $PID_REPEATER
@@ -233,6 +232,6 @@ exit $RESULT;
 
 And that's it! Your Jenkins flow with NexPloit is configured!
 
-!> See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow.
-
-!> In case the build processes is faster than the scan you can use the jenkins wait for stage option, on which you can read more [here](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY).
+> [!TIP]
+> - See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow
+> - If the build processes is faster than the scan you can use the Jenkins [wait for stage](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY) option
