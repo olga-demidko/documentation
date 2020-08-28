@@ -37,8 +37,8 @@
   - [**NexPloit CLI**](nexploit-cli/overview.md)
     - [🚀 Quick Start](nexploit-cli/quick-start.md)
     - [🛠️ Installation](nexploit-cli/installation.md)
+    - [✔ Usage Examples](nexploit-cli/usage-examples.md)
     - [📃 Command List](nexploit-cli/commands.md)
     - [⚙️ Configuration Files](nexploit-cli/configuration.md)
-    - [✔ Usage Examples](nexploit-cli/usage-examples.md)
 
   

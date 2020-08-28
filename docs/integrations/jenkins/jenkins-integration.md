@@ -128,7 +128,7 @@ Add the following `.sh` scripts to your Jenkins flow:
 echo "Retest a scan"
 
 # Retest a scan with ID `OLD_SCAN_ID` and API key `API_KEY`
-NEW_SCAN_ID=$(nexploit-cli scan:retest --api-key=$API_KEY $OLD_SCAN_ID;
+NEW_SCAN_ID=$(nexploit-cli scan:retest --token=$API_KEY $OLD_SCAN_ID;
 echo "Scan started $NEW_SCAN_ID";
 ```
 
@@ -138,10 +138,10 @@ echo "Scan started $NEW_SCAN_ID";
 echo "Poll for scan results";
 
 # Poll the scan until it returns something, or its time runs out
-RESULT=$(nexploit-cli scan:polling --api-key=$API_KEY --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
+RESULT=$(nexploit-cli scan:polling --token=$API_KEY --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
 
 # After that - stop the scan
-nexploit-cli scan:stop --api-key=$API_KEY $NEW_SCAN_ID;
+nexploit-cli scan:stop --token=$API_KEY $NEW_SCAN_ID;
 
 # Exit step with a code from nexploit-cli
 exit $RESULT;
@@ -208,7 +208,7 @@ echo "Repeater PID: $PID_REPEATER"
 echo "Retest a scan"
 
 # Retest a scan with ID `OLD_SCAN_ID` and API key `API_KEY`
-NEW_SCAN_ID=$(nexploit-cli scan:retest --api-key=$API_KEY $OLD_SCAN_ID;
+NEW_SCAN_ID=$(nexploit-cli scan:retest --token=$API_KEY $OLD_SCAN_ID;
 echo "Scan started $NEW_SCAN_ID";
 ```
 
@@ -218,10 +218,10 @@ echo "Scan started $NEW_SCAN_ID";
 echo "Poll for scan results";
 
 # Poll the scan until it returns something, or its time runs out
-RESULT=$(nexploit-cli scan:polling --api-key=$API_KEY --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
+RESULT=$(nexploit-cli scan:polling --token=$API_KEY --failure-on=first-issue --interval=10000 $NEW_SCAN_ID);
 
 # After that - stop the scan
-nexploit-cli scan:stop --api-key=$API_KEY $NEW_SCAN_ID;
+nexploit-cli scan:stop --token=$API_KEY $NEW_SCAN_ID;
 
 # Kill repeater process
 kill -9 $PID_REPEATER
