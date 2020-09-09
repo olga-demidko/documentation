@@ -74,15 +74,3 @@ curl 'https://nexploit.app/api/v1/scans' \
 }'
 ```
 ?> More info can be found here: https://nexploit.app/api/v1/docs/#/Scans/ScanController.createScan
-
-### Using The CLI Tool
-When starting a scan using our CLI tool **nexploit-cli**, you can select a **Jira Repository** to add the finding to automatically as they are discovered. Just add the Jira repository details with the **--tracking-space** parameter, for example:
-```bash
-nexploit-cli scan:run \
-  --name scan-name \
-  --archive received-archive-id \
-  --api-key my-jwt-authentication-token \
-  --tracking-space https://neuralegion-demo.atlassian.net/jira/software/projects/NEX/boards/1 
-```
-
-?> More info can be found here:  https://www.npmjs.com/package/@neuralegion/nexploit-cli
