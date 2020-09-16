@@ -60,10 +60,10 @@ Here you can manage the users in your organization
 
 2. You can update user information and role in the organization. Once done, just click the ![Invite_button](media/invite_button.png ':size=5%') button. Possible user roles are:
 
-- **Owner** - has unrestricted access to the whole organization.
-- **Admin** - Can add, modify and delete groups and members, can make billing and plan changes.
+- **Owner** - Has unrestricted access to the whole organization
+- **Admin** - Can add, modify and delete groups and members, can make billing and plan changes
 - **User** - Can be given access to scans
-- **Team Leader** - Can manage memberships and modify settings of groups the belong to.
+- **Team Leader** - Can manage group memberships and modify the group settings.
 - **Billing Manager** - Can manage subscription and billing settings.
 
 ![Organization Policies 03](media/organization-administration-05.png ':size=45%')
