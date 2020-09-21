@@ -197,7 +197,7 @@ Add the following `.sh` scripts to your Jenkins flow:
 
 ```bash
 # Run the repeater
-PID_REPEATER=$(nexploit-cli repeater --token=$AUTH_TOKEN --agent=$REPEATER_ID &> /dev/null & echo $!)
+PID_REPEATER=$(nexploit-cli repeater --token=$AUTH_TOKEN --repeater=$REPEATER_ID &> /dev/null & echo $!)
 echo "Repeater PID: $PID_REPEATER"
 ```
 
