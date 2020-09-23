@@ -11,12 +11,12 @@ NeuraLegion’s [Repeater](repeater/overview.md) is a local agent that provides 
 <hr style="height:2px;background-color:#d1d3d4">
 
 ## Overview
-To get to the agents management page, click on the "Agents" tab on the left side of your dashboard.
+To get to the repeaters management page, click on the "Repeaters" tab on the left side of your dashboard.
 
 ![agents-tab](media/dashboard-agents.png ':size=45%')
 
 ## Adding a New Agent
-To add a new agent, click on the ![plus](media/plus_button-2.png ':size=2%') button on the top left.
+To add a new repeater, click on the ![plus](media/plus_button-2.png ':size=2%') button on the top left.
 
 ![add-agent](media/add-agent.png ':size=45%')
 
@@ -24,7 +24,7 @@ Give your agent a name and a description. Once done, click the ![add](media/add_
 
 ![agent-info](media/agent-info.png ':size=45%')
 
-Your new agent will be now listed in the "Agents" page.
+Your new agent will be now listed in the "Repeaters" page.
 
 ![agent](media/agent.png ':size=45%')
 

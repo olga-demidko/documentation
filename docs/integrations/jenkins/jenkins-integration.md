@@ -178,7 +178,7 @@ Using this approach, you will need to install [NexPloit CLI](/nexploit-cli/overv
 
 > [!NOTE|label:Prerequisites]
 > - The target of the scan is accessible from the internet
-> - A valid `AUTH_TOKEN` with the scope: `agents:write:repeater`, `scans:run`, `scans:read`, `scans:stop`
+> - A valid `AUTH_TOKEN` with the scope: `repeaters:write`, `scans:run`, `scans:read`, `scans:stop`
 >   - You can set up an [Organization level Authentication Token](user-guide/organization-administration/details-and-policies.md#managing-organization-api-keys)
 >   - Or, a [User level Authentication Token](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)
 > - An active `REPEATER_ID`
