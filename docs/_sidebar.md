@@ -40,5 +40,7 @@
     - [✔ Usage Examples](nexploit-cli/usage-examples.md)
     - [📃 Command List](nexploit-cli/commands.md)
     - [⚙️ Configuration Files](nexploit-cli/configuration.md)
+  - [**Vulnerability Knowledge Base**](vuln-kb/overview.md)
+    - [**DOM XSS**](vuln-kb/dom-xss.md)
 
   
