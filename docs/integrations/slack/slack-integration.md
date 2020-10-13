@@ -1,11 +1,21 @@
 # Slack Integration
+<!-- ![slack_logo](media/slack-logo.png ':size=40%') -->
 
-![slack_logo](media/slack-logo.png ':size=40%')
+<a href="https://neuralegion.slack.com/apps/APTQSHNES-nexploit" target="_blank">
+  <img src="integrations/slack/media/slack-logo.png" alt="slack_logo" width="30%" >
+</a>
 
-## About
 To enable full automation into your CI/CD pipeline, you can configure our solutions to automatically send messages about found issues to your selected Slack channel.
 
 View [NexPloit on Slack App Directory](https://neuralegion.slack.com/apps/APTQSHNES-nexploit).
+
+### 🌎 Section Map <!-- {docsify-ignore} -->
+- [Connecting NexPloit to your Slack](#connecting-nexploit-to-your-slack)
+- [Choose when to receive slack messages from NexPloit](#choose-when-to-receive-slack-messages-from-nexploit)
+- [Privacy Policy](#privacy-policy)
+
+
+<hr style="height:2px;background-color:#d1d3d4">
 
 ## Connecting NexPloit to your Slack
 
@@ -56,3 +66,7 @@ View [NexPloit on Slack App Directory](https://neuralegion.slack.com/apps/APTQSH
 4. Tick the checkboxes next to the severity of the issues you'd like to receive messages about. Once done, click the ![save](media/save_button.png ':size=4%') button.
 
 ![slack-messaging-settings](media/slack-messaging-settings.png ':size=45%')
+
+## Privacy Policy
+
+By using our Slack integration, you acknowledge that you have read and accepted our [Privacy Policy](misc/privacy-policy.md).
