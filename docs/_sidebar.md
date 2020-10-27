@@ -1,6 +1,6 @@
 - Quick Navigation
   - [**Home**](/ "Documentation Home")
-  - [**INTRODUCING NEXPLOIT**](guide/introduction/intro.md)
+  - [**Introducing NexPloit**](guide/introduction/intro.md)
     - [What is NexPloit?](guide/introduction/what-is-nexploit.md)
     - [Integrating Nexploit](guide/introduction/integrating-nexploit.md)
     - [Deployment Options](guide/introduction/deployment-options.md)
