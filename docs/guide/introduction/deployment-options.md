@@ -22,7 +22,8 @@ Before scanning, ensure that –
 * The target application can be accessed from the Internet.
 * NeuraLegion’s static IP (see below) is whitelisted by your WAF/firewall (recommended in order to avoid auto-blacklisting of NeuraLegion’s solutions).
 
-!> **Important:** NeuraLegion has two public static IPs:\
+> [!WARNING|label:Important]
+NeuraLegion has two public static IPs:\
 &nbsp;&nbsp;&nbsp;&nbsp;**U.S. –** 34.228.94.55\
 &nbsp;&nbsp;&nbsp;&nbsp;**Europe –** 52.215.195.32
 
@@ -47,9 +48,11 @@ A Repeater is intended for –
 * Organizations that cannot open a port in the firewall for inbound traffic. The Repeater enables scans to run from either NeuraLegion’s SaaS or private cloud offerings.
 * Users who must run a local scan on their machine without deploying the target application.
 
-!> **Important:** In order to function properly, the Repeater must have an outbound connection to **amq.nexploit.app** via the AMQ protocol (over TLS) using port 5672.
+> [!WARNING|label:Important]
+In order to function properly, the Repeater must have an outbound connection to **amq.nexploit.app** via the AMQ protocol (over TLS) using port 5672.
 
-!> **Important:** A Repeater is not required if you are able to whitelist a specific IP and port in your firewall.
+> [!WARNING|label:Important]
+A Repeater is not required if you are able to whitelist a specific IP and port in your firewall.
 
 ### How Does an On-Premises Repeater Deployment Work?
 NeuraLegion’s Repeater is an [Open Source](https://www.npmjs.com/package/@neuralegion/nexploit-cli) component. It is a lightweight local agent that securely connects to NeuraLegion’s cloud engines and mediates the traffic from the cloud to any local target.
@@ -104,7 +107,8 @@ The Repeater does not contain any complicated logic. All decision making and rem
 ### Overview
 Unlike the standard SaaS offering that uses a multi-tenant architecture for the databases and static network configurations, the Private Cloud provides a completely separate, configurable cloud environment for your organization.
 
-!> **Important:** IMPORTANT: The private cloud instance is hosted on the NeuraLegion infrastructure.
+> [!WARNING|label:Important]
+The private cloud instance is hosted on the NeuraLegion infrastructure.
 
 The Private Cloud’s separate, non-multi-tenant environment offers the following benefits over a standard SaaS environment –
 * Separate databases at the instance level. Standard SaaS only accommodates some databases at a logical level.
@@ -117,7 +121,8 @@ The Private Cloud’s separate, non-multi-tenant environment offers the followin
 ### How Does a Private Cloud Deployment Work?
 All relevant components, which may include sensitive information, such as databases, engines and so on, are deployed in a separate cloud instance that is managed by NeuraLegion. Currently, the Private Cloud is deployed on AWS. Deployment to other cloud vendors can be added, as needed. NeuraLegion fully manages the deployment process for you.
 
-!> **Important:** If you are interested in other deployment options, contact your sales representative.
+> [!WARNING|label:Important]
+If you are interested in other deployment options, contact your sales representative.
 
 ![private-cloud-chart](media/private-cloud-chart.png ':size=100%')
 
