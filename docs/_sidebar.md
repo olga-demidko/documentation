@@ -21,4 +21,9 @@
       - [Scanning an API](guide/np-web-ui/scanning/scanning-api.md)
       - [Managing Scan Templates](guide/np-web-ui/scanning/managing-scan-templates.md)
     - [Advanced Setup and Configuration](guide/np-web-ui/advanced-set-up.md)
+      - [Managing Your Organization](guide/np-web-ui/advanced-set-up/managing-org.md)
+      - [Managing Your Personal Account Preferences](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
+      - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
+      - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
+      - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
   
