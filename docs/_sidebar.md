@@ -25,6 +25,7 @@
       - [Okta](integrations/okta/okta-integration.md)
       - [GitHub](integrations/github/github-sso-integration.md)
       - [Google](integrations/google/google-sso-integration.md)
+      - [Azure Active Directory](integrations/azure-active-directory/aad-sso)
     - [**Ticketing Systems**](integrations/overview.md#ticketing)
       - [Jira](integrations/jira/jira-integration.md)
       - [GitHub](integrations/github/github-issues-integration.md)
