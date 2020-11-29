@@ -26,4 +26,5 @@
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
       - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
+  - [**Using the NexPloit REST API**](guide/np-rest-api/using)
   
