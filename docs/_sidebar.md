@@ -27,4 +27,18 @@
       - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
       - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
   - [**Using the NexPloit REST API**](guide/np-rest-api/using)
+  - **Using the NexPloit CLI**
+    - [Quickstart](guide/np-cli/quickstart.md)
+    - [Installation](guide/np-cli/installation.md)
+    - [Usage Examples](guide/np-cli/usage-examples.md)
+    - [Command List](guide/np-cli/command-list.md)
+      - [Command Language Syntax](guide/np-cli/commands/command-language-syntax.md)
+      - [Running a Scan](guide/np-cli/commands/running-scan.md)
+      - [Checking Scan Status](guide/np-cli/commands/checking-scan-status.md)
+      - [Stopping a Scan](guide/np-cli/commands/stopping-scan.md)
+      - [Retesting a Scan](guide/np-cli/commands/retesting-scan.md)
+      - [Uploading an Archive](guide/np-cli/commands/uploading-archive.md)
+      - [Generating an Archive with NexMock](guide/np-cli/commands/generating-archive-with-nexmock.md)
+      - [Initializing a Repeater](guide/np-cli/commands/initializing-repeater.md)
+    - [Configuration Files](guide/np-cli/configuration-files.md)
   

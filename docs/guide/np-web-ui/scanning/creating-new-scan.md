@@ -44,7 +44,7 @@
     ![Additional-Settings](media/additional-settings.png ':size=45%')
     * **Concurrent Requests –** Specify the maximum concurrent requests allowed to be sent by the scan in order to control the load on your server. 
     * **Smart Scan –** Specify whether to use automatic smart decisions (such as parameter skipping, detection phases and so on) in order to minimize scan time. When this option is turned off, all tests are run on all parameters, which increases coverage at the expense of scan time.
-    * **Target Parameter Locations –** Specify the URL scope to be scanned, as follows – 
+    * **<div id="target-params-locations">Target Parameter Locations –</div>** Specify the URL scope to be scanned, as follows – 
         * **URL Path –** The main part of the URL, after the hostname and before the query parameters is used to identify the specific resource in the host that the client wants to access. In some cases (such as API endpoints), it may contain dynamic parameters (for example, object id).
         * **URL Query –** The query parameters string (after the question mark (?) and, if relevant, before the hash sign (#)) is used to provide additional information from the client to the request, such as data to search for in the target resource.
         * **URL Fragment –** The last part of a URL, after the hash sign (#), is used as an internal page reference or by DOM elements such as JavaScript, only used on the client side.
@@ -54,7 +54,7 @@
     * **Additional Headers –** Defines additional headers to append to each request. For example, authentication cookies.
     * **Integrations –** Connects the scan to a specific ticketing platform and repository, which will automatically add all the information about each found vulnerability to the repository.
     * **Repeater –** Connects the scan to a Repeater agent, which provides secure access to local networks.
-11. Click the ![Run-Button](media/run-button.png ':size=6%') button after configuring the scan, as described above.
+11. Click the ![Run-Button](media/run-button.png ':size=4%') button after configuring the scan, as described above.
 
 ## Creating a HAR file
 An HTTP Archive File (HAR file) is a recording of a user session with an application. Various methods can be used to collect this information, such as by using a QA tool (such as Selenium). Alternatively, you can collect it manually using your web browser's built-in DevTools, as described below.
