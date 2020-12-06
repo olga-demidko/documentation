@@ -46,3 +46,11 @@
       - [OKTA SSO](guide/pipeline-integration/sso/okta-sso.md)
       - [GitHub SSO](guide/pipeline-integration/sso/github-sso.md)
       - [Google SSO](guide/pipeline-integration/sso/google-sso.md)
+    - **Ticketing Systems**
+      - [Jira](guide/pipeline-integration/ticketing-systems/jira.md)
+      - [GitHub](guide/pipeline-integration/ticketing-systems/github.md)
+      - [Slack](guide/pipeline-integration/ticketing-systems/slack.md)
+    - **Pipe Management**
+      - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
+      - [CircleCI](guide/pipeline-integration/pipe-management/circleci.md)
+      - [Jenkins](guide/pipeline-integration/pipe-management/jenkins.md)

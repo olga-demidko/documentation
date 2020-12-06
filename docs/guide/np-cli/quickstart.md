@@ -4,7 +4,7 @@ Before using the **NexPloit CLI Quick Start**, verify the following prerequisite
 * You are an active user on [nexploit.app](www.nexploit.app).
 * You have a valid `REPEATER-TOKEN` with the scope `repeaters:write`, `files:write`, `scans:run`, `scans:read`. You can set up –
     * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
-– OR – 
+  – OR – 
     * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * You have an active `REPEATER-ID` See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
