@@ -41,4 +41,8 @@
       - [Generating an Archive with NexMock](guide/np-cli/commands/generating-archive-with-nexmock.md)
       - [Initializing a Repeater](guide/np-cli/commands/initializing-repeater.md)
     - [Configuration Files](guide/np-cli/configuration-files.md)
-  
+  - [**Integrating Into Your Pipeline**](guide/pipeline-integration/pipeline-integration.md)
+    - **SSO**
+      - [OKTA SSO](guide/pipeline-integration/sso/okta-sso.md)
+      - [GitHub SSO](guide/pipeline-integration/sso/github-sso.md)
+      - [Google SSO](guide/pipeline-integration/sso/google-sso.md)
