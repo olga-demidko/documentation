@@ -1,5 +1,7 @@
 # Google SSO
+
 ![google-logo](media/google/google-logo.png ':size=15%')
+
 To simplify user access to NeuraLegion solutions, you can configure Single Sign On (SSO) for Google.
 
 ## Enabling Google for the Organization

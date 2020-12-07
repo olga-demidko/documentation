@@ -1,4 +1,5 @@
 # OKTA SSO
+
 ![okta](media/okta/okta-logo.png ':size=15%')
 
 ## Configuring NexPloit OIDC Using Okta

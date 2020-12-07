@@ -1,4 +1,5 @@
 # GitHub SSO
+
 ![github-logo](media/github/github-logo.png ':size=15%')
 
 ## Configuring GitHub SSO for NexPloit

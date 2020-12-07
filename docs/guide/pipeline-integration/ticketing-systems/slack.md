@@ -1,4 +1,5 @@
 # Slack Ticketing System
+
 ![slack-logo](media/slack/slack-logo.png ':size=20%')
 
 To enable full automation to your CI/CD pipeline, you can configure NeuraLegion solutions to automatically send messages about detected issues to your selected Slack channel. You can view [NexPloit in the Slack App directory](https://slack.com/apps/APTQSHNES-nexploit).

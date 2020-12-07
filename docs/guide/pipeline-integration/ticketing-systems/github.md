@@ -1,5 +1,6 @@
 # GitHub Ticketing System
-![github-logo](media/github/github-logo.png ':size=45%')
+
+![github-logo](media/github/github-logo.png ':size=18%')
 
 To enable full automation into your CI/CD pipeline, you can configure NexPloit to automatically open tickets in your selected GitHub repositories. Each new ticket provides developers with all the NexPloit information for solving problems, without having to leave their development environment.
 

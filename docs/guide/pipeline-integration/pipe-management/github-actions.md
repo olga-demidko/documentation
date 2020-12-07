@@ -1,4 +1,5 @@
 # GitHub Actions Pipe Management
+
 ![github-actions-logo](media/github-actions/github-actions-logo.png ':size=12%')
 
 To enable full automation to your CI/CD pipeline, you can configure NexPloit to automatically run a scan with every build. Each new build with our GitHub Actions Integration performs security tests on the running application and provides developers with all the information from NexPloit they need to solve problems, without having to leave their development environment.
