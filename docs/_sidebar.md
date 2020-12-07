@@ -1,5 +1,6 @@
 - Quick Navigation
   - [**Home**](/ "Documentation Home")
+
   - [**Introducing NexPloit**](guide/introduction/intro.md)
     - [What is NexPloit?](guide/introduction/what-is-nexploit.md)
     - [Integrating Nexploit](guide/introduction/integrating-nexploit.md)
@@ -9,6 +10,7 @@
       - [Private Cloud](guide/introduction/deployment-private.md)
     - [Using Nexploit - QuickStart](guide/introduction/nexploit-quickstart.md)
     - [Data Security FAQs](guide/introduction/data-security-faq.md)
+
   - [**Using the NexPloit Web User Interface**](guide/np-web-ui/np-web-ui.md)
     - [QuickStart](guide/np-web-ui/quickstart.md)
     - [Quick Tour of the Web Interface](guide/np-web-ui/tour-of-web-ui.md)
@@ -29,7 +31,9 @@
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
       - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
+
   - [**Using the NexPloit REST API**](guide/np-rest-api/using)
+
   - [**Using the NexPloit CLI**](guide/np-cli/overview.md)
     - [Quickstart](guide/np-cli/quickstart.md)
     - [Installation](guide/np-cli/installation.md)
@@ -44,6 +48,7 @@
       - [Generating an Archive with NexMock](guide/np-cli/commands/generating-archive-with-nexmock.md)
       - [Initializing a Repeater](guide/np-cli/commands/initializing-repeater.md)
     - [Configuration Files](guide/np-cli/configuration-files.md)
+
   - [**Integrating Into Your Pipeline**](guide/pipeline-integration/pipeline-integration.md)
     - **SSO**
       - [OKTA SSO](guide/pipeline-integration/sso/okta-sso.md)
