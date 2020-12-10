@@ -55,7 +55,7 @@
       - [OKTA](guide/pipeline-integration/sso/okta-sso.md)
       - [GitHub](guide/pipeline-integration/sso/github-sso.md)
       - [Google](guide/pipeline-integration/sso/google-sso.md)
-      - [Azure AD](guide/pipeline-integration/sso/google-sso.md)
+      - [Azure AD](guide/pipeline-integration/sso/aad-sso.md)
     - **Ticketing Systems**
       - [Jira](guide/pipeline-integration/ticketing-systems/jira.md)
       - [GitHub](guide/pipeline-integration/ticketing-systems/github.md)
