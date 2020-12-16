@@ -36,7 +36,7 @@
 
   - [**Using the NexPloit CLI**](guide/np-cli/overview.md)
     - [Quickstart](guide/np-cli/quickstart.md)
-    - [Installation](guide/np-cli/installation.md)
+    - [Installation Options](guide/np-cli/installation.md)
     - [Usage Examples](guide/np-cli/usage-examples.md)
     - [Command List](guide/np-cli/command-list.md)
       - [Command Language Syntax](guide/np-cli/commands/command-language-syntax.md)
