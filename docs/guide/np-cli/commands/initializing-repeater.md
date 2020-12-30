@@ -13,11 +13,15 @@ For details about how the Repeater works, see [On-Prem Agent Repeater (Agent) De
 The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 
 ## Options
-| **Option**                                       | **Description**                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```--id=repeaterId```                            | The ID of an existing Repeater that you want to use.                                                                                                                                                                                                                                        |
-| ```--token my-jwt-authentication-token```        | The unique identifier used to authenticate a user. It can be issued in your organization’s dashboard.                                                                                                                                                                                       |
-| ```--bus=eventBus```                             | NexPloit Event Bus URL.<br/><br/>**Default Value –** `--bus amqps://amq.nexploit.app:5672`                                                                                                                                                                                                  |
-| ```--header=extraHeader```, ```-H=extraHeader``` | Extra headers to be passed with each request. Also, it can be used to remove a header by providing a name without content. For example, -H "Host:".<br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the original headers and are set in all requests. |
-| ```--headers=json```                             | JSON string that contains a header list, which is initially empty and consists of zero or more name and value pairs. <br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the original headers and are set in all requests.                               |
-| ```--proxy=proxyUrl```                           | SOCKS4 or SOCKS5 URL to proxy all traffic.                                                                                                                                                                                                                                                  |
+| **Option** | **Description** |
+|:--|:--|
+| ```--id=repeaterId``` | The ID of an existing Repeater that you want to use. |
+| ```--token my-jwt-authentication-token``` | The unique identifier used to authenticate a user. It can be issued in your organization’s dashboard. |
+| ```--bus=eventBus``` | NexPloit Event Bus URL.<br/><br/>**Default Value –** `--bus amqps://amq.nexploit.app:5672` |
+| ```--header=extraHeader```,</br> ```-H=extraHeader``` | Extra headers to be passed with each request. Also, it can be used to remove a header by providing a name without content. For example, -H "Host:".<br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the original headers and are set in all requests. |
+| ```--headers=json``` | JSON string that contains a header list, which is initially empty and consists of zero or more name and value pairs. <br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the original headers and are set in all requests. |
+| ```--proxy=proxyUrl``` | SOCKS4 or SOCKS5 URL to proxy all traffic. |
+| ```--daemon```, ```-d``` | Initializes the Repeater as a local daemon service </br></br> **Note –** If you run this command while a service is already running, it will first stop & delete the running service, and restarts it with the new repeater settings.</br></br> **Note –** Currently supported operating systems include windows (wscm) & Linux (systemd). |
+| ```--remove-daemon```, ```--rm``` | Stops & deletes the running repeater service. |
+
+
