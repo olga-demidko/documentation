@@ -22,6 +22,6 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 | ```--headers=json``` | JSON string that contains a header list, which is initially empty and consists of zero or more name and value pairs. <br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the original headers and are set in all requests. |
 | ```--proxy=proxyUrl``` | SOCKS4 or SOCKS5 URL to proxy all traffic. |
 | ```--daemon```, ```-d``` | Initializes the Repeater as a local daemon service </br></br> **Note –** If you run this command while a service is already running, it will first stop & delete the running service, and restarts it with the new repeater settings.</br></br> **Note –** Currently supported operating systems include windows (wscm) & Linux (systemd). |
-| ```--remove-daemon```, ```--rm``` | Stops & deletes the running repeater service. |
+| ```--remove-daemon```, ```--remove```, ```--rm``` | Stops & deletes the running repeater service. |
 
 
