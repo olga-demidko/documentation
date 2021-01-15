@@ -23,5 +23,3 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 | ```--proxy=proxyUrl``` | SOCKS4 or SOCKS5 URL to proxy all traffic. |
 | ```--daemon```, ```-d``` | Initializes the Repeater as a local daemon service </br></br> **Note –** If you run this command while a service is already running, it will first stop & delete the running service, and restarts it with the new repeater settings.</br></br> **Note –** Currently supported operating systems include windows (wscm) & Linux (systemd). |
 | ```--remove-daemon```, ```--remove```, ```--rm``` | Stops & deletes the running repeater service. |
-
-

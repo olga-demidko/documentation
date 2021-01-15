@@ -21,19 +21,19 @@ nexploit-cli -h
 This command displays a list of possible commands for the NexPloit CLI.
 2. Activate the Repeater, as follows –
 ```bash
-    nexploit-cli repeater
-    --token REPEATER-TOKEN
-    --id REPEATER-ID
+    nexploit-cli repeater               \
+    --token REPEATER-TOKEN              \
+    --id REPEATER-ID                    \
     --bus amqps://amq.nexploit.app:5672
 ```
-3. Start a new scan with a crawler, as follows –\
+3. Start a new scan with a crawler, as follows –
 ```bash
-    nexploit-cli scan:run
-    --token REPEATER-TOKEN
-    --repeater REPEATER-ID
-    --name "My First Scan"
-    --crawler https://www.example.com
-    --host-filter https://www.example.com
+    nexploit-cli scan:run                   \
+    --token REPEATER-TOKEN                  \
+    --repeater REPEATER-ID                  \
+    --name "My First Scan"                  \
+    --crawler https://www.example.com       \
+    --host-filter https://www.example.com   \
     --smart
 ```
 This command initializes a new scan engine in the cloud, which begins scanning the target via the local **Repeater**.
