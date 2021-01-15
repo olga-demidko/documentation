@@ -17,7 +17,7 @@ NexPloit enables a fully automated CI/CD pipeline of detected issues to be integ
   </tr>
 
   <tr>
-    <td><a href="#/guide/pipeline-integration/sso/github-sso.md">GitHub</a></td>
+    <td><a href="#/guide/pipeline-integration/sso/aad-sso.md">Azure Active Directory</a></td>
     <td><a href="#/guide/pipeline-integration/ticketing-systems/github.md">GitHub</a></td>
     <td><a href="#/guide/pipeline-integration/pipe-management/circleci.md">CircleCI</a></td>
   </tr>
@@ -27,10 +27,11 @@ NexPloit enables a fully automated CI/CD pipeline of detected issues to be integ
     <td><a href="#/guide/pipeline-integration/ticketing-systems/slack.md">Slack</a></td>
     <td><a href="#/guide/pipeline-integration/pipe-management/jenkins.md">Jenkins</a></td>
   </tr>
-
+  <!--
   <tr>
-    <td><a href="#/guide/pipeline-integration/sso/aad-sso.md">Azure Active Directory</a></td>
+    <td><a href="#/guide/pipeline-integration/sso/github-sso.md">GitHub</a></td>
     <td></td>
     <td></td>
   </tr>
+  -->
 </table>

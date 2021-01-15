@@ -53,7 +53,7 @@
   - [**Integrating Into Your Pipeline**](guide/pipeline-integration/pipeline-integration.md)
     - **SSO**
       - [OKTA](guide/pipeline-integration/sso/okta-sso.md)
-      - [GitHub](guide/pipeline-integration/sso/github-sso.md)
+      <!-- - [GitHub](guide/pipeline-integration/sso/github-sso.md) -->
       - [Google](guide/pipeline-integration/sso/google-sso.md)
       - [Azure AD](guide/pipeline-integration/sso/aad-sso.md)
     - **Ticketing Systems**
