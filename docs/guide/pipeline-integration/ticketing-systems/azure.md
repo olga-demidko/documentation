@@ -8,36 +8,24 @@ The NexPloit integration into Azure lets you get the scan results in automatical
 To enable the integration, you need to connect NexPloit to your Azure account:
 1. Go to [nexploit.app](https://nexploit.app).
 2. In the left pane, select **Organization**. 
-3. On the **Organization** page, scroll down to the **TICKET MANAGEMENT INTEGRATION** section. 
-
+3. On the **Organization** page, scroll down to the **TICKET MANAGEMENT INTEGRATION** section. \
 ![azure-option](media/azure/azure-option.png ':size=45%')
-
-4. Click ![icon](media/azure/icon.png ':size=1%') next to **Azure**, and then click **Settings**.
-
+4. Click ![dots-button](media/jira/dots-button.png ':size=1%') next to **Azure**, and then click **Settings**.\
 ![icon-settings](media/azure/icon-settings.png ':size=45%')
-
-5. On the popup, click **Activate Azure Boards**.
-
+5. On the popup, click **Activate Azure Boards**.\
 ![activate-azure-boards](media/azure/activate-azure-boards.png ':size=45%')
-
-6. On the popup, select your Azure account in the dropdown list, and then click **Save**.
-
-![select-azure-organization](media/azure/select-azure-rganization.png ':size=45%')
-
-The NexPloit integration into Azure is enabled. 
-
+6. On the popup, select your Azure account in the dropdown list, and then click **Save**.\
+![select-azure-organization](media/azure/select-azure-rganization.png ':size=45%')\
+The NexPloit integration into Azure is enabled. \
 ![enabled](media/azure/enabled.png ':size=45%')
 
 ## Adding Azure to a Scan
 When [starting a new scan](guide/np-web-ui/scanning/creating-new-scan.md), you can select the Azure board on which to automatically open tickets with the detected issues . 
 
 To select your Azure board for a new scan, follow these steps:
-1. Go to the **Additional settings** option.
-
+1. Go to the **Additional settings** option.\
 ![additional-settings](media/azure/additional-setttings.png ':size=45%')
-
-2. In the **Integrations** dropdown list, select the Azure board for the scan.
-
+2. In the **Integrations** dropdown list, select the Azure board for the scan.\
 ![selected-azure-board](media/azure/selected-azure-board.png ':size=45%')
 
 Now, whenever you run this scan, all its detected issues automatically open the relevant tickets on the specified Azure board.
