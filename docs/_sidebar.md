@@ -60,6 +60,7 @@
       - [Jira](guide/pipeline-integration/ticketing-systems/jira.md)
       - [GitHub](guide/pipeline-integration/ticketing-systems/github.md)
       - [Slack](guide/pipeline-integration/ticketing-systems/slack.md)
+      - [Azure](guide/pipeline-integration/ticketing-systems/azure.md)
     - **Pipe Management**
       - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
       - [CircleCI](guide/pipeline-integration/pipe-management/circleci.md)
