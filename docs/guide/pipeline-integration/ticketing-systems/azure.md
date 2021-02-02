@@ -1,26 +1,48 @@
-# Azure Ticketing System
+<table style="width:100%"  border-collapse="collapse"  >
+  <tr>
+    <td>
+    <h3> Azure Boards<h3> 
+    </td>
+    <td>
+      <img src="guide/pipeline-integration/ticketing-systems/media/azure/azure-boards-integration.png" height="200"></img> 
+    </td>
+  </tr>
+</table>
 
-![azure-logo](media/azure/azure-logo.png ':size=22%')
 
-The NexPloit integration into Azure lets you get the scan results in automatically created tickets on your selected Azure board.  Each new ticket provides you with all the NexPloit information for solving issues, without having to leave their development environment.
+You can connect your Azure board to a Nexploit scan to get all the discovered issues on automatically created Azure tickets. NexPloit opens each new ticket for one specific issue and provides the following information:
+* Issue severity level
+* Details of discovery
+* Possible exposure
+* Remediation suggestions 
 
-## Connecting NexPloit to your Azure Account
+For each new scan, you can select any of multiple boards connected to your Azure account. 
+
+## Prerequisites
+
+* You are an active user on [nexploit.app](https://nexploit.app/). 
+
+## Step-by-Step Guide
+
+### Connect NexPloit to Your Azure Account
+
 To enable the integration, you need to connect NexPloit to your Azure account:
+
 1. Go to [nexploit.app](https://nexploit.app).
 2. In the left pane, select **Organization**. 
 3. On the **Organization** page, scroll down to the **TICKET MANAGEMENT INTEGRATION** section. \
-![azure-option](media/azure/azure-option.png ':size=45%')
+![ticketing-management-integration](media/azure/ticketing-management-integration.png ':size=45%')
 4. Click ![dots-button](media/jira/dots-button.png ':size=1%') next to **Azure**, and then click **Settings**.\
-![icon-settings](media/azure/icon-settings.png ':size=45%')
+![azure-settings](media/azure/azure-settings.png ':size=45%')
 5. On the popup, click **Activate Azure Boards**.\
-![activate-azure-boards](media/azure/activate-azure-boards.png ':size=45%')
+![activate-boards](media/azure/activate-boards.png ':size=45%')
 6. On the popup, select your Azure account in the dropdown list, and then click **Save**.\
-![select-azure-organization](media/azure/select-azure-rganization.png ':size=45%')\
+![select-azure-organization](media/azure/select-azure-organization.png ':size=45%')\
 The NexPloit integration into Azure is enabled. \
 ![enabled](media/azure/enabled.png ':size=45%')
 
-## Adding Azure to a Scan
-When [starting a new scan](guide/np-web-ui/scanning/creating-new-scan.md), you can select the Azure board on which to automatically open tickets with the detected issues . 
+## Adding Your Azure Board to a New Scan
+When [starting a new scan](guide/np-web-ui/scanning/creating-new-scan.md), you can select the Azure board on which to automatically open tickets with the detected issues. 
 
 To select your Azure board for a new scan, follow these steps:
 1. Go to the **Additional settings** option.\

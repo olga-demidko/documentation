@@ -1,5 +1,5 @@
 - Quick Navigation
-  - [**Home**](/ "Documentation Home")
+  - [**Welcome**](/ "Documentation Home")
 
   - [**Introducing NexPloit**](guide/introduction/intro.md)
     - [What is NexPloit?](guide/introduction/what-is-nexploit.md)
@@ -50,7 +50,7 @@
     - [Configuration Files](guide/np-cli/configuration-files.md)
     - [Troubleshooting](guide/np-cli/troubleshooting.md)
 
-  - [**Integrating Into Your Pipeline**](guide/pipeline-integration/pipeline-integration.md)
+  - [**Integrations**](guide/pipeline-integration/pipeline-integration.md)
     - **SSO**
       - [OKTA](guide/pipeline-integration/sso/okta-sso.md)
       <!-- - [GitHub](guide/pipeline-integration/sso/github-sso.md) -->
@@ -61,7 +61,7 @@
       - [GitHub](guide/pipeline-integration/ticketing-systems/github.md)
       - [Slack](guide/pipeline-integration/ticketing-systems/slack.md)
       - [Azure](guide/pipeline-integration/ticketing-systems/azure.md)
-    - **Pipe Management**
+    - **CI Pipelines**
       - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
       - [CircleCI](guide/pipeline-integration/pipe-management/circleci.md)
       - [Jenkins](guide/pipeline-integration/pipe-management/jenkins.md)
