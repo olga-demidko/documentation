@@ -19,7 +19,6 @@ Using this approach, there is no need to install anything on your Jenkins machin
 | There is nothing to install.               | API calls must be written manually.                           |
 | Raw APIs are the most customizable option. | The target of the scan must be accessible from our static IP. |
 
-
 #### Prerequisites
 * The target of the scan is accessible from the Internet.
 * A valid `AUTH_TOKEN` with the scope `scans:run`, `scans:read` and `scans:stop`. You can set up –

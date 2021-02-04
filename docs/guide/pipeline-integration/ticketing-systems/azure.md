@@ -1,6 +1,13 @@
-# Azure Ticketing System
-
-![azure-logo](media/azure/azure-logo.png ':size=22%')
+<table style="width:100%" >
+  <tr>
+    <td>
+      <h1> Azure Ticketing System <h1>
+    </td>
+    <td>
+      <img src="guide/pipeline-integration/ticketing-systems/media/azure/Integration_logo_example.png" height="100"></img>
+    </td>
+  </tr>
+</table>
 
 The NexPloit integration into Azure lets you get the scan results in automatically created tickets on your selected Azure board.  Each new ticket provides you with all the NexPloit information for solving issues, without having to leave their development environment.
 
@@ -29,7 +36,3 @@ To select your Azure board for a new scan, follow these steps:
 ![selected-azure-board](media/azure/selected-azure-board.png ':size=45%')
 
 Now, whenever you run this scan, all its detected issues automatically open the relevant tickets on the specified Azure board.
-
-
-
-

@@ -13,4 +13,3 @@ To export a scan –
         * Custom report – Enables you to select the parts of the full report to be exported during this action. The following displays –\
         ![Export-Scan-PDF-2](media/export-scan-3.png ':size=45%')
 
-
