@@ -1,15 +1,19 @@
-<table style="width:100%" >
+<table id="integrations" >
   <tr>
-    <td>
-      <h1> Azure Ticketing System <h1>
+    <td width="75%">
+      <a href="#/guide/pipeline-integration/ticketing-systems/azure"> <h1>Azure Ticketing System</h1></a>
     </td>
-    <td>
-      <img src="guide/pipeline-integration/ticketing-systems/media/azure/Integration_logo_example.png" height="100"></img>
+    <td width="25%" style="text-align:right" rowspan="3">
+      <img src="guide/pipeline-integration/ticketing-systems/media/azure/Integration_logo_example.png"></img>
     </td>
   </tr>
+  <tr>
+    <td style="text-align:left;vertical-align:text-top;padding:0px">
+      The NexPloit integration into Azure lets you get the scan results in automatically created tickets on your selected Azure board. Each new ticket provides you with all the NexPloit information for solving issues, without having to leave their development environment.
+    </td>
+  </tr>
+  <tr><td></td></tr>
 </table>
-
-The NexPloit integration into Azure lets you get the scan results in automatically created tickets on your selected Azure board.  Each new ticket provides you with all the NexPloit information for solving issues, without having to leave their development environment.
 
 ## Connecting NexPloit to your Azure Account
 To enable the integration, you need to connect NexPloit to your Azure account:
