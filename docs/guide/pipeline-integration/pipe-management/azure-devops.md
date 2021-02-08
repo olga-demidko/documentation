@@ -1,8 +1,19 @@
-# Azure DevOps
-
-![azure-devops-integration](media/azure-devops/azure-devops-integration.png ':size=20%')
-
-If you are using Azure DevOps for development automation, you can integrate NexPloit with your Azure CI pipeline using the [NexPloit DevOps Integration extension](https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit). The integration allows you to automate the security testing flow by starting the NexPloit scans on every new build within your development environment.
+<table id="integrations" >
+  <tr>
+    <td width="75%">
+      <a href="#guide/pipelines-integration/pipe-management/azure-devops.md"><h1>Azure Pipelines</h1></a>
+    </td>
+    <td width="25%" style="text-align:right" rowspan="3">
+      <img src="guide/pipeline-integration/pipe-management/media/azure-pipelines/azure-pipelines-logo.png"></img>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;vertical-align:text-top;padding:0px">
+      If you are using Azure DevOps for development automation, you can integrate NexPloit with your Azure CI pipeline using the <a href="https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit">NexPloit DevOps Integration extension</a>. The integration allows you to automate the security testing flow by starting the NexPloit scans on every new build within your development environment.
+    </td>
+  </tr>
+  <tr><td></td></tr>
+</table>
 
 ## Prerequisites
 
@@ -18,7 +29,7 @@ If you are using Azure DevOps for development automation, you can integrate NexP
 ### Using a Pre-recorded HAR File 
 If you want to start a new scan with an added HAR file, first upload your HAR file to [nexploit.app](https://nexploit.app) using a simple curl command: 
 
-![file-id-command](media/azure-devops/file-id-command.png ':size=50%')
+![file-id-command](media/azure-pipelines/file-id-command.png ':size=50%')
 
 The response **id** will then be used during setting a new scan in the pipeline. 
 
@@ -26,11 +37,11 @@ The response **id** will then be used during setting a new scan in the pipeline.
 ### Opening the Integration Extension in Your Pipeline
 1. In your pipeline, click the **Show assistant** button.
 
-    ![show-assistant](media/azure-devops/show-assistant.png ':size=35%')
+    ![show-assistant](media/azure-pipelines/show-assistant.png ':size=35%')
 
 2. In the **Tasks** field, enter **nexploit scan**.
 
-    ![nexploit-scan](media/azure-devops/nexploit-scan.png ':size=35%')
+    ![nexploit-scan](media/azure-pipelines/nexploit-scan.png ':size=35%')
 
 3. Do one of the following:
 * To start a new scan, select the **NexPloit Scan** file.
@@ -43,9 +54,9 @@ To initialize a new scan in your pipeline, follow these steps:
 >[!NOTE|label:Note]
 The **File ID** value is required for the scans with uploaded HAR files. 
 
-    ![new-scan](media/azure-devops/new-scan.png ':size=35%')
+  ![new-scan](media/azure-pipelines/new-scan.png ':size=35%')
 
-    Once you complete the setup, the scan is started automatically.
+  Once you complete the setup, the scan is started automatically.
 
 2. To manage the scanning process and view the results, go to your [nexploit.app](https://nexploit.app) account.
 
@@ -54,7 +65,7 @@ You can restart a scan that you have already set up and run using [nexploit.app]
 1. On the **NexPloit Re-run Scan** page, enter the scan details in the relevant fields.
 2. Copy the ID of your scan in the address bar or the scan report window and paste it in the **Scan ID** field.
 
-    ![scan-ID](media/azure-devops/scan-ID.png ':size=35%')
+    ![scan-ID](media/azure-pipelines/scan-ID.png ':size=35%')
 
     Once you complete the setup, the scan is restarted automatically.
 
