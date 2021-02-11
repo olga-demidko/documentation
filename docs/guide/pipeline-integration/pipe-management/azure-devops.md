@@ -4,7 +4,7 @@
       <h1>Azure Pipelines</h1>
     </td>
     <td width="25%" style="text-align:right" rowspan="3">
-      <img src="guide/pipeline-integration/pipe-management/media/azure-pipelines/azure-pipelines-logo.png"></img>
+      <img src="guide/pipeline-integration/pipe-management/media/azure-pipelines/azure-pipelines-int-logo.png"></img>
     </td>
   </tr>
   <tr>
