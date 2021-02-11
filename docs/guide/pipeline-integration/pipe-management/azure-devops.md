@@ -1,7 +1,7 @@
 <table id="integrations" >
   <tr>
     <td width="75%">
-      <a href="#guide/pipelines-integration/pipe-management/azure-devops.md"><h1>Azure Pipelines</h1></a>
+      <h1>Azure Pipelines</h1>
     </td>
     <td width="25%" style="text-align:right" rowspan="3">
       <img src="guide/pipeline-integration/pipe-management/media/azure-pipelines/azure-pipelines-logo.png"></img>

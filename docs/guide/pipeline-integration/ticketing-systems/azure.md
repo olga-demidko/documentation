@@ -1,7 +1,7 @@
 <table id="integrations" >
   <tr>
     <td width="75%">
-      <a href="#/guide/pipeline-integration/ticketing-systems/azure"> <h1>Azure Boards</h1></a>
+      <h1>Azure Boards</h1>
     </td>
     <td width="25%" style="text-align:right" rowspan="3">
       <img src="guide/pipeline-integration/ticketing-systems/media/azure/azure-boards-integration.png"></img>
