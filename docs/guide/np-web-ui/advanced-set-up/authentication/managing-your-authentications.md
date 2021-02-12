@@ -10,8 +10,8 @@ The created object is available only for the user who has created it. Other user
 The authentication setup enables you to test access to the authenticated resources covered by the created object before using it in a scan, easily determine the configuration failures and fix them. 
 
 You can enable NexPloit to get access to an authenticated resource by using any of the following authentication options:
-* [**Form authentication**](docs/guide/np-web-ui/advanced-set-up/authentication/types/form-authentication.md) - the default method of authentication, used for authentication requests with the content type set as ‘application/x-www-form-urlencoded.   
-* [**Header authentication**](docs/guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md) - the most straightforward method of authentication, used for static header authentication tokens that are generated outside of NexPloit and will not expire during a scan.  
+* [**Form authentication**](/guide/np-web-ui/advanced-set-up/authentication/types/form-authentication.md) - the default method of authentication, used for authentication requests with the content type set as ‘application/x-www-form-urlencoded.   
+* [**Header authentication**](/guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md) - the most straightforward method of authentication, used for static header authentication tokens that are generated outside of NexPloit and will not expire during a scan.  
 * [**API call**](guide/np-web-ui/advanced-set-up/authentication/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
 
 ### Setup <!-- {docsify-ignore} -->
