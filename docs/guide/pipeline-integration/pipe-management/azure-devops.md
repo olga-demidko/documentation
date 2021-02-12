@@ -30,10 +30,17 @@
 ## Setup
 ### Using a Pre-recorded HAR File 
 If you want to start a new scan with an added HAR file, first upload your HAR file to [nexploit.app](https://nexploit.app) using a simple curl command: 
+```bash
+$ curl -X POST "https://nexploit.app/api/v1/files?discard=true"  \
+    -H "Content-Type: multipart/form/data"                       \
+    -H "Authorization: Api-Key yufn0f6.yourapikeykuj069zopv0n1i" \
+    -f 'har=@//path/to/the/file.har"   
+```
 
-![file-id-command](media/azure-pipelines/file-id-command.png ':size=50%')
-
-The response **id** will then be used during setting a new scan in the pipeline. 
+The response **id** will then be used during setting a new scan in the pipeline, for example:
+```bash
+ {"ids":["6xkFraa5ecfmHhxTEnabZg"]}
+```
 
 ## Step-by-Step Guide
 ### Opening the Integration Extension in Your Pipeline
