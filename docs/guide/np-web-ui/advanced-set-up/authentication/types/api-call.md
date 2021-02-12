@@ -38,19 +38,19 @@ The table below lists and describes the **Authentication Setup** fields in the *
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Header</b></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Header</b></li></ul></td>
     <td width="75%" >
         <p>Select if you need the authentication token to be extracted from the response header.</p>
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Header name</b></li></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Header name</b></ul></td>
     <td width="75%" >
         <p>Enter the name of the header to extract the authentication token from.</p>
     </td>
   </tr>
    <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Body</b></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Body</b></li></ul></td>
     <td width="75%" >
         <p>Select if you need the authentication token to be extracted from the response body.</p>
     </td>
@@ -80,32 +80,32 @@ The table below lists and describes the **Authentication Setup** fields in the *
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Header</b></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Header</b></li></ul></td>
     <td width="75%" >
         <p>Select if you need the authentication token to be embedded into the request header.</p>
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Target header name</b></li></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Target header name</b></ul></td>
     <td width="75%" >
         <p>Enter the name of the header to embed the authentication token into.</p>
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Body</b></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Body</b></li></ul></td>
     <td width="75%" >
         <p>Select if you need the authentication token to be embedded into the request body.</p>
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Content type</b></li></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Content type</b></ul></td>
     <td width="75%" >
         <p>Select the content type of the request body.</p>
         <p><font color="blue"><b>Note:</b></font> Currently only `application/json` is supported.</p>
     </td>
   </tr>
    <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>XPAth</b></li></ul></td>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>XPAth</b></ul></td>
     <td width="75%" >
         <p>Enter the exact path to the object to be used in the requests sent to the API end-point.</p>
     </td>
