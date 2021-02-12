@@ -95,4 +95,3 @@ To obtain a new API/CLI Authentication Token (API key) –
 2. Assign the API key a name, select which scope(s) of access to allow it and which type of actions (such as read or write) it is permitted to perform and click the **Create** button.\
 ![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=45%')
 
-
