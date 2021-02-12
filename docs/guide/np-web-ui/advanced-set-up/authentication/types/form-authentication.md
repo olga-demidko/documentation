@@ -10,52 +10,51 @@ The form authentication type is set by default when you create an authentication
 ## Form Authentication Setup Fields 
 The table below lists and describes the **Authentication Setup** fields in the **Form Authentication** section.
 
-<table>
+<table id="simple-table">
   <tr>
-    <td width="30%" style="text-align:left">
-      <h4>Field</h4>
-    </td>
-    <td width="70%" style="text-align:left" rowspan="3">
-      <h4>Guidelines<h4>
-    </td>
+    <td width="25%" style="text-align:center;padding:15px"><b>Field</b></td>
+    <td width="75%" style="text-align:center;padding:15px"><b>Guidelines</b></td>
   </tr>
   <tr>
-    <td>
-    URL
-    </td>
-    <td>
-    Enter the relevant URL for the HTTP request. The POST method is set by default for the form authentication.<br>
-    Pro Tips:<br>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>URL</b></td>
+    <td width="75%" >
+        <p>Enter the relevant URL for the HTTP request. The POST method is set by default for the form authentication.</p>
+        <font color="green"><b>Pro Tips:</b></font>
         <ul>
-            <li>This is not the URL where the login form resides, but the URL where the form request is sent to. The form host URL can be the same as the request URL, but can be different as well. You can get the Request URL in the Headers section of the relevant login request.
-            <li>Form login type will encode any URL-encoded values as required by the protocol, this means that values (user, pass) should be entered without encoding to avoid double encoding issues.
+            <li>
+                This is <b>not</b> the URL where the login form resides, but the URL where the form request is sent to. The form host URL can be the same as the request URL, but can be different as well. You can get the <b>Request URL</b> in the <b>Headers</b> section of the relevant login request.
+            </li>
+            <li>
+                Form login type will encode any URL-encoded values as required by the protocol, this means that values (user, pass) should be entered without encoding to avoid double encoding issues.
+            </li>
         </ul>
     </td>
   </tr>
   <tr>
-    <td>
-    Parameter name
-    </td>
-    <td>
-    Enter the form parameters from the request body. For example, username and password.
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Parameter name</b></td>
+    <td width="75%" >
+        <p> Enter the form parameters from the request body. For example, username and password.</p>
     </td>
   </tr>
   <tr>
-    <td>
-    Parameter value
-    </td>
-    <td>
-    (Optional) Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.<br>
-    Pro Tips:<br>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Parameter value</b></td>
+    <td width="75%" >
+        <p><em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.</p>
+        <font color="green"><b>Pro Tips:</b></font>
         <ul>
-            <li>Make sure that the values you use for the additional headers are static and must not be changed between scans. 
-            <li>If your application uses cookies that are set via the Set-Cookie header in the response, then you do not need to extract and reuse the cookies. Any Set-Cookie header will be automatically used during authentication.  
-            <li>There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object, typically using the Additional Headers field.
+            <li>
+                Make sure that the values you use for the additional headers are static and must not be changed between scans.
+            </li>
+            <li>
+                If your application uses cookies that are set via the Set-Cookie header in the response, then you do not need to extract and reuse the cookies. Any Set-Cookie header will be automatically used during authentication.  
+            </li>
+             <li>
+                There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object, typically using the <b>Additional Headers</b> field.  
+            </li>
         </ul>
     </td>
   </tr>
-    </table>
-    
+</table>
 
 
 ## Step-by-Step Guide
