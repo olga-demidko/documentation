@@ -25,12 +25,18 @@
       - [Deleting a Scan](guide/np-web-ui/scanning/deleting-scan.md)
       - [Scanning an API](guide/np-web-ui/scanning/scanning-api.md)
       - [Managing Scan Templates](guide/np-web-ui/scanning/managing-scan-templates.md)
+      - [Authenticated Scanning](guide/np-web-ui/scanning/authenticated-scanning.md)
     - [Advanced Setup and Configuration](guide/np-web-ui/advanced-set-up.md)
       - [Managing Your Organization](guide/np-web-ui/advanced-set-up/managing-org.md)
       - [Managing Your Personal Account Preferences](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
       - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
+      - [Managing Your Authentications](guide/np-web-ui/advanced-set-up/authentication/managing-your-authentications.md)
+        - [Form Authentication](guide/np-web-ui/advanced-set-up/authentication/types/form-authentication.md)
+        - [Header Authentication](guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md)
+        - [API Call](guide/np-web-ui/advanced-set-up/authentication/types/api-call.md)
+       
 
   - [**Using the NexPloit REST API**](guide/np-rest-api/using)
 
