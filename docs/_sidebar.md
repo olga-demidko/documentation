@@ -35,6 +35,7 @@
         - [Form Authentication](guide/np-web-ui/advanced-set-up/authentication/types/form-authentication.md)
         - [Header Authentication](guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md)
         - [API Call](guide/np-web-ui/advanced-set-up/authentication/types/api-call.md)
+        - [Adding to a Scan](guide/np-web-ui/advanced-set-up/authentication/types/adding-to-a-scan.md)
 
   - [**Using the NexPloit REST API**](guide/np-rest-api/using)
 

@@ -70,6 +70,6 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
   ![test-results](../media/test-results.png ':size=45%') 
 
-        In this case, you can save the configured object and add it to your scans.
+    In this case, you can save the configured object and add it to your scans.
 
     * If the test results include a failure message, go back to the object configurations and verify their correctness. Use the test request/response data to find a certain failure and fix it.

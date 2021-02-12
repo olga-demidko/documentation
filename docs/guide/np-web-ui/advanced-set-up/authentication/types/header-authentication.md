@@ -55,3 +55,4 @@ You can use the header authentication method if the login-protected resources wi
       In this case, you can save the configured object and add it to your scans.
 
     * If the test results include a failure message, go back to the object configurations and verify their correctness. Use the test request/response data to find a certain failure and fix it.
+
