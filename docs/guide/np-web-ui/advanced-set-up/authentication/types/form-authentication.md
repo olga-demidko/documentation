@@ -10,18 +10,53 @@ The form authentication type is set by default when you create an authentication
 ## Form Authentication Setup Fields 
 The table below lists and describes the **Authentication Setup** fields in the **Form Authentication** section.
 
-| **Field** | **Guidelines** |
-| :-- | :-- |
-| **URL** | Enter the relevant URL for the HTTP request. The POST method is set by default for the form authentication. **Pro Tips**:
-*   This is **not** the URL where the login form resides, but the URL where the form request is sent to. The form host URL can be the same as the request URL, but can be different as well. You can get the **Request URL** in the **Headers** section of the relevant login request.
-*   Form login type will encode any URL-encoded values as required by the protocol, this means that values (user, pass) should be entered without encoding to avoid double encoding issues.| 
-| **Parameter name** | Enter the form parameters from the request body. For example,_ _username and password. |
-| **Parameter value** | Enter the values of the form parameters (credentials) from the request bodies. |
-| **Additional headers** | (Optional)_ Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata. 
-**Pro Tips**: 
-*   Make sure that the values you use for the additional headers are static and must not be changed between scans. 
-*   If your application uses cookies that are set via the Set-Cookie header in the response, then you do not need to extract and reuse the cookies. Any Set-Cookie header will be automatically used during authentication.  
-*   There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object, typically using the **Additional Headers** field. |
+<table>
+  <tr>
+    <td width="30%" style="text-align:left">
+      <h4>Field</h4>
+    </td>
+    <td width="70%" style="text-align:left" rowspan="3">
+      <h4>Guidelines<h4>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    URL
+    </td>
+    <td>
+    Enter the relevant URL for the HTTP request. The POST method is set by default for the form authentication.<br>
+    Pro Tips:<br>
+        <ul>
+            <li>This is not the URL where the login form resides, but the URL where the form request is sent to. The form host URL can be the same as the request URL, but can be different as well. You can get the Request URL in the Headers section of the relevant login request.
+            <li>Form login type will encode any URL-encoded values as required by the protocol, this means that values (user, pass) should be entered without encoding to avoid double encoding issues.
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    Parameter name
+    </td>
+    <td>
+    Enter the form parameters from the request body. For example, username and password.
+    </td>
+  </tr>
+  <tr>
+    <td>
+    Parameter value
+    </td>
+    <td>
+    (Optional) Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.<br>
+    Pro Tips:<br>
+        <ul>
+            <li>Make sure that the values you use for the additional headers are static and must not be changed between scans. 
+            <li>If your application uses cookies that are set via the Set-Cookie header in the response, then you do not need to extract and reuse the cookies. Any Set-Cookie header will be automatically used during authentication.  
+            <li>There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object, typically using the Additional Headers field.
+        </ul>
+    </td>
+  </tr>
+    </table>
+    
+
 
 ## Step-by-Step Guide
 1. Go to [nexploit.app](https://nexploit.app/scans).
@@ -59,7 +94,7 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
   ![invalid-response](../media/invalid-response.png ':size=45%') 
 
-7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). The preliminary testing helps you verify if the authentication object has been configured correctly.
+7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). <br> The preliminary testing helps you verify if the authentication object has been configured correctly.
 
     ![test-authentication](../media/test-authentication.png ':size=45%') 
 

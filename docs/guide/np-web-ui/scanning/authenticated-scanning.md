@@ -13,4 +13,4 @@ You can apply either the DAST or Fuzzer module, as well as all the discovery typ
 Go to the **SCAN SETUP** section. 
 From the **Authentication** dropdown list, select the required object.
 
-![add-object-to-scan](../media/add-object-to-scan.png ':size=45%') 
+![add-object-to-scan](./media/add-object-to-scan.png ':size=45%') 

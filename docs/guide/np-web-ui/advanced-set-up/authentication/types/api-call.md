@@ -48,7 +48,7 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
   ![invalid-response](../media/invalid-response.png ':size=45%') 
 
-7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). The preliminary testing helps you verify if the authentication object has been configured correctly.
+7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). <br> The preliminary testing helps you verify if the authentication object has been configured correctly.
 
     ![test-authentication](../media/test-authentication.png ':size=45%') 
 
