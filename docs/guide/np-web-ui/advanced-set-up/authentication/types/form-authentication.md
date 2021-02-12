@@ -40,8 +40,8 @@ The table below lists and describes the **Authentication Setup** fields in the *
   ![form-description](../media/form-name-description.png ':size=45%')
 
     * Complete the Authentication Setup fields.
-        * For some parameters, you can add more fields by clicking ![plus-icon](../media/aplus-icon.png ':size=2%') at the upper-right of the relevant setup section. 
-        * To delete a parameter, click ![trash-icon](../media/trash-icon.png ':size=2%') next to the relevant Value field.
+        * For some parameters, you can add more fields by clicking ![plus-icon](../media/plus-icon.png ':size=2%') at the upper-right of the relevant setup section. 
+        * To delete a parameter, click ![trash-icon](../media/trash-icon.png ':size=3%') next to the relevant Value field.
 
    ![form-setup](../media/form-setup.png ':size=45%')
 
@@ -59,7 +59,7 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
   ![invalid-response](../media/invalid-response.png ':size=45%') 
 
-7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=2%'). The preliminary testing helps you verify if the authentication object has been configured correctly.
+7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). The preliminary testing helps you verify if the authentication object has been configured correctly.
 
     ![test-authentication](../media/test-authentication.png ':size=45%') 
 
@@ -70,6 +70,6 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
   ![test-results](../media/test-results.png ':size=45%') 
 
-    In this case, you can save the configured object and add it to your scans.
+        In this case, you can save the configured object and add it to your scans.
 
     * If the test results include a failure message, go back to the object configurations and verify their correctness. Use the test request/response data to find a certain failure and fix it.
