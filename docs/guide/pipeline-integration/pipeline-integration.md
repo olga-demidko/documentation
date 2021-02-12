@@ -27,6 +27,13 @@ NexPloit enables a fully automated CI/CD pipeline of detected issues to be integ
     <td><a href="#/guide/pipeline-integration/ticketing-systems/slack.md">Slack</a></td>
     <td><a href="#/guide/pipeline-integration/pipe-management/jenkins.md">Jenkins</a></td>
   </tr>
+
+<tr>
+    <td></td>
+    <td><a href="#/guide/pipeline-integration/ticketing-systems/azure.md">Azure Boards</a></td>
+    <td><a href="#/guide/pipeline-integration/pipe-management/azure-devops.md">Azure Pipelines</a></td>
+  </tr>
+
   <!--
   <tr>
     <td><a href="#/guide/pipeline-integration/sso/github-sso.md">GitHub</a></td>
