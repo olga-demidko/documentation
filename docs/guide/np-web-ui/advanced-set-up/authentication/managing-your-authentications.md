@@ -14,7 +14,7 @@ You can enable NexPloit to get access to an authenticated resource by using any 
 * [**Header authentication**](docs/guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md) - the most straightforward method of authentication, used for static header authentication tokens that are generated outside of NexPloit and will not expire during a scan.  
 * [**API call**](guide/np-web-ui/advanced-set-up/authentication/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
 
-### Setup
+### Setup <!-- {docsify-ignore} -->
 To create an authentication object in NexPloit by using any of the available authentication options, you will need to get valid parameters and values required for a successful authentication setup, the specific parameters depend on the required authentication flow. You can find them in the browser DevTools of your application. To do that, follow these steps:
 1. Open the DevTools in your application.
 2. In the DevTools, select the **Network** tab.
