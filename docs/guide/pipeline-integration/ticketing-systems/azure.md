@@ -57,8 +57,8 @@ To enable the integration, you need to connect NexPloit to the account of your A
 
     ![enabled](media/azure/enabled.png ':size=45%')
 
-### Configer Nexploit Integration with Azure projects 
-You can connect your NexpPloit project to the projects of your Azure DevOps organization. The connection allows NexPloit to automatically provide the scan reports on the associated Azure boards of specific projects. 
+### Configure NexPloit Integration with Azure projects 
+You can connect your NexPloit project to the projects of your Azure DevOps organization. The connection allows NexPloit to automatically provide the scan reports on the associated Azure boards of specific projects. 
 
 To associate your NexPloit project with the Azure boards, follow these steps:
 
