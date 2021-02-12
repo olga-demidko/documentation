@@ -31,6 +31,10 @@
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
       - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
+      - [Managing Your Authentications](guide/np-web-ui/advanced-set-up/authentication/managing-your-authentications.md)
+        - [Form Authentication](guide/np-web-ui/advanced-set-up/authentication/types/form-authentication.md)
+        - [Header Authentication](guide/np-web-ui/advanced-set-up/authentication/types/header-authentication.md)
+        - [API Call](guide/np-web-ui/advanced-set-up/authentication/types/api-call.md)
 
   - [**Using the NexPloit REST API**](guide/np-rest-api/using)
 
