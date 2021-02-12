@@ -8,6 +8,133 @@ If you need to enable NexPloit to reach an authenticated resource by sending API
 ## API Call Setup Fields 
 The table below lists and describes the **Authentication Setup** fields in the **API Calls** section.
 
+<table id="simple-table">
+  <tr>
+    <td width="25%" style="text-align:center;padding:15px"><b>Field</b></td>
+    <td width="75%" style="text-align:center;padding:15px"><b>Guidelines</b></td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Method</b></td>
+    <td width="75%" >
+        <p>Enter the HTTP method of the relevant API end-point.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>URL</b></td>
+    <td width="75%" >
+    <p>Enter the URL of the relevant API end-point.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Body</b></td>
+    <td width="75%" >
+        <p>Enter the HTTP request body to use with the request sent to the API end-point, for example:{“user”: “foo”, “pass”: “bar”}’.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Extract from</b></td>
+    <td width="75%" >
+        <p>Select where in the responses the correct authentication token should be extracted from.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Header</b></ul></td>
+    <td width="75%" >
+        <p>Select if you need the authentication token to be extracted from the response header.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Header name</b></li></ul></td>
+    <td width="75%" >
+        <p>Enter the name of the header to extract the authentication token from.</p>
+    </td>
+  </tr>
+   <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Body</b></ul></td>
+    <td width="75%" >
+        <p>Select if you need the authentication token to be extracted from the response body.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Authenticated token extraction regex</b></td>
+    <td width="75%" >
+        <p>Enter the Regex pattern that extracts the authentication token from the specified location.</p>
+        <font color="green"><b>Pro Tips:</b></font>
+        <ul>
+            <li>
+                Make sure the specified Regex captures ONLY the token itself, and not any additional parts of the string such as prefix, suffix, delimiter, padding, etc.
+            </li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Token encoder</b></td>
+    <td width="75%" >
+        <p>Select any encoder that you need to use on the token itself, for example Base64.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Embed in</b></td>
+    <td width="75%" >
+        <p>Select where in the subsequent authenticated requests the authentication token should be embedded into.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Header</b></ul></td>
+    <td width="75%" >
+        <p>Select if you need the authentication token to be embedded into the request header.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Target header name</b></li></ul></td>
+    <td width="75%" >
+        <p>Enter the name of the header to embed the authentication token into.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Body</b></ul></td>
+    <td width="75%" >
+        <p>Select if you need the authentication token to be embedded into the request body.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Content type</b></li></ul></td>
+    <td width="75%" >
+        <p>Select the content type of the request body.</p>
+        <p><font color="blue"><b>Note:</b></font> Currently only `application/json` is supported.</p>
+    </td>
+  </tr>
+   <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>XPAth</b></li></ul></td>
+    <td width="75%" >
+        <p>Enter the exact path to the object to be used in the requests sent to the API end-point.</p>
+    </td>
+  </tr>
+   <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Token template string</b></td>
+    <td width="75%" >
+        <p>Enter the expected token and final pattern to be embedded into the end-point request header or body.</p>
+        <p><font color="green"><b>Pro Tip:</b></font> The required syntax is to have the `{{token}}` string in the field, along with any needed prefixes/suffixes. The `{{token}}` part will be replaced with the extracted token from the authentication response.</p>
+    </td>
+  </tr>
+   <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Additional headers</b></td>
+    <td width="75%" >
+        <p><em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata. </p>
+         <font color="green"><b>Pro Tips:</b></font>
+        <ul>
+            <li>
+                If your application uses cookies that are set via the Set-Cookie header in the response, then you do not need to extract and reuse the cookies. Any Set-Cookie header will be automatically used during authentication.  
+            </li>
+             <li>
+                MFA required on initial IP login may be handled using a cookie value. For that, you need to identify which cookie holds the completed MFA/2FA and include a valid cookie as a part of your authentication object.  
+            </li>
+        </ul>
+    </td>
+  </tr>
+  </table>
+
+
 
 ## Step-by-Step Guide
 1. Go to [nexploit.app](https://nexploit.app/scans).
