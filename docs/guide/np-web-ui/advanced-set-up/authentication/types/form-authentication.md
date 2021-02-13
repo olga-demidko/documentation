@@ -1,5 +1,5 @@
 # Configuring the Form Authentication in NexPloit
-You can use the form authentication if the login-protected resources within the application you want to scan use the application/x-www-form-urlencoded content type of the HTTP requests. 
+You can use the form authentication if the login-protected resources within the application you want to scan use<br> the application/x-www-form-urlencoded content type of the HTTP requests. 
 
 The form authentication type is set by default when you create an authentication object in NexPloit.  
 
