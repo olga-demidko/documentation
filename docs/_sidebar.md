@@ -3,12 +3,12 @@
 
   - [**Introducing NexPloit**](guide/introduction/intro.md)
     - [What is NexPloit?](guide/introduction/what-is-nexploit.md)
-    - [Integrating Nexploit](guide/introduction/integrating-nexploit.md)
+    - [Integrating NexPloit](guide/introduction/integrating-nexploit.md)
     - [Deployment Options](guide/introduction/deployment-options.md)
       - [SaaS](guide/introduction/deployment-saas.md)
       - [On-Prem (Repeater)](guide/introduction/deployment-onprem.md)
       - [Private Cloud](guide/introduction/deployment-private.md)
-    - [Using Nexploit - QuickStart](guide/introduction/nexploit-quickstart.md)
+    - [Using NexPloit - QuickStart](guide/introduction/nexploit-quickstart.md)
     - [Data Security FAQs](guide/introduction/data-security-faq.md)
 
   - [**Using the NexPloit Web User Interface**](guide/np-web-ui/np-web-ui.md)
