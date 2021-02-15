@@ -7,7 +7,7 @@ You can apply either the DAST or Fuzzer module, as well as all the discovery typ
 ## Prerequisites
 
 *   You are an active user on [nexploit.app](https://nexploit.app/scans).
-*   You have a valid Authentication Object configured.
+*   You have a valid [Authentication Object](guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) configured.
 
 ## Step-by-Step Guide
 1. Go to the **SCAN SETUP** section.
