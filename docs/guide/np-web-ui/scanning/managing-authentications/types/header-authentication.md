@@ -42,7 +42,10 @@ You can use the header authentication method if the login-protected resources wi
   
   ![invalid-response](../media/invalid-response.png ':size=45%') 
 
-7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). <br> The preliminary testing helps you verify if the authentication object has been configured correctly.
+7. In the **Validation URL** field, do the following:<br>
+  a) Enter the URL of an authenticated resource within your application.<br>
+  b) If you use a local Repeater to reach the scan target, from the **Repeater** dropdown list, select the Repeater you need for the scan.<br>
+  c) Click  ![test-button](../media/test-button.png ':size=17%'). <br>  The preliminary testing helps you verify if the authentication object has been configured correctly.
 
     ![test-authentication](../media/test-authentication.png ':size=45%') 
 

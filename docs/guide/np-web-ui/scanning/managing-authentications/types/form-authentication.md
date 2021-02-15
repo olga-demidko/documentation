@@ -39,6 +39,18 @@ The table below lists and describes the **Authentication Setup** fields in the *
   <tr>
     <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Parameter value</b></td>
     <td width="75%" >
+        <p> Enter the values of the form parameters (credentials) from the request bodies.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Maximum number of redirects to follow</b></td>
+    <td width="75%" >
+        <p> Enter the maximum number of redirections that the Nexploit should follow during the authentication process.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Additional headers</b></td>
+    <td width="75%" >
         <p><em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.</p>
         <font color="green"><b>Pro Tips:</b></font>
         <ul>
@@ -93,7 +105,10 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
   ![invalid-response](../media/invalid-response.png ':size=45%') 
 
-7. In the **Validation URL** field, enter the URL of an authenticated resource within your application, and then click  ![test-button](../media/test-button.png ':size=17%'). <br> The preliminary testing helps you verify if the authentication object has been configured correctly.
+7. In the **Validation URL** field, do the following:<br>
+  a) Enter the URL of an authenticated resource within your application.<br>
+  b) If you use a local Repeater to reach the scan target, from the **Repeater** dropdown list, select the Repeater you need for the scan.<br>
+  c) Click  ![test-button](../media/test-button.png ':size=17%'). <br>  The preliminary testing helps you verify if the authentication object has been configured correctly.
 
     ![test-authentication](../media/test-authentication.png ':size=45%') 
 
