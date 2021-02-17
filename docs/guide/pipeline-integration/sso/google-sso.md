@@ -1,11 +1,29 @@
-# Google SSO
+<table id="integrations" >
+  <tr>
+    <td width="70%">
+      <h1>Google SSO</h1>
+    </td>
+    <td width="30%" style="text-align:center" rowspan="3">
+      <img src="guide/pipeline-integration/sso/media/google/google-new-logo.png" width="200" height="250"></img>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;vertical-align:text-top;padding:0px">
+      To simplify user access to NeuraLegion solutions, you can configure Single Sign On (SSO) for Google.
+    </td>
+  </tr>
+  <tr>
+  <td>
+  <h2>Enabling Google for the Organization</h2>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  To enable Google for an organization –
+  </td>
+  </tr>
+</table>
 
-![google-logo](media/google/google-logo.png ':size=15%')
-
-To simplify user access to NeuraLegion solutions, you can configure Single Sign On (SSO) for Google.
-
-## Enabling Google for the Organization
-To enable Google for an organization –
 1. Log in to NexPloit.
 2. Select the **Organization** option in the left pane to display the Organization page.
 3. Scroll down to the **AUTHENTICATION** section.\

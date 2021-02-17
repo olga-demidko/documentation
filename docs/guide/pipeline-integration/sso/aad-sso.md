@@ -1,12 +1,29 @@
-# Azure Active Directory SSO
+<table id="integrations" >
+  <tr>
+    <td width="70%">
+      <h1>Azure Active Directory</h1>
+    </td>
+    <td width="30%" style="text-align:center" rowspan="3">
+      <img src="guide/pipeline-integration/sso/media/azure/aad-new-logo.png" width="200" height="250"></img>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;vertical-align:text-top;padding:0px">
+      To make it much easier for users to access our solutions, it is possible to configure "Single Sign On" (SSO) with Azure Active Directory.
+    </td>
+  </tr>
+  <tr>
+  <td>
+  <h2>Enable Azure Active Directory SSO Organization</h2>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  To configure an Azure Active Directory SSO integration, an admin shall:
+  </td>
+  </tr>
+</table>
 
-![aad-logo](media/azure/aad-logo.png ':size=10%')
-
-## About
-To make it much easier for users to access our solutions, it is possible to configure "Single Sign On" (SSO) with Azure Active Directory.
-
-## Enable Azure Active Directory SSO Organization
-To configure an Azure Active Directory SSO integration, an admin shall:
 1. Add an app in the "App registrations" section. Set the callback URL to `https://nexploit.app/adfs/callback`:\
 ![aad-sso-1](media/azure/aad-sso-1.png ':size=45%')
     * Copy-paste the Application (client) ID into NexPloit client akin to Azure ADFS:\
