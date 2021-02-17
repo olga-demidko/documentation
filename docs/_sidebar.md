@@ -63,7 +63,7 @@
       - [Google](guide/pipeline-integration/sso/google-sso.md)
       - [Azure AD](guide/pipeline-integration/sso/aad-sso.md)
     - [**Ticketing Systems**](guide/pipeline-integration/ticketing-systems/ticketing-overview.md)
-      - [Integrating with NexPloit](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/connect-overview.md)
+      - [Integrating with NexPloit](#integrating-with-nexploit)
         - [Jira](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/jira.md)
         - [GitHub](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/github.md)
         - [Slack](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md)

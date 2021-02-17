@@ -22,13 +22,13 @@ NexPloit enables integrations with the following tools and platforms:
   </tr>
 
   <tr>
-    <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/aad-sso.md">Azure Active Directory</a></td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/google-sso.md">Google</a></td> 
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/github.md">GitHub</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/circleci.md">CircleCI</a></td>
   </tr>
 
   <tr>
-    <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/google-sso.md">Google</a></td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/aad-sso.md">Azure Active Directory</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md">Slack</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jenkins.md">Jenkins</a></td>
   </tr>
