@@ -12,7 +12,7 @@ The authorization token is a composite of a secure cryptographic algorithm, the 
 
 Then you could compute the authorization token as follows:
 
-```
+```js
 const { createHmac } = require('crypto');
 const { URL } = require('url');
 const AWS_ACCESS_KEY_ID = '44CF9590006BF252F707';
@@ -69,7 +69,7 @@ exports.handle = handle;
 Which results in a HTTP request, with headers which looks like this:
 
 
-```
+```js
 {
  method: 'PUT',
  url: 'https://example.com/quotes/nelson',
@@ -84,7 +84,7 @@ Which results in a HTTP request, with headers which looks like this:
 ```
 The server response for this request will look like this:
 
-```
+```js
 {
  url: 'https://example.com/quotes/nelson',
  method: 'PUT',
@@ -100,13 +100,12 @@ The server response for this request will look like this:
 }
 ```
 
-### Sending custom values 
+### Sending Custom Values 
 Sometimes you may need to provide the server with additional values to get access to the targets. Or you may need to to get the tokens of some specific headers. You can realize it by creating scripts with custom requests.
 
 The following script is an example of how to apply host-specific static header tokens:
 
-
-```
+```js
 const { URL } = require('url');
 const HEADER_NAME = 'Some-Custom-Header';
 const HOST_KEY_PAIRS = new Map()
