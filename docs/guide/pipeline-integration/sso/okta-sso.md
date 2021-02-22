@@ -1,9 +1,24 @@
-# OKTA SSO
+<table id="integrations" >
+  <tr>
+    <td width="70%">
+      <h1>OKTA</h1>
+    </td>
+    <td width="30%" style="text-align:center" rowspan="3">
+      <img src="guide/pipeline-integration/sso/media/okta/okta-new-logo.png" width="200" height="250"></img>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;vertical-align:text-top;padding:0px">
+    <h2>Configuring NexPloit OIDC Using Okta</h2>
+    </td>
+  </tr>
+  <tr>
+  <td>
+  To simplify user access to NeuraLegion solutions, Single Sign On (SSO) can be configured for Okta.
+  </td>
+  </tr>
+</table>
 
-![okta](media/okta/okta-logo.png ':size=15%')
-
-## Configuring NexPloit OIDC Using Okta
-To simplify user access to NeuraLegion solutions, Single Sign On (SSO) can be configured for Okta.
 >[!NOTE|label:Note]
 Currently, Okta/NexPloit OIDC integration only supports SP-initiated SSO.
 

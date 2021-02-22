@@ -1,12 +1,30 @@
-# Jenkins Integration
+<table id="integrations" >
+  <tr>
+    <td width="70%">
+      <h1>Jenkins</h1>
+    </td>
+    <td width="30%" style="text-align:center" rowspan="3">
+      <img src="guide/pipeline-integration/pipe-management/media/jenkins/jenkins-new-logo.png" width="200" height="250"></img>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:left;vertical-align:text-top;padding:0px">
+    If you are using Jenkins for automation in your development, this section will show you how easy it is to add NexPloit scans to your pipeline.
+    </td>
+  </tr>
+  <tr>
+  <td>
+  <h2>Adding NexPloit to a Jenkins Pipeline</h2>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  There are many different approaches for building a Jenkins pipeline such as –
+  </td>
+  </td>
+  </tr>
+</table>
 
-![jenkins-logo](/media/jenkins/jenkins-logo.png ':size=15%')
-
-If you are using Jenkins for automation in your development, this section will show you how easy it is to add NexPloit scans to your pipeline.
-
-## Adding NexPloit to a Jenkins Pipeline
-
-There are many different approaches for building a Jenkins pipeline such as –
 - [Using Only the NexPloit REST API](#using-only-the-nexploit-rest-api)
 - [Using the NexPloit CLI](#using-the-nexploit-cli)
 - [Using the NexPloit CLI with a Repeater](#using-the-nexploit-cli-with-a-repeater)
