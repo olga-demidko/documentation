@@ -1,2 +1,7 @@
-# Configuring CI/CD Integration Settings
-NexPloit enables a fully automated CI/CD pipeline of detected issues to be integrated into a variety of tools and platforms, such as Software Development Lifecycle (SDLC), ticketing, bug tracking tools. See [Integrating into Your Pipeline](guide/pipeline-integration/pipeline-integration.md) for a full description.
+# Configuring NexPloit Integrations
+
+NexPloit enables you to configure integration with your CI pipelines or ticketing systems via the NexPloit web UI.
+
+You can integrate NexPloit with your development and management tools to simplify and automate the process of testing your applications and APIs. You can start scans, view detailed reports on every detected vulnerability, as well as solve security issues without leaving your development environment.
+
+See [NexPloit Integrations](guide/pipeline-integration/pipeline-integration.md) for a full description.
