@@ -15,5 +15,5 @@ After a scan’s launch, it frequently checks the scan's status. If the scan fin
 | `--breakpoint=any / medium_issue / high_issue` | A conditional breakpoint that finishes the process with exit code 50 only after fulfilling the predefined condition.<br/><br/>**Default Value –** `--breakpoint any` |
 | `--interval=milliseconds` | The period of time between the end of a timeout period or the completion of a scan status request, and the next request for status. For example, 60, 2min, 10h or 7d. A numeric value is interpreted in milliseconds.<br/><br/>**Default Value –** --interval 5000 |
 | `--timeout=milliseconds` | The maximum time allowed for polling to end normally. For example, 60, 2min, 10h or 7d. A numeric value is interpreted in milliseconds.|
-
+| ```--api=ApiDomain``` | Set the API endpoint domain, for VPC, use: `--api https://private-domain.nexploit.app` <br/><br/>**Default Value:** `--api https://nexploit.app` |
 

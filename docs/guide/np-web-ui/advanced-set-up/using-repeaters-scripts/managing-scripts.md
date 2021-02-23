@@ -1,5 +1,5 @@
-# Managing Repeaters Scripts
-The Repeaters scripts allow you to add, change or compute some part of a scan request before it is dispatched to the target. 
+# Managing Repeater Scripts
+The Repeater Scripts allow you to add, change or compute some part of a scan request before it is dispatched to the target. 
 
 The [nexploit.app](https://nexploit.app/) enables you to manage the Repeater scripts in the **Repeaters** section of the Dashboard:
 * [Creating a Script](#Creating-a-Script)
@@ -10,7 +10,7 @@ The [nexploit.app](https://nexploit.app/) enables you to manage the Repeater scr
 
 ## Creating a Script
 To create a script, follow these steps:
-1. In the **Repeaters** section, click **<> Repeaters scripts** in the upper right corner.
+1. In the **Repeaters** section, click **<> Repeater Scripts** in the upper right corner.
 
     ![Reapeaters-scripts](../media/repeaters-scripts/repeaters-scripts.png ':size=45%')
 
@@ -30,7 +30,7 @@ All the created scripts are displayed in the **AVAILABLE SCRIPTS** section on th
  ![available-scripts](../media/repeaters-scripts/available-scripts.png ':size=45%')
 
 In this section, you can use the following options:
-* To quickly find a certain script, enter  its name, description or ID in the search field in the upper right corner.
+* To quickly find a certain script, enter its name, description or ID in the search field in the upper right corner.
 * To select the number of scripts that you want to view on one page, select it from the **Items per page** dropdown list at the bottom.
 * To switch between the pages of the available scripts, use the navigation buttons in the lower right corner.
 
@@ -43,13 +43,7 @@ To edit a specific script, do the following:
 
 3. On the script popup, add any changes you need, and then click **Update**.
 
-
-
-
-
-
 ## Deleting a Script
-
 To delete a specific script, do the following:
 1. In the **AVAILABLE SCRIPTS** section, select the script you want to delete.
 2. Click ![dots-icon](../media/repeaters-scripts/dots-icon.png ':size=2%') next to the selected script, and then select **Delete**.
@@ -65,18 +59,13 @@ To upload a specific script to a specific Repeater, do the following:
  ![edit-script](../media/repeaters-scripts/edit-script.png ':size=45%')
 
   On the popup, do the following:<br>
-   a) Select the type of the script coverage:
-   * **Single global script** - applied for the requests that should cover all the target hosts. 
-   * **Host-specific script** - applied for the requests that aim at only one specific host.
+  a) Select the type of the script coverage:
+    * **Single global script** - applied for the requests that should cover all the target hosts. 
+    * **Host-specific script** - applied for the requests that aim at only one specific host.
  
-   ![scripts-type](../media/repeaters-scripts/scripts-type.png ':size=30%')
+  ![scripts-type](../media/repeaters-scripts/scripts-type.png ':size=30%')
 
- b) From the dropdown list, select the script you want to connect, and then click Update.<br>
- The uploaded script will be then added to the scan request executed via the specified Repeater.
+  b) From the dropdown list, select the script you want to connect, and then click Update.<br>
+  The uploaded script will be then added to the scan request executed via the specified Repeater.
 
-   ![select-script](../media/repeaters-scripts/select-script.png ':size=30%')
-
-
- 
-
-
+  ![select-script](../media/repeaters-scripts/select-script.png ':size=30%')
