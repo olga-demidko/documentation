@@ -22,7 +22,7 @@
 *   You are an active user on  [nexploit.app](https://nexploit.app). 
 *   You have the [NexPloit DevOps Integration extension](https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit)  installed on your Azure DevOps Server. 
 *   The target of the scan is accessible from the Internet.
-*   You have a valid [organization API key](http://localhost:3000/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or [personal API key](http://localhost:3000/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens) with the following scopes:
+*   You have a valid [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens) with the following scopes:
     - scans : run
     - scan : read
     - scans : stop
