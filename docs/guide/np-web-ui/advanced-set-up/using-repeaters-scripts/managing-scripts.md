@@ -3,7 +3,7 @@ The Repeater Scripts allow you to add, change or compute some part of a scan req
 
 The [nexploit.app](https://nexploit.app/) enables you to manage the Repeater scripts in the **Repeaters** section of the Dashboard:
 * [Creating a Script](#Creating-a-Script)
-* [Displaying the Scripts List](#Displaying-the-Sripts-List) 
+* [Displaying the Scripts List](#Displaying-the-Scripts-List) 
 * [Editing a Script](#Editing-a-Script)
 * [Deleting a Script](#Deleting-a-Script)
 * [Loading a Script to a Repeater](#Loading-a-Script-to-a-Repeater)
