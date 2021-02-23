@@ -26,16 +26,26 @@ When receiving a scan request from NexPloit (step 2 on the diagram below), the  
 A script code must include a function with the hardcoded name ‘handle’ and a composite of any custom parameters (variables) . The script parameters are used for computing dynamic data, for example an authorization token, which can be added to the scan request. Here is a simple example of a script code.  
 
 ```js
-const { createHmac } = require('crypto');              
-const handle = ({ method, url, headers, body }) => {   
-  const version = 'v1';                                
-  const secret = 'someSecret';                         
-  const timestamp = Date.now();                        
-  const signature = createHmac('sha256', secret).update(\'\${version}:\${timestamp}:\${body}`).digest('base64'); 
-
-  return { url, method, body, headers: { ...headers, 'x-request-timestamp': timestamp, 'x-request-signature': signature } };                                       
-};                                                     
-exports.handle = handle;                               
+const { createHmac } = require('crypto');
+const handle = ({ method, url, headers, body }) => {
+  const version = 'v1';
+  const secret = 'someSecret';
+  const timestamp = Date.now();
+  const signature = createHmac('sha256', secret)
+    .update([version, timestamp, body].join(':'))
+    .digest('base64');
+  return {
+    url,
+    method,
+    body,
+    headers: {
+      ...headers,
+      'x-request-timestamp': timestamp,
+      'x-request-signature': signature
+    }
+  };
+};
+exports.handle = handle;
 ```
 
 The most common script parameters that may be applied for calculating an authorization token are given below.
