@@ -13,7 +13,7 @@ In a script, you should specify how exactly the server calculates the HMAC code 
 
 The Repeater scripts also help you send some custom dynamic values per host and various other request pre-processing steps.
 
-### Script Implementation Flow
+### Script Implementation Flow<!-- {docsify-ignore} -->
 
 You first need to create a script file and then load it to a specific Repeater. It may take a few minutes before the file reaches the Repeater and updates it. 
 
@@ -21,7 +21,7 @@ When receiving a scan request from NexPloit (step 2 on the diagram below), the  
 
 ![scripts-implementation](../media/repeaters-scripts/repeater-chart.png ':size=45%')
 
-### Building Parameters of Scripts
+### Building Parameters of Scripts<!-- {docsify-ignore} -->
 
 A script code must include a function with the hardcoded name ‘handle’ and a composite of any custom parameters (variables) . The script parameters are used for computing dynamic data, for example an authorization token, which can be added to the scan request. Here is a simple example of a script code.  
 

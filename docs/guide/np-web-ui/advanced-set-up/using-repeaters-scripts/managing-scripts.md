@@ -27,7 +27,7 @@ To create a script, follow these steps:
 ## Displaying the Scripts List
 All the created scripts are displayed in the **AVAILABLE SCRIPTS** section on the **Scripts** page.
 
- ![available-scripts](../media/repeaters-scripts/available-scripts.png ':size=45%')
+   ![available-scripts](../media/repeaters-scripts/available-scripts.png ':size=45%')
 
 In this section, you can use the following options:
 * To quickly find a certain script, enter its name, description or ID in the search field in the upper right corner.
@@ -50,8 +50,8 @@ To delete a specific script, do the following:
 
  ![script-delete](../media/repeaters-scripts/script-delete.png ':size=45%')
 
-## Loading a script to a Repeater 
-To upload a specific script to a specific Repeater, do the following:
+## Loading a Script to a Repeater 
+To load a script to a specific Repeater, do the following:
 1. Go to the **Repeaters** section.
 2. From the list of available Repeaters, select the one you need.
 3. Click ![dots-icon](../media/repeaters-scripts/dots-icon.png ':size=2%') next to the selected Repeater, and then select **Edit**.

@@ -1,4 +1,4 @@
-# Use cases
+# Use Cases
 Below are some examples how you can use Repeater scripts during scanning of a local target.
 
 ### Sample HMAC Code
