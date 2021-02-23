@@ -216,4 +216,4 @@ Your Jenkins flow with NexPloit is configured!
 
 > [!TIP|label:Pro Tips]
 > - See [NexPloit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can add to your Jenkins flow.
-> - If the build processes is faster than the scan, you can use the Jenkins [wait for stage](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY) option.
+> - If the build processes are faster than the scan, you can use the Jenkins [wait for stage](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY) option.
