@@ -1,7 +1,7 @@
 # NexPloit Integrations
 You can integrate NexPloit with your development and management tools to simplify and automate the process of testing your applications and APIs. You can start scans, view detailed reports on every detected vulnerability, as well as solve security issues without leaving your development environment. 
 
-NexPloit enables you to configure integration with your CI pipelines or ticketing systems by using the NexPloit web UI, CLI or API. To simplify access to the NexPloit account, you can also use the Single Sign On (SSO) capabilities. Some integrations require valid predefined API keys that you should create in NexPloit.
+NexPloit enables you to configure integration with your CI pipelines or ticketing systems by using the NexPloit web UI, CLI or API. To simplify access the NexPloit account, you can also use the Single Sign On (SSO) capabilities. Some integrations require valid predefined API keys that you should create in NexPloit.
 
 NexPloit enables integrations with the following tools and platforms: 
 

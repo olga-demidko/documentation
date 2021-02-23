@@ -36,9 +36,9 @@
       - [Managing Your Personal Account Preferences](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Using Repeater Scripts](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md)
-        - [Use Cases](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/use-cases.md)
+        - [Use Cases](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/use-cases.md)  
         - [Managing Scripts](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/managing-scripts.md)
-      - [Configuring CI/CD Integration Settings](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
+      - [Configuring NexPloit Integrations](guide/np-web-ui/advanced-set-up/configuring-ci-cd.md)
       - [Managing NexPloit File Storage](guide/np-web-ui/advanced-set-up/managing-np-file-storage.md)
        
   - [**Using the NexPloit REST API**](guide/np-rest-api/using)
