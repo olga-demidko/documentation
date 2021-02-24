@@ -88,11 +88,11 @@ curl https://nexploit.app/api/v1/scans/$SCAN_ID/stop -H "Authorization: Api-Key 
 And that's it! Your Jenkins flow with NexPloit is configured!
 
 > [!TIP|label:Pro Tips]
-> - See [NexPloit CLI Command List](/nexploit-cli/commands.md) for a full list of commands you can add to your Jenkins flow.\
+> - See [NexPloit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can add to your Jenkins flow.
 > - If the build processes is faster than the scan you can use the Jenkins [wait for stage](http://cpitman.github.io/jenkins/cicd/2017/03/16/waiting-for-remote-systems-in-a-jenkins-pipeline.html#.XyA6Dp4zbLY) option.
 
 ### Using NexPloit CLI
-Using this approach, you will need to install [NexPloit CLI](/nexploit-cli/overview.md) on your Jenkins machine. Which will provide an-easy-to use interface to control the scans, as well as other built-in capabilities such as: mock HAR file creation, Repeater and more.
+Using this approach, you will need to install [NexPloit CLI](guide/np-cli/installation.md) on your Jenkins machine. Which will provide an easy-to-use interface to control the scans, as well as other built-in capabilities such as: mock HAR file creation, Repeater and more.
 
 | **Pros**                                                                                      | **Cons**                                                      |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
