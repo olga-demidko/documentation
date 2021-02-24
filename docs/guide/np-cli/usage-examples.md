@@ -140,17 +140,17 @@ services:
       REPEATER_TOKEN: REPEATER-TOKEN
       REPEATER_ID: REPEATER-ID
 ```
-**STEP 2 – Run the Docker**
+**STEP 2 – Run the Docker**<br>
 Run the **Repeater Docker** using the command:
 ```bash
 docker-compose up
 ```
 >[!NOTE|label:Note]
-If a valid REPEATER-TOKEN and REPEATER-ID was not added, then the following  error apears – Unauthorized access. Please check your credentials.
+If a valid REPEATER-TOKEN and REPEATER-ID was not added, then the **Unauthorized access** error appears. Please check your credentials.
 
 Now, when Starting a New Scan, you can connect the Repeater under **Additional Settings** in the UI or use the CLI to start a scan.
 
-### Run a New Scan With Docker Startup
+### Run a New Scan with Docker Startup
 The Docker version of the Repeater comes with a built-in **NexPloit-CLI**, so that additional functions can be added to the docker container to be executed after the Repeater mode is launched.
 
 Here is an example of a `.yaml` configuration that will launch a new scan as soon as the Docker is running –
