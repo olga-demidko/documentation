@@ -34,10 +34,10 @@ The On-Premises Repeater requires –
 * An installed Repeater on the relevant local machine (Docker or NexPloit CLI).
 
 ## Installation
-See the NexPloit CLI – Installation section for installation instructions.
+See the [NexPloit CLI Installation](/guide/np-cli/installation.md) section for installation instructions.
 
 ## Usage Examples
-See usage examples in the NexPloit CLI 🡺 Usage Examples section.
+See the usage examples in the [NexPloit CLI Usage Examples](/guide/np-cli/usage-examples.md) section.
 
 ## FAQs – On-Premises Repeater
 ### What is the maintenance / patching frequency?
