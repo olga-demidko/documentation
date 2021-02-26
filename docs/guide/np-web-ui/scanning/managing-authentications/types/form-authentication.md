@@ -1,5 +1,5 @@
 # Configuring the Form Authentication in NexPloit
-You can use the form authentication if the login-protected resources within the application you want to scan use<br> the application/x-www-form-urlencoded content type of the HTTP requests. 
+You can use the form authentication if the login-protected resources within the application you want to scan use<br> the `application/x-www-form-urlencoded` content type of the HTTP requests. 
 
 The form authentication type is set by default when you create an authentication object in NexPloit.  
 
@@ -12,13 +12,13 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
 <table id="simple-table">
   <tr>
-    <td width="25%" style="text-align:center;padding:15px"><b>Field</b></td>
-    <td width="75%" style="text-align:center;padding:15px"><b>Guidelines</b></td>
+    <th width="25%"><b><u>Field</u></b></th>
+    <th width="75%"><b><u>Guidelines</u></b></th>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>URL</b></td>
+    <td width="25%"><b>URL</b></td>
     <td width="75%" >
-        <p>Enter the relevant URL for the HTTP request. The POST method is set by default for the form authentication.</p>
+        Enter the relevant URL for the HTTP request. The POST method is set by default for the form authentication.<br><br>
         <font color="green"><b>Pro Tips:</b></font>
         <ul>
             <li>
@@ -31,27 +31,27 @@ The table below lists and describes the **Authentication Setup** fields in the *
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Parameter name</b></td>
+    <td width="25%"><b>Parameter name</b></td>
     <td width="75%" >
-        <p> Enter the form parameters from the request body. For example, username and password.</p>
+        Enter the form parameters from the request body. For example, username and password.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Parameter value</b></td>
+    <td width="25%"><b>Parameter value</b></td>
     <td width="75%" >
-        <p> Enter the values of the form parameters (credentials) from the request bodies.</p>
+        Enter the values of the form parameters (credentials) from the request bodies.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Maximum number of redirects to follow</b></td>
+    <td width="25%"><b>Maximum number of redirects to follow</b></td>
     <td width="75%" >
-        <p> Enter the maximum number of redirections that the Nexploit should follow during the authentication process.</p>
+        Enter the maximum number of redirections that the Nexploit should follow during the authentication process.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Additional headers</b></td>
+    <td width="25%"><b>Additional headers</b></td>
     <td width="75%" >
-        <p><em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.</p>
+        <em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.<br><br>
         <font color="green"><b>Pro Tips:</b></font>
         <ul>
             <li>
@@ -91,14 +91,14 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
    ![form-setup](../media/form-setup.png ':size=45%')
 
-5. In the **Valid Authentication Response** section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow passes successfully:
+5. In the **Valid Authentication Response** section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow has passed successfully:
     *   **Detect using response status** - enter the HTTP response that will tell you about the authentication success.
     *   **Detect using header pattern** - enter the header and Regex pattern that will tell about the authentication success.
     *   **Detect using body pattern** - Enter the body pattern that will tell you about the authentication success.
 
   ![valid-response](../media/valid-response.png ':size=45%')
 
-6. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session fails:
+6. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session has failed:
     *   **Detect using response status** - enter the HTTP response that will tell you about the authentication failure.
     *   **Detect using header pattern** - enter the header and Regex pattern that will tell about the authentication failure.
     *   **Detect using body pattern** - Enter the body pattern that will tell you about the authentication failure. 

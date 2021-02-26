@@ -10,7 +10,7 @@ You can apply either the DAST or Fuzzer module, as well as all the discovery typ
 *   You have a valid [Authentication Object](guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) configured.
 
 ## Step-by-Step Guide
-1. Go to the **SCAN SETUP** section.
+1. In the **Application Settings** tab, select **Authentication object**.
 2. From the **Authentication** dropdown list, select the required object.
 
-![add-object-to-scan](media/add-object-to-scan.png ':size=45%') 
+    ![select-auth-object](media/select-auth-object.png ':size=45%') 

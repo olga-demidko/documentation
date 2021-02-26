@@ -34,7 +34,7 @@ You can use the header authentication method if the login-protected resources wi
    > [!TIP|label:Pro Tip]
    There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object.
 
-5. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session fails:
+5. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session has failed:
     *   **Detect using response status** - enter the HTTP response that will tell you about the authentication failure.
     *   **Detect using header pattern** - enter the header and Regex pattern that will tell about the authentication failure.
     *   **Detect using body pattern** - Enter the body pattern that will tell you about the authentication failure.
