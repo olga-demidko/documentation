@@ -4,7 +4,7 @@
 
     ![New-Scan-Dialogue](media/new-scan.png ':size=45%')
 
-3. _(Optional)_ In order to make the scanning definition process quicker, in the **Templates** tab, you can select a predefined set of scan settings. NexPloit provides the following types of predefined scan settings:
+3. _(Optional)_ In order to make the scanning definition process quicker, in the <u>**Templates** tab</u>, you can select a predefined set of scan settings. NexPloit provides the following types of predefined scan settings:
 
     ![Templates](media/templates.png ':size=45%')
 
@@ -15,7 +15,7 @@
 >[!TIP|label:Pro Tip]
 In addition, you can define your own scan templates. See [Managing Scan Templates](guide/np-web-ui/scanning/managing-scan-templates.md) for more information.
 
-4. In the **Scan Details** tab, do the following:
+4. In the <u> **Scan Details** tab</U>, do the following:
 
  ![Scan-details](media/scan-details.png ':size=45%')
 
@@ -27,7 +27,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
 * From the **Integrations** dropdown list, select a specific repository where you want to get the scan reports.
 
-5. In the **Scan Targets** tab, do the following:
+5. In the <u>**Scan Targets** tab</u>, do the following:
 * In the **Discovery Types** field, select one of the following ways your application attack surface should be mapped (depending on your subscription) – Crawler, Recording (HAR) or Open API: 
   * **Crawler** – This is the simplest option. Simply enter a URL (target host) to scan the whole or a part of the specified application. The crawler will map the entire application attack surface automatically.
 
@@ -65,7 +65,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
    - **Artificial URL Query** - A URL Query added artificially to check if it can be manipulated for attacks. 
    - **Artificial URL Fragment** -  A URL Fragment  added artificially to check if it can be manipulated for attacks. 
 
-6. In the **Network Settings** tab, configure the following options:
+6. In the <u>**Network Settings**</u> tab, configure the following options:
 
     ![network-settings](media/network-settings.png ':size=45%')
 
@@ -73,7 +73,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 * **Custom Host Placeholders** – Defines host placeholders with specific addresses. For example, replacing `localhost` with a specific IP address.
 * **Additional Headers** – Defines additional headers to append to each request. For example, authentication cookies.
 
-7. In the **Application Settings** tab, select the type of authentication you want to apply for the scanned target:
+7. In the <u>**Application Settings**</u> tab, select the type of authentication you want to apply for the scanned target:
 
     ![application-settings](media/application-settings.png ':size=45%')
 
@@ -81,7 +81,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 * **Header authentication** - Specify additional headers that should be appended to each request to access the authenticated resources within the scan target. For example, authentication cookies.
 * **Authentication object** - you can find a full description about how to use an authentication object in the [Managing Your Authentications section](guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md).
 
-8. In the **Scan Tests** tab, do the following:
+8. In the <u>**Scan Tests** tab</u>, do the following:
 * In the **Modules** section, select one of the following scan types (depending on your subscription):
 
     ![modules](media/modules.png ':size=45%')
@@ -96,7 +96,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
     ![tests](media/tests.png ':size=45%')
 
-9. _(Optional)_ In the **Scheduling section**, you can schedule a scan by selecting the Enable scheduling option and then defining the scan as follows:
+9. _(Optional)_ In the <u>**Scheduling** tab</u>, you can schedule a scan by selecting the **Enable scheduling** option and then defining the scan as follows:
 * **Single scan** – Select date and time to schedule the scan to run once automatically.
 
     ![single-scan](media/single-scan.png ':size=45%')

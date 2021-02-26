@@ -29,6 +29,7 @@
         - [Form Authentication](guide/np-web-ui/scanning/managing-authentications/types/form-authentication.md)
         - [Header Authentication](guide/np-web-ui/scanning/managing-authentications/types/header-authentication.md)
         - [API Call](guide/np-web-ui/scanning/managing-authentications/types/api-call.md)
+        - [OpenID Connect](guide/np-web-ui/scanning/managing-authentications/types/openid-connect.md)
         - [Authenticated Scanning](guide/np-web-ui/scanning/managing-authentications/authenticated-scanning.md)
         
     - [Advanced Setup and Configuration](guide/np-web-ui/advanced-set-up.md)

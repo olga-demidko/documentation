@@ -10,55 +10,55 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
 <table id="simple-table">
   <tr>
-    <td width="25%" style="text-align:center;padding:15px"><b>Field</b></td>
-    <td width="75%" style="text-align:center;padding:15px"><b>Guidelines</b></td>
+    <th width="25%"><b><u>Field</u></b></th>
+    <th width="75%"><b><u>Guidelines</u></b></th>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Method</b></td>
+    <td width="25%"><b>Method</b></td>
     <td width="75%" >
-        <p>Enter the HTTP method of the relevant API end-point.</p>
+       Enter the HTTP method of the relevant API end-point.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>URL</b></td>
+    <td width="25%"><b>URL</b></td>
     <td width="75%" >
-    <p>Enter the URL of the relevant API end-point.</p>
+    Enter the URL of the relevant API end-point.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Body</b></td>
+    <td width="25%"><b>Body</b></td>
     <td width="75%" >
-        <p>Enter the HTTP request body to use with the request sent to the API end-point, for example:{“user”: “foo”, “pass”: “bar”}’.</p>
+        Enter the HTTP request body to use with the request sent to the API end-point, for example:{“user”: “foo”, “pass”: “bar”}’.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Extract from</b></td>
+    <td width="25%"><b>Extract from</b></td>
     <td width="75%" >
-        <p>Select where in the responses the correct authentication token should be extracted from.</p>
+        Select where in the responses the correct authentication token should be extracted from.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Header</b></li></ul></td>
+    <td width="25%"><ul><li><b>Header</b></li></ul></td>
     <td width="75%" >
-        <p>Select if you need the authentication token to be extracted from the response header.</p>
+        Select if you need the authentication token to be extracted from the response header.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Header name</b></ul></td>
+    <td width="25%"><ul><b>Header name</b></ul></td>
     <td width="75%" >
-        <p>Enter the name of the header to extract the authentication token from.</p>
+        Enter the name of the header to extract the authentication token from.
     </td>
   </tr>
    <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Body</b></li></ul></td>
+    <td width="25%"><ul><li><b>Body</b></li></ul></td>
     <td width="75%" >
-        <p>Select if you need the authentication token to be extracted from the response body.</p>
+        Select if you need the authentication token to be extracted from the response body.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Authenticated token extraction regex</b></td>
+    <td width="25%"><b>Authenticated token extraction regex</b></td>
     <td width="75%" >
-        <p>Enter the Regex pattern that extracts the authentication token from the specified location.</p>
+        Enter the Regex pattern that extracts the authentication token from the specified location.<br><br>
         <font color="green"><b>Pro Tips:</b></font>
         <ul>
             <li>
@@ -68,64 +68,64 @@ The table below lists and describes the **Authentication Setup** fields in the *
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Token encoder</b></td>
+    <td width="25%"><b>Token encoder</b></td>
     <td width="75%" >
-        <p>Select any encoder that you need to use on the token itself, for example Base64.</p>
+        Select any encoder that you need to use on the token itself, for example Base64.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Embed in</b></td>
+    <td width="25%"><b>Embed in</b></td>
     <td width="75%" >
-        <p>Select where in the subsequent authenticated requests the authentication token should be embedded into.</p>
+        Select where in the subsequent authenticated requests the authentication token should be embedded into.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Header</b></li></ul></td>
+    <td width="25%"><ul><li><b>Header</b></li></ul></td>
     <td width="75%" >
-        <p>Select if you need the authentication token to be embedded into the request header.</p>
+        Select if you need the authentication token to be embedded into the request header.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Target header name</b></ul></td>
+    <td width="25%"><ul><b>Target header name</b></ul></td>
     <td width="75%" >
-        <p>Enter the name of the header to embed the authentication token into.</p>
+        Enter the name of the header to embed the authentication token into.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><li><b>Body</b></li></ul></td>
+    <td width="25%"><ul><li><b>Body</b></li></ul></td>
     <td width="75%" >
-        <p>Select if you need the authentication token to be embedded into the request body.</p>
+        Select if you need the authentication token to be embedded into the request body.
     </td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>Content type</b></ul></td>
+    <td width="25%"><ul><b>Content type</b></ul></td>
     <td width="75%" >
-        <p>Select the content type of the request body.</p>
-        <p><font color="blue"><b>Note:</b></font> Currently only `application/json` is supported.</p>
+        Select the content type of the request body.<br><br>
+        <font color="blue"><b>Note:</b></font> Currently only `application/json` is supported.
     </td>
   </tr>
    <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><ul><b>XPAth</b></ul></td>
+    <td width="25%"><ul><b>XPAth</b></ul></td>
     <td width="75%" >
-        <p>Enter the exact path to the object to be used in the requests sent to the API end-point.</p>
+        Enter the exact path to the object to be used in the requests sent to the API end-point.
     </td>
   </tr>
    <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Token template string</b></td>
+    <td width="25%"><b>Token template string</b></td>
     <td width="75%" >
-        <p>Enter the expected token and final pattern to be embedded into the end-point request header or body.</p>
-        <p><font color="green"><b>Pro Tip:</b></font> The required syntax is to have the `{{token}}` string in the field, along with any needed prefixes/suffixes. The `{{token}}` part will be replaced with the extracted token from the authentication response.</p>
+        Enter the expected token and final pattern to be embedded into the end-point request header or body.<br><br>
+        <font color="green"><b>Pro Tip:</b></font> The required syntax is to have the `{{token}}` string in the field, along with any needed prefixes/suffixes. The `{{token}}` part will be replaced with the extracted token from the authentication response.
     </td>
   </tr>
-   <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Maximum number of redirects to follow</b></td>
+   <td width="25%"><b>Maximum number of redirects to follow</b></td>
     <td width="75%" >
-        <p> Enter the maximum number of redirections that the Nexploit should follow during the authentication process.</p>
+        Enter the maximum number of redirections that the Nexploit should follow during the authentication process.
     </td>
   </tr>
    <tr>
-    <td width="25%" style="text-align:left;vertical-align:text-top;padding:15px"><b>Additional headers</b></td>
+    <td width="25%"><b>Additional headers</b></td>
     <td width="75%" >
-        <p><em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata. </p>
+        <em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.<br><br>
          <font color="green"><b>Pro Tips:</b></font>
         <ul>
             <li>
@@ -166,14 +166,14 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
    ![api-setup-2](../media/api-setup-2.png ':size=45%')
 
-5. In the **Valid Authentication Response** section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow passes successfully:
+5. In the **Valid Authentication Response** section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow has passed successfully:
     *   **Detect using response status** - enter the HTTP response that will tell you about the authentication success.
     *   **Detect using header pattern** - enter the header and Regex pattern that will tell about the authentication success.
     *   **Detect using body pattern** - Enter the body pattern that will tell you about the authentication success.
 
   ![valid-response](../media/valid-response.png ':size=45%')
 
-6. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session fails:
+6. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session has failed:
     *   **Detect using response status** - enter the HTTP response that will tell you about the authentication failure.
     *   **Detect using header pattern** - enter the header and Regex pattern that will tell about the authentication failure.
     *   **Detect using body pattern** - Enter the body pattern that will tell you about the authentication failure. 
