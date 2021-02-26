@@ -30,7 +30,13 @@ As a precaution, NexPloit only allows hosts that are in the authorized list defi
 To add a target host to the authorized list of hosts –
 1. Add a `.nex` file to your application's root directory. To obtain this file, click the `.nex` link at the bottom of the **ORGANIZATION SETTINGS** section.\
 ![Get-Nex-File](media/get-nex-file.png ':size=45%')
-2. Save this file in a convenient place and then put it in your application's root directory. You can reuse this file as many times as needed.
+
+2. Save this file in a convenient place and then put it in your application's root directory. 
+
+>[!NOTE|label:Note]
+Make sure that the server can serve this file from the webroot (top directory level or just `/` path) along with the other static resources from that location. 
+
+You can reuse this file as many times as needed.
 
 ## Viewing Your Organization’s Plan
 The Organization **PLAN DETAILS** section displays information about your account with NeuraLegion, such as whether you are using NexPloit, the total storage for your organization, the plan's expiration date and so on. 
