@@ -40,7 +40,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
   ![Recording](media/recording-har.png ':size=45%')
 
   >[!TIP|label:Pro Tip]
-  To enjoy both full automation and deeper attack surface analysis, you can combine **Crawling** and **Recoding (HAR)** in a single scan!
+  To enjoy both full automation and deeper attack surface analysis, you can combine **Crawling** and **Recording (HAR)** in a single scan!
 
   * **Open API** – Use an `*.yml` file to scan APIs. See Scanning an API for more information.
 
