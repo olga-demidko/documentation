@@ -37,8 +37,8 @@ The project integration configuration allows you to select any of the repositori
 ### Select Repositories for a New Scan <!-- {docsify-ignore} -->
 
 When [starting a new scan](guide/np-web-ui/scanning/creating-new-scan.md), you can select one or multiple integrated repositories (projects, channels) that you want to use as destinations for the scan reports within the specified NexPloit project.
-1. On the scan setup popup, go to the **Additional settings** section.
+1. Select the **Scan Details** tab.
 
-    ![integrations](media/integrations.png ':size=45%')
+    ![select-integrations](media/select-integrations.png ':size=45%')
 
 2. From the **Integrations** dropdown list, select the integrated repositories that you want to use for the scan.
