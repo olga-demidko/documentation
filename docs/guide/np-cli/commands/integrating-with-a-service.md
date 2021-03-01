@@ -5,12 +5,12 @@ For more information about the integration capabilities, see [Ticketing Systems]
 
 ## Script Example
 ```bash
-nexploit-cli integration 
---access-key INTEGRATION_ACCESS_KEY 
---base-url https://acme.atlassian.net 
---user username 
---password pa$$word 
---token API_TOKEN
+nexploit-cli integration                  \
+--access-key INTEGRATION_ACCESS_KEY       \
+--base-url https://acme.atlassian.net     \
+--user username                           \
+--password pa$$word                       \
+--token API_TOKEN                         \
 ```
 ## Options
 |  **Option** | **Description** |
