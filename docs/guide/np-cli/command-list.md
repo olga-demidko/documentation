@@ -9,3 +9,4 @@ This section describes how to use NexPloit CLI's commands. See ```nexploit-cli -
 * [Uploading an Archive](guide/np-cli/commands/uploading-archive.md)
 * [Generating an Archive with NexMock](guide/np-cli/commands/generating-archive-with-nexmock.md)
 * [Initializing a Repeater](guide/np-cli/commands/initializing-repeater.md)
+* [Integrating with a Service](guide/np-cli/commands/integrating-with-a-service.md)

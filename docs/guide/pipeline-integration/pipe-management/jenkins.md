@@ -39,7 +39,7 @@ Using this approach, there is no need to install anything on your Jenkins machin
 
 #### Prerequisites
 * The target of the scan is accessible from the Internet.
-* A valid `AUTH_TOKEN` with the scope `scans:run`, `scans:read` and `scans:stop`. You can set up –
+* A valid `AUTH_TOKEN` with the scope `bot`, `scans:run`, `scans:read` and `scans:stop`. You can set up –
   * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
   – OR – 
   * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).

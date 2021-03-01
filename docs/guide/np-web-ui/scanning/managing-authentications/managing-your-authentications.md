@@ -15,6 +15,8 @@ You can enable NexPloit to get access to an authenticated resource by using any 
 * [**API call**](guide/np-web-ui/scanning/managing-authentications/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
 * [**OpenIP Connect**](guide/np-web-ui/scanning/managing-authentications/types/openid-connect.md) - the authentication method you can use to get access to authenticated resources that support OIDC.  
 
+If you need to get access to the scan targer via a Repeater using the HMAC authorizarion, see [Using Repeater Scripts](/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md).
+
 ### Setup <!-- {docsify-ignore} -->
 To create an authentication object in NexPloit by using any of the available authentication options, you will need to get valid parameters and values required for a successful authentication setup, the specific parameters depend on the required authentication flow. You can find them in the browser DevTools of your application. To do that, follow these steps:
 1. Open the DevTools in your application.
