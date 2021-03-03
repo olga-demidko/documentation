@@ -42,7 +42,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
   >[!TIP|label:Pro Tip]
   To enjoy both full automation and deeper attack surface analysis, you can combine **Crawling** and **Recording (HAR)** in a single scan!
 
-  * **Open API** – Use an `*.yml` file to scan APIs. See Scanning an API for more information.
+  * **Open API** – Use an `*.yml` file to scan APIs. See [Scanning an API](/guide/np-web-ui/scanning/scanning-api.md) for more information.
 
     ![Recording](media/api-scan.png ':size=45%')
 
@@ -71,7 +71,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
 * **Concurrent Requests** – Specify the maximum concurrent requests allowed to be sent by the scan in order to control the load on your server.
 * **Custom Host Placeholders** – Defines host placeholders with specific addresses. For example, replacing `localhost` with a specific IP address.
-* **Additional Headers** – Defines additional headers to append to each request. For example, authentication cookies.
+* **Additional Headers** – Defines any custom headers to be appended to each request. If you need to add some authentication headers, see [Header Authentication](/guide/np-web-ui/scanning/managing-authentications/types/header-authentication).
 
 7. In the <u>**Application Settings**</u> tab, select the type of authentication you want to apply for the scanned target:
 
@@ -114,40 +114,39 @@ You can also use the **Restore Default** button to reset the custom settings.
 
 
 ## Creating a HAR file
-An HTTP Archive File (HAR file) is a recording of a user session with an application. Various methods can be used to collect this information, such as by using a QA tool (such as Selenium). Alternatively, you can collect it manually using your web browser's built-in DevTools, as described below.
+An HTTP Archive File (HAR file) is a recorded session of user interaction with an application. The HAR file keeps all the requests between the user and the application so that NexPloit can analyze them and adjust the selected security tests for each possible request. You can load a HAR file to a new scan to provide NexPloit with detailed information on how the application is built.
 
-### Gathering a HAR File Using DevTools
-1. In a browser, open the DevTools. This can be done in most browsers using the F12 key on your keyboard. The following displays – \
-![DevTools](media/devtools-1.png ':size=45%')
-2. Select the Network tab.\
-![DevTools-Network-Tab](media/devtools-2.png ':size=45%')
-3. Make sure that the **Preserve log** and **Disable cache** checkboxes are checked.\
-![DevTools-Checkboxes](media/devtools-3.png ':size=45%')
-4. Leave the DevTools pane open and browse to your application. All the application’s requests are then displayed and recorded in the DevTools panel.
-5. Interact with the application in the same way as a normal user would. Remember to use all the parts of the application that you want to be in the scope of the scan performed by NexPloit.
+Based on the information recorded while navigating through the application, NexPloit can create sophisticated attacks to all the investigated resources. Therefore, the Recording (HAR) discovery type may provide larger coverage of the scan target than the Crawler reaches.  
+
+>[!NOTE|label:Note]
+The quality of the scan depends directly on the HAR file quality. The more detailed the HAR file, the larger the scan scope can be covered by NexPloit. 
+
+You can use various methods to collect the application behavior information, for example by using a QA tool (such as Selenium). Alternatively, you can create a HAR file manually by using your web browser's built-in DevTools, as described below.
+
+### Step-by-Step Guide
+1. In your browser, open the DevTools pane. In most browsers, this can be done using the F12 key on your keyboard or by selecting the **Inspect** option from the browser menu. 
+
+    ![DevTools](media/open-devtools.png ':size=45%')
+
+2. Select the **Network** tab.
+
+    ![Network-Tab](media/network-tab.png ':size=45%')
+
+3. Make sure that the **Preserve log** and **Disable cache** checkboxes are selected. This will allow you to persist logs between page refreshes and see the page updates. 
+
+    ![Checkboxes](media/preserve-log.png ':size=45%')
+
+4. Leave the DevTools pane open and browse to your application. All the application requests are then displayed and recorded in the DevTools panel.
+
+5. Interact with the application in the same way as a normal user would. Remember to use all the resources (parts, options) of the application that you want to be covered by the NexPloit scan.
     > [!TIP|label:Pro Tip]
-    If you are using both **Crawler** and a **HAR recording** There is no need to record using all the options in the application or to begin at the main page. It is important however to scan parts of the application that require authentication, meaning that you must log into the application so that it is included in the recording.
-6. Right-click on any of the requests in the DevTools panel and select the Save all as HAR option.\
-![Save-as-HAR](media/save-as-har.png ':size=45%')
-7. Save the file in your desired location so that you can select it when [defining a new scan](#Creating-a-New-Scan).
+    If you are using both **Crawler** and **Recording (HAR)** discovery types, there is no need to record all the options in the application or begin at the main page. It is important however to scan the application resources that require authentication. It means that you must log in to such resources so that these actions are included in the recording.
 
-## Handling Scans that Require Authentication 
-In order to scan applications that require authentication, you can either [create a HAR file which includes the login process to your application](Creating-a-HAR-file) or add an authentication header to your scan, as described below.
+6. Once you complete the recording, right-click any of the requests in the DevTools panel and select the Save all as HAR option.
 
-### Adding an Authentication Header to Your Scans
-To add an authentication header to your scan –
-1. Log into the application that you want to scan.
-2. Open the DevTools panel of your browser. In most browsers, this can be done by pressing the F12 key on your keyboard.
-3. Select the Network tab.\
-![Devtools-Network-Tab](media/devtools2-1.png ':size=45%')
-4. Perform any action in the application in order to record a few requests in the Network pane.
-5. Click the name of one of the recorded requests.\
-![Devtools-Requests](media/devtools2-2.png ':size=45%')
-6. Scroll down to the **Request Headers** category and find the authentication header. For example, as shown below –\
-![Devtools-Auth-Header](media/devtools2-3.png ':size=45%')
-7. Copy the value of the authentication header, as shown below –\
-![Devtools-Copy-Auth-Header](media/devtools2-4.png ':size=45%')
-8. To define a new scan open the [Scan Creation window](#Creating-a-New-Scan) and select the **Network settings** tab.
-9. In the Additional headers field, click the ![Plus-Button](media\plus-dark.png ':size=3%') button to add the authentication header that you copied, as shown above. Make sure that the key and the value are exactly the same as they were in the request from which you copied them.
+    ![Save-as-HAR](media/save-har.png ':size=45%')
 
-    ![New-Scan-Add-Auth](media/network-settings.png ':size=45%')
+7. Save the file in your desired location so that you can select it when [defining a new scan](#Creating-a-New-Scan). 
+
+
+
