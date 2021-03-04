@@ -39,6 +39,12 @@ NexPloit enables integrations with the following tools and platforms:
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/azure-devops.md">Azure Pipelines</a></td>
   </tr>
 
+<tr>
+    <td></td>
+    <td></td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/travis.md">Travis CI</a></td>
+  </tr>
+
   <!--
   <tr>
     <td><a href="#/guide/pipeline-integration/sso/github-sso.md">GitHub</a></td>

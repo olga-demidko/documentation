@@ -79,4 +79,5 @@
       - [CircleCI](guide/pipeline-integration/pipe-management/circleci.md)
       - [Jenkins](guide/pipeline-integration/pipe-management/jenkins.md)
       - [Azure Pipelines](guide/pipeline-integration/pipe-management/azure-devops.md)
+      - [Travis CI](guide/pipeline-integration/pipe-management/travis.md)
 
