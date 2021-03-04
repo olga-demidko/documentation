@@ -114,9 +114,9 @@ You can also use the **Restore Default** button to reset the custom settings.
 
 
 ## Creating a HAR file
-An HTTP Archive File (HAR file) is a recorded session of user interaction with an application. The HAR file keeps all the requests between the user and the application so that NexPloit can analyze them and adjust the selected security tests for each possible request. You can load a HAR file to a new scan to provide NexPloit with detailed information on how the application is built.
+An HTTP Archive File (HAR file) is a recorded session of user interaction with an application. The HAR file keeps all the requests and responses between a user and the application you want to target for security scanning. 
 
-Based on the information recorded while navigating through the application, NexPloit can create sophisticated attacks to all the investigated resources. Therefore, the Recording (HAR) discovery type may provide larger coverage of the scan target than the Crawler reaches.  
+Based on the information recorded while navigating through the application, NexPloit can analyze the attack surface of the target and optimize the selected security tests. By loading the HAR file to NexPloit, you ensure the most efficient coverage of the scan target.  
 
 >[!NOTE|label:Note]
 The quality of the scan depends directly on the HAR file quality. The more detailed the HAR file, the larger the scan scope can be covered by NexPloit. 
