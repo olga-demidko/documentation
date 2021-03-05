@@ -42,7 +42,7 @@ NexPloit enables integrations with the following tools and platforms:
 <tr>
     <td></td>
     <td></td>
-    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/travis.md">Travis CI</a></td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/travis/use-cases.md">Travis CI</a></td>
   </tr>
 
   <!--

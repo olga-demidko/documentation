@@ -26,12 +26,15 @@ After starting a scan with a configured Repeater, communication works as follows
 6. The Repeater returns to #1 until the scan completes.
 
 ## Technical Requirements
-The On-Premises Repeater requires – 
-* A local machine with –
-    * Access to relevant internal targets on the local network.
-    * A Repeater only works when it has access to the amq.nexploit.app on port 5672.
-    * The installation of Docker compose or NodeJS (v10+).
-* An installed Repeater on the relevant local machine (Docker or NexPloit CLI).
+The On-Premises Repeater requires:
+* A local machine with:
+    * System:    Linux 4.4+ / Windows 8+ / Docker 20+
+    * Processor: x86 or x64 1 core (minimum), 2 core (recommended)
+    * RAM: 512 MB (minimum), 1 GB (recommended)
+    * Hard disk: up to 512 MB of available space may be required
+    * The Docker compose or NodeJS (v10+) installed
+* Access to the relevant internal targets on the local network
+* Access to the amq.nexploit.app on port 5672 or a provite cloud on the relevant port
 
 ## Installation
 See the [NexPloit CLI Installation](/guide/np-cli/installation.md) section for installation instructions.
