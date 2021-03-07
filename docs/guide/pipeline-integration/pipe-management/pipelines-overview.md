@@ -4,3 +4,4 @@ You can initiate a NexPloit scan on every new build in your application or API d
 * [CicleCI](guide/pipeline-integration/pipe-management/circleci.md)
 * [Jenkins](guide/pipeline-integration/pipe-management/jenkins.md)
 * [Azure Pipelines](guide/pipeline-integration/pipe-management/azure-devops.md)
+* [Travis CI](guide/pipeline-integration/pipe-management/travis/use-cases.md)
