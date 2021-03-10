@@ -123,7 +123,7 @@ The quality of the scan depends directly on the HAR file quality. The more detai
 
 You can use various methods to collect the application behavior information, for example by using a QA tool (such as Selenium). Alternatively, you can create a HAR file manually by using your web browser's built-in DevTools, as described below.
 
-### Step-by-Step Guide
+### Step-by-Step Guide <!-- {docsify-ignore} -->
 1. In your browser, open the DevTools pane. In most browsers, this can be done using the F12 key on your keyboard or by selecting the **Inspect** option from the browser menu. 
 
     ![DevTools](media/open-devtools.png ':size=45%')
