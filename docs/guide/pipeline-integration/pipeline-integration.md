@@ -30,7 +30,7 @@ NexPloit enables integrations with the following tools and platforms:
   <tr>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/aad-sso.md">Azure Active Directory</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md">Slack</a></td>
-    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jenkins.md">Jenkins</a></td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jenkins/use-cases.md">Jenkins</a></td>
   </tr>
 
 <tr>
