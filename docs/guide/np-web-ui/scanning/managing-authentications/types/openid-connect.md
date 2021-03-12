@@ -1,4 +1,4 @@
-# Configuring the OIDC authentication in NexPloit
+# Configuring the OIDC Authentication in NexPloit
 If you need to grant NexPloit access to the authenticated resources that support OIDC, you should configure an authentication object using the OpenID Connect. 
 
 >[!NOTE|label:Note]
