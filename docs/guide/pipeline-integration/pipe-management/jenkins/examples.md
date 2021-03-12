@@ -5,7 +5,6 @@ To apply this option, you only need to install the NexPloit CLI globally on your
 ### Prerequisites<!-- {docsify-ignore} -->
 * You are an active user on  [nexploit.app](https://nexploit.app). 
 *  You have a valid [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens) (`NEXPLOIT_TOKEN`) with the following scopes: `bot`,<br>`scans : run`,`scan : read`, and `scans : stop`.
-* You have created the `NEXPLOIT_TOKEN` variable on your Travis CI machine: more options > settings > add the environmental variable.
 
 ### Step-by-Step Guide<!-- {docsify-ignore} -->
 
