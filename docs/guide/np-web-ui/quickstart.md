@@ -8,6 +8,6 @@ The following is a quick overview of the steps and options for scanning using Ne
 
 ## Reviewing Results
 * [Reviewing a Scan in Progress](guide/np-web-ui/scanning/reviewing-scan-details.md)
-* [Reviewing a Scan’s Discovered Issues](guide/np-web-ui/scanning/discovered-issues.md)
+* [Reviewing Scan Discovered Issues](guide/np-web-ui/scanning/discovered-issues.md)
 * Setting Notifications Preferences
 * [Exporting Scan Results as CSV and PDF](guide/np-web-ui/scanning/exporting-scan.md)
