@@ -31,7 +31,6 @@
       - [Retesting a Scan](guide/np-web-ui/scanning/retesting-scan.md)
       - [Exporting a Scan](guide/np-web-ui/scanning/exporting-scan.md)
       - [Deleting a Scan](guide/np-web-ui/scanning/deleting-scan.md)
-      - [Scanning an API](guide/np-web-ui/scanning/scanning-api.md)
       - [Managing Scan Templates](guide/np-web-ui/scanning/managing-scan-templates.md)
       - [Managing Your Authentications](guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md)
         - [Form Authentication](guide/np-web-ui/scanning/managing-authentications/types/form-authentication.md)
