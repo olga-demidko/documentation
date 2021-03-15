@@ -75,7 +75,6 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
     ![application-settings](media/application-settings.png ':size=45%')
 
 * **None** - Select if the scan target does not include any authenticated resources.
-* **Header authentication** - Specify additional headers that should be appended to each request to access the authenticated resources within the scan target. For example, authentication cookies.
 * **Authentication object** - you can find a full description about how to use an authentication object in the [Managing Your Authentications section](guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md).
 
 6. In the <u>**Scan Tests** tab</u>, do the following:
