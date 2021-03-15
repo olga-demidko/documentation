@@ -119,7 +119,7 @@ The Docker version of NexPloit CLI comes as a preconfigured Repeater container. 
 #### Prerequisites
 * An active user on [nexploit.app](www.nexploit.app).
 * You must have Docker Compose installed.
-* A valid `REPEATER-TOKEN` with the scope `repeaters:write`. You can set up –
+* A valid `REPEATER-TOKEN` with the scopes `repeaters:write`and `bot`. You can set up –
     * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
     – OR –
     * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
@@ -158,11 +158,11 @@ Here is an example of a `.yaml` configuration that will launch a new scan as soo
 #### Prerequisites
 * An active user on [nexploit.app](www.nexploit.app).
 * You must have Docker Compose installed.
-* A valid `REPEATER-TOKEN` with the scope `repeaters:write`, `files:write`, `scans:run`, `scans:read`. You can set up – 
+* A valid `REPEATER-TOKEN` with the scopes `repeaters:write`, `bot`, `files:write`, `scans:run`, `scans:read`. You can set up – 
     * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
     – OR –
     * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
-* An active `REPEATER-ID`. See See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
+* An active `REPEATER-ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 ```yml
 version: '3'
