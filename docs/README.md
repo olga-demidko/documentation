@@ -7,7 +7,7 @@ The guide gives you comprehensive concept information and step-by-step instructi
 * NexPloit CLI
 
 ## Documentation Feedback
-The NeuraLegion team strives to produce high-quality documentation and welcome your feedback. If you have any comments or suggestions on our guides, please contact us at [docs.support@neuralegion.com](mailto:docs.support@neuralegion.com) or directly on [GitHub](https://github.com/NeuraLegion/documentation/tree/master/docs) 
+The NeuraLegion team strives to produce high-quality documentation and welcome your feedback. If you have any comments or suggestions on our guides, please contact us at [docs.support@neuralegion.com](mailto:docs.support@neuralegion.com) or directly on [GitHub](https://github.com/NeuraLegion/documentation/tree/master/docs). 
 
 ## Support
 The NeuraLegion team is pleased to assist you with any questions you may have about setup, usage, integration, and troubleshooting of our products. If you ever need support, please get in touch by emailing us at  [support@neuralegion.com](mailto:support@neuralegion.com).

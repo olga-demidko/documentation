@@ -87,7 +87,7 @@ script:
   SCAN_ID=$(nexploit-cli scan:run
   --token $NEXPLOIT_TOKEN
   --name "Test Travis Scan"
-  --crawler http://brokencrystals.local
+  --crawler http://brokencrystals.com
   --smart)
  - printf "Scan was started with ID https://nexploit.app/scans/$SCAN_ID\n"
  - printf "Wait for issues ⏳\n"
@@ -211,7 +211,7 @@ script:
   --token $NEXPLOIT_TOKEN
   --name "Test Travis Scan"
   --repeater $REPEATER
-  --crawler http://brokencrystals.local
+  --crawler http://brokencrystals.com
   --smart)
  - printf "Scan was started with ID https://nexploit.app/scans/$SCAN_ID\n"
  - printf "Wait for issues ⏳\n"
@@ -291,7 +291,7 @@ SCAN_ID=$(nexploit-cli scan:run
 --token $NEXPLOIT_TOKEN
 --name "Test Travis Scan" 
 --repeater $REPEATER
---crawler www.example.com 
+--crawler www.example.local 
 --smart) 
 - printf "Scan was started with ID https://nexploit.app/scans/$SCAN_ID\n"
 ```
