@@ -12,29 +12,28 @@ The purpose of this section is to help you solve common problems that you may en
 
 ### Repeater
 
-More info about how the Repeater works and when to use one can be found here [Deployment Options > On-prem Agent (Repeater)](deployment/repeater.md)
+More info about how the Repeater works and when to use one can be found here [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md).
 
-#### Connectivity test
+### Connectivity test
 
 In order to user a Repeater from within a closed network, you must first make sure it has the proper access between all the components of the scan.
-You can use the `nexploit-cli configure` command to open a simple connectivity testing process.
+You can use the `nexploit-cli configure` command to run a simple connectivity testing process.
 
-> [!NOTE|label:Prerequisites]
-> - The machine on which the Repeater will run, must have the latest version of [NexPloit CLI installed](nexploit-cli/installation.md)
-> - A valid `AUTH_TOKEN` with the scope: `repeaters:write`, `scans:run`, `scans:read`, `scans:stop`
->   - You can set up an [Organization level Authentication Token](user-guide/organization-administration/details-and-policies.md#managing-organization-api-keys)
->   - Or, a [User level Authentication Token](user-guide/personal-account-administration/details-and-settings.md#managing-your-api-keys)
-> - An active `REPEATER_ID`
->  - More info about [Setting up a New Repeater](user-guide/agents/overview.md)
+##### Prerequisites
+- The machine on which the Repeater will run, must have the latest version of [NexPloit CLI installed](/guide/np-cli/installation.md).
+- A valid `AUTH_TOKEN` with the following scopes: `bot`, `scans:run`, `scans:read`, `scans:stop`.
+- You can set up an [organization Authentication Token](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or a [personal Authentication Token](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens).
+- An active `REPEATER_ID`. More info about [Managing Repeaters](/guide/np-web-ui/advanced-set-up/managing-repeaters.md).
 
-##### Step-by-step Guide
+##### Step-by-Step Guide
 
 1. Run the command `nexploit-cli configure` in your terminal, you should get the following output:
 
   ```bash
   Please browse to http://localhost:3000 to begin the configurations of the Repeater
   ```
-  !> **Note:** If `http://localhost:3000` is already in use, a different port will be selected automatically.
+  > [!NOTE|label:Note]
+  If `http://localhost:3000` is already in use, a different port will be selected automatically.
 
   ![nexploit-cli-configure](media/nexploit-cli-configure.png ':size=40%')
 
@@ -60,7 +59,8 @@ You can use the `nexploit-cli configure` command to open a simple connectivity t
 
 6. Fill out the `Target URL` info and click on **Start Scan**, this step will validate the current machine has access to the target application.
 
-  !> **Note**: This will create a new scan, but it will not perform any active attack scenarios, the only test that will run is a passive security header check on the target application
+    > [!NOTE|label:Note]
+    This will create a new scan, but it will not perform any active attack scenarios, the only test that will run is a passive security header check on the target application
 
 7. After the connection to the target application was validated successfully, click on **Next**
 
