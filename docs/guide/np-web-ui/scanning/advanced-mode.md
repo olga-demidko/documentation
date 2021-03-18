@@ -105,5 +105,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
 * Click **Save as Template** to save the scan template.
 * Click **Start Scan** to run the preconfigured scan immediately.
+>[!NOTE|label:Note]
+If you do not have enough available engines, the scan is placed in the queue. The new scan will start as soon as you manually stop another running scan or when the current scan has completed.
 
 You can also use the **Restore Default** button to reset the custom settings.

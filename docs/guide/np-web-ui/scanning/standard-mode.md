@@ -25,7 +25,8 @@
   >[!NOTE|label:Note]
     You can start a scan ONLY with a project selected. If you do not have any projects in NexPloit, select the Default one.
 
-5. Once you complete the setup, click **Start Scan** to start scanning.
+5. Once you complete the setup, click **Start Scan** to start scanning.<br>
+  If you do not have enough available engines, the scan is placed in the queue. The new scan will start as soon as you manually stop another running scan or when the current scan has completed.
 
 
 
