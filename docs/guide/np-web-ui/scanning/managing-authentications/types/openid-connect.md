@@ -13,8 +13,8 @@ The table below lists and describes the **Authentication Setup** fields in the *
 
 <table id="simple-table">
   <tr>
-    <th width="25%"> <b><u>Field</u></b></td>
-    <th width="75%"><b><u>Guidelines</u></b></td>
+    <th width="25%"> <b>Field</b></td>
+    <th width="75%"><b>Guidelines</b></td>
   </tr>
   <tr>
     <td width="25%"><b>Discovery document URL</b></td>
