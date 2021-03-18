@@ -73,7 +73,7 @@ To view the reports on the detected issues, go to the [nexploit.app](https://nex
 
 ### Complete Example<!-- {docsify-ignore} -->
 
-The following example shows how to run a new scan using the Crawler discovery type:
+The following example is made up of the steps above and shows how to run a new scan using the Crawler discovery type:
 
 ```bash
 language: node_js
@@ -192,7 +192,7 @@ To view the reports on the detected issues, go to the [nexploit.app](https://nex
 
 ### Complete Example<!-- {docsify-ignore} -->
 
-The following example shows how to run a new scan using the Crawler discovery type:
+The following example is made up of the steps above and shows how to run a new scan using the Crawler discovery type:
 
 ```bash
 language: node_js
@@ -334,7 +334,7 @@ To view the reports on the detected issues, go to the [nexploit.app](https://nex
 <!-- tabs:end -->
 
 ### Complete Example<!-- {docsify-ignore} -->
-The following example shows how to run a new scan using the Crawler discovery type:
+The following example is made up of the steps above and shows how to run a new scan using the Crawler discovery type:
 
 ```bash
 language: node_js
