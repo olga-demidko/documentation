@@ -14,58 +14,45 @@ The purpose of this section is to help you solve common problems that you may en
 
 More info about how the Repeater works and when to use one can be found here [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md).
 
-### Connectivity test
+### Connectivity Test
 
-In order to user a Repeater from within a closed network, you must first make sure it has the proper access between all the components of the scan.
-You can use the `nexploit-cli configure` command to run a simple connectivity testing process.
+In order to use a Repeater from within a local network, you must first make sure it has a proper access to all the target applications.
+You can use the `nexploit-cli configure --nogui` command to run a simple connectivity testing process.
 
 ##### Prerequisites
-- The machine on which the Repeater will run, must have the latest version of [NexPloit CLI installed](/guide/np-cli/installation.md).
-- A valid `AUTH_TOKEN` with the following scopes: `bot`, `scans:run`, `scans:read`, `scans:stop`.
-- You can set up an [organization Authentication Token](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or a [personal Authentication Token](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens).
-- An active `REPEATER_ID`. More info about [Managing Repeaters](/guide/np-web-ui/advanced-set-up/managing-repeaters.md).
+- The machine on which the Repeater will be run, must have the latest version of the [NexPloit CLI](/guide/np-cli/installation.md).
+- A valid API key (`API token`) with the following scopes: `bot`, `scans:run`, `scans:read`, `scans:stop`.<br>
+  You can create an [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or a [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens).
+- A valid `REPEATER_ID`. To create a Repeater, see [Managing Repeaters](/guide/np-web-ui/advanced-set-up/managing-repeaters.md).
 
 ##### Step-by-Step Guide
 
-1. Run the command `nexploit-cli configure` in your terminal, you should get the following output:
+1. Run the command `nexploit-cli configure --nogui` in your terminal.<br> 
+  The NexPloit Network Testing wizard is launched.
+  
+2. Enter the `API Token` and `Repeater ID` in the relative fields.
 
-  ```bash
-  Please browse to http://localhost:3000 to begin the configurations of the Repeater
-  ```
-  > [!NOTE|label:Note]
-  If `http://localhost:3000` is already in use, a different port will be selected automatically.
+  ![credentials](media/test-credentials.png ':size=40%')
 
-  ![nexploit-cli-configure](media/nexploit-cli-configure.png ':size=40%')
+3. The CLI runs the first stage of the external communication diagnostics:
 
-2. Go to `http://localhost:3000` (or any other port that was used by the configure command), the configuration page will open in your local browser.
+    * **Validating that the connection to amq.nexploit.app:5672 at port 5672 is open** is required for the Repeater to reach the scan engine.
+    * **Validating that the connection to nexploit.app at port  is open** is required to reach the NexPloit API endpoints.
+    * **Verifying provided Token and Repeater ID** is required to validate the credentials.
 
-3. Fill out the `Auth Token` and `Repeater ID` details and click on **Next**.
+  The diagnostics results are provided next to the validation parameters. 
 
-  ![nexploit-cli-configure2](media/nexploit-cli-configure2.png ':size=40%')
+  ![external](media/external-diagnostics.png ':size=40%')
+  
+  After the external communication diagnostics has passed, the CLI switches to the validation of the Repeater communication with local target application(s).
 
-4. The CLI will run the first stage of diagnostics:
+4. Enter the target URL(s) to test if the Repeater can reach them.
 
-  - **Connection to amq.nexploit.app at port 5672** is required for the Repeater to reach the scan engine
-  - **Connection to nexploit.app at port 443** is required to reach our API endpoints
-  - **Token and Repeater ID** are validated to be active
+  ![internal](media/internal-testing.png ':size=40%')
 
-  If any of the validations fail, instructions on how to solve the problem will appear in the progress section below
+  The internal communication diagnostics starts, and the Repeater tries to reach the specified applications. 
 
-  ![nexploit-cli-configure3](media/nexploit-cli-configure3.png ':size=40%')
+  ![reach-url](media/trying-to-reach.png ':size=40%')
+5. Once the diagnostics is completed, you can see how many targets cannot be reached by the Repeater.<br>
+  To exit the wizard, close the terminal.
 
-5. After all the validations have passed, click on **Next**
-
-  ![nexploit-cli-configure4](media/nexploit-cli-configure4.png ':size=40%')
-
-6. Fill out the `Target URL` info and click on **Start Scan**, this step will validate the current machine has access to the target application.
-
-    > [!NOTE|label:Note]
-    This will create a new scan, but it will not perform any active attack scenarios, the only test that will run is a passive security header check on the target application
-
-7. After the connection to the target application was validated successfully, click on **Next**
-
-  ![nexploit-cli-configure5](media/nexploit-cli-configure5.png ':size=40%')
-
-8. That's it, you have completed all the connectivity validations, you can see the demo scan in the UI by clicking on the link https://nexploit.app/scans
-
-  ![nexploit-cli-configure6](media/nexploit-cli-configure6.png ':size=40%')
