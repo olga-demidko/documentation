@@ -11,7 +11,7 @@
     - [Using NexPloit - QuickStart](guide/introduction/nexploit-quickstart.md)
     - [Data Security FAQs](guide/introduction/data-security-faq.md)
 
-  - [**Using the NexPloit Web User Interface**](guide/np-web-ui/np-web-ui.md)
+  - [**Using the NexPloit Web UI**](guide/np-web-ui/np-web-ui.md)
     - [QuickStart](guide/np-web-ui/quickstart.md)
     - [Quick Tour of the Web Interface](guide/np-web-ui/tour-of-web-ui.md)
     - [Scanning](guide/np-web-ui/scanning.md)
