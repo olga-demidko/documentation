@@ -12,7 +12,7 @@
   >[!TIP|label:Pro Tip]
   To enjoy both full automation and deeper attack surface analysis, you can combine **Crawling** and **Recording (HAR)** in a single scan.
 
-    * **API endpoints via schema** - Use an *.yml file to scan APIs. See[Scanning an API](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
+    * **API endpoints via schema** - Use an *.yml file to scan APIs. See [Scanning an API](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
 
     ![standard-api](media/standard-api.png ':size=45%')
 
