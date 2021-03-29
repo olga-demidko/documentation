@@ -10,12 +10,13 @@ The created object is available only for the user who has created it. Other user
 The authentication setup enables you to test access to the authenticated resources covered by the created object before using it in a scan, easily determine the configuration failures and fix them. 
 
 You can enable NexPloit to get access to an authenticated resource by using any of the following authentication options:
-* [**Form authentication**](guide/np-web-ui/scanning/managing-authentications/types/form-authentication.md) - the default method of authentication, used for authentication requests with the content type set as ‘application/x-www-form-urlencoded.   
+* [**Form authentication**](guide/np-web-ui/scanning/managing-authentications/types/form-authentication.md) - the default method of authentication, used for authentication requests with the content type set as `application/x-www-form-urlencoded`.   
 * [**Header authentication**](guide/np-web-ui/scanning/managing-authentications/types/header-authentication.md) - the most straightforward method of authentication, used for static header authentication tokens that are generated outside of NexPloit and will not expire during a scan.  
 * [**API call**](guide/np-web-ui/scanning/managing-authentications/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
-* [**OpenID Connect**](guide/np-web-ui/scanning/managing-authentications/types/openid-connect.md) - the authentication method you can use to get access to authenticated resources that support OIDC.  
+* [**OpenID Connect (OAth)**](guide/np-web-ui/scanning/managing-authentications/types/openid-connect.md) - the authentication method you can use to get access to authenticated resources that support OIDC.  
+* [**Custom Multi-Step Authentication**](guide/np-web-ui/scanning/managing-authentications/types/custom-auth.md) - the authentication method used for configuration of a custom authentication object. You can create a single-stage authentication flow or add as many stages as the NexPloit engine should pass through to access the authenticated resource.
 
-If you need to get access to the scan target via a Repeater using the HMAC authorizarion, see [Using Repeater Scripts](/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md).
+If you need to get access to a scan target via a Repeater using the HMAC authorizarion, see [Using Repeater Scripts](/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md).
 
 ### Setup <!-- {docsify-ignore} -->
 To create an authentication object in NexPloit by using any of the available authentication options, you will need to get valid parameters and values required for a successful authentication setup, the specific parameters depend on the required authentication flow. You can find them in the browser DevTools of your application. To do that, follow these steps:
