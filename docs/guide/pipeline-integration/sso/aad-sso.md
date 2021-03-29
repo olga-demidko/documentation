@@ -43,7 +43,7 @@ To enable NexPloit SSO with ADFS, you should first authenticate Azure AD in Nexp
 2. In the created application, get the following credentials to use them further on nexploit.app:
    * On the application page, copy the **Client ID**.
 
-  ![client-id](media/azure/client-id.png ':size=45%')
+  ![client-id](media/azure/client-ID.png ':size=45%')
 
    * In the **Certificates & secrets** tab, create a new secret key and copy its **ID**.
 
