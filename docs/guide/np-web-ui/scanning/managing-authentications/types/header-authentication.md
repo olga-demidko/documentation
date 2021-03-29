@@ -5,7 +5,7 @@ You can use the header authentication method if the login-protected resources wi
   In case a specified authentication token expires, the authentication object will no longer provide NexPloit with the ability to reach authenticated resources of that particular target.
 
 ## Prerequisites
- *   You are an active user on [nexploit.app](https://nexploit.app/scans).
+*  You are an active user on [nexploit.app](https://nexploit.app/scans).
 *   Your application and authenticated resources are accessible to NexPloit, either directly from the Internet or via a Repeater. 
 
 ## Step-by-Step Guide
@@ -18,44 +18,136 @@ You can use the header authentication method if the login-protected resources wi
 
   ![auth-plus](../media/auth-plus.png ':size=45%')
 
-4. On the **CREATE & TEST AUTHENTICATION** popup, do the following:
-    *    In the **Authentication name** field, enter the authentication object name.
-    *   _(Optional_) In the **Description** field, enter the authentication object description. For example, you can specify the application type or other information that helps you distinguish your created object.
-    * From the **Authentication type** dropdown list, select **Header authentication**. 
+4. On the **CREATE & TEST AUTHENTICATION** popup, complete the fields of the following configuration blocks.
 
-  ![header-auth](../media/header-name-description.png ':size=45%')
+#### Authentication Details
 
-    * In the **Authentication Setup** section, from the **Name** dropdown list, select the header you want to add to each request, for example authentication cookies. And then enter the header value in the **Value** field. 
-        * To add more fields for parameters, click ![plus-icon](../media/plus-icon.png ':size=2%') at the upper-right of the relevant setup section. 
-        * To delete a parameter, click ![trash-icon](../media/trash-icon.png ':size=3%') next to the relevant Value field.
+In this section, specify the details of the authentication object you want to create.
 
-  ![header-setup](../media/header-setup.png ':size=45%')
+![header-auth](../media/header-name-description.png ':size=45%')
 
-   > [!TIP|label:Pro Tip]
-   There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object.
+<table id="simple-table">
+  <tr>
+    <th width="25%"><b>Field</b></th>
+    <th width="75%"><b>Guidelines</b></th>
+  </tr>
+  <tr>
+    <td width="25%"><b>Authentication name</b></td>
+    <td width="75%" >
+       Enter the authentication object name.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b> Description</b></td>
+    <td width="75%" >
+        <em>(Optional)</em> Enter the authentication object description. For example, you can specify the application type or other information that helps you distinguish your created object.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Authentication type</b></td>
+    <td width="75%" >
+       From the <b>Authentication type</b> drop-down list, select <b>Header authentication</b>.
+    </td>
+  </tr>
+</table>
 
-5. In the **Invalid Authentication Response** section, select the options you want to use during the application scanning to determine if the authenticated session is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication session has failed:
-    *   **Detect using response status** - enter the HTTP response that will tell you about the authentication failure.
-    *   **Detect using header pattern** - enter the header and Regex pattern that will tell about the authentication failure.
-    *   **Detect using body pattern** - Enter the body pattern that will tell you about the authentication failure.
+#### Authentication Setup 
 
+In this section, set up a valid authentication request to be sent to the end-point API. 
+
+![header-setup](../media/header-setup.png ':size=45%')
+
+<table id="simple-table">
+  <tr>
+    <th width="25%"><b>Field</b></th>
+    <th width="75%"><b>Guidelines</b></th>
+  </tr>
+  <tr>
+    <td width="25%"><b>Name</b></td>
+    <td width="75%" >
+    Select the header you want to add to each request, for example authentication cookies.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b> Value</b></td>
+    <td width="75%" >
+    Enter the header value.
+    </td>
+  </tr>
+</table>
+
+* To add more fields for parameters, click ![plus-icon](../media/plus-icon.png ':size=2%') at the upper-right of the relevant setup section. 
+* To delete a parameter, click ![trash-icon](../media/trash-icon.png ':size=3%') next to the relevant **Value** field.
+
+> [!TIP|label:Pro Tip]
+There are cases when MFA is required  ONLY on initial IP login. This means that our scan IP can be validated once and will not require any further MFA validations. For that case, you need to identify which cookie supports the completed MFA/2FA and include a valid cookie as a part of your authentication object.
+
+#### Authentication Triggers 
+
+In this section, select the options you want to use during the application scanning to determine if the authentication flow is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication flow fails.
+
+![invalid-response](../media/invalid-response.png ':size=45%') 
+
+<table id="simple-table">
+  <tr>
+    <th width="25%"><b>Field</b></th>
+    <th width="75%"><b>Guidelines</b></th>
+  </tr>
+  <tr>
+    <td width="25%"><b>Detect using response status</b></td>
+    <td width="75%" >
+       Enter the HTTP response that will tell you about the authentication failure.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Detect using header pattern</b></td>
+    <td width="75%" >
+        Enter the header and Regex pattern that will tell about the authentication failure.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Detect using body pattern</b></td>
+    <td width="75%" >
+       Enter the body pattern that will tell you about the authentication failure. 
+    </td>
+  </tr>
+</table>
+
+#### Valid Session Tester
+
+The preliminary testing helps you verify if the authentication object has been configured correctly.
+
+  ![test-authentication](../media/header-testing.png ':size=45%')
+
+
+<table id="simple-table">
+  <tr>
+    <th width="25%"><b>Field</b></th>
+    <th width="75%"><b>Guidelines</b></th>
+  </tr>
+  <tr>
+    <td width="25%"><b>Validation URL </b></td>
+    <td width="75%" >
+       Enter the URL of the authenticated resource to be accessed by NexPloit. 
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Repeater  </b></td>
+    <td width="75%" >
+       If you use a local Repeater to reach the scan target, from the <b>Repeater</b> dropdown list, select the Repeater you need for the scan.   
+    </td>
+  </tr>
+  </table>
+
+Once you have completed the **Valid Session Tester** fields, click **Test Authentication**.
   
-  ![invalid-response](../media/invalid-response.png ':size=45%') 
+*   A valid authentication object returns three success messages indicated in the relevant  **Test Results** sections: 
+     *   **Test Authentication Triggers**
+     *   **Access Protected Resource**
 
-7. In the **Validation URL** field, do the following:<br>
-  a) Enter the URL of an authenticated resource within your application.<br>
-  b) If you use a local Repeater to reach the scan target, from the **Repeater** dropdown list, select the Repeater you need for the scan.<br>
-  c) Click  ![test-button](../media/test-button.png ':size=17%'). <br>  The preliminary testing helps you verify if the authentication object has been configured correctly.
+  ![header-testing](../media/header-results.png ':size=45%') 
 
-    ![test-authentication](../media/test-authentication.png ':size=45%') 
+   In this case, you can save the configured object and add it to your scans.
 
-    *   A valid authentication object returns three success messages indicated in the relevant  **Test Results** sections: 
-        *   **Detection of the invalid session**
-        *   **Valid session flow**
-
-  ![header-testing](../media/header-testing.png ':size=45%') 
-
-      In this case, you can save the configured object and add it to your scans.
-
-    * If the test results include a failure message, go back to the object configurations and verify their correctness. Use the test request/response data to find a certain failure and fix it.
+* If the test results include a failure message, go back to the object configurations and verify their correctness. Use the test request/response data to find a certain failure and fix it.
 
