@@ -1,7 +1,8 @@
 <table id="integrations" >
   <tr>
     <td width="70%">
-      <h1>Azure Active Directory</h1>
+      <h1>SSO and SCIM Provisioning of Users and Groups with Azure AD
+</h1>
     </td>
     <td width="30%" style="text-align:center" rowspan="3">
       <img src="guide/pipeline-integration/sso/media/azure/aad-new-logo.png" width="200" height="250"></img>
@@ -9,44 +10,143 @@
   </tr>
   <tr>
     <td style="text-align:left;vertical-align:text-top;padding:0px">
-      To make it much easier for users to access our solutions, it is possible to configure "Single Sign On" (SSO) with Azure Active Directory.
+      <p>System for Cross-domain Identity Management (SCIM) is a protocol for user management across multiple applications. It allows you to easily provision (add), deprovision (delete) and update (map) user data across multiple applications at once. </p>
+      <p>You can set up SCIM provisioning in Azure AD to automatically add the AD application users and groups to your organization on nexploit.app. The added users will be able to access NexPloit using Active Directory Federation Services (ADFS) SSO.</p>
     </td>
-  </tr>
-  <tr>
-  <td>
-  <h2>Enable Azure Active Directory SSO Organization</h2>
-  </td>
-  </tr>
-  <tr>
-  <td>
-  To configure an Azure Active Directory SSO integration, an admin shall:
-  </td>
   </tr>
 </table>
 
-1. Add an app in the "App registrations" section. Set the callback URL to `https://nexploit.app/adfs/callback`:\
-![aad-sso-1](media/azure/aad-sso-1.png ':size=45%')
-    * Copy-paste the Application (client) ID into NexPloit client akin to Azure ADFS:\
-    ![aad-sso-2](media/azure/aad-sso-2.png ':size=45%')
-    * Open the "Endpoints" tab and copy-paste the OpenID Connect metadata document endpoint value (`https://login.microsoftonline.com/4e2adb87-2f36-439f-8047-a30b7857fc62/v2.0/.well-known/openid-configuration` on the screenshot) into NexPloit client as _Metadata URL_ akin to Azure ADFS:\
-    ![aad-sso-3](media/azure/aad-sso-3.png ':size=45%')
-2. In the "Authentication" tab, set _Logout URL_ to `https://nexploit.app/logout/adfs`:\
-![aad-sso-4](media/azure/aad-sso-4.png ':size=45%')
-3. Add a client secret in the "Certificates & secrets" tab and copy its value to NexPlout client akin to Azure ADFS:\
-![aad-sso-5](media/azure/aad-sso-5.png ':size=45%')
-4. Manually add `email`, `offline_access`, `openid` and `profile` permissions in the "API permissions" tab:\
-![aad-sso-6](media/azure/aad-sso-6.png ':size=45%')
-5. Add `email` claim to the **ID** token:\
-![aad-sso-7](media/azure/aad-sso-7.png ':size=45%')
-6. **Manually** set `Email` fields (look up for `vl*******@neuralegion.com` on the screenshot) in the "Users" interface for each user. It is **not** set by default by AAD and required for login to work.
+NexPloit supports the following user mapping attributes:
+* `userName` (the user’s email address)
+* `name.givenName`(first name)
+* `name.familyName` (second name)
 
-Now go to your NexPloit account and perform the following:
-1. Go to the "Organization" tab.\
-![go-to-organization](media/azure/go-to-organization.png ':size=45%')
-2. Scroll down to the "AUTHENTICATION" panel and click the ![dots-button](media/azure/dots_button.png ':size=1%') next to "ADFS".\
-![ad-fs](media/azure/ad-fs.png ':size=45%')
-3. Click "Install" on the menu that pops up.\
-![install](media/azure/install.png ':size=45%')
-4. Fill in the information according to the details you have gathered in the steps above and click the ![continue-button](media/azure/continue_button.png ':size=8%').\
-![ad-fs-form](media/azure/ad-fs-form.png ':size=45%')
+## Prerequisites
+
+* You are an active user on  [nexploit.app](https://nexploit.app). 
+* You have a valid [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens) with the `scim` scope.
+
+## Setup
+
+To enable NexPloit SSO with ADFS, you should first authenticate Azure AD in Nexploit.
+1. Register NexPloit in Azure AD. For that, in the **App registrations** section, click **+ New registration**.
+
+  ![azure-register](media/azure/new-registration.png ':size=45%')
+
+  On the **Register an application** page, do the following:<br>
+    * Enter `NexPloit` in the **Name** field.<br>
+    * In the **Redirect URI (optional)** section, enter `https://nexploit.app/adfs/callback`. <br>
+    * Click **Register**.
+
+  ![azure-register](media/azure/register-nexploit.png ':size=45%')
+
+2. In the created application, get the following credentials to use them further on nexploit.app:
+   * On the application page, copy the **Client ID**.
+
+  ![client-id](media/azure/client-id.png ':size=45%')
+
+   * In the **Certificates & secrets** tab, create a new secret key and copy its **ID**.
+
+  ![sectret-id](media/azure/secret-key.png ':size=45%')
+
+   * In the **Endpoints** tab, copy the **OpenID Connect metadata document** URL.  
+ 
+  ![metadata-url](media/azure/metadata-url.png ':size=45%')
+
+Now go to nexploit.app and do the following:
+1. Select the **Organization** option in the left pane.
+2. From the **Required SSO provider** drop-down list, select **AD FS**, and then click **Connect**.
+
+  ![sso-connect](media/azure/sso-connect.png ':size=45%')
+
+3. Fill in the **ADFS Authentication** fields with the credentials copied in Azure AD, and then click **Continue**.
+
+  ![setup](media/azure/continue-setup.png ':size=45%')
+
+4. On the Microsoft **Permissions Requested** page, click **Accept**.
+
+Now the AD FS SSO is enabled for all the users of the authenticated application with no limitations. 
+
+> [!TIP|label:Pro Tip]
+You can enable a forced AD FS SSO registration by selecting the **Require your organization members to use SSO to access NexPloit** checkbox. When this option is selected, only the registered users (current members of a NexPloit organization) with existing SSO accounts can access NexPloit.
+
+Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users and groups to your NexPloit organization.
+
+## Step-by-Step Guide
+
+1. In the **ORGANIZATION SETTING** section, select the **Sync the groups & users from SSO provider to NexPloit** checkbox.
+
+  ![sync-option](media/azure/sync-users-groups.png ':size=45%')
+
+2. In Azure AC, go to the provisioning section of your application and click **Get Started**. 
+
+  ![provisioning](media/azure/provisioning.png ':size=45%')
+
+3. Select one of the following provisioning modes:
+
+  ![provisioning-mode](media/azure/provisioning-mode.png ':size=45%')
+
+    * **Manual** option allows you to add a new user or group to your NexPloit organization manually with immediate synchronization.
+    * **Automatic** mode enables adding every new user or group to your NexPloit organization automatically. The automatic provisioning interval is 40 minutes.
+
+
+
+4. In the **Admin Credentials** section, do the following:
+
+  ![admin-credentials](media/azure/admin-credentials.png ':size=45%')
+
+   * In the **Tenant URL** field, enter `https://nexploit.app/api/v1/scim`.
+   * In the **Secret Token** field, enter the API key created on nexploit.app.
+
+5. Click **Test Connection** to verify the credentials that are authorized for provisioning.
+
+6. _(Optional)_ In the **Settings** section, make sure to set the scope to **Sync only assigned users and groups**. This will ensure that the provisioning will be limited to assigned users/groups only, and that no other Azure AD users will have access tonexploit.app unintendedly.
+
+  ![assigned-users](media/azure/assigned-users.png ':size=45%')
+
+7. Above the **Provisioning mode**, click **Save** to save the configuration.
+
+8. To start provisioning, go back to your application page and click **Start provisioning**.
+
+  ![start-provisioning](media/azure/start-provisioning.png ':size=45%')
+
+#### Assign Azure AD Users and Groups to your NexPloit Organization
+
+1. In the left pane, select **Users and groups**.
+2. Click **+ Add user/group**.
+
+  ![add-users](media/azure/add-users.png ':size=45%')
+
+3. In the **Users and groups** field, click **None Selected**. Select specific users or a group of users to sync them to your NexPloit organization, and then click **Assign**.
+
+  ![add-assignment](media/azure/add-assignment.png ':size=45%')
+
+   * The assigned users will be automatically added to the **MEMBERS** section of your NexPloit organization. 
+   * The assigned groups will be automatically added to the **GROUPS** section of your NexPloit organization. 
+
+   ![nexploit-organization](media/azure/nexploit-organization.png ':size=45%')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
