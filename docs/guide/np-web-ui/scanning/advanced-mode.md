@@ -1,12 +1,14 @@
 # Advanced Mode
-On the NEW SCAN popup, select the Advanced tab to create a scan with extended settings.
+On the **NEW SCAN** popup, select the **Advanced** tab to create a scan with extended settings.
 1. _(Optional)_ In order to make the scanning definition process quicker, in the <u>**Templates** tab</u>, you can select a predefined set of scan settings. NexPloit provides the following types of predefined scan settings:
 
     ![Templates](media/templates.png ':size=45%')
 
-* **Fast Scan** – This is a preconfigured optimized scan, during which the engine automatically determines which tests to run, based on the data types that are detected. Some tests will be skipped in favor of speed.
-* **Comprehensive Scan** – All possible tests are performed during the scan. This is the most thorough scan, which takes the longest time to complete.
+* **Deep Scan** – All possible tests are performed during the scan. This is the most thorough scan, which takes the longest time to complete.
+* **Light Scan** – This is a preconfigured optimized scan, during which the engine automatically determines which tests to run, based on the data types that are detected. Some tests will be skipped in favor of speed.
+* **Passive Scan** - The engine selects only host-based passive tests to be run.
 * **API Scanning** – Predefined tests that are relevant for API targets.
+* _(Optional)_ **Custom (own) templates** - The scans configured by a user manually and saved as templates. 
 
 >[!TIP|label:Pro Tip]
 In addition, you can define your own scan templates. See [Managing Scan Templates](guide/np-web-ui/scanning/managing-scan-templates.md) for more information.
