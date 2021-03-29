@@ -160,9 +160,9 @@ In this section, specify the values to be appended to each request sent to an au
     </td>
   </tr>
   <tr>
-    <td width="25%"><b>Xpath to parameter</b></td>
+    <td width="25%"><b>XPath to parameter</b></td>
     <td width="75%" >
-       Specify the exact location of the parameter in the object sent with the reqiests to the target.
+       Specify the exact location of the parameter in the object sent with the requests to the target.
     </td>
   </tr>
   </tr>
