@@ -28,7 +28,7 @@ _Example:_ `{{ stage1.response.headers | get: '/Set-Cookie' }}`
 Retrieves the result of matching a string against a regular expression.<br>
 _Format:_ `{{ value_expression | match : regex : group }}`<br>
 _Parameters:_
-* `regexp` - regular expression
+* `regex` - regular expression
 * `group` - number of the capture group (optional, default 1)<br>
 
 _Example:_ `{{ stage1.response.body | match: /sid=(.+)/ : 1 }}`
