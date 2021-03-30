@@ -24,7 +24,7 @@ NexPloit supports the following user mapping attributes:
 ## Prerequisites
 
 * You are an active user on  [nexploit.app](https://nexploit.app). 
-* You have a valid [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens) with the `scim` scope.
+* You have a valid [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) with the `scim` scope.
 
 ## Setup
 
@@ -103,7 +103,7 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
 5. Click **Test Connection** to verify the credentials that are authorized for provisioning.
 
-6. _(Optional)_ In the **Settings** section, make sure to set the scope to **Sync only assigned users and groups**. This will ensure that the provisioning will be limited to assigned users/groups only, and that no other Azure AD users will have access tonexploit.app unintendedly.
+6. _(Optional)_ In the **Settings** section, make sure to set the scope to **Sync only assigned users and groups**. This will ensure that the provisioning will be limited to assigned users/groups only, and that no other Azure AD users will have access to nexploit.app unintendedly.
 
   ![assigned-users](media/azure/assigned-users.png ':size=45%')
 
