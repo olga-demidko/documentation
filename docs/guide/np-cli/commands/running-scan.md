@@ -20,4 +20,5 @@ This command enables you to specify one or more discovery strategies. For exampl
 | ```--header=extraHeader```,<br/>```-H=extraHeader``` | Extra headers to be passed with the archive file. It can also be used to remove a header by providing a name without content. For example, -H "Host:". <br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the archive headers and are set in all the requests. |
 | ```--test=testName``` | Specifies a list of relevant tests to execute during a scan.<br/>For example, `--test default_login_location dom_xss`. |
 | ```--api=ApiDomain``` | Set the API endpoint domain, for VPC, use: `--api https://private-domain.nexploit.app` <br/><br/>**Default Value:** `--api https://nexploit.app` |
+| ```--auth=authObjectID``` |Specifies the ID of the authentication object to be connect to the scan. Find more info about using an authentication object at [Manging Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md).  |
 
