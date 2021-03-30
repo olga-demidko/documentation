@@ -54,7 +54,7 @@ To enable NexPloit SSO with ADFS, you should first authenticate Azure AD in Nexp
 
    * In the **Endpoints** tab, copy the **OpenID Connect metadata document** URL.  
  
-  ![metadata-url](media/azure/metadata-url.png ':size=45%')
+  ![metadata-url](media/azure/endpoints.png ':size=45%')
 
 Now go to nexploit.app and do the following:
 1. Select the **Organization** option in the left pane.
