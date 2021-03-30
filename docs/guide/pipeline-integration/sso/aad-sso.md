@@ -40,6 +40,9 @@ To enable NexPloit SSO with ADFS, you should first authenticate Azure AD in Nexp
 
   ![azure-register](media/azure/register-nexploit.png ':size=45%')
 
+  > [!NOTE|label:Note]
+  It may take some time until the predifined application is published in the Azure AD gallery.
+
 2. In the created application, get the following credentials to use them further on nexploit.app:
    * On the application page, copy the **Client ID**.
 
