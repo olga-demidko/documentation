@@ -77,6 +77,8 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
 ## Step-by-Step Guide
 
+#### Enable Provisioning
+
 1. In the **ORGANIZATION SETTING** section, select the **Sync the groups & users from SSO provider to NexPloit** checkbox.
 
   ![sync-option](media/azure/sync-users-groups.png ':size=45%')
@@ -113,7 +115,7 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
   ![start-provisioning](media/azure/start-provisioning.png ':size=45%')
 
-#### Assign Azure AD Users and Groups to your NexPloit Organization
+#### Assign Azure AD Users and Groups to Your NexPloit Organization
 
 1. In the left pane, select **Users and groups**.
 2. Click **+ Add user/group**.
@@ -129,7 +131,26 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
    ![nexploit-organization](media/azure/nexploit-organization.png ':size=45%')
 
+#### Log in to NexPloit Using AD FS SSO
 
+
+1. On the login page, click **Single Sign On (SSO)**.
+
+  ![sso-button](media/azure/sso-button.png ':size=45%')
+
+2. Enter the name of the application registered for NexPloit in Azure AD, and then click **Continue**.
+
+  ![sso-organization](media/azure/sso-organization.png ':size=45%')
+
+3. Select **Sign in with AD FS**.
+
+  ![sso-adfs](media/azure/sso-adfs.png ':size=45%')
+
+  You are redirected to the Microsoft login page.
+
+4. Enter your Azure AD user's credentials.
+
+  ![adfs-login](media/azure/adfs-sign-in.png ':size=30%')
 
 
 
