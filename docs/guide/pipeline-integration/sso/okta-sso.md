@@ -47,7 +47,7 @@ To log in to NexPloit using Okta SSO, follow these steps:
 
   ![sso-button](media/okta/sso-button.png ':size=45%')
 
-2. Enter your NexPloit organization name and click **Continue**.
+2. Enter your Okta organization name and click **Continue**.
 
   ![sso-organization](media/okta/sso-organization.png ':size=45%')
 
