@@ -11,7 +11,7 @@
   <tr>
     <td style="text-align:left;vertical-align:text-top;padding:0px">
       <p>System for Cross-domain Identity Management (SCIM) is a protocol for user management across multiple applications. It allows you to easily provision (add), deprovision (delete) and update (map) user data across multiple applications at once. </p>
-      <p>You can set up SCIM provisioning in Azure AD to automatically add the AD application users and groups to your organization on nexploit.app. The added users will be able to access NexPloit using Active Directory Federation Services (ADFS) SSO.</p>
+      <p>You can set up SCIM provisioning in Azure AD to automatically add the AD application users and groups to your organization on nexploit.app. The added users will be able to access NexPloit using Active Directory Federation Services (AD FS) SSO.</p>
     </td>
   </tr>
 </table>
@@ -28,14 +28,14 @@ NexPloit supports the following user mapping attributes:
 
 ## Setup
 
-To enable NexPloit SSO with ADFS, you should first authenticate Azure AD in Nexploit.
+To enable NexPloit SSO with AD FS, you should first authenticate Azure AD in Nexploit.
 1. Register NexPloit in Azure AD. For that, in the **App registrations** section, click **+ New registration**.
 
   ![azure-register](media/azure/new-registration.png ':size=45%')
 
   On the **Register an application** page, do the following:<br>
     * Enter `NexPloit` in the **Name** field.<br>
-    * In the **Redirect URI (optional)** section, enter `https://nexploit.app/adfs/callback`. <br>
+    * In the **Redirect URL (optional)** section, enter `https://nexploit.app/adfs/callback`. <br>
     * Click **Register**.
 
   ![azure-register](media/azure/register-nexploit.png ':size=45%')
@@ -62,7 +62,7 @@ Now go to nexploit.app and do the following:
 
   ![sso-connect](media/azure/sso-connect.png ':size=45%')
 
-3. Fill in the **ADFS Authentication** fields with the credentials copied in Azure AD, and then click **Continue**.
+3. Fill in the **AD FS Authentication** fields with the credentials copied in Azure AD, and then click **Continue**.
 
   ![setup](media/azure/continue-setup.png ':size=45%')
 
