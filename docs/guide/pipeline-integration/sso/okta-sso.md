@@ -22,7 +22,7 @@
 >[!NOTE|label:Note]
 Currently, Okta/NexPloit OIDC integration only supports SP-initiated SSO.
 
-## Enabling Okta for Organization
+## Enabling Okta for the Organization
 To enable Okta for an organization, follow these steps:
 1. Log in to your Okta organization account.
 2. Add the NexPloit app, if it has not been already added, and assign users to the app.
