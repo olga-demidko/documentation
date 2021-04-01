@@ -117,8 +117,7 @@ In this section, select the options you want to use during the application scann
 
 The preliminary testing helps you verify if the authentication object has been configured correctly.
 
-  ![test-authentication](../media/header-testing.png ':size=45%')
-
+  ![test-authentication](../media/test-authentication.png ':size=45%') 
 
 <table id="simple-table">
   <tr>
@@ -126,15 +125,51 @@ The preliminary testing helps you verify if the authentication object has been c
     <th width="75%"><b>Guidelines</b></th>
   </tr>
   <tr>
-    <td width="25%"><b>Validation URL </b></td>
+    <td width="25%"><b>Protocol </b></td>
     <td width="75%" >
-       Enter the URL of the authenticated resource to be accessed by NexPloit. 
+       Currently only the HTTP protocol is supported. 
     </td>
   </tr>
   <tr>
-    <td width="25%"><b>Repeater  </b></td>
+    <td width="25%"><b>Method </b></td>
     <td width="75%" >
-       If you use a local Repeater to reach the scan target, from the <b>Repeater</b> dropdown list, select the Repeater you need for the scan.   
+       Select the HTTP method of an active tester end-point (authenticated resource). 
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Validation URL </b></td>
+    <td width="75%" >
+       Enter the URL of the authenticated (protected) resource to test if the authentication scenario is configured correctly. The validation URL should be different from the authentication URL.   
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Header name </b></td>
+    <td width="75%" >
+       Select an additional header to be appended to the request sent to the tester end-point. 
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Header value </b></td>
+    <td width="75%" >
+       Enter the template of the expected value (interpolation string) created using the <a href="/#/guide/np-web-ui/scanning/managing-authentications/syntax.md">String Interpolation Syntax</a>.   
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Body </b></td>
+    <td width="75%" >    
+       Enter the HTTP request body to be appended to the request sent to the tester end-point, for example:{“user”: “foo”, “pass”: “bar”}’. You can interpolate the body using the <a href="/#/guide/np-web-ui/scanning/managing-authentications/syntax.md">String Interpolation Syntax</a>.   
+    </td>
+  </tr>
+  <tr>
+    <td width="25%"><b>Maximum number of redirects to follow </b></td>
+    <td width="75%" >
+       Enter the maximum number of redirections that Nexploit should follow during the authentication process.   
+    </td>
+  </tr>
+   <tr>
+    <td width="25%"><b>Repeater </b></td>
+    <td width="75%" >
+       If you use a local Repeater to reach the scan target, select it from the drop-down list to connect it to the scan.   
     </td>
   </tr>
   </table>
