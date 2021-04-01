@@ -26,7 +26,7 @@ The parts comprise the following components:
        <li>Source: <code>response</code></li>
        <li>Location: <code>url</code>, <code>headers</code>, <code>body</code></li>
     </ol>
-    <em>Format:</em> <code>{{ stage_name.source.location | function }}</code>
+    <em>Format:</em> <code>{{ &#60stage_name&#62.&#60source&#62.&#60location&#62 | &#60function&#62 }}</code>
     <p><em>Example:</em> <code>{{ stage1.response.headers | <function>}}</code>
     </td>
   </tr>
@@ -37,7 +37,7 @@ The parts comprise the following components:
          <li> Pipe: <code>get</code>, <code>match</code>, <code>encode</code>
          <li> Parameter separated from the pipe by a colon
         </ol>
-        <em>Format:</em> <code>{{ location | pipe: parameter }}</code>
+        <em>Format:</em> <code>{{ &#60location&#62 | &#60pipe&#62: &#60parameter&#62 }}</code>
         <p> <em>Example:</em> <code>{{  stage1.response.headers  | get: '/Set-Cookie' }}</code>
         <p> <em>Example with chained functions:</em> <br><code>{{ stage1.response.headers | get: '/Set-Cookie' | match: /sid=(.+)/ : 1 }} </code><br>
         <p><b>Note:</b> The functions are applied in the relative order. It means that in the example above,  first <code>get</code> will be applied and then  <code>match</code>.
