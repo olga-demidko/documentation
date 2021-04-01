@@ -131,6 +131,9 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
    ![nexploit-organization](media/azure/nexploit-organization.png ':size=45%')
 
+   > [!NOTE|label:Note]
+  If you deprovision a user from the NexPloit application in Azure AD, the relative member turns inactive in your NexPloit organization and is no longer able to log in to nexploit.app using AD FS SSO. 
+
 #### Log in to NexPloit Using AD FS SSO
 
 
