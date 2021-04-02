@@ -33,7 +33,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
    To scan only specific parts of your application, click  ![plus-dark](media/plus-dark.png ':size=3%') at the right side of the **Targets** section to add multiple URLs.<br> In this case, only the specified sections of the application and everything downstream from them will be scanned. See [Scanning with a Crawler](/guide/np-web-ui/scanning/discovery-types/crawler.md) for detailed information.
 
-  * **Recording (HAR)** – Use a pre-recorded session of your application (HAR file), which has been created either manually or automatically (using QA tools, such as Selenium to scan your application). This discovery type enables you to define the scope of a scan and store login information in order to scan areas in your application that require authentication. See [Scanning with a HAR](/guide/np-web-ui/scanning/discovery-types/har.md)for detailed information.
+  * **Recording (HAR)** – Use a pre-recorded session of your application (HAR file), which has been created either manually or automatically (using QA tools, such as Selenium to scan your application). This discovery type enables you to define the scope of a scan and store login information in order to scan areas in your application that require authentication. See [Scanning with a HAR](/guide/np-web-ui/scanning/discovery-types/har.md) for detailed information.
 
   ![Recording](media/recording-har.png ':size=45%')
 

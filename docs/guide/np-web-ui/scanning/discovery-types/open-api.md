@@ -6,7 +6,7 @@ To scan an API, follow these steps:
     >[!NOTE|label:Note]
 NexPloit supports the following versions of the API schemas: Swagger 2+, OpenAPI 3+, Postman 2+.
 
-    ![open-api](../media/open-api.png ':size=45%')
+  ![open-api](../media/open-api.png ':size=45%')
 
 2. Select whether to scan an **Open API specification** or a **Postman collection**.
 3. Fill in the required extra headers for your scan. To add more than one, use the ![Plus-Button](../media\plus-dark.png ':size=3%') button on the right. If you selected to scan a Postman collection, then you have the option to add the relevant variables.
