@@ -6,12 +6,12 @@ You can scan either the whole application or its parts. To scan only specific pa
 ![Crawler-settings](../media/crawler.png ':size=45%')
 
 >[!WARNING|label:Important]
- To ensure complete coverage of the scan, you should configure an authentication object so that the crawler can reach the login-protected parts of the target application. See [Managing Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) for detailed information. 
+ To ensure complete coverage of the scan, you should configure an authentication object so that the crawler can reach the authenticated parts of the target application. See [Managing Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) for detailed information. 
 
  <table id="simple-table">
   <tr>
-    <th width="50%"><b><u>Pros</u></b></td>
-    <th width="50%"><b><u>Cons</u></b></td>
+    <th width="50%"><b>Pros</b></td>
+    <th width="50%"><b>Cons</b></td>
   </tr>
   <tr>
     <td width="50%"> <b>Simple usage</b>. You simply need to specify the target host. The crawler will define the attack surface (scan scope) automatically.</td>

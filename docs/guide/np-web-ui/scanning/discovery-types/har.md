@@ -6,12 +6,12 @@ You can create a HAR file either manually or automatically (using QA tools, such
 ![Recording](../media/recording-har.png ':size=45%')
 
 >[!WARNING|label:Important]
- To ensure complete coverage of the scan, you should configure an authentication object so that the crawler can reach the login-protected parts of the target application. See [Managing Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) for detailed information. 
+ To ensure complete coverage of the scan, you should configure an authentication object so that the NexPloit engine can reach the authenticated parts of the target application. See [Managing Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) for detailed information. 
 
  <table id="simple-table">
   <tr>
-    <th width="50%"><b><u>Pros</u></b></td>
-    <th width="50%"><b><u>Cons</u></b></td>
+    <th width="50%"><b>Pros</b></td>
+    <th width="50%"><b>Cons</b></td>
   </tr>
   <tr>
     <td width="50%"> <b>Deeper coverage</b>. You can enable NexPloit to switch between the microservers during scanning if the relative data is recorded in the HAR file. NexPloit uses all the recorded data to define the attack surface. Therefore, it can reach every part of your application covered by the HAR file.</td>
