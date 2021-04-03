@@ -21,7 +21,7 @@ You can run fast scans of the application which is currently under development w
 
 As the scan target is closed within your pipeline, NexPlot engine cannot access it directly from the cloud. In this case, you can use the [Repeater](/guide/introduction/deployment-onprem.md) (NexPloit local agent) which serves as a request-proxy between NexPloit and the scan target inside your private environment.  You should first create a Repeater on the [nexploit.app](https://nexploit.app), and then connect it to your pipeline using <br> the created Repeater ID. 
 
-To run scans directly from your pipeline, you need to install the NexPloi CLI. It provides an easy-to-use interface and multiple [commands](guide/np-cli/command-list.md) you can use in your Jenkins flow. 
+To run scans directly from your pipeline, you need to install the NexPloit CLI. It provides an easy-to-use interface and multiple [commands](guide/np-cli/command-list.md) you can use in your Jenkins flow. 
 
 You can either run the NexPloit CLI with the Repeater using the NPM or by installing the existing Docker image inside your pipeline. The Docker image comprises the NexPloit CLI and Repeater. 
 
