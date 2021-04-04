@@ -19,7 +19,7 @@
 2. From the **Repeater** dropdown list, select a Repeater (local agent) to connect it to the scan. The Repeater is created in the **Repeaters** tab and serves as a request-proxy between NexPloit and the target hosted on a local network.  See [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md) for more information.
 
 3. In the **Scan Name** field, enter a free-text scan name.
-    If you have selected to scan a website using the crawler discovery tipe, the scan name is assigned automatically based on the specified hostname. You can change the created name if you want.
+    The scan name is assigned automatically based on the name of the specified host or uploaded HAR file. You can change the suggested name if you want.
 
 4. From the **Project** dropdown list, select the NexPloit project you want to use for the scan.
   >[!NOTE|label:Note]
