@@ -149,7 +149,7 @@ In this section, specify the values to be appended to each request sent to an au
   <tr>
     <td width="25%"><b>Headers </b></td>
     <td width="75%" >
-       Specify the name and value of an additional header to be appended to each request. 
+       Specify the name and expected value template of an additional header to be appended to each request. To create the value template, use the <a href="/#/guide/np-web-ui/scanning/managing-authentications/syntax.md">String Interpolation Syntax</a> 
     </td>
   </tr>
   <tr>
