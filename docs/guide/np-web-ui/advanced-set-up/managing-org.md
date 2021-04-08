@@ -62,7 +62,7 @@ To add a user, follow these steps:
 
     ![Add-User-Prompt](media/new-user-prompt.png ':size=30%')
 
-You can assign on of the following roles to the user: 
+You can assign one of the following roles to the user: 
 * **Owner –** Has unrestricted access to the entire organization.
 * **Admin –** Can add, modify and delete groups and members, as well as make billing and plan changes.
 * **User –** Has access to scans.
