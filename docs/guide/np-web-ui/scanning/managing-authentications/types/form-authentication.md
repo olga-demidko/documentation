@@ -191,11 +191,10 @@ The preliminary testing helps you verify if the authentication object has been c
   <tr>
     <td width="25%"><b>Protocol </b></td>
     <td width="75%" >
-       Currently only the HTTP protocol is supported. 
+       From the drop-down list, select the <b>HTTPS</b> or <b>WebSockets</b> protocol to be used for authentication. 
     </td>
   </tr>
-  <tr>
-    <td width="25%"><b>Method </b></td>
+  <td width="25%"><b>Method </b></td>
     <td width="75%" >
        Select the HTTP method of an active tester end-point (authenticated resource). 
     </td>
