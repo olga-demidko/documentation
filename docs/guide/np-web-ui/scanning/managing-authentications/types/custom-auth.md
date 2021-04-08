@@ -70,6 +70,12 @@ In this section, set up a valid authentication request to be sent to the end-poi
     <th width="75%"><b>Guidelines</b></th>
   </tr>
   <tr>
+    <td width="25%"><b>Protocol </b></td>
+    <td width="75%" >
+       From the drop-down list, select the <b>HTTPS</b> or <b>WebSockets</b> protocol to be used for authentication.  
+    </td>
+  </tr>
+  <tr>
     <td width="25%"><b>Method</b></td>
     <td width="75%" >
        Enter the HTTP method of the relevant API end-point.
@@ -223,7 +229,7 @@ The preliminary testing helps you verify if the authentication object has been c
   <tr>
     <td width="25%"><b>Protocol </b></td>
     <td width="75%" >
-       Currently only the HTTP protocol is supported. 
+       From the drop-down list, select the <b>HTTPS</b> or <b>WebSockets</b> protocol to be used for authentication.  
     </td>
   </tr>
   <tr>
