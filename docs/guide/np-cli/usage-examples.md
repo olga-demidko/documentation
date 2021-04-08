@@ -10,10 +10,7 @@ This example describes how to scan an API endpoint directly. The scope of the sc
 #### Prerequisites
 * An active user on [nexploit.app](www.nexploit.app).
 * A Swagger/OpenAPI schema `FILE_PATH`.
-* A valid `AUTH_TOKEN` with the following scopes – `files:read`, `files:write`, `scans:run` and `scans:read`. You can set up –
-    * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
-    – OR –
-    * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `files:read`, `files:write`, `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 
 #### Step-by-step Guide
 **Step 1 – Upload a Schema**
@@ -48,10 +45,7 @@ This example describes how to re-run a previous scan using all the same scan set
 #### Prerequisites
 * An active user on [nexploit.app](www.nexploit.app).
 * A previous `SCAN_ID`.
-* A valid `AUTH_TOKEN` with the following scopes – `scans:run` and `scans:read`. You can set up –
-    * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
-    – OR –
-    * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 
 #### Step-by-step Guide
 **Step 1 – Re-run a Previous Scan**
@@ -71,14 +65,11 @@ This example describes how to re-run a previous scan using all the same scan set
 ```
 
 ### New Scan with a Repeater
-This example describes how to run a scan using the CLI's local Repeater feature.
+This example describes how to run a scan using a local Repeater.
 
 #### Prerequisites
 * An active user on the www.nexploit.app.
-* A valid `AUTH_TOKEN` with the following scopes – `repeaters:write`, `scans:run` and `scans:read`. You can set up –
-    * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
-    – OR –
-    * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 #### Step-by-step Guide
@@ -119,10 +110,7 @@ The Docker version of NexPloit CLI comes as a preconfigured Repeater container. 
 #### Prerequisites
 * An active user on [nexploit.app](www.nexploit.app).
 * You must have Docker Compose installed.
-* A valid `REPEATER-TOKEN` with the scopes `repeaters:write`and `bot`. You can set up –
-    * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
-    – OR –
-    * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the `bot` scope . You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 #### Step-by-step Guide
@@ -137,8 +125,8 @@ services:
     image: neuralegion/repeater:latest
     restart: always
     environment:
-      REPEATER_TOKEN: REPEATER-TOKEN
-      REPEATER_ID: REPEATER-ID
+      REPEATER_TOKEN: AUTH_TOKEN
+      REPEATER_ID: REPEATER_ID
 ```
 **STEP 2 – Run the Docker**<br>
 Run the **Repeater Docker** using the command:
@@ -158,11 +146,8 @@ Here is an example of a `.yaml` configuration that will launch a new scan as soo
 #### Prerequisites
 * An active user on [nexploit.app](www.nexploit.app).
 * You must have Docker Compose installed.
-* A valid `REPEATER-TOKEN` with the scopes `repeaters:write`, `bot`, `files:write`, `scans:run`, `scans:read`. You can set up – 
-    * An [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens).\
-    – OR –
-    * A [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
-* An active `REPEATER-ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans:run`, `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 ```yml
 version: '3'
@@ -176,8 +161,8 @@ services:
     image: neuralegion/repeater:latest
     restart: always
     environment:
-      REPEATER_TOKEN: REPEATER-TOKEN
-      REPEATER_ID: REPEATER-ID
+      REPEATER_TOKEN: AUTH_TOKEN
+      REPEATER_ID: REPEATER_ID
 
   nexploit:
     depends_on:
@@ -185,26 +170,26 @@ services:
       - target.local
     image: neuralegion/repeater:nexploit-cli
     environment:
-      REPEATER_TOKEN: REPEATER-TOKEN
-      REPEATER_ID: REPEATER-ID
+      REPEATER_TOKEN: AUTH_TOKEN
+      REPEATER_ID: REPEATER_ID
     entrypoint:
       - bash
       - -c
       - >
         sleep 10;
-        HARID=$$(nexploit-cli archive:upload --type openapi --token=$$REPEATER_TOKEN /opt/repeater/swagger.yaml);
+        HARID=$$(nexploit-cli archive:upload --type openapi --token=$$AUTH_TOKEN /opt/repeater/swagger.yaml);
         echo Your HAR ID is $$HARID;
-        SCANID=$$(nexploit-cli scan:run --name='My Scan' --repeater=$$REPEATER_ID --archive $$HARID --tests header_security --token $$REPEATER_TOKEN);
+        SCANID=$$(nexploit-cli scan:run --name='My Scan' --repeater=$$REPEATER_ID --archive $$HARID --tests header_security --token $$AUTH_TOKEN);
         echo Scan started $$SCAN_ID;
         echo Poll for scan results;
-        RESULT=$$(nexploit-cli scan:polling --token $$REPEATER_TOKEN --breakpoint=high_issue \
+        RESULT=$$(nexploit-cli scan:polling --token $$AUTH_TOKEN --breakpoint=high_issue \
           --interval=10000 --timeout=5min $$SCAN_ID);
-        nexploit-cli scan:stop --token=$$REPEATER_TOKEN $$SCAN_ID;
+        nexploit-cli scan:stop --token=$$AUTH_TOKEN $$SCAN_ID;
         exit $$RESULT;
 ```
 
 ### Adding Extra Headers Locally
-The Repeater enables a user to overload extra headers onto the Repeater's requests **LOCALLY**, without the need to set them up in NexPloit's cloud engine. This is done by setting the `REPEATER_HEADERS` environment variable.
+The Repeater enables a user to overload extra headers onto the Repeater's requests **LOCALLY**, without the need to set them up in NexPloit cloud engine. This is done by setting the `REPEATER_HEADERS` environment variable.
 For example:
 ```yml
 version: '3'
@@ -213,7 +198,7 @@ services:
     image: neuralegion/repeater:latest
     restart: always
     environment:
-      REPEATER_TOKEN: REPEATER-TOKEN
+      REPEATER_TOKEN: AUTH_TOKEN
       REPEATER_ID: cdf07782-bc6c-486a-b459-e182808faa33
       REPEATER_HEADERS: '{ "my_header": "special token" }'
 ```
