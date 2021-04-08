@@ -6,7 +6,7 @@ Supports the latest NexMock API and provides additional features to help you gen
 
 In addition, this command has the ability to split NexMock files into multiple HAR files. For this purpose, you can specify the `--split` option, which accepts the number of pieces into which to split.
 
-For example –
+For example:
 ```bash
 nexploit-cli archive:generate
 --output archive.har
@@ -18,17 +18,48 @@ nexploit-cli archive:generate
 The command above creates four .HAR files that comply with following pattern: ```<basename>(_<number>)?.<extension>```. For example, `archive.har`, `archive_2.har` and so on.
 
 # Arguments
-| **Argument** | **Description** |
-| :-- | :-- |
-| ```<mockfile>``` | A NexMock file is obtained from the NexMock Reporters. See the E2E Guide. |
+
+<table id="simple-table">
+    <tr>
+        <th width="30%"><strong>Argument</strong></th>
+        <th><strong>Description</strong></th>
+    </tr>
+    <tr>
+        <td><code>&#60mockfile&#62</code></td>
+        <td> A NexMock file is obtained from the NexMock Reporters. See the E2E Guide.</td>
+    </tr>
+</table>
 
 # Options
-| **Option** | **Description** |
-|:--|:--|
-| ```--output=newArchivePath```, ```-f=newArchivePath``` | The path where the new archives are created, relative to the new workspace root. |
-| ```--target=hostnameOrIp```, ```-T=hostnameOrIp``` | The target hostname or IP address. |
-| ```--header=extraHeader```, ```-H=extraHeader``` | Extra headers to be passed with the NexMock file, which can also be used to remove a header by providing a name without content. For example, -H "Host:".<br/><br/>**<font color="red">WARNING –</font>** Headers set with this option override the archive headers and are set in all requests. |
-| ```--pool=size```, ```-p=size``` | The size of the worker pool. Indicates how many requests NexPloit CLI can perform in parallel.<br/><br/>**Default Value –** `--pool 250` |
-| ```--timeout=milliseconds``` | The time to wait for a server to send response headers (and start the response body) before aborting the request.<br/><br/>**Default Value –** `--timeout 5000` |
-| ```--split=numberPieces```, ```-s=numberPieces``` | The number of the HAR pieces. Enables you to split a NexMock file into multiple HAR files.<br/><br/>**Default Value –** `--split 1` |
+
+<table id=simple-table>
+<tr>
+<th width="30%"><strong>Option</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+<tr>
+<td><code>--output=newArchivePath</code>,<br> <code>-f=newArchivePath</code></td>
+<td>The path where the new archives are created, relative to the new workspace root.</td>
+</tr>
+<tr>
+<td><code>--target=hostnameOrIp</code>,<br> <code>-T=hostnameOrIp</code></td>
+<td>The target hostname or IP address.</td>
+</tr>
+<tr>
+<td><code>--header=extraHeader</code>,<br> <code>-H=extraHeader</code></td>
+<td>Extra headers to be passed with the NexMock file, which can also be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="red">Warning:</font></strong> Headers set with this option override the archive headers and are set in all requests.</td>
+</tr>
+<tr>
+<td><code>--pool=size</code>,<br> <code>-p=size</code></td>
+<td>The size of the worker pool. Indicates how many requests NexPloit CLI can perform in parallel.<br><br><strong>Default:</strong> <code>--pool 250</code></td>
+</tr>
+<tr>
+<td><code>--timeout=milliseconds</code></td>
+<td>The time to wait for a server to send response headers (and start the response body) before aborting the request.<br><br><strong>Default:</strong> <code>--timeout 5000</code></td>
+</tr>
+<tr>
+<td><code>--split=numberPieces</code>, <code>-s=numberPieces</code></td>
+<td>The number of the HAR pieces. Enables you to split a NexMock file into multiple HAR files.<br><br><strong>Default:</strong> <code>--split 1</code></td>
+</tr>
+</table>
 
