@@ -134,7 +134,7 @@ Run the **Repeater Docker** using the command:
 docker-compose up
 ```
 >[!NOTE|label:Note]
-If a valid REPEATER-TOKEN and REPEATER-ID was not added, then the **Unauthorized access** error appears. Please check your credentials.
+If a valid AUTH_TOKEN and REPEATER_ID was not added, then the **Unauthorized access** error appears. Please check your credentials.
 
 Now, when Starting a New Scan, you can connect the Repeater under **Additional Settings** in the UI or use the CLI to start a scan.
 

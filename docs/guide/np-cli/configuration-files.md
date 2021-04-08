@@ -1,13 +1,32 @@
 # ⚙️ Configuration Files
 Any configuration option that can be set via the command line can also be specified in the `nexploit` section of your `package.json` or within a separate configuration file. A variety of configuration files can be used, as described in the following table. You can set your configurations in any of the files listed in the table or from the command line.
 
-| **File Name**      | **File Type**   |
-|--------------------|-----------------|
-| .nexploit          | JSON            |
-| .nexploit.json     | JSON            |
-| .nexploit.yaml     | YAML            |
-| .nexploit.yml      | YAML            |
-| nexploit.config.js | CommonJS export |
+<table id="simple-table">
+    <tr>
+        <th width="20%"><strong>File Name</strong></th>
+        <th <strong>File Type</strong></th>
+    </tr>
+    <tr>
+        <td><code>.nexploit</code></td>
+        <td> JSON </td>
+    </tr>
+    <tr>
+        <td><code>.nexploit.json</code></td>
+        <td> JSON </td>
+    </tr>
+    <tr>
+        <td><code>.nexploit.yaml</code></td>
+        <td> YAML </td>
+    </tr>
+    <tr>
+        <td><code>.nexploit.yml</code></td>
+        <td> YAML </td>
+    </tr>
+    <tr>
+        <td><code>nexploit.config.js</code></td>
+        <td> CommonJS export </td>
+    </tr>
+</table>
 
 Specify a path to a configuration file using the `--config` option. By default, the CLI tries to discover a configuration `package.json` file in the root directory of your application, or one of the other specified file names in the working directory.
 
