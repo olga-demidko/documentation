@@ -189,7 +189,7 @@ services:
 ```
 
 ### Adding Extra Headers Locally
-The Repeater enables a user to overload extra headers onto the Repeater's requests **LOCALLY**, without the need to set them up in NexPloit cloud engine. This is done by setting the `REPEATER_HEADERS` environment variable.
+The Repeater enables a user to overload extra headers onto the Repeater's requests **LOCALLY**, without the need to set them up in Nexploit cloud engine. This is done by setting the `REPEATER_HEADERS` environment variable.
 For example:
 ```yml
 version: '3'

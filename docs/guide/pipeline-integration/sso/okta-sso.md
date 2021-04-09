@@ -9,7 +9,7 @@
   </tr>
   <tr>
     <td style="text-align:left;vertical-align:text-top;padding:0px">
-    <h2>Configuring NexPloit OIDC Using Okta</h2>
+    <h2>Configuring Nexploit OIDC Using Okta</h2>
     </td>
   </tr>
   <tr>
@@ -20,15 +20,15 @@
 </table>
 
 >[!NOTE|label:Note]
-Currently, Okta/NexPloit OIDC integration only supports SP-initiated SSO.
+Currently, Okta/Nexploit OIDC integration only supports SP-initiated SSO.
 
 ## Enabling Okta for the Organization
 To enable Okta for an organization, follow these steps:
 1. Log in to your Okta organization account.
-2. Add the NexPloit app, if it has not been already added, and assign users to the app.
+2. Add the Nexploit app, if it has not been already added, and assign users to the app.
 3. Set the redirection URL to `https://nexploit.app/okta/callback`.
 4. Copy the client ID, client secret and metadata URL. The metadata URL format is `https://{org_slug}.okta.com/.well-known/openid-configuration`.
-5. Log in to NexPloit.
+5. Log in to Nexploit.
 6. In the left pane, select the **Organization** option, and go to the **ORGANIZATION SETTINGS** section.
 7. From the **Requires SSO provider**, select **Okta**, and then click **Connect**.
 
@@ -38,16 +38,16 @@ To enable Okta for an organization, follow these steps:
 
   ![okta-settings](media/okta/auth-okta.png ':size=45%')
 
-After Okta SSO is set up, an email is sent to all the users in your organization informing them to confirm their accounts and link their Okta profiles to NexPloit profiles.
+After Okta SSO is set up, an email is sent to all the users in your organization informing them to confirm their accounts and link their Okta profiles to Nexploit profiles.
 
 ## Using Okta SSO
 The SSO option becomes available once Okta SSO is configured for the organization.
-To log in to NexPloit using Okta SSO, follow these steps: 
+To log in to Nexploit using Okta SSO, follow these steps: 
 1. On the login page, click **Single Sign On (SSO)**.
 
   ![sso-button](media/okta/sso-button.png ':size=45%')
 
-2. Enter your NexPloit organization name and click **Continue**.
+2. Enter your Nexploit organization name and click **Continue**.
 
   ![sso-organization](media/okta/sso-organization.png ':size=45%')
 

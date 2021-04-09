@@ -80,7 +80,7 @@ Example script:
   "method": "GET",
   "url": "http://34.207.67.27:8080/wavsep/active/LFI/LFI-Detection-Evaluation-GET-200Error/Case02-LFI-FileClass-FilenameContext-Unrestricted-FileDirective-DefaultFullInput-AnyPathReq-Read.jsp?target=file%3A%2F%2F..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C%2Fetc%2Fpasswd%3Froot%2Fapache-tomcat-8.0.27%2Fwebapps%2Fwavsep%2Factive%2FLFI%2FLFI-Detection-Evaluation-GET-200Error%2Fcontent.ini",
   "headers": {
-    "X-Scanner": "NexPloit",
+    "X-Scanner": "Nexploit",
     "Accept-Encoding": "identity",
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0",
     "Cookie": "JSESSIONID=123; userinput=EmptyValue; parameter=\"http://M5BBaIfz2yls0KrjzzrN5Q?com\""
