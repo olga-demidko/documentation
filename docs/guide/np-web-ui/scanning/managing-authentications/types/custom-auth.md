@@ -1,4 +1,4 @@
-# Configuring the Custom Multi-Step Authentication in NexPloit
+# Configuring the Custom Multi-Step Authentication in Nexploit
 If you need to create a custom authentication flow consisting of multiple stages, you should use the custom multi-step authentication method. 
 
 ## Prerequisites

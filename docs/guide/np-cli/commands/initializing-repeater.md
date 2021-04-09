@@ -29,7 +29,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--bus=eventBus</code></td>
-<td>NexPloit Event Bus URL.<br><br><strong>Default:</strong><code>--bus amqps://amq.nexploit.app:5672</code></td>
+<td>Nexploit Event Bus URL.<br><br><strong>Default:</strong><code>--bus amqps://amq.nexploit.app:5672</code></td>
 </tr>
 <tr>
 <td><code>--header=extraHeader</code>,<br> <code>-H=extraHeader</code></td>

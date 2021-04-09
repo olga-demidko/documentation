@@ -1,25 +1,25 @@
 # Using Ticketing Systems with Nexploit Projects 
-You can add one or multiple repositories (projects, channels) of your ticketing systems to a specific NexPloit project. Therefore, you are able to create different sets of repositories that will be available for the relevant NexPloit projects of your organization.
+You can add one or multiple repositories (projects, channels) of your ticketing systems to a specific Nexploit project. Therefore, you are able to create different sets of repositories that will be available for the relevant Nexploit projects of your organization.
 
-The project integration configuration allows you to select any of the repositories associated with the specified NexPloit project when you start a new scan.  
+The project integration configuration allows you to select any of the repositories associated with the specified Nexploit project when you start a new scan.  
 
 ## Prerequisites <!-- {docsify-ignore} -->
 * You are an active user on [nexploit.app](https://nexploit.app/).
-* The NexPloit is connected to your ticketing systems with the repositories that you want to add to a certain project.
+* The Nexploit is connected to your ticketing systems with the repositories that you want to add to a certain project.
 
     ![repositories-enabled](media/repositories-enabled.png ':size=45%')
 
 ## Step-by-Step Guide <!-- {docsify-ignore} -->
-### Configure the NexPloit Project Integration <!-- {docsify-ignore} -->
+### Configure the Nexploit Project Integration <!-- {docsify-ignore} -->
 1. In the **TICKET MANAGEMENT INTEGRATION section**, click ![dots-button](media/icon-button.png ':size=2%') next to the ticketing system you need, and then select **Project Settings**.
 
     ![azure-settings](media/azure-settings.png ':size=45%')
 
 2. On the **Projects Integration Config** popup, do the following:
-    * In the **Project field**, enter or select the NexPloit project that you want to use for the scan.
+    * In the **Project field**, enter or select the Nexploit project that you want to use for the scan.
 
      >[!NOTE|label:Note]
-   You can start a scan ONLY if a project is selected. If you do not have any projects in NexPloit, select the **Default** one.
+   You can start a scan ONLY if a project is selected. If you do not have any projects in Nexploit, select the **Default** one.
 
     *   From the **Associate repository…** dropdown list, select the repository (project, channel) that you want to use for the scan results within the specified project.
     The selected repository is automatically added to the **REPOSITORIES** list below. You can add multiple repositories (boards) to this list.
@@ -36,7 +36,7 @@ The project integration configuration allows you to select any of the repositori
 
 ### Select Repositories for a New Scan <!-- {docsify-ignore} -->
 
-When [starting a new scan](guide/np-web-ui/scanning/creating-new-scan.md), you can select one or multiple integrated repositories (projects, channels) that you want to use as destinations for the scan reports within the specified NexPloit project.
+When [starting a new scan](guide/np-web-ui/scanning/creating-new-scan.md), you can select one or multiple integrated repositories (projects, channels) that you want to use as destinations for the scan reports within the specified Nexploit project.
 1. Select the **Scan Details** tab.
 
     ![select-integrations](media/select-integrations.png ':size=45%')

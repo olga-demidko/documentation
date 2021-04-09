@@ -11,12 +11,12 @@
   <tr>
     <td style="text-align:left;vertical-align:text-top;padding:0px">
       <p>System for Cross-domain Identity Management (SCIM) is a protocol for user management across multiple applications. It allows you to easily provision (add), deprovision (delete) and update (map) user data across multiple applications at once. </p>
-      <p>You can set up SCIM provisioning in Azure AD to automatically add the AD application users and groups to your organization on nexploit.app. The added users will be able to access NexPloit using Active Directory Federation Services (AD FS) SSO.</p>
+      <p>You can set up SCIM provisioning in Azure AD to automatically add the AD application users and groups to your organization on nexploit.app. The added users will be able to access Nexploit using Active Directory Federation Services (AD FS) SSO.</p>
     </td>
   </tr>
 </table>
 
-NexPloit supports the following user mapping attributes:
+Nexploit supports the following user mapping attributes:
 * `userName` (the user’s email address)
 * `name.givenName`(first name)
 * `name.familyName` (second name)
@@ -28,13 +28,13 @@ NexPloit supports the following user mapping attributes:
 
 ## Setup
 
-To enable NexPloit SSO with AD FS, you should first authenticate Azure AD in Nexploit.
-1. Register NexPloit in Azure AD. For that, in the **App registrations** section, click **+ New registration**.
+To enable Nexploit SSO with AD FS, you should first authenticate Azure AD in Nexploit.
+1. Register Nexploit in Azure AD. For that, in the **App registrations** section, click **+ New registration**.
 
   ![azure-register](media/azure/new-registration.png ':size=45%')
 
   On the **Register an application** page, do the following:<br>
-    * Enter `NexPloit` in the **Name** field.<br>
+    * Enter `Nexploit` in the **Name** field.<br>
     * In the **Redirect URL (optional)** section, enter `https://nexploit.app/adfs/callback`. <br>
     * Click **Register**.
 
@@ -71,15 +71,15 @@ Now go to nexploit.app and do the following:
 Now the AD FS SSO is enabled for all the users of the authenticated application with no limitations. 
 
 > [!TIP|label:Pro Tip]
-You can enable a forced AD FS SSO registration by selecting the **Require your organization members to use SSO to access NexPloit** checkbox. When this option is selected, only the registered users (current members of a NexPloit organization) with existing SSO accounts can access NexPloit.
+You can enable a forced AD FS SSO registration by selecting the **Require your organization members to use SSO to access Nexploit** checkbox. When this option is selected, only the registered users (current members of a Nexploit organization) with existing SSO accounts can access Nexploit.
 
-Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users and groups to your NexPloit organization.
+Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users and groups to your Nexploit organization.
 
 ## Step-by-Step Guide
 
 #### Enable Provisioning
 
-1. In the **ORGANIZATION SETTING** section, select the **Sync the groups & users from SSO provider to NexPloit** checkbox.
+1. In the **ORGANIZATION SETTING** section, select the **Sync the groups & users from SSO provider to Nexploit** checkbox.
 
   ![sync-option](media/azure/sync-users-groups.png ':size=45%')
 
@@ -91,8 +91,8 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
   ![provisioning-mode](media/azure/provisioning-mode.png ':size=45%')
 
-    * **Manual** option allows you to add a new user or group to your NexPloit organization manually with immediate synchronization.
-    * **Automatic** mode enables adding every new user or group to your NexPloit organization automatically. The automatic provisioning interval is 40 minutes.
+    * **Manual** option allows you to add a new user or group to your Nexploit organization manually with immediate synchronization.
+    * **Automatic** mode enables adding every new user or group to your Nexploit organization automatically. The automatic provisioning interval is 40 minutes.
 
 
 
@@ -115,33 +115,33 @@ Go to Step-by-Step Guide to configure automatic provisioning of Azure AD users a
 
   ![start-provisioning](media/azure/start-provisioning.png ':size=45%')
 
-#### Assign Azure AD Users and Groups to Your NexPloit Organization
+#### Assign Azure AD Users and Groups to Your Nexploit Organization
 
 1. In the left pane, select **Users and groups**.
 2. Click **+ Add user/group**.
 
   ![add-users](media/azure/add-users.png ':size=45%')
 
-3. In the **Users and groups** field, click **None Selected**. Select specific users or a group of users to sync them to your NexPloit organization, and then click **Assign**.
+3. In the **Users and groups** field, click **None Selected**. Select specific users or a group of users to sync them to your Nexploit organization, and then click **Assign**.
 
   ![add-assignment](media/azure/add-assignment.png ':size=45%')
 
-   * The assigned users will be automatically added to the **MEMBERS** section of your NexPloit organization. 
-   * The assigned groups will be automatically added to the **GROUPS** section of your NexPloit organization. 
+   * The assigned users will be automatically added to the **MEMBERS** section of your Nexploit organization. 
+   * The assigned groups will be automatically added to the **GROUPS** section of your Nexploit organization. 
 
    ![nexploit-organization](media/azure/nexploit-organization.png ':size=45%')
 
    > [!NOTE|label:Note]
-  If you deprovision a user from the NexPloit application in Azure AD, the relative member turns inactive in your NexPloit organization and is no longer able to log in to nexploit.app using AD FS SSO. 
+  If you deprovision a user from the Nexploit application in Azure AD, the relative member turns inactive in your Nexploit organization and is no longer able to log in to nexploit.app using AD FS SSO. 
 
-#### Log in to NexPloit Using AD FS SSO
+#### Log in to Nexploit Using AD FS SSO
 
 
 1. On the login page, click **Single Sign On (SSO)**.
 
   ![sso-button](media/azure/sso-button.png ':size=45%')
 
-2. Enter the name of the application registered for NexPloit in Azure AD, and then click **Continue**.
+2. Enter the name of the application registered for Nexploit in Azure AD, and then click **Continue**.
 
   ![sso-organization](media/azure/sso-organization.png ':size=45%')
 

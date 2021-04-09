@@ -1,6 +1,6 @@
 # 👾 Troubleshooting
 
-The purpose of this section is to help you solve common problems that you may encounter while using NexPloit CLI
+The purpose of this section is to help you solve common problems that you may encounter while using Nexploit CLI
 
 ### 🌎 Section Map <!-- {docsify-ignore} -->
 

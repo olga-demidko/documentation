@@ -24,7 +24,7 @@
   </tr>
 </table>
 
-1. Log in to NexPloit.
+1. Log in to Nexploit.
 2. In the left pane, select the **Organization** option, and go to the **ORGANIZATION SETTINGS** section.
 3. From the **Requires SSO provider**, select **Google**, and then click **Connect**.
 
@@ -47,12 +47,12 @@
 ## Using Google SSO
 The SSO option becomes available once Google SSO is configured for the organization.
 
-To log in to NexPloit using Google SSO, follow these steps:
+To log in to Nexploit using Google SSO, follow these steps:
 1. On the login page, click **Single Sign On (SSO)**.
 
   ![sso-button](media/google/sso-button.png ':size=45%')
 
-2. Enter your NexPloit organization name and click **Continue**.
+2. Enter your Nexploit organization name and click **Continue**.
 
   ![sso-organization](media/google/sso-organization.png ':size=45%')
 

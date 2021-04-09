@@ -1,6 +1,6 @@
 # Usage Examples
 ## Example 1. Direct scanning using the Nexploit CLI (NPM installation)
-To apply this option, you only need to install the NexPloit CLI globally on your Travis CI machine using the relative NPM command. 
+To apply this option, you only need to install the Nexploit CLI globally on your Travis CI machine using the relative NPM command. 
 
 ### Prerequisites<!-- {docsify-ignore} -->
 * You are an active user on  [nexploit.app](https://nexploit.app). 
@@ -45,7 +45,7 @@ NEW_SCAN_ID=$(nexploit-cli scan:retest
 ##### **STEP 3 -  Poll the Results**
 
 >[!NOTE|label:Note]
-When polling the scan results, it is recommended to follow the fail-fast principle by using the `breakpoint` command.  See [NexPloit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can use in your Travis flow.
+When polling the scan results, it is recommended to follow the fail-fast principle by using the `breakpoint` command.  See [Nexploit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can use in your Travis flow.
 
 ```bash
 - printf "Wait for issues ⏳\n"
@@ -105,8 +105,8 @@ after_script:
  ```
 
 
-## Example 2. Scanning via a Repeater using the NexPloit CLI (NPM installation)
-To apply this option, you need to install the NexPloit CLI on your Travis CI machine and activate the Repeater using the Repeater ID and NexPloit API key. 
+## Example 2. Scanning via a Repeater using the Nexploit CLI (NPM installation)
+To apply this option, you need to install the Nexploit CLI on your Travis CI machine and activate the Repeater using the Repeater ID and Nexploit API key. 
 
 ### Prerequisites<!-- {docsify-ignore} -->
 * You are an active user on  [nexploit.app](https://nexploit.app). 
@@ -136,7 +136,7 @@ nexploit-cli repeater
 If a valid API token `NEXPLOIT-TOKEN` and Repeater ID `REPEATER` were not added, then the **Unauthorized access** error appears. Please check your credentials.
 
 >[!Warning|label:Important]
-Make sure that the Repeater has an outbound connection to the NexPloit host depending on its deployment. The Repeater should be connected either to the default **amq.nexploit.app** via the AMQ protocol (over TLS) using port 5672 or to your private cloud using the relative port. 
+Make sure that the Repeater has an outbound connection to the Nexploit host depending on its deployment. The Repeater should be connected either to the default **amq.nexploit.app** via the AMQ protocol (over TLS) using port 5672 or to your private cloud using the relative port. 
 
 ##### **STEP 3 -  Run (Re-Test) a Scan**
 
@@ -166,7 +166,7 @@ $OLD_SCAN_ID)
 ##### **STEP 4 -  Poll the Results**
 
 >[!NOTE|label:Note]
-When polling the scan results, it is recommended to follow the fail-fast principle by using the `breakpoint` command.  See [NexPloit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can use in your Travis flow.
+When polling the scan results, it is recommended to follow the fail-fast principle by using the `breakpoint` command.  See [Nexploit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can use in your Travis flow.
 
 ```bash
 - printf "Wait for issues ⏳\n"
@@ -229,8 +229,8 @@ after_script:
  ```
 
 
-## Example 3. Scanning via a Repeater using the NexPloit CLI (Docker installation)
-To apply this option, you need to configure a Docker image inside your pipeline (for example,  by creating a docker-compose file). Once the Docker is configured, you can run the NexPloit CLI and activate the Repeater using the Repeater ID and NexPloit API key.   
+## Example 3. Scanning via a Repeater using the Nexploit CLI (Docker installation)
+To apply this option, you need to configure a Docker image inside your pipeline (for example,  by creating a docker-compose file). Once the Docker is configured, you can run the Nexploit CLI and activate the Repeater using the Repeater ID and Nexploit API key.   
 
 ### Prerequisites<!-- {docsify-ignore} -->
 * You are an active user on  [nexploit.app](https://nexploit.app). 
@@ -278,7 +278,7 @@ services:
 If a valid API token `NEXPLOIT-TOKEN` and Repeater ID `REPEATER` were not added, then the **Unauthorized access** error appears. Please check your credentials.
 
 >[!Warning|label:Important]
-Make sure that the Repeater has an outbound connection to the NexPloit host depending on its deployment. The Repeater should be connected either to the default **amq.nexploit.app** via the AMQ protocol (over TLS) using port 5672 or to your private cloud using the relative port. 
+Make sure that the Repeater has an outbound connection to the Nexploit host depending on its deployment. The Repeater should be connected either to the default **amq.nexploit.app** via the AMQ protocol (over TLS) using port 5672 or to your private cloud using the relative port. 
 
 ##### **STEP 4 -  Run (Re-Test) a Scan**
 
@@ -309,7 +309,7 @@ $OLD_SCAN_ID)
 ##### **STEP 5 -  Poll the Results**
 
 >[!NOTE|label:Note]
-When polling the scan results, it is recommended to follow the fail-fast principle by using the `breakpoint` command.  See [NexPloit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can use in your Travis flow.
+When polling the scan results, it is recommended to follow the fail-fast principle by using the `breakpoint` command.  See [Nexploit CLI Command List](guide/np-cli/command-list.md) for a full list of commands you can use in your Travis flow.
 
 ```bash
 - printf "Wait for issues ⏳\n"
