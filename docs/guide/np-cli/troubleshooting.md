@@ -20,7 +20,7 @@ In order to use a Repeater from within a local network, you must first make sure
 You can use the `nexploit-cli configure --nogui` command to run a simple connectivity testing process.
 
 ##### Prerequisites
-- The machine on which the Repeater will be run, must have the latest version of the [NexPloit CLI](/guide/np-cli/installation.md).
+- The machine on which the Repeater will be run, must have the latest version of the [Nexploit CLI](/guide/np-cli/installation.md).
 - A valid API key (`API token`) with the following scopes: `bot`, `scans:run`, `scans:read`, `scans:stop`.<br>
   You can create an [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or a [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens).
 - A valid `REPEATER_ID`. To create a Repeater, see [Managing Repeaters](/guide/np-web-ui/advanced-set-up/managing-repeaters.md).
@@ -28,7 +28,7 @@ You can use the `nexploit-cli configure --nogui` command to run a simple connect
 ##### Step-by-Step Guide
 
 1. Run the command `nexploit-cli configure --nogui` in your terminal.<br> 
-  The NexPloit Network Testing wizard is launched.
+  The Nexploit Network Testing wizard is launched.
   
 2. Enter the `API Token` and `Repeater ID` in the relative fields.
 
@@ -37,7 +37,7 @@ You can use the `nexploit-cli configure --nogui` command to run a simple connect
 3. The CLI runs the first stage of the external communication diagnostics:
 
     * **Validating that the connection to amq.nexploit.app:5672 at port 5672 is open** is required for the Repeater to reach the scan engine.
-    * **Validating that the connection to nexploit.app at port  is open** is required to reach the NexPloit API endpoints.
+    * **Validating that the connection to nexploit.app at port  is open** is required to reach the Nexploit API endpoints.
     * **Verifying provided Token and Repeater ID** is required to validate the credentials.
 
   The diagnostics results are provided next to the validation parameters. 

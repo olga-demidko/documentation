@@ -1,9 +1,9 @@
-# Configuring the API Call Authentication in NexPloit
-If you need to enable NexPloit to reach an authenticated resource by sending API requests with a customized body, you should use the API call authentication method. This authentication method is the most flexible and provides multiple methods of HTTP requests.
+# Configuring the API Call Authentication in Nexploit
+If you need to enable Nexploit to reach an authenticated resource by sending API requests with a customized body, you should use the API call authentication method. This authentication method is the most flexible and provides multiple methods of HTTP requests.
 
 ## Prerequisites
 *   You are an active user on [nexploit.app](https://nexploit.app/scans).
-*   Your application and authenticated resources are accessible to NexPloit, either directly from the Internet or via a Repeater.
+*   Your application and authenticated resources are accessible to Nexploit, either directly from the Internet or via a Repeater.
 
 
 ## Step-by-Step Guide

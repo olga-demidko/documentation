@@ -4,7 +4,7 @@ To scan an API, follow these steps:
 1. Select **Open API** in the **Discovery Type** section to use either an Open API specification (Swagger) or a Postman collection:<br> `*.yml` / `*.yaml` / `*.json`.
 
     >[!NOTE|label:Note]
-NexPloit supports the following versions of the API schemas: Swagger 2+, OpenAPI 3+, Postman 2+.
+Nexploit supports the following versions of the API schemas: Swagger 2+, OpenAPI 3+, Postman 2+.
 
   ![open-api](../media/open-api.png ':size=45%')
 

@@ -1,7 +1,7 @@
 # Scanning with a Crawler
-NexPloit can crawl along your web application to define the attack surface. This option does not require any details that might get you tangled. To run a security scan using a crawler, you simply need to specify the target URL in the **Targets** field. 
+Nexploit can crawl along your web application to define the attack surface. This option does not require any details that might get you tangled. To run a security scan using a crawler, you simply need to specify the target URL in the **Targets** field. 
 
-You can scan either the whole application or its parts. To scan only specific parts of your application, click ![plus-dark](../media/plus-dark.png ':size=3%') at the right side of the Targets section to add multiple URLs. In this case, only the specified sections of the application and everything downstream from them will be scanned.
+You can scan either the whole application or its parts. To scan only specific parts of your application, click ![plus-dark](../media/plus-dark.png ':size=3%') at the right side of the **Targets** section to add multiple URLs. In this case, only the specified sections of the application and everything downstream from them will be scanned.
 
 ![Crawler-settings](../media/crawler.png ':size=45%')
 
@@ -15,7 +15,7 @@ You can scan either the whole application or its parts. To scan only specific pa
   </tr>
   <tr>
     <td width="50%"> <b>Simple usage</b>. You simply need to specify the target host. The crawler will define the attack surface (scan scope) automatically.</td>
-    <td width="50%"> <b>Less coverage</b>. The crawler cannot get through some user-specific forms or provide the required input. It means that the attack surface may be defined incompletely, and NexPloit will not cover such parts of the application during scanning.</td>
+    <td width="50%"> <b>Less coverage</b>. The crawler cannot get through some user-specific forms or provide the required input. It means that the attack surface may be defined incompletely, and Nexploit will not cover such parts of the application during scanning.</td>
   </tr>
   <tr>
     <td width="50%"><b>Full automation</b>. By default, the crawler automatically covers all the application parts that it can reach.</td>  

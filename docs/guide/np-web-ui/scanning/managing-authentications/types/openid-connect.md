@@ -1,12 +1,12 @@
-# Configuring the OIDC Connect (OAuth) in NexPloit
-If you need to grant NexPloit access to the authenticated resources that support OIDC, you should configure an authentication object using the OpenID Connect. 
+# Configuring the OIDC Connect (OAuth) in Nexploit
+If you need to grant Nexploit access to the authenticated resources that support OIDC, you should configure an authentication object using the OpenID Connect. 
 
 >[!NOTE|label:Note]
 Currently the **Customer Credentials** and **Resource Owner Password** grant types of the OIDC are supported.
 
 ## Prerequisites
 *   You are an active user on [nexploit.app](https://nexploit.app/scans).
-*   Your application and authenticated resources are accessible to NexPloit, either directly from the Internet or via a Repeater.
+*   Your application and authenticated resources are accessible to Nexploit, either directly from the Internet or via a Repeater.
 
 ## Step-by-Step Guide
 1. Go to [nexploit.app](https://nexploit.app/scans).

@@ -37,14 +37,14 @@ The On-Premises Repeater requires:
 * Access to the amq.nexploit.app on port 5672 or a provite cloud on the relevant port
 
 ## Installation
-See the [NexPloit CLI Installation](/guide/np-cli/installation.md) section for installation instructions.
+See the [Nexploit CLI Installation](/guide/np-cli/installation.md) section for installation instructions.
 
 ## Usage Examples
-See the usage examples in the [NexPloit CLI Usage Examples](/guide/np-cli/usage-examples.md) section.
+See the usage examples in the [Nexploit CLI Usage Examples](/guide/np-cli/usage-examples.md) section.
 
 ## FAQs – On-Premises Repeater
 ### What is the maintenance / patching frequency?
-The NexPloit engine does not require any maintenance or patching from the client side. It is in the cloud and therefore is always updated automatically. 
+The Nexploit engine does not require any maintenance or patching from the client side. It is in the cloud and therefore is always updated automatically. 
 
 The Repeater does require periodic updates. These can be performed either manually (using a simple CLI update command) or automatically (if the Repeater is installed during a build as part of the CI process).
 

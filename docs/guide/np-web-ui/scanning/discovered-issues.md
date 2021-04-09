@@ -73,7 +73,7 @@ To download a specific issue’s details as a `JSON` file to be used later click
 
 ![Download-Script](media/download-script.png ':size=45%')
 
-Example script –
+Example script:
 
 ```JSON
 {

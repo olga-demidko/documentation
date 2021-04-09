@@ -51,7 +51,7 @@ The command above creates four .HAR files that comply with following pattern: ``
 </tr>
 <tr>
 <td><code>--pool=size</code>,<br> <code>-p=size</code></td>
-<td>The size of the worker pool. Indicates how many requests NexPloit CLI can perform in parallel.<br><br><strong>Default:</strong> <code>--pool 250</code></td>
+<td>The size of the worker pool. Indicates how many requests Nexploit CLI can perform in parallel.<br><br><strong>Default:</strong> <code>--pool 250</code></td>
 </tr>
 <tr>
 <td><code>--timeout=milliseconds</code></td>

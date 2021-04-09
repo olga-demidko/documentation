@@ -1,15 +1,15 @@
 # Repeater Scripts Overview
-If you use a Repeater to scan a target, you can manipulate the scan request before dispatching it to the target. NexPloit allows you to create a script that can add, change or compute some part of the request after you apply it for a specific Repeater. You can load a script file to the Repeater which should modify the request using the [nexpoilt.app](https://nexploit.app/scans) or  NexPloit CLI.
+If you use a Repeater to scan a target, you can manipulate the scan request before dispatching it to the target. Nexploit allows you to create a script that can add, change or compute some part of the request after you apply it for a specific Repeater. You can load a script file to the Repeater which should modify the request using the [nexpoilt.app](https://nexploit.app/scans) or  Nexploit CLI.
 
-You can also create and apply the Repeater scripts using the NexPloit API. More information about it is provided on [our API documentation page](https://nexploit.app/api/v1/docs/#/Scripts).
+You can also create and apply the Repeater scripts using the Nexploit API. More information about it is provided on [our API documentation page](https://nexploit.app/api/v1/docs/#/Scripts).
 
  >[!NOTE|label:Note]
  Custom scripts are supported only for the scans run via a Repeater.
 
-The most common case of using a Repeater script to manipulate a request is when you need to calculate a hash message authentication code (HMAC) token. The code involves a hash function in combination with a secret key.  The HMAC authorization is required to enable interaction between the server and NexPloit. For each new request, the server generates a new HMAC code that should match (signed by) the token encoded in the Repeater script. Therefore, signing the server HMAC ensures the request authenticity.
+The most common case of using a Repeater script to manipulate a request is when you need to calculate a hash message authentication code (HMAC) token. The code involves a hash function in combination with a secret key.  The HMAC authorization is required to enable interaction between the server and Nexploit. For each new request, the server generates a new HMAC code that should match (signed by) the token encoded in the Repeater script. Therefore, signing the server HMAC ensures the request authenticity.
 
  >[!WARNING|label:Important]
-In a script, you should specify how exactly the server calculates the HMAC code to allow NexPloit to provide a valid HMAC token. NexPloit can reach targets ONLY after a successful HMAC authorization with the relative server. 
+In a script, you should specify how exactly the server calculates the HMAC code to allow Nexploit to provide a valid HMAC token. Nexploit can reach targets ONLY after a successful HMAC authorization with the relative server. 
 
 The Repeater scripts also help you send some custom dynamic values per host and various other request pre-processing steps.
 
@@ -17,7 +17,7 @@ The Repeater scripts also help you send some custom dynamic values per host and 
 
 You first need to create a script file and then load it to a specific Repeater. It may take a few minutes before the file reaches the Repeater and updates it. 
 
-When receiving a scan request from NexPloit (step 2 on the diagram below), the  Repeater applies the code from the loaded script to the request (step 3) and dispatches the modified request to the local target. 
+When receiving a scan request from Nexploit (step 2 on the diagram below), the  Repeater applies the code from the loaded script to the request (step 3) and dispatches the modified request to the local target. 
 
 ![scripts-implementation](../media/repeaters-scripts/repeater-chart.png ':size=45%')
 

@@ -1,5 +1,5 @@
 # ✔ Usage Examples
-NexPloit CLI provides many features in addition to scan control over our API. This section describes the following sample use cases –
+Nexploit CLI provides many features in addition to scan control over our API. This section describes the following sample use cases –
 * [NPM](#npm)
 * [Docker](#docker)
 
@@ -104,7 +104,7 @@ This example describes how to run a scan using a local Repeater.
 ```
 
 ## Docker
-The Docker version of NexPloit CLI comes as a preconfigured Repeater container. As soon as the container is launched, the CLI activates the Repeater mode.
+The Docker version of Nexploit CLI comes as a preconfigured Repeater container. As soon as the container is launched, the CLI activates the Repeater mode.
 
 ### Setup
 #### Prerequisites
@@ -139,7 +139,7 @@ If a valid AUTH_TOKEN and REPEATER_ID was not added, then the **Unauthorized acc
 Now, when Starting a New Scan, you can connect the Repeater under **Additional Settings** in the UI or use the CLI to start a scan.
 
 ### Run a New Scan with Docker Startup
-The Docker version of the Repeater comes with a built-in **NexPloit-CLI**, so that additional functions can be added to the docker container to be executed after the Repeater mode is launched.
+The Docker version of the Repeater comes with a built-in **Nexploit-CLI**, so that additional functions can be added to the docker container to be executed after the Repeater mode is launched.
 
 Here is an example of a `.yaml` configuration that will launch a new scan as soon as the Docker is running –
 

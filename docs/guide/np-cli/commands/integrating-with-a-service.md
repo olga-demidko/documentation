@@ -1,5 +1,5 @@
 # 🧩 Integrating with a Service
-`nexploit-cli integration [options]` connects NexPloit with ticketing and management services deployed on local servers (currently only the On-Premise Jira is supported). The repositories of the connected services can then be integrated with the NexPloit projects and used as endpoints for the scan reports.
+`nexploit-cli integration [options]` connects Nexploit with ticketing and management services deployed on local servers (currently only the On-Premise Jira is supported). The repositories of the connected services can then be integrated with the Nexploit projects and used as endpoints for the scan reports.
 
 For more information about the integration capabilities, see [Ticketing Systems](/guide/pipeline-integration/ticketing-systems/ticketing-overview.md).
 
@@ -21,7 +21,7 @@ nexploit-cli integration                  \
 </tr>
 <tr>
 <td><code>--access-key</code></td>
-<td>The unique identifier generated on the <strong>JIRA INTEGRATION CONFIG</strong> popup of the <a href="https://nexploit.app/" target="_blank" rel="noopener">nexploit.app</a>.<br> Required to authorize NexPloit to the On-Premise Jira (local Jira Server).</td>
+<td>The unique identifier generated on the <strong>JIRA INTEGRATION CONFIG</strong> popup of the <a href="https://nexploit.app/" target="_blank" rel="noopener">nexploit.app</a>.<br> Required to authorize Nexploit to the On-Premise Jira (local Jira Server).</td>
 </tr>
 <tr>
 <td><code>--type</code></td>
@@ -45,7 +45,7 @@ nexploit-cli integration                  \
 </tr>
 <tr>
 <td><code>--token</code></td>
-<td>NexPloit <a href="https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens" target="_blank" rel="noopener">organization API key</a> or <a href="https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens" target="_blank" rel="noopener">personal API key</a> with the <code>bot</code> scope.<br> The <code>bot</code>scope enables connection between NexPloit and the NexPloit CLI.</td>
+<td>Nexploit <a href="https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens" target="_blank" rel="noopener">organization API key</a> or <a href="https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens" target="_blank" rel="noopener">personal API key</a> with the <code>bot</code> scope.<br> The <code>bot</code>scope enables connection between Nexploit and the Nexploit CLI.</td>
 </tr>
 <tr>
 <td><code>--daemon</code></td>

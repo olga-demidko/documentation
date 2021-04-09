@@ -9,7 +9,7 @@
   </tr>
   <tr>
     <td style="text-align:left;vertical-align:text-top;padding:0px">
-      If you are using Azure DevOps for development automation, you can integrate NexPloit with your Azure CI pipeline using the <a href="https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit">NexPloit DevOps Integration extension</a>. The integration allows you to automate the security testing flow by running the NexPloit scans on every new build within your development environment.
+      If you are using Azure DevOps for development automation, you can integrate Nexploit with your Azure CI pipeline using the <a href="https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit">Nexploit DevOps Integration extension</a>. The integration allows you to automate the security testing flow by running the Nexploit scans on every new build within your development environment.
     </td>
   </tr>
   <tr>
@@ -20,7 +20,7 @@
 </table>
 
 *   You are an active user on  [nexploit.app](https://nexploit.app). 
-*   You have the [NexPloit DevOps Integration extension](https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit)  installed on your Azure DevOps Server. 
+*   You have the [Nexploit DevOps Integration extension](https://marketplace.visualstudio.com/items?itemName=Neuralegion.nexploit)  installed on your Azure DevOps Server. 
 *   The target of the scan is accessible from the Internet.
 *   You have a valid [organization API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=managing-organization-apicli-authentication-tokens) or [personal API key](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-personal-account?id=managing-your-personal-api-keys-authentication-tokens) with the following scopes:
     - `scans : run`
@@ -53,12 +53,12 @@ The response **id** will then be used during setting a new scan in the pipeline,
     ![nexploit-scan](media/azure-pipelines/nexploit-scan.png ':size=35%')
 
 3. Do one of the following:
-* To start a new scan, select the **NexPloit Scan** file.
-* To re-run an existing scan, select the **NexPloit Re-run Scan** file. 
+* To start a new scan, select the **Nexploit Scan** file.
+* To re-run an existing scan, select the **Nexploit Re-run Scan** file. 
 
 ### Starting a New Scan in Your Pipeline
 To initialize a new scan in your pipeline, follow these steps:
-1. In the **NexPloit Scan** section, enter the scan details in the relevant fields and select the settings that you want to apply.
+1. In the **Nexploit Scan** section, enter the scan details in the relevant fields and select the settings that you want to apply.
 
   ![new-scan](media/azure-pipelines/new-scan.png ':size=35%')
 
@@ -72,7 +72,7 @@ The **File ID** value is required for the scans with uploaded HAR files.
 
 ### Re-running an Existing Scan in Your Pipeline
 You can restart a scan that you have already set up and run using [nexploit.app](https://nexploit.app). To do that, follow these steps: 
-1. In the **NexPloit Re-run Scan** section, enter the scan details in the relevant fields.
+1. In the **Nexploit Re-run Scan** section, enter the scan details in the relevant fields.
 2. Copy the ID of your scan in the address bar or the scan report window and paste it in the **Scan ID** field.
 
     ![scan-ID](media/azure-pipelines/scan-ID.png ':size=35%')

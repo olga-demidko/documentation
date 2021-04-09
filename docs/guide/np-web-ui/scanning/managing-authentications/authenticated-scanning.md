@@ -1,6 +1,6 @@
 # Adding Your Authentication Object to a Scan
 
-When [starting a new scan](http://localhost:3000/#/guide/np-web-ui/scanning/creating-new-scan), you can select any of the authentication objects that you have created previously in NexPloit. This will allow the NexPloit Engine to perform the re-authentication automatically during the scan.
+When [starting a new scan](http://localhost:3000/#/guide/np-web-ui/scanning/creating-new-scan), you can select any of the authentication objects that you have created previously in NexPloit. This will allow the Nexploit Engine to perform the re-authentication automatically during the scan.
 
 You can apply either the DAST or Fuzzer module, as well as all the discovery types for the scans with connected authentication objects. 
 

@@ -1,5 +1,5 @@
-# QuickStart – Using the NexPloit Web User Interface
-The following is a quick overview of the steps and options for scanning using NexPloit –
+# QuickStart – Using the Nexploit Web User Interface
+The following is a quick overview of the steps and options for scanning using Nexploit:
 
 ## Defining a Scan
 * [Creating a New Scan – Defining and Scheduling](guide/np-web-ui/scanning/creating-new-scan.md)
