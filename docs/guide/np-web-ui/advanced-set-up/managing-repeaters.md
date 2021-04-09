@@ -1,5 +1,5 @@
 # Managing Repeaters
-NeuraLegion’s Repeater is a local agent that provides a secure connection between NeuraLegion's cloud engine and a target on a local network. A Repeater enables you to securely scan targets on a local network, without having to whitelist NeuraLegion’s IP address in your firewall for incoming traffic. See [On-Premises Repeater (Agent)](guide/introduction/deployment-options.md#On-Premises-Repeater-Agent) for a description of how an on-premise Repeater works in a NexPloit solution.
+NeuraLegion’s Repeater is a local agent that provides a secure connection between NeuraLegion's cloud engine and a target on a local network. A Repeater enables you to securely scan targets on a local network, without having to whitelist NeuraLegion’s IP address in your firewall for incoming traffic. See [On-Premises Repeater (Agent)](guide/introduction/deployment-options.md#On-Premises-Repeater-Agent) for a description of how an on-premise Repeater works in a Nexploit solution.
 
 The following options are provided for managing Repeaters –
 * [Displaying the Repeaters List](#Displaying-the-Repeaters-List)
@@ -50,7 +50,7 @@ You can check if the on-premise Repeater can successfully connect to all the tar
 
 **Prerequisites**
 * You have created a Repeater on [nexploit.app](https://nexploit.app/scans).
-* You have activated the Repeater inside your local network using the [NexPloit CLI](/guide/np-cli/commands/initializing-repeater.md).
+* You have activated the Repeater inside your local network using the [Nexploit CLI](/guide/np-cli/commands/initializing-repeater.md).
 
 To run the connection diagnostics, follow these **steps**:
 1. Click ![dots](media/dots-button.png ':size=2%') next to the Repeater connected to your network, and then select **Diagnose**.
@@ -76,3 +76,4 @@ To delete a Repeater, follow these steps:
     ![delete-repeater](media/delete-yes.png ':size=45%')
 
 3. Click **Yes**.
+

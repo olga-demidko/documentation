@@ -1,5 +1,5 @@
 # Managing Your Organization
-The **Organization** option enables NexPloit administrators to manage organization-level settings and policies, including the following:
+The **Organization** option enables Nexploit administrators to manage organization-level settings and policies, including the following:
 * [Displaying the Organization Dashboard](#Displaying-the-Organization-Dashboard)
 * [Configuring Two-factor Authentication Policy](#Configuring-Two-factor-Authentication-Policy)
 * [Defining the Hosts Authorized for Scanning](#Defining-the-Hosts-Authorized-for-Scanning)
@@ -27,7 +27,7 @@ An organization-wide 2FA policy cannot be set to mandatory until all the adminis
 When enabling an organization-wide 2FA policy, the users can access their accounts only after they perform 2FA. In this case, an email notification is automatically sent to each affected user.
 
 ## Defining the Hosts Authorized for Scanning
-As a precaution, NexPloit only allows hosts that are in the authorized list defined below to be scanned. 
+As a precaution, Nexploit only allows hosts that are in the authorized list defined below to be scanned. 
 
 To add a target host to the authorized list of hosts, follow these steps:
 1. Add a `.nex` file to your application root directory. To obtain this file, click the `.nex` link at the bottom of the **ORGANIZATION SETTINGS** section.
@@ -42,7 +42,7 @@ Make sure that the server can serve this file from the webroot (top directory le
 You can reuse this file as many times as needed.
 
 ## Viewing Your Organization Plan
-The organization **PLAN DETAILS** section displays information about your NexPloit account, for example total storage for your organization, number of engines and the plan expiration date. 
+The organization **PLAN DETAILS** section displays information about your Nexploit account, for example total storage for your organization, number of engines and the plan expiration date. 
 
 ![Plan-Details](media/plan-details.png ':size=45%')
 
@@ -113,7 +113,7 @@ To add or remove a user from a group, follow these steps:
     ![Remove-User-From-Group](media/remove-user-from-group.png ':size=45%')
 
 ## Managing Organization API/CLI Authentication Tokens
-On the **Organization** page, you can obtain and manage authentication tokens (also called API keys) for accessing the NexPloit API and CLI.
+On the **Organization** page, you can obtain and manage authentication tokens (also called API keys) for accessing the Nexploit API and CLI.
 
 To create a new API/CLI authentication token (API key), follow these steps:
 1. Go to the **MANAGE YOUR ORGANIZATION API KEYS** section and click **Create new API key** .

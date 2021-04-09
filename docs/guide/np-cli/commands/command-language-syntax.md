@@ -1,5 +1,5 @@
 # ℹ Command Language Syntax
-NexPloit CLI accepts a wide variety of configuration arguments. You can run ```nexploit-cli --help``` command for comprehensive documentation. Configuration arguments in the command line must be passed after the program command that NexPloit CLI is executing.
+Nexploit CLI accepts a wide variety of configuration arguments. You can run ```nexploit-cli --help``` command for comprehensive documentation. Configuration arguments in the command line must be passed after the program command that Nexploit CLI is executing.
 ```bash
 nexploit-cli command_name required_arg [optional_arg] [options]Copy to clipboardErrorCopied
 ```
@@ -16,7 +16,7 @@ nexploit-cli command_name required_arg [optional_arg] [options]Copy to clipboard
   --param path query body
   --test default_login_location dom_xss sqli
 ```
-NexPloit CLI provides multiple global options that can affect the behavior of each command, as follows:
+Nexploit CLI provides multiple global options that can affect the behavior of each command, as follows:
 
 
 <table id="simple-table">
@@ -30,7 +30,7 @@ NexPloit CLI provides multiple global options that can affect the behavior of ea
 </tr>
 <tr>
 <td><code>--api=proxyUrl</code></td>
-<td>NexPloit base URL. The default is <code>https://nexploit.app/</code>.</td>
+<td>Nexploit base URL. The default is <code>https://nexploit.app/</code>.</td>
 </tr>
 <tr>
 <td><code>--proxy=proxyUrl</code></td>

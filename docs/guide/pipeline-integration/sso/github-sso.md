@@ -3,7 +3,7 @@
 ![github-logo](media/github/github-logo.png ':size=15%')
 
 ## Configuring GitHub SSO for NexPloit
-To simplify user access to NeuraLegion solutions, you can configure Single Sign On (SSO) for GitHub.+
+To simplify user access to NeuraLegion solutions, you can configure Single Sign On (SSO) for GitHub.
 
 ## Enabling GitHub for the Organization
 To enable GitHub for an organization –

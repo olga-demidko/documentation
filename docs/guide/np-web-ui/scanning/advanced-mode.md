@@ -1,6 +1,6 @@
 # Advanced Mode
 On the **NEW SCAN** popup, select the **Advanced** tab to create a scan with extended settings.
-1. _(Optional)_ In order to make the scanning definition process quicker, in the <u>**Templates** tab</u>, you can select a predefined set of scan settings. NexPloit provides the following types of predefined scan settings:
+1. _(Optional)_ In order to make the scanning definition process quicker, in the <u>**Templates** tab</u>, you can select a predefined set of scan settings. Nexploit provides the following types of predefined scan settings:
 
     ![Templates](media/templates.png ':size=45%')
 
@@ -18,10 +18,10 @@ In addition, you can define your own scan templates. See [Managing Scan Template
  ![Scan-details](media/scan-details.png ':size=45%')
 
 * In the **Scan name** field, enter any free-text name for this scan.
-* From the **Project** dropdown list, select the NexPloit project you want to use for the scan.
+* From the **Project** dropdown list, select the Nexploit project you want to use for the scan.
 
 >[!NOTE|label:Note]
-You can start a scan ONLY if a project is selected. If you do not have any projects in NexPloit, select the **Default** one.
+You can start a scan ONLY if a project is selected. If you do not have any projects in Nexploit, select the **Default** one.
 
 * From the **Integrations** dropdown list, select a specific repository where you want to get the scan reports.
 
@@ -44,7 +44,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
  ![Recording](media/api-scan.png ':size=45%')
 
-* In the **Coverage Exclusions** section, enter the URLs and parameters that NexPloit should ignore during scanning.
+* In the **Coverage Exclusions** section, enter the URLs and parameters that Nexploit should ignore during scanning.
 
     ![Coverage-exclusions](media/coverage-exclusions.png ':size=45%')
 
@@ -67,7 +67,7 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 
     ![network-settings](media/network-settings.png ':size=45%')
 
-* **Repeater** – Select a Repeater to connect it to the scan. The Repeater is created in the Repeaters tab and serves as a request-proxy between NexPloit and the target hosted on a local network.  See [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md) for more information.
+* **Repeater** – Select a Repeater to connect it to the scan. The Repeater is created in the Repeaters tab and serves as a request-proxy between Nexploit and the target hosted on a local network.  See [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md) for more information.
 * **Concurrent Requests** – Specify the maximum concurrent requests allowed to be sent by the scan in order to control the load on your server.
 * **Custom Host Placeholders** – Defines host placeholders with specific addresses. For example, replacing `localhost` with a specific IP address.
 * **Additional Headers** – Defines any custom headers to be appended to each request. If you need to add some authentication headers, see [Header Authentication](/guide/np-web-ui/scanning/managing-authentications/types/header-authentication).

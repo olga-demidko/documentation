@@ -1,5 +1,5 @@
 # Installation Options
-Each major NexPloit version release is accompanied by a correlating NexPloit CLI version that supports it.
+Each major NexPloit version release is accompanied by a correlating Nexploit CLI version that supports it.
 
 For release notes describing the changes in each new version, see [https://github.com/NeuraLegion/nexploit-cli/releases](https://github.com/NeuraLegion/nexploit-cli/releases)
 

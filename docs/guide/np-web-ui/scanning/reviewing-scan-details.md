@@ -23,7 +23,7 @@ This section shows the progress of the scan, how many tests have been completed 
 ![Scan-Progress](media/scan-progress.png ':size=45%')
 
 ## SITE MAP
-This section shows a map representing the scope of the scan. This site map shows all the parts of the application that NexPloit has identified and scanned.\
+This section shows a map representing the scope of the scan. This site map shows all the parts of the application that Nexploit has identified and scanned.\
 ![Site-Map](media/site-map.png ':size=45%')
 
 ## DISCOVERED ISSUES
@@ -34,13 +34,13 @@ See [Handling Discovered Issues](guide/np-web-ui/scanning/discovered-issues.md) 
     2. Click on the relevant issue to see the all [issue’s details](guide/np-web-ui/scanning/discovered-issues.md#Reviewing-Discovered-Issue-Details).
 
 ## RESPONSE STATUSES
-This section shows all the kinds of responses received by NexPloit got from the application during the scan and the quantity of each. Check this section to determine whether there may be problems with the scan. For example, if the section shows that NexPloit receives almost all 404 responses, it may indicate that NexPloit is being blocked by a WAF, or that there is a problem with authentication (it may have expired).\
+This section shows all the kinds of responses received by Nexploit got from the application during the scan and the quantity of each. Check this section to determine whether there may be problems with the scan. For example, if the section shows that Nexploit receives almost all 404 responses, it may indicate that Nexploit is being blocked by a WAF, or that there is a problem with authentication (it may have expired).\
 ![Response-Statuses](media/response-statuses.png ':size=45%')
 
 ## TECHNICAL STACK
 This section shows the technical stack that the scan has detected is being used by the application. For example, which programming language is used, the type of database and/or web server, the front-end stack and so on. 
 
-Discovery of the technical stack by NexPloit may demonstrate to you how easily an external entity can discover it. As a result, you may decide to place more protection around the technical stack.
+Discovery of the technical stack by Nexploit may demonstrate to you how easily an external entity can discover it. As a result, you may decide to place more protection around the technical stack.
 
 ## 	USER COMMENTS – For a Scan
 The section at the bottom of the page enables you to enter comments and notes describing the scan, notes for yourself or notes for other people in the organization. You can format the comment using markdown or using the provided formatting tools. To mention other users in your organization use the @ symbol. 

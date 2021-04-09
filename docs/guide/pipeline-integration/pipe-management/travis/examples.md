@@ -1,5 +1,5 @@
 # Usage Examples
-## Example 1. Direct scanning using the NexPloit CLI (NPM installation)
+## Example 1. Direct scanning using the Nexploit CLI (NPM installation)
 To apply this option, you only need to install the NexPloit CLI globally on your Travis CI machine using the relative NPM command. 
 
 ### Prerequisites<!-- {docsify-ignore} -->

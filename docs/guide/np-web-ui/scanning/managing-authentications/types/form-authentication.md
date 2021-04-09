@@ -1,11 +1,11 @@
-# Configuring the Form Authentication in NexPloit
+# Configuring the Form Authentication in Nexploit
 You can use the form authentication if the login-protected resources within the application you want to scan use<br> the `application/x-www-form-urlencoded` content type of the HTTP requests. 
 
-The form authentication type is set by default when you create an authentication object in NexPloit.  
+The form authentication type is set by default when you create an authentication object in Nexploit.  
 
 ## Prerequisites
 *   You are an active user on [nexploit.app](https://nexploit.app/scans).
-*   Your application and authenticated resources are accessible to NexPloit, either directly from the Internet or via a Repeater.
+*   Your application and authenticated resources are accessible to Nexploit, either directly from the Internet or via a Repeater.
 
 
 ## Step-by-Step Guide

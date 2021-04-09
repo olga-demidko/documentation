@@ -3,7 +3,7 @@ If you need to create a custom authentication flow consisting of multiple stages
 
 ## Prerequisites
 *   You are an active user on [nexploit.app](https://nexploit.app/scans).
-*   Your application and authenticated resources are accessible to NexPloit, either directly from the Internet or via a Repeater.
+*   Your application and authenticated resources are accessible to Nexploit, either directly from the Internet or via a Repeater.
 
 
 ## Step-by-Step Guide
@@ -51,7 +51,7 @@ In this section, specify the details of the authentication object you want to cr
 
 #### Authentication Flow Setup
 
-In this section, build the authentication flow. You can create a single-stage flow or add as many stages as the NexPloit engine should pass through to access the authenticated resource.
+In this section, build the authentication flow. You can create a single-stage flow or add as many stages as the Nexploit engine should pass through to access the authenticated resource.
 
 Start the setup with creating the first stage. In the **Name** field, enter the stage name that can be used further for creation of interpolation expressions. 
 

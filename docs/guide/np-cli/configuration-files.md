@@ -92,7 +92,7 @@ token: my-api-key
 ```
 
 ### Predefined Pool of Tests
-NexPloit CLI supports many different tests that can be executed. In some cases, it may be difficult to set them up using CLI options. In such cases, you can set them up using a configuration file.
+Nexploit CLI supports many different tests that can be executed. In some cases, it may be difficult to set them up using CLI options. In such cases, you can set them up using a configuration file.
 
 #### JSON Example
 ```JSON

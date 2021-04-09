@@ -1,5 +1,5 @@
 # 📃 Command List
-This section describes how to use NexPloit CLI's commands. See ```nexploit-cli --help``` for all available options.
+This section describes how to use Nexploit CLI's commands. See ```nexploit-cli --help``` for all available options.
 
 * [Command Language Syntax](guide/np-cli/commands/command-language-syntax.md)
 * [Running a Scan](guide/np-cli/commands/running-scan.md)
