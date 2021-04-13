@@ -10,6 +10,12 @@ On the **NEW SCAN** popup, select the **Advanced** tab to create a scan with ext
 * **API Scanning** – Predefined tests that are relevant for API targets.
 * _(Optional)_ **Custom (own) templates** - The scans configured by a user manually and saved as templates. 
 
+
+Once you select a template, you can view the predefined scan settings below the **Scan Templates** field.  To apply these settings for a new scan, click **Apply** next to the selected template. 
+
+![apply-template](media/apply-template.png ':size=45%')
+
+
 >[!TIP|label:Pro Tip]
 In addition, you can define your own scan templates. See [Managing Scan Templates](guide/np-web-ui/scanning/managing-scan-templates.md) for more information.
 

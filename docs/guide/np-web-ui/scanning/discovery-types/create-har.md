@@ -1,5 +1,5 @@
 # Creating a HAR File
-<div> <iframe width="90%" src="https://www.youtube.com/embed/HMpBQ7JkxHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div> <iframe width="50%"src="https://www.youtube.com/embed/HMpBQ7JkxHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 An HTTP Archive File (HAR file) is a recorded session of user interaction with an application. The HAR file keeps all the requests and responses between a user and the application you want to target for security scanning. 
 
