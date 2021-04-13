@@ -65,7 +65,7 @@ In this section, set up a valid authentication request to be sent to the end-poi
   <tr>
     <td width="25%"><b>Name</b></td>
     <td width="75%" >
-    Select the header you want to add to each request, for example authentication cookies.
+    Select the header you need to use for each request and enter its value, for example authentication cookies. <br>To replace or append the selected header to each request, select the relative button below.
     </td>
   </tr>
   <tr>
