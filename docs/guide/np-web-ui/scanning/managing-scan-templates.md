@@ -1,46 +1,70 @@
 # Managing Scan Templates
 ## Scan Templates
-A Scan Template enables you to save and reuse a set of scan settings so that you can start another scan more quickly. 
-* Fast Scan – This is a preconfigured optimized scan, during which the engine automatically determines which tests to run, based on the data types that are detected. Some tests will be skipped in favor of speed.
-* Comprehensive Scan – All possible tests are performed during the scan. This is the most thorough scan, which takes the longest time to complete.
-* API Scanning – Predefined tests that are relevant for API targets. 
+A scan template enables you to save and reuse a set of scan settings so that you can start another scan more quickly. Nexploit provides the following default scan templates:
 
-The following describes how to –
-* [Display Scan Templates](#Displaying-Scan-Templates)
-* [Create a New Template](#Creating-a-New-Template)
-* [Edit a Template](#Editing-a-Template)
-* [Delete a Template](#Deleting-a-Template) 
+* **Deep Scan** – All possible tests are performed during the scan. This is the most thorough scan, which takes the longest time to complete.
+* **Light Scan** – This is a preconfigured optimized scan during which the engine automatically determines which tests to run, based on the data types that are detected. Some tests will be skipped in favor of speed.
+* **Passive Scan** - The engine selects only host-based passive tests to be run.
+* **API Scanning** – Predefined tests that are relevant for API targets.
+
+
+The following section provides guidelines for the following options:
+* [Displaying Scan Templates](#Displaying-Scan-Templates)
+* [Creating a New Template](#Creating-a-New-Template)
+* [Editing a Template](#Editing-a-Template)
+* [Deleting a Template](#Deleting-a-Template) 
 
 ## Displaying Scan Templates
-To display, create and modify scan templates –
-1. Select the **Scans** option in the left pane to display the Scans List. 
-2. Click the **My Templates** button in the top right.\
-![My-Templates](media/my-templates.png ':size=45%')\
-The list of Scan Templates displays –\
-![Scan-Templates](media/scan-templates.png ':size=45%')
-3. To display the details of a specific template, click on its row. A popup window is displayed showing all the information about this scan template, such as its name, description, discovery types, which tests it's set to run and the additional settings it applies to the scan.
+To display scan templates, follow these steps:
+1. In the left pane, select the **Scans** option. 
+2. In the upper right corner, click **My Templates**.
+
+    ![My-Templates](media/my-templates.png ':size=45%')
+
+    The list of default and custom scan templates is displayed.
+
+    ![Scan-Templates](media/templates-list.png ':size=45%')
+
+3. To display the details of a specific template, select it from the list.<br> 
+   On the popup, you can view all the information about this scan template, including:
+   * Scan details
+   * Scan targets
+   * Network and application settings
+   * Security tests to be run 
+
+   ![Scan-Templates](media/templates-list.png ':size=45%')
 
 ## Creating a New Template
-To create a new Template –
-1. Click on the ![Plus-Button](media\plus-button.png ':size=3%') button at the top of the page.\
-![New-Template](media\new-template-1.png ':size=45%')\
-The following displays –\
-![New-Template](media\new-template-2.png ':size=45%')
-2. Define the settings of this new scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md). 
-3. Click the **Create Template** button to create this scan definitions template.
+To create a new template, follow these steps:
+1. At the top of the **Scan Templates** page,  click ![Plus-Button](media\plus-dark.png ':size=2%').
+
+    ![New-Template](media\add-scan-template.png ':size=45%')
+
+2. On the **CREATE SCAN TEMPLATE** popup, define the settings for a new scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md). 
+
+    ![New-Template](media\new-template-popup.png ':size=45%')
+
+3. Once you complete the setup, click **Create Template** to save the defined scan template.
 
 ## Editing a Template
-To edit a Template –
-1. [Display the Scan Templates List](#Displaying-Scan-Templates).
-2. Click on the template’s row in the **Scan Templates** list.\
-![Edit-Template](media/edit-template.png ':size=45%')
-> [!NOTE|label:Note]
-The three provided default templates cannot be edited.
-3. Define the settings of this scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md).
-4. Click the Update Template button.
+To edit a template, follow these steps:
+1. In the **Scan Templates** list, click ![Dots](media/dots-button.png ':size=2%') next to the template you want to edit.
+2. Select the **Edit** option.
+
+    ![Edit-Template](media/edit-template.png ':size=45%')
+
+    > [!NOTE|label:Note]
+The default templates cannot be edited.
+
+3. On the popup, make changes to the setup of the selected scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md).
+4. Once you complete editing the template, click **Update Template**.
 
 ## Deleting a Template
-To delete a Template –
-1. Click the ![Dots](media/dots.png ':size=1%') button next to the Template's name.
-2. Select the **Delete** option.\
-![Delete-Template](media/delete-template.png ':size=45%')
+To delete a template, follow these steps:
+1. In the **Scan Templates** list, click ![Dots](media/dots-button.png ':size=2%') next to the template you want to delete.
+2. Select the **Delete** option.
+
+    ![Delete-Template](media/delete-template.png ':size=45%')
+
+    > [!NOTE|label:Note]
+The default templates cannot be deleted.
