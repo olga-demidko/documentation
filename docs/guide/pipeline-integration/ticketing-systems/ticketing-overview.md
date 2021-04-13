@@ -8,5 +8,6 @@ To enable Nexploit to send the scan reports to multiple repositories (projects, 
     * [GitHub](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/github.md)
     * [Slack](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md)
     * [Azure Boards](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/azure.md)
+    * [Monday](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/monday.md)
 
 2. Associate the connected repository(es) with a specific Nexploit project, and then add the associated repositories to a new scan within the specified project. To do that, go to the [Adding to Nexploit Project](guide/pipeline-integration/ticketing-systems/adding-to-project.md) section.

@@ -5,7 +5,7 @@ The project integration configuration allows you to select any of the repositori
 
 ## Prerequisites <!-- {docsify-ignore} -->
 * You are an active user on [nexploit.app](https://nexploit.app/).
-* The Nexploit is connected to your ticketing systems with the repositories that you want to add to a certain project.
+* The Nexploit is connected to your ticketing systems with the repositories you want to add to a certain project.
 
     ![repositories-enabled](media/repositories-enabled.png ':size=45%')
 
@@ -13,7 +13,7 @@ The project integration configuration allows you to select any of the repositori
 ### Configure the Nexploit Project Integration <!-- {docsify-ignore} -->
 1. In the **TICKET MANAGEMENT INTEGRATION section**, click ![dots-button](media/icon-button.png ':size=2%') next to the ticketing system you need, and then select **Project Settings**.
 
-    ![azure-settings](media/azure-settings.png ':size=45%')
+    ![project-settings](media/project-settings.png ':size=45%')
 
 2. On the **Projects Integration Config** popup, do the following:
     * In the **Project field**, enter or select the Nexploit project that you want to use for the scan.
@@ -30,7 +30,7 @@ The project integration configuration allows you to select any of the repositori
       *   To select the number of associated repositories that you can view on one **REPOSITORIES** page, use the **Items per page** dropdown list.
       *   To switch between the **REPOSITORIES** pages, use the navigation buttons above **Close**.  
 
-  ![project-selection](media/project-selection.png ':size=45%')
+ ![project-selection](media/project-selection.png ':size=45%')
 
 3. Once you complete the projects integration configuration, click **Close** at the bottom of the popup.
 
