@@ -61,7 +61,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--cert</code></td>
-<td>You can load a certificate file per host. The file must contain a certificate in PKCS or PEM format. <p> <em>Certificate format:</em> <code>hostname:path_to_file[:password]</code><br> <em>Example:</em> <code>nexploit-cli repeater --cert example.com:/home/user/example.pfx</code> <p> If the password contains <code>:</code>, it needs to be preceded by <code>\</code> so that it is not recognized as a delimiter.<br> <em>Example:</em> <br> <code>nexploit-cli repeater --cert example.com:/home/user/example.pfx:qw\:erty</code></td>
+<td>You can load a certificate file per host. The file must contain a certificate in PKCS or PEM format. <p> <em>Certificate format:</em> <code>hostname:path_to_file[:password]</code><br> <b>Note:</b> The hostname must be specified without a port.<br> <em>Example:</em> <code>nexploit-cli repeater --cert example.com:/home/user/example.pfx</code> <p><strong><font color="red">Warning:</font></strong>  If the path or password contains <code>:</code>, it needs to be preceded by <code>\</code> so that it is not recognized as a delimiter.<br> <em>Example:</em> <br> <code>nexploit-cli repeater --cert example.com:/home/user/example.pfx:qw\:erty</code></td>
 </tr>
 </table>
 
