@@ -41,7 +41,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--proxy=proxyUrl</code></td>
-<td>SOCKS URL to proxy all traffic.<br><br> For example: <code>nexploit-cli repeater --proxy socks://209.97.150.167:1080 ...</code>.<br><br> <strong><font color="blue">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
+<td>SOCKS URL to proxy all traffic.<br><br> <em>Example:</em> <code>nexploit-cli repeater --proxy socks://209.97.150.167:1080 ...</code>.<br><br> <strong><font color="blue">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
 </tr>
 <tr>
 <td><code>--daemon</code>, <code>-d</code></td>
@@ -57,7 +57,11 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--cacert</code></td>
-<td>You may require to authorize Nexploit to your network server by providing valid TLS/SSL certificates. This option allows you to load a file with multiple CA certificates to the Repeater that you use for the scan, for example:<br><code>nexploit-cli repeater --cacert /etc/ssl/certs/ca-certificates.crt</code><p> You can load certificates from the “Trusted Root Certification Authorities Certificate Store” (Windows ONLY):<br><code>nexploit-cli repeater --cacert true</code></p><p>The Nexploit CLI also supports autodiscovery from the following files:<br><code>/etc/ssl/certs/ca-certificates.crt</code>    <code>// Debian/Ubuntu/Gentoo etc.</code><br><code>/etc/pki/tls/certs/ca-bundle.crt</code>         <code>// Fedora/RHEL 6</code><br><code>/etc/ssl/ca-bundle.pem</code>                   <code>// OpenSUSE</code><br><code>/etc/pki/tls/cacert.pem</code>               <code>// OpenELEC</code><br><code>/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem // CentOS/RHEL 7</code><br><code>/etc/ssl/cert.pem</code>                          <code>// Alpine Linux</code><br><code>nexploit-cli repeater --cacert true</code></p><p>You can load a certificate file per host. The file must contain CA, PFX or PKCS12 certificate.<br><code>nexploit-cli repeater --certs "{\"google.com\": \"/etc/ssl/google.crt\"}"</code></p></td>
+<td>You may require to authorize Nexploit to your network server by providing valid TLS/SSL certificates. This option allows you to load a file with multiple CA certificates to the Repeater that you use for the scan, for example:<br><code>nexploit-cli repeater --cacert /etc/ssl/certs/ca-certificates.crt</code><p> You can load certificates from the “Trusted Root Certification Authorities Certificate Store” (Windows ONLY):<br><code>nexploit-cli repeater --cacert true</code></p><p>The Nexploit CLI also supports autodiscovery from the following files:<br><code>/etc/ssl/certs/ca-certificates.crt</code>    <code>// Debian/Ubuntu/Gentoo etc.</code><br><code>/etc/pki/tls/certs/ca-bundle.crt</code>         <code>// Fedora/RHEL 6</code><br><code>/etc/ssl/ca-bundle.pem</code>                   <code>// OpenSUSE</code><br><code>/etc/pki/tls/cacert.pem</code>               <code>// OpenELEC</code><br><code>/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem // CentOS/RHEL 7</code><br><code>/etc/ssl/cert.pem</code>                          <code>// Alpine Linux</code><br><code>nexploit-cli repeater --cacert true</code></p></td>
+</tr>
+<tr>
+<td><code>--cert</code></td>
+<td>You can load a certificate file per host. The file must contain a certificate in PKCS or PEM format. <br> <em>Certificate format:</em> <code>hostname:path_to_file[:password]</code><br> <em>Example:</em> <code>nexploit-cli repeater --cert example.com:/home/user/example.pfx</code> <p> If the password contains <code>:</code>, it needs to be preceded by <code>\</code> so that it is not recognized as a delimiter.<br> <em>Example:</em> <br> <code>nexploit-cli repeater --cert example.com:/home/user/example.pfx:qw\:erty</code></td>
 </tr>
 </table>
 

@@ -92,7 +92,7 @@ In this section, set up a valid authentication request to be sent to the end-poi
   <tr>
     <td width="25%"><b>Additional headers</b></td>
     <td width="75%" >
-        <em>(Optional)</em> Select an additional header that you want to add to each request and enter its value. For example, additional cookies that might be needed for the authentication such as host-related metadata.<br><br>
+        <em>(Optional)</em> Select an additional header and enter its value. Then select the relative button to replace or append it to each request. For example, additional cookies that might be needed for the authentication such as host-related metadata.<br><br>
         <font color="green"><b>Pro Tips:</b></font>
         <ul>
             <li>
