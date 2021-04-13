@@ -1,4 +1,6 @@
 # Creating a HAR File
+<div> <iframe width="90%" src="https://www.youtube.com/embed/HMpBQ7JkxHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 An HTTP Archive File (HAR file) is a recorded session of user interaction with an application. The HAR file keeps all the requests and responses between a user and the application you want to target for security scanning. 
 
 Based on the information recorded while navigating through the application, Nexploit can analyze the attack surface of the target and optimize the selected security tests. By loading the HAR file to Nexploit, you ensure the most efficient coverage of the scan target.  
@@ -32,3 +34,4 @@ You can use various methods to collect the application behavior information, for
     ![Save-as-HAR](../media/save-har.png ':size=45%')
 
 7. Save the file in your desired location so that you can select it when [defining a new scan](/guide/np-web-ui/scanning/creating-new-scan.md). 
+
