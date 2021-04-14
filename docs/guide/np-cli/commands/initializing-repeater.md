@@ -60,8 +60,8 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 <td>You may require to authorize Nexploit to your network server by providing valid TLS/SSL certificates. This option allows you to load a file with multiple CA certificates to the Repeater that you use for the scan, for example:<br><code>nexploit-cli repeater --cacert /etc/ssl/certs/ca-certificates.crt</code><p> You can load certificates from the “Trusted Root Certification Authorities Certificate Store” (Windows ONLY):<br><code>nexploit-cli repeater --cacert true</code></p><p>The Nexploit CLI also supports autodiscovery from the following files:<br><code>/etc/ssl/certs/ca-certificates.crt</code>    <code>// Debian/Ubuntu/Gentoo etc.</code><br><code>/etc/pki/tls/certs/ca-bundle.crt</code>         <code>// Fedora/RHEL 6</code><br><code>/etc/ssl/ca-bundle.pem</code>                   <code>// OpenSUSE</code><br><code>/etc/pki/tls/cacert.pem</code>               <code>// OpenELEC</code><br><code>/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem // CentOS/RHEL 7</code><br><code>/etc/ssl/cert.pem</code>                          <code>// Alpine Linux</code><br><code>nexploit-cli repeater --cacert true</code></p></td>
 </tr>
 <tr>
-<td><code>--certs</code></td>
-<td>You can load a certificate file per host. The file must contain a certificate in the PKCS or PEM format. <p> <em>Example:</em> <code>--certs '{"example.com": {"path": "./example.pem", "passphrase": "pa$$word"}'</code><br> The <code>passphrase</code> is optional. </td>
+<td><code>--cert</code></td>
+<td>You can load a certificate file per host. The file must contain a certificate in the PKCS or PEM format. <p> <em>Format:</em> <code>--cert "{"hostname": "example.com", "path": "./example.pem", "passphrase": "pa$$word"}"</code><p> <em>Example:</em> <code>nexploit-cli repeater --cert "{\"path\": \"/home/user/example.pfx\", \"hostname\": \"example.com\", \"passphrase\": \"pa$$word\"}"</code><p> The <code>passphrase</code> is optional.</td>
 </tr>
 </table>
 
