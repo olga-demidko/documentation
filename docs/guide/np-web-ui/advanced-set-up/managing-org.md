@@ -63,11 +63,12 @@ To add a user, follow these steps:
     ![Add-User-Prompt](media/new-user-prompt.png ':size=30%')
 
 You can assign one of the following roles to the user: 
-* **Owner –** Has unrestricted access to the entire organization.
 * **Admin –** Can add, modify and delete groups and members, as well as make billing and plan changes.
-* **User –** Has access to scans.
-* **Team Leader –** Can manage group memberships and modify group settings.
 * **Billing Manager –** Can manage subscription and billing settings.
+* **Guest -**  Can only view scan results (if granted access to the project), but cannot create or delete scans.
+* **Owner –** Has unrestricted access to the entire organization.
+* **Team Leader –** Can manage memberships and modify settings of the groups that they are members of.
+* **User –** Has access to scans.
 
 3. Click **Invite**.
 
