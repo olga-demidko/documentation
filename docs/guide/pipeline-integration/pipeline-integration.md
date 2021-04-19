@@ -6,50 +6,35 @@ Nexploit enables you to configure integration with your CI pipelines or ticketin
 Nexploit enables integrations with the following tools and platforms: 
 
 
-<table style="width:90%">
+<table id="simple-table">
   <tr>
-    <b>
       <th width="30%" style="text-align:center">SSO</th>
       <th width="30%" style="text-align:center">Ticketing Systems</th>
       <th width="30%" style="text-align:center">CI Pipelines</th>
-    </b>
   </tr>
-
   <tr>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/okta-sso.md">OKTA</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/jira.md">Jira</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/github-actions.md">GitHub Actions</a></td>
   </tr>
-
   <tr>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/google-sso.md">Google</a></td> 
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/github.md">GitHub</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/circleci.md">CircleCI</a></td>
   </tr>
-
   <tr>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/sso/aad-sso.md">Azure Active Directory</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md">Slack</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jenkins/use-cases.md">Jenkins</a></td>
   </tr>
-
-<tr>
+  <tr>
     <td></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/azure.md">Azure Boards</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/azure-devops.md">Azure Pipelines</a></td>
   </tr>
-
   <tr>
     <td></td>
      <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/monday.md">Monday</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/travis/use-cases.md">Travis CI</a></td>
   </tr>
-
-  <!--
-  <tr>
-    <td><a href="#/guide/pipeline-integration/sso/github-sso.md">GitHub</a></td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
 </table>

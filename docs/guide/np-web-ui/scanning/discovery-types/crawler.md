@@ -1,4 +1,7 @@
 # Scanning with a Crawler
+
+<iframe width="90%"  src="https://www.youtube.com/embed/7sEiHLeeMHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Nexploit can crawl your web application to define the attack surface. This option does not require any details that might get you tangled. To run a security scan using a crawler, you simply need to specify the target URL in the **Targets** field. 
 
 You can scan either the whole application or its parts. To scan only specific parts of your application, click ![plus-dark](../media/plus-dark.png ':size=3%') at the right side of the **Targets** section to add multiple URLs. In this case, only the specified sections of the application and everything downstream from them will be scanned.
