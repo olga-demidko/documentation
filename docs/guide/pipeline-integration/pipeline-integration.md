@@ -37,4 +37,9 @@ Nexploit enables integrations with the following tools and platforms:
      <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/monday.md">Monday</a></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/travis/use-cases.md">Travis CI</a></td>
   </tr>
+  <tr>
+    <td></td>
+     <td> </td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jfrog.md">JFrog</a></td>
+  </tr>
 </table>
