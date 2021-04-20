@@ -5,3 +5,5 @@ You can initiate a Nexploit scan on every new build in your application or API d
 * [Jenkins](guide/pipeline-integration/pipe-management/jenkins/use-cases.md)
 * [Azure Pipelines](guide/pipeline-integration/pipe-management/azure-devops.md)
 * [Travis CI](guide/pipeline-integration/pipe-management/travis/use-cases.md)
+* [JFrog](guide/pipeline-integration/pipe-management/jfrog.md)
+
