@@ -1,5 +1,5 @@
 # Configuring the Browser-Based Form Authentication in Nexploit
-You can grant NexPloit access to the login-protected parts of your application by specifying the form fields as you see them in the browser and the credentials you need to enter in the relevant fields. Using this data, NexPloit can fill in the browser form the same way you would do that and get access to the protected pages automatically.   
+You can grant NexPloit access to the login-protected parts of your application by specifying the form fields as you see them on a web page and the credentials you need to enter in the relevant fields. Using this data, NexPloit can fill in the browser form the same way you would do that and get access to the protected pages automatically.   
 
 The browser-based form authentication is only applicable to the `application/x-www-form-urlencoded` content type of the HTTP requests.
 
