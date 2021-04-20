@@ -15,6 +15,7 @@ You can enable Nexploit to get access to an authenticated resource by using any 
 * [**API call**](guide/np-web-ui/scanning/managing-authentications/types/api-call.md) - the most flexible method of authentication, used  for multiple API requests that include customized request bodies. 
 * [**OpenID Connect (OAth)**](guide/np-web-ui/scanning/managing-authentications/types/openid-connect.md) - the authentication method you can use to get access to authenticated resources that support OIDC.  
 * [**Custom Multi-Step Authentication**](guide/np-web-ui/scanning/managing-authentications/types/custom-auth.md) - the authentication method used for configuration of a custom authentication object. You can create a single-stage authentication flow or add as many stages as the Nexploit engine should pass through to access the authenticated resource. During the authentication object configuration, you will need to create templates for some values using the [String Interpolation Syntax](guide/np-web-ui/scanning/managing-authentications/syntax.md) 
+* [**Browser-based form authentication**](guide/np-web-ui/scanning/managing-authentications/types/browser-based-auth.md) -  is a simplified option of the form authentication method. You only need to specify the fields given on the browser login page and valid credentials to be entered in the relevant fields.  
 
 If you need to get access to a scan target via a Repeater using the HMAC authorizarion, see [Using Repeater Scripts](/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md).
 
