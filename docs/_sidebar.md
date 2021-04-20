@@ -93,4 +93,5 @@
       - [Azure Pipelines](guide/pipeline-integration/pipe-management/azure-devops.md)
       - [Travis CI](guide/pipeline-integration/pipe-management/travis/use-cases.md)
         - [Usage Examples](guide/pipeline-integration/pipe-management/travis/examples.md)
+      - [JFrog](guide/pipeline-integration/pipe-management/jfrog.md)
 
