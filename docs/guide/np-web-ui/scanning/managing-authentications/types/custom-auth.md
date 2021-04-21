@@ -90,7 +90,7 @@ In this section, set up a valid authentication request to be sent to the end-poi
   <tr>
     <td width="25%"><b>Headers</b></td>
     <td width="75%" >       
-    Enter an additional header that you need to use for each request and specify its value. You can interpolate the header name and value using the <a href="/#/guide/np-web-ui/scanning/managing-authentications/syntax.md">String Interpolation Syntax</a>. <br> To replace or append the specified heater to each rrequest, selec the relative button below. <br><br> 
+    Enter an additional header that you need to use for each request and specify its value. You can interpolate the header name and value using the <a href="/#/guide/np-web-ui/scanning/managing-authentications/syntax.md">String Interpolation Syntax</a>. <br> To replace or append the specified header to each request, select the relative button below. <br><br> 
     </td>
   </tr>
   <tr>
