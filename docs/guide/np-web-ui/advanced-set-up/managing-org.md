@@ -6,6 +6,8 @@ The **Organization** option enables Nexploit administrators to manage organizati
 * [Viewing Your Organization’s Plan](#Viewing-your-Organizations-Plan)
 * [Managing Users](#Managing-Users-Members)
 * [Managing Groups](#Managing-groups)
+* [Managing User's Roles](#managing-users-roles)
+* [Managing Organization API-CLI Authentication Tokens](#managing-organization-apicli-authentication-tokens)
 
 ## Displaying the Organization Dashboard
 To view your organization dashboard, in the left pane, select the **Organization** option. 
@@ -21,9 +23,7 @@ To apply 2FA to user accounts, select the relevant checkbox in the **ORGANIZATIO
 
 An administrator can see the 2FA status of each user in the organization in the **MEMBERS** section.
 >[!NOTE|label:Note]
-An organization-wide 2FA policy cannot be set to mandatory until all the administrative users have set up their own 2FA. 
-
->[!NOTE|label:Note]
+An organization-wide 2FA policy cannot be set to mandatory until all the administrative users have set up their own 2FA. <p>
 When enabling an organization-wide 2FA policy, the users can access their accounts only after they perform 2FA. In this case, an email notification is automatically sent to each affected user.
 
 ## Defining the Hosts Authorized for Scanning
@@ -49,6 +49,7 @@ The organization **PLAN DETAILS** section displays information about your Nexplo
 ## Managing Users (Members)
 You can manage the users in your organization: 
 * [Adding a New User](#Adding-a-User)
+* [Viewing a User's Profile](#viewing-a-users-profile)
 * [Deleting a User](#Deleting-a-User)
 
 ### Adding a User
@@ -63,14 +64,27 @@ To add a user, follow these steps:
     ![Add-User-Prompt](media/new-user-prompt.png ':size=30%')
 
 You can assign one of the following roles to the user: 
+* **User –** Has access to scans.
+* **Owner –** Has unrestricted access to the entire organization.
 * **Admin –** Can add, modify and delete groups and members, as well as make billing and plan changes.
 * **Billing Manager –** Can manage subscription and billing settings.
-* **Guest -**  Can only view scan results (if granted access to the project), but cannot create or delete scans.
-* **Owner –** Has unrestricted access to the entire organization.
 * **Team Leader –** Can manage memberships and modify settings of the groups that they are members of.
-* **User –** Has access to scans.
+* **Guest -**  Can only view scan results (if granted access to the project), but cannot create or delete scans.
+* Custom roles - The roles with specific access permissions, created by an Admin or an Owner.
 
 3. Click **Invite**.
+
+### Viewing a User’s Profile
+
+A user’s profile allows you to view the following information: 
+* User’s name and email
+* Assigned role and granted access scopes
+* Membership in the groups of the organization
+
+To view a user’s profile, in the **MEMBERS** section, select the user you want to view the information about.
+
+![view-profile](media/view-profile.png ':size=45%')
+
 
 ### Deleting a User
 To delete a user, follow these steps:
@@ -112,6 +126,47 @@ To add or remove a user from a group, follow these steps:
  * Clear the checkboxes next to the group(s) from which to remove that user.
 
     ![Remove-User-From-Group](media/remove-user-from-group.png ':size=45%')
+
+
+## Managing User’s Roles
+You can create a custom role with specific access scopes and assign it to a new user (member) of your organization.  Therefore, all the created users can be granted different scanning and management permissions. 
+
+* [Creating a Custom Role](#creating-a-custom-role)
+* [Editing a Custom Role](#editing-a-custom-role)
+* [Deleting a Custom Role](#deleting-a-custom-role)
+
+### Creating a Custom Role
+
+Initially, the list of roles includes only the default options. View the **Description** column to check the access permissions provided by each role. 
+
+>[!NOTE|label:Note]
+Only the Admin and Owner default roles allow to create and manage custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner
+
+To create a custom role with specific permissions, follow these steps:
+1. At the top of the **ROLES** section, click ![plus-button](media/plus-button.png ':size=3%').
+
+![create-role](media/create-role.png ':size=45%')
+
+2. On the Create Role popup, do the following:
+
+    a.  In the **Name** field, enter a role name.<p>
+    b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<c>
+    c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes]() .<br>
+    The list of scopes available for selection depends on your role. You cannot select the roles you do not have access to (such scopes are grayed out).<p>
+    d. Click **Create**.<br>
+    The created role is added to the end of the list. Please switch to another list page or set an extended number of items to be shown on a page to view the recent custom roles.
+
+   ![custom-role](media/custom-role.png ':size=45%') 
+
+3. 
+
+ 
+
+
+
+
+
+
 
 ## Managing Organization API/CLI Authentication Tokens
 On the **Organization** page, you can obtain and manage authentication tokens (also called API keys) for accessing the Nexploit API and CLI.
