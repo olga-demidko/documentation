@@ -188,14 +188,6 @@ The users assigned to the role you have deleted automatically lose their permiss
   ![delete-role](media/delete-role.png ':size=45%')
 
 
- 
-
-
-
-
-
-
-
 ## Managing Organization API/CLI Authentication Tokens
 On the **Organization** page, you can obtain and manage authentication tokens (also called API keys) for accessing the Nexploit API and CLI.
 
