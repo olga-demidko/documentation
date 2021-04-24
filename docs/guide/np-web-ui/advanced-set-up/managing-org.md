@@ -143,22 +143,50 @@ Initially, the list of roles includes only the default options. View the **Descr
 Only the Admin and Owner default roles allow to create and manage custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner
 
 To create a custom role with specific permissions, follow these steps:
-1. At the top of the **ROLES** section, click ![plus-button](media/plus-button.png ':size=3%').
+1. At the top of the **ROLES** section, click ![plus-icon](media/plus-icon.png ':size=3%').
 
-![create-role](media/create-role.png ':size=45%')
+    ![create-role](media/create-role.png ':size=45%')
 
-2. On the Create Role popup, do the following:
+2. On the **Create Role** popup, do the following:
 
     a.  In the **Name** field, enter a role name.<p>
-    b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<c>
-    c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes]() .<br>
+    b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>
+    c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-roles/overview.md).<br>
     The list of scopes available for selection depends on your role. You cannot select the roles you do not have access to (such scopes are grayed out).<p>
     d. Click **Create**.<br>
     The created role is added to the end of the list. Please switch to another list page or set an extended number of items to be shown on a page to view the recent custom roles.
 
    ![custom-role](media/custom-role.png ':size=45%') 
 
-3. 
+### Editing a Custom Role
+
+You can edit a custom role, for example change the description and access scopes. 
+
+>[!NOTE|label:Note]
+The default roles are read-only, you cannot edit or delete them. 
+
+To edit a custom role, do the following:
+1. Click ![dots-icon](media/dots-button.png ':size=2%') next to the role you want to edit, and then select **Edit**.
+
+ ![edit-role](media/edit-role.png ':size=45%')
+
+2. On the **Edit Role** popup, make changes to the role and click **Save**.
+
+    ![edit-role-popup](media/edit-role-popup.png ':size=30%')
+
+
+### Deleting a Custom Role
+
+To delete a custom role, do the following:
+
+1. In the **ROLES** list,  click ![dots-icon](media/dots-button.png ':size=2%')  next to the role you want to delete.
+2. From the drop-down list, select **Delete**.
+
+    >[!WARNING|label:Important]
+The users assigned to the role you have deleted automatically lose their permissions and become Guests.
+
+  ![delete-role](media/delete-role.png ':size=45%')
+
 
  
 
