@@ -7,7 +7,7 @@ The **Organization** option enables Nexploit administrators to manage organizati
 * [Managing Users](#Managing-Users-Members)
 * [Managing Groups](#Managing-groups)
 * [Managing User's Roles](#managing-users-roles)
-* [Managing Organization API-CLI Authentication Tokens](#managing-organization-apicli-authentication-tokens)
+* [Managing Organization API/CLI Authentication Tokens](#managing-organization-apicli-authentication-tokens)
 
 ## Displaying the Organization Dashboard
 To view your organization dashboard, in the left pane, select the **Organization** option. 
@@ -65,10 +65,10 @@ To add a user, follow these steps:
 
 You can assign one of the following roles to the user: 
 * **User –** Has access to scans.
-* **Owner –** Has unrestricted access to the entire organization.
 * **Admin –** Can add, modify and delete groups and members, as well as make billing and plan changes.
-* **Billing Manager –** Can manage subscription and billing settings.
+* **Owner –** Has unrestricted access to the entire organization.
 * **Team Leader –** Can manage memberships and modify settings of the groups that they are members of.
+* **Billing Manager –** Can manage subscription and billing settings.
 * **Guest -**  Can only view scan results (if granted access to the project), but cannot create or delete scans.
 * Custom roles - The roles with specific access permissions, created by an Admin or an Owner.
 
@@ -113,7 +113,7 @@ To create a new group, follow these steps:
 
     ![New-Group-Form](media/new-group-form.png ':size=45%')
 
-3. Click the Create button at the top.
+3. In the upper right corner, click **Create**.
 
 ### Adding/Removing a User from a Group
 To add or remove a user from a group, follow these steps: 

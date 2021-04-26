@@ -42,13 +42,18 @@ To change the 2FA application –
 
 ## Setting Your Notification Preferences
 To set your notification preferences, in the **FEED SETTING** section, check the checkboxes next to the types of notifications that you want to receive by email or in your feed, and then click the **Save** button.
-![Notification-Settings](media/personal-account-details.png)
+
+![Notification-Settings](media/personal-account-details.png ':size=45%')
 
 ## 	Managing Your Personal API Keys (Authentication Tokens)
 To obtain a new API key –
-1. In the **MANAGE YOUR USER API KEYS** section, click the ![Create-new-API-Key-Button](media/new-api-key-button.png ':size=18%') button.\
+1. In the **MANAGE YOUR USER API KEYS** section, click the ![Create-new-API-Key-Button](media/new-api-key-button.png ':size=18%') button.
+
 ![Personal-API-Keys](media/user-api-keys.png ':size=45%')
-2. Assign the API key a name, select which scope(s) of access to allow it and which type of actions (such as read or write) it is permitted to perform.\
-![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=45%')
+
+2. Assign the API key a name, select which scope(s) of access to allow it and which type of actions (such as read or write) it is permitted to perform.
+
+![Personal-API-Key-Prompt](media/personal-api-key-prompt.png ':size=45%')
+
 3. Click the **Create** button.
 
