@@ -6,8 +6,8 @@ The **Organization** option enables Nexploit administrators to manage organizati
 * [Viewing Your Organization’s Plan](#Viewing-your-Organizations-Plan)
 * [Managing Users](#Managing-Users-Members)
 * [Managing Groups](#Managing-groups)
-* [Managing User's Roles](#managing-user39s-roles)
-* [Managing Organization API/CLI Athentication Tokens](#Managing-organization-apicli-authentication-tokens)
+* [Managing User's Roles](#managing-users-roles)
+* [Managing Organization API/CLI Authentication Tokens](#managing-organization-apicli-authentication-tokens)
 
 ## Displaying the Organization Dashboard
 To view your organization dashboard, in the left pane, select the **Organization** option. 
@@ -66,11 +66,11 @@ To add a user, follow these steps:
 You can assign one of the following roles to the user: 
 * **User –** Has access to scans.
 * **Admin –** Can add, modify and delete groups and members, as well as make billing and plan changes.
-* **Owner –** Has unrestricted access to the organization, including the permisssion to delete the entire organization.
+* **Owner –** Has unrestricted access to the entire organization.
 * **Team Leader –** Can manage memberships and modify settings of the groups that they are members of.
 * **Billing Manager –** Can manage subscription and billing settings.
 * **Guest -**  Can only view scan results (if granted access to the project), but cannot create or delete scans.
-* Custom roles - The roles with scpecific access permissions, created by an Admin or an Owner. 
+* Custom roles - The roles with specific access permissions, created by an Admin or an Owner.
 
 3. Click **Invite**.
 
@@ -83,7 +83,8 @@ A user’s profile allows you to view the following information:
 
 To view a user’s profile, in the **MEMBERS** section, select the user you want to view the information about.
 
- ![View-profile](media/view-profile.png ':size=45%')
+![view-profile](media/view-profile.png ':size=45%')
+
 
 ### Deleting a User
 To delete a user, follow these steps:
@@ -112,7 +113,7 @@ To create a new group, follow these steps:
 
     ![New-Group-Form](media/new-group-form.png ':size=45%')
 
-3. Click the Create button at the top.
+3. In the upper right corner, click **Create**.
 
 ### Adding/Removing a User from a Group
 To add or remove a user from a group, follow these steps: 
@@ -126,47 +127,48 @@ To add or remove a user from a group, follow these steps:
 
     ![Remove-User-From-Group](media/remove-user-from-group.png ':size=45%')
 
-## Managing User's Roles 
+
+## Managing User’s Roles
 You can create a custom role with specific access scopes and assign it to a new user (member) of your organization.  Therefore, all the created users can be granted different scanning and management permissions. 
 
-* [Creating a Custom Role](#Creating-a-Custom-Role)
-* [Editing a Custom Role](#Editing-a-Custom-Role)
-* [Deleting a Custom Role](#Deleting-a-Custom-Role)
-
+* [Creating a Custom Role](#creating-a-custom-role)
+* [Editing a Custom Role](#editing-a-custom-role)
+* [Deleting a Custom Role](#deleting-a-custom-role)
 
 ### Creating a Custom Role
+
 Initially, the list of roles includes only the default options. View the **Description** column to check the access permissions provided by each role. 
 
 >[!NOTE|label:Note]
-Only the Admin and Owner default roles allow to create and manage custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner.  
+Only the Admin and Owner default roles allow to create and manage custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner
 
 To create a custom role with specific permissions, follow these steps:
-1. At the top of the **ROLES** section, click ![plus-dark](media/plus-dark.png ':size=2%').
+1. At the top of the **ROLES** section, click ![plus-icon](media/plus-icon.png ':size=3%').
 
     ![create-role](media/create-role.png ':size=45%')
 
-2. On the **Create Role** popup, do the following:<p>
-    a. In the **Name** field, enter a role name.<p>
-    b. __(Optional)__. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>
-    c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/overview.md). <br>
+2. On the **Create Role** popup, do the following:
+
+    a.  In the **Name** field, enter a role name.<p>
+    b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>
+    c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-roles/overview.md).<br>
     The list of scopes available for selection depends on your role. You cannot select the roles you do not have access to (such scopes are grayed out).<p>
     d. Click **Create**.<br>
     The created role is added to the end of the list. Please switch to another list page or set an extended number of items to be shown on a page to view the recent custom roles.
 
-    ![custom-role](media/custom-role.png ':size=45%')
-
+   ![custom-role](media/custom-role.png ':size=45%') 
 
 ### Editing a Custom Role
 
-You can edit a custom role, for example change the description and access scopes.
+You can edit a custom role, for example change the description and access scopes. 
 
 >[!NOTE|label:Note]
 The default roles are read-only, you cannot edit or delete them. 
 
 To edit a custom role, do the following:
-1. Click ![dots-button](media/dots-button.png ':size=2%') next to the role you want to edit, and then select **Edit**.
+1. Click ![dots-icon](media/dots-button.png ':size=2%') next to the role you want to edit, and then select **Edit**.
 
-    ![edit-role](media/edit-role.png ':size=45%')
+ ![edit-role](media/edit-role.png ':size=45%')
 
 2. On the **Edit Role** popup, make changes to the role and click **Save**.
 
@@ -177,14 +179,13 @@ To edit a custom role, do the following:
 
 To delete a custom role, do the following:
 
-1. In the **ROLES** list,  click ![dots-button](media/dots-button.png ':size=2%')  next to the role you want to delete.
-
+1. In the **ROLES** list,  click ![dots-icon](media/dots-button.png ':size=2%')  next to the role you want to delete.
 2. From the drop-down list, select **Delete**.
 
     >[!WARNING|label:Important]
-    The users assigned to the role you have deleted automatically lose their permissions and become Guests. 
+The users assigned to the role you have deleted automatically lose their permissions and become Guests.
 
-    ![delete-role](media/delete-role.png ':size=45%')
+  ![delete-role](media/delete-role.png ':size=45%')
 
 
 ## Managing Organization API/CLI Authentication Tokens
