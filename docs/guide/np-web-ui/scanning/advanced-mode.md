@@ -1,5 +1,9 @@
 # Advanced Mode
 On the **NEW SCAN** popup, select the **Advanced** tab to create a scan with extended settings.
+
+>[!NOTE|label:Note]
+The required settings fields are marked with `*`. The tabs which include the required fields provide counters where the first digit is the number of completed required fields, and the second one is the total number of the required fields in this tab. Once you complete all the required fields in a tab, the counter next to the tab name turns green. Additionally, the number of missing or incorrect settings are shown as the **REMAINING ERRORS** at the bottom of the popup.
+
 1. _(Optional)_ In order to make the scanning definition process quicker, in the <u>**Templates** tab</u>, you can select a predefined set of scan settings. Nexploit provides the following types of predefined scan settings:
 
     ![Templates](media/templates.png ':size=45%')
