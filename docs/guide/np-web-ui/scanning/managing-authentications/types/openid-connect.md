@@ -94,7 +94,7 @@ In this section, set up a valid authentication request to be sent to the end-poi
   <tr>
     <td width="25%"><b>Client Secret</b></td>
     <td width="75%" >
-        Enter your application client secret, used to authenticate to the Token Endpoint
+        Enter your application client secret, used to authenticate to the <b>Token Endpoint<b>.
     </td>
   </tr>
   <tr>
@@ -119,6 +119,11 @@ In this section, set up a valid authentication request to be sent to the end-poi
     <td width="25%"><b>Audience</b></td>
     <td width="75%" >
         <em>(Optional)</em> Enter the intended recipient of the token.
+    </td>
+    <tr>
+    <td width="25%"><b>Embed in</b></td>
+    <td width="75%" >
+        Select where to embed the token in the request:  body, header, or default location according to the OIDC specification.
     </td>
   </tr>
 </table>
