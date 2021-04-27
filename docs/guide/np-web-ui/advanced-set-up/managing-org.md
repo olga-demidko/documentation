@@ -198,7 +198,7 @@ To create a new API/CLI authentication token (API key), follow these steps:
 
 2. Assign the API key a name, select which scope(s) of access to allow it and which type of actions (such as read or write) it is permitted to perform. 
 
-    ![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=27%')
+    ![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=25%')
 
 3. Click **Create**.
 

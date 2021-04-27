@@ -5,7 +5,7 @@ When creating a custom role to be assigned to a new user, you can predefine acce
 <table id="simple-table">
   <tr>
     <th width="25%"><b>Scope</b></th>
-    <th width="75%"><b>Definition</b></th>
+    <th width="75%"><b>Description</b></th>
   </tr>
   <tr>
     <td width="25%"><code>scans</code></td>

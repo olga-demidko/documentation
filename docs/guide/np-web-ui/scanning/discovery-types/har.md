@@ -1,4 +1,7 @@
 # Scanning with a HAR
+
+<iframe width="90%"  src="https://www.youtube.com/embed/7sEiHLeeMHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can use a pre-recorded session of a user interaction with the target application (HAR file)  when running a scan.  Using the data contained in the HAR file, Nexploit defines the attack surface and ensures complete coverage of the scan scope.  To run a scan using a HAR file, you need to upload the file in the **Recording Session** section.
 
 You can create a HAR file either manually or automatically (using QA tools, such as Selenium). See [Creating a HAR File](/guide/np-web-ui/scanning/discovery-types/create-har.md) to record an interaction session manually.  
