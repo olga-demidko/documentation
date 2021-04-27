@@ -39,6 +39,7 @@
         - [OpenID Connect (OAuth)](guide/np-web-ui/scanning/managing-authentications/types/openid-connect.md)
         - [Custom Multi-Step Authentication](guide/np-web-ui/scanning/managing-authentications/types/custom-auth.md)
         - [Browser-Based Form Authentication](guide/np-web-ui/scanning/managing-authentications/types/browser-based-auth.md)
+        - [NTLM Authentication](guide/np-web-ui/scanning/managing-authentications/types/ntlm-auth.md)
         - [String Interpolation Syntax](guide/np-web-ui/scanning/managing-authentications/syntax.md)
         - [Authenticated Scanning](guide/np-web-ui/scanning/managing-authentications/authenticated-scanning.md)
         
