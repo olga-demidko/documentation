@@ -149,6 +149,8 @@ To create a custom role with specific permissions, follow these steps:
 
 2. On the **Create Role** popup, do the following:
 
+    ![create-role-popup](media/create-role-popup.png ':size=30%')
+
     a.  In the **Name** field, enter a role name.<p>
     b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>
     c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-roles/overview.md).<br>
@@ -183,7 +185,7 @@ To delete a custom role, do the following:
 2. From the drop-down list, select **Delete**.
 
     >[!WARNING|label:Important]
-The users assigned to the role you have deleted automatically lose their permissions and become Guests.
+The users assigned to the role that you have deleted automatically lose their permissions and become Guests.
 
   ![delete-role](media/delete-role.png ':size=45%')
 
@@ -198,7 +200,7 @@ To create a new API/CLI authentication token (API key), follow these steps:
 
 2. Assign the API key a name, select which scope(s) of access to allow it and which type of actions (such as read or write) it is permitted to perform. 
 
-    ![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=25%')
+    ![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=30%')
 
 3. Click **Create**.
 
