@@ -42,7 +42,7 @@ If you get a parsing error when uploading an OpenAPI schema to Nexploit, validat
 }
 ```
 
-For JSON schemas, you can also use the properties to define the input and output data types, for example `minimum`, `maximum`, `multipleOf`, etc. For more information about possible substitutions, see [Swagger documentation](https://swagger.io/specification/),  [JSON Schema Core](https://tools.ietf.org/html/draft-wright-json-schema-00) and [JSON Schema Validation](https://tools.ietf.org/html/draft-wright-json-schema-validation-00). 
+For JSON schemas, you can also use the properties to define the input and output data types, for example, `minimum`, `maximum`, `multipleOf`, etc. For more information about possible substitutions, see [Swagger documentation](https://swagger.io/specification/),  [JSON Schema Core](https://tools.ietf.org/html/draft-wright-json-schema-00) and [JSON Schema Validation](https://tools.ietf.org/html/draft-wright-json-schema-validation-00). 
 
 
 ### Postman Schema Validation Checklist
