@@ -77,6 +77,16 @@ _Example:_ `{{ step1.response.body | encode: 'base64' }}`
 
 
 
+### Generating Mock Data  <!-- {docsify-ignore} -->
+
+If you need to generate random data to use it during configuration of an authentication object , you can apply one of the following  [Faker.js](https://github.com/marak/Faker.js/) data generators:
+
+* `uuid`<br>
+  _Example:_  `{{ $faker.datatype.number }}`
+
+*  `number`<br>
+  _Example:_  `{{ <$faker>.datatype.uuid }}`
+
 
 
 
