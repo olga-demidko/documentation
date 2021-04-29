@@ -27,6 +27,8 @@
           - [Creating a HAR File](guide/np-web-ui/scanning/discovery-types/create-har.md)
         - [Scanning an API](guide/np-web-ui/scanning/discovery-types/open-api.md)
           - [Editing an API Schema](guide/np-web-ui/scanning/discovery-types/edit-schema.md)
+          - [Configuring an API Schema](guide/np-web-ui/scanning/discovery-types/schema-requirements.md)
+          - [Troubleshooting](guide/np-web-ui/scanning/discovery-types/troubleshooting.md)
       - [Modifying Future Scan Settings](guide/np-web-ui/scanning/modifying-future-scan-settings.md)
       - [Retesting a Scan](guide/np-web-ui/scanning/retesting-scan.md)
       - [Exporting a Scan](guide/np-web-ui/scanning/exporting-scan.md)
