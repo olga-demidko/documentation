@@ -27,7 +27,7 @@ The parts comprise the following components:
        <li>Location: <code>url</code>, <code>headers</code>, <code>body</code></li>
     </ol>
     <em>Format:</em> <code>{{ &#60stage_name&#62.&#60source&#62.&#60location&#62 | &#60function&#62 }}</code>
-    <p><em>Example:</em> <code>{{ stage1.response.headers | <function>}}</code>
+    <p><em>Example:</em> <code>{{ stage1.response.headers | &#60function&#62 }}</code>
     </td>
   </tr>
   <tr>
