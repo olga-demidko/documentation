@@ -123,7 +123,12 @@ In this section, set up a valid authentication request to be sent to the end-poi
     <tr>
     <td width="25%"><b>Embed in</b></td>
     <td width="75%" >
-        Select where to embed the token in the request:  body, header, or default location according to the OIDC specification.
+        Select where to embed the token in the request.<br>
+        <ul>
+        <li> If the <b>Default</b> option is selected, the token is embedded according to the OIDC specification. For example, a token can be embedded in the authorization header with the Bearer prefix.</li>
+        <li> If you select the <b>Body</b> option, specify the token encoder, content type, exact location in the body, and the token template string.</li>
+        <li> If you select the <b>Header</b> option, specify the token encoder, name of the target header, and the token template string.
+        </ul>
     </td>
   </tr>
 </table>
