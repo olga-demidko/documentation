@@ -3,8 +3,8 @@
 To scan an API, follow these steps:
 1. Select **Open API** in the **Discovery Type** section to use either an Open API specification (Swagger) or a Postman collection:<br> `*.yml` / `*.yaml` / `*.json`.
 
-    >[!NOTE|label:Note]
-Nexploit supports the following versions of the API schemas: Swagger 2+, OpenAPI 3+, Postman 2+.
+    >[!WARNING|label:Important]
+Nexploit supports the following versions of the API schemas: Swagger 2+, OpenAPI 3+, Postman 2+. To ensure proper scanning of an API, you must configure the schema according to the general specification and specific Nexploit requirements. Find more information about the configuration validation [here](/guide/np-web-ui/scanning/discovery-types/troubleshooting.md).
 
   ![open-api](../media/open-api.png ':size=45%')
 
