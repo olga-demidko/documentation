@@ -143,7 +143,7 @@ info:
  version: "0.4.5"
 servers:
 - url: "https://brokencrystals.com/{basePath}"
- variables:
+  variables:
    basePath:
      default: "/home"
 paths:
