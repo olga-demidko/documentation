@@ -26,8 +26,8 @@ To run scans directly from your pipeline, you need to install the NexPloi CLI. I
 You can either run the NexPloit CLI with the Repeater using the NPM or by installing the existing Docker image inside your pipeline. The Docker image comprises the NexPloit CLI and Repeater. 
 
 Find the examples here: 
-  * [Scanning via a Repeater using the NPM](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/travis/examples?id=example-2-scanning-via-a-repeater-using-the-nexploit-cli-npm-installation)
-  * [Scanning via a Repeater using the Docker image](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/travis/examples?id=example-3-scanning-via-a-repeater-using-the-nexploit-cli-docker-installation)
+  * [Scanning via a Repeater using the NPM](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/gitlab/examples?id=example-2-scanning-via-a-repeater-using-the-nexploit-cli-npm-installation)
+  * [Scanning via a Repeater using the Docker image](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/gitlab/examples?id=example-3-scanning-via-a-repeater-using-the-nexploit-cli-docker-installation)
 
 
  ![gitlab-repeater](../media/gitlab/gitlab-repeater.png ':size=45%')
@@ -38,7 +38,7 @@ Find the examples here:
  Depending on the access to the deployed target, you can run a scan using multiple options.
  * If the scan target is accessible from the Internet:<br>
   ![one](../media/travis/1.png ':size=3%') Directly from the [nexploit.app](https://nexploit.app)<br>
-  ![two](../media/travis/2.png ':size=3%') From your pipeline using the NexPloit CLI (NPM). Find the example [here](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/travis/examples?id=example-1-direct-scanning-using-the-nexploit-cli-npm-installation). 
+  ![two](../media/travis/2.png ':size=3%') From your pipeline using the NexPloit CLI (NPM). Find the example [here](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/gitlab/examples?id=example-1-direct-scanning-using-the-nexploit-cli-npm-installation). 
 
 
  ![gitlab-direct](../media/gitlab/gitlab-direct.png ':size=65%')
@@ -46,8 +46,8 @@ Find the examples here:
  * If the scan target has a private access (or if you want to scan specific local microservices), you can use the [Repeater](/guide/introduction/deployment-onprem.md) (NexPloit local agent) to ensure secure communication between NexPloit and the target. In this case, you can control scanning  only via the Nexploit CLI which can be installed using either ![three](../media/travis/3.png ':size=3%') the NPM or ![four](../media/travis/4.png ':size=3%') the Docker image.
 
    Find the examples here:
-      * [Scanning via a Repeater using the NPM](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/travis/examples?id=example-2-scanning-via-a-repeater-using-the-nexploit-cli-npm-installation)
-      * [Scanning via a Repeater using the Docker image](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/travis/examples?id=example-3-scanning-via-a-repeater-using-the-nexploit-cli-docker-installation)
+      * [Scanning via a Repeater using the NPM](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/gitlab/examples?id=example-2-scanning-via-a-repeater-using-the-nexploit-cli-npm-installation)
+      * [Scanning via a Repeater using the Docker image](https://kb.neuralegion.com/#/guide/pipeline-integration/pipe-management/gitlab/examples?id=example-3-scanning-via-a-repeater-using-the-nexploit-cli-docker-installation)
  
  
   ![gitlab-repeater](../media/gitlab/gitlab-repeater.png ':size=45%')
