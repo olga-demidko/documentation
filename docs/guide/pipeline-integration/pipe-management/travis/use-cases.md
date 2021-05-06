@@ -16,7 +16,7 @@
   </table>
 
 
-## Use Cases
+## Use Cases <!-- {docsify-ignore} -->
 ### Scanning a Target in a Private Environment
 You can run fast scans of the application which is currently under development within your pipeline. NexPloit allows you to follow the fail-fast principle by interrupting a scan automatically at the first detected vulnerability. Using this option, you are able to quickly and timely find and fix the security issues at the build level without delaying the whole development process.
 
