@@ -102,4 +102,6 @@
       - [Travis CI](guide/pipeline-integration/pipe-management/travis/use-cases.md)
         - [Usage Examples](guide/pipeline-integration/pipe-management/travis/examples.md)
       - [JFrog](guide/pipeline-integration/pipe-management/jfrog.md)
+      - [GitLab](guide/pipeline-integration/pipe-management/gitlab/use-cases.md)
+        - [Usage Examples](guide/pipeline-integration/pipe-management/gitlab/examples.md)
 

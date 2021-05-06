@@ -42,4 +42,9 @@ Nexploit enables integrations with the following tools and platforms:
      <td> </td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jfrog.md">JFrog</a></td>
   </tr>
+   <tr>
+    <td></td>
+     <td> </td>
+    <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/gitlab/use-cases.md">GitLab</a></td>
+  </tr>
 </table>
