@@ -29,8 +29,7 @@ This command displays a list of possible commands for the Nexploit CLI.
     --token AUTH_TOKEN                      
     --repeater REPEATER_ID                  
     --name "My First Scan"                  
-    --crawler https://www.example.com       
-    --host-filter https://www.example.com   
+    --crawler www.example.com        
     --smart
 ```
 This command initializes a new scan engine in the cloud, which begins scanning the target via the local **Repeater**.
