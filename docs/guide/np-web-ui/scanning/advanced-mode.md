@@ -118,6 +118,6 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 * Click **Save as Template** to save the scan template.
 * Click **Start Scan** to run the preconfigured scan immediately.
 >[!NOTE|label:Note]
-If the maximum number of scans that can be run simultaniously is exceeded, the scan is placed in the queue. The concurrent scans limitation can be set either for the entire organization or for this particular project in the project settings. The new scan will start as soon as you manually stop another running scan or when the current scan is completed.
+If the maximum number of scans that can be run simultaneously is exceeded, the scan is placed in the queue. The concurrent scans limitation can be set either for the entire organization or for this particular project in the project settings. The new scan will start as soon as you manually stop another running scan or when the current scan is completed.
 
 You can also use the **Restore Default** button to reset the custom settings.
