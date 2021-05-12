@@ -26,7 +26,7 @@
     You can start a scan ONLY with a project selected. If you do not have any projects in Nexploit, select the Default one.
 
 5. Once you complete the setup, click **Start Scan** to start scanning.<br>
-  If you do not have enough available engines, the scan is placed in the queue. The new scan will start as soon as you manually stop another running scan or when the current scan has completed.
+   If the maximum number of scans that can be run simultaniously is exceeded, the scan is placed in the queue. The concurrent scans limitation can be set either for the entire organization or for this particular project in the project settings. The new scan will start as soon as you manually stop another running scan or when the current scan is completed.
 
 
 
