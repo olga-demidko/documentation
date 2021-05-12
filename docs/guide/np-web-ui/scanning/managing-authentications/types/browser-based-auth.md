@@ -237,12 +237,13 @@ The preliminary testing helps you verify if the authentication object has been c
 
 Once you have completed the **Valid Session Tester** fields, click **Test Authentication**.
 
- * A valid authentication object returns three success messages indicated in the relevant  **Test Results** sections: 
-     *   **Test Authentication Triggers**
-     *   **Authentication call**
-     *   **Access Protected Resource**
+ * A valid authentication object returns four success messages indicated in the relevant  **Test Results** sections: 
+     *   **Test Authentication Triggers** provides the test request and response data.
+     *   **Authentication call (fillForm)** provides a screenshot of the form filled by the engine.
+     *   **Authentication call(submitForm)** provides a screenshot of the authenticated page after a successful login.
+     *   **Access Protected Resource** provides the test request and response data.
 
-  ![test-results](../media/auth-results.png ':size=45%') 
+  ![test-results-bb](../media/test-results-bb.png ':size=45%') 
 
 In this case, you can save the configured object and add it to your scans.
 
