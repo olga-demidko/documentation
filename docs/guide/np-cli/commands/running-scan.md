@@ -1,7 +1,7 @@
 # 🏃 Running a Scan
 ```nexploit-cli scan:run [options]``` starts a new scan with the received configuration.
 >[!NOTE|label:Note]
-If you do not have enough available engines, the scan is placed in the queue. The new scan will start as soon as you manually stop another running scan or when the current scan has completed.
+If the maximum number of scans that can be run simultaniously is exceeded, the scan is placed in the queue. The concurrent scans limitation can be set either for the entire organization or for this particular project in the project settings. The new scan will start as soon as you manually stop another running scan or when the current scan is completed.
 
 This command enables you to specify one or more discovery strategies. For example, using the `--crawler` option and/or the generated HAR files, separately or concurrently. This means that you can handle client-side dynamic content, javascript and so on.
 
