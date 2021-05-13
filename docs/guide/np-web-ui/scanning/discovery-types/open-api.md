@@ -1,6 +1,6 @@
-# Scanning an API
+# Scanning API Endpoints
 
-To scan an API, follow these steps:
+To scan API endpoints using a predefined schema, follow these steps:
 1. Select **Open API** in the **Discovery Type** section to use either an Open API specification (Swagger) or a Postman collection:<br> `*.yml` / `*.yaml` / `*.json`.
 
     >[!WARNING|label:Important]

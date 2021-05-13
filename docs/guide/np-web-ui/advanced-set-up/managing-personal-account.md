@@ -1,16 +1,19 @@
 # Managing Your Personal Account Preferences
-The following operations are provided for managing your personal account –
+The following operations are provided for managing your personal account:
 * [Accessing Your Personal Account](#Accessing-Your-Personal-Account)
 * [Editing Your Name](#Editing-Your-Name)
-* [Configuring a 2FA Policy](#Configuring-a-2FA-Policy)
+* [Configuring the 2FA Policy](#Configuring-the-2FA-Policy)
 * [Changing the 2FA Authentication Service](#Changing-the-2FA-Authentication-Service)
 * [Setting Your Notification Preferences](#Setting-Your-Notification-Preferences)
 * [Managing Your Personal API Keys (Authentication Tokens)](#Managing-Your-Personal-API-Keys-Authentication-Tokens)
 
 ## Accessing Your Personal Account
-To access your personal account click the ![User-Button](media/user-button.png ':size=3%') button at the top right and then select **User Settings**.\
-![Personal-Account](media/personal-account.png ':size=45%')\
-The **Profile** page displays, in which you can change your personal settings and preferences.\
+To access your personal account,  click ![User-Button](media/user-button.png ':size=3%') at the upper-right corner of the **Scans** page, and then select **User Settings**.
+
+![Personal-Account](media/personal-account.png ':size=45%')
+
+On the **Profile** page, you can change your personal settings and preferences.
+
 ![Profile-Page](media/profile-page.png ':size=45%')
 
 ## Editing Your Name
