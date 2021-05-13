@@ -25,7 +25,7 @@
         - [Scanning with a Crawler](guide/np-web-ui/scanning/discovery-types/crawler.md)
         - [Scanning with a HAR](guide/np-web-ui/scanning/discovery-types/har.md)
           - [Creating a HAR File](guide/np-web-ui/scanning/discovery-types/create-har.md)
-        - [Scanning an API](guide/np-web-ui/scanning/discovery-types/open-api.md)
+        - [Scanning API Endpoints](guide/np-web-ui/scanning/discovery-types/open-api.md)
           - [Editing an API Schema](guide/np-web-ui/scanning/discovery-types/edit-schema.md)
           - [Configuring an API Schema](guide/np-web-ui/scanning/discovery-types/schema-requirements.md)
           - [Troubleshooting](guide/np-web-ui/scanning/discovery-types/troubleshooting.md)
@@ -51,7 +51,7 @@
         - [Organization API Key Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/org-api-key.md)
         - [Personal API Key Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/personal-api-key.md)
         - [Roles Management Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/roles-management.md)
-      - [Managing Your Personal Account Preferences](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
+      - [Managing Your Personal Account](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Using Repeater Scripts](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md)
         - [Use Cases](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/use-cases.md)  
@@ -97,11 +97,11 @@
       - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
       - [CircleCI](guide/pipeline-integration/pipe-management/circleci.md)
       - [Jenkins](guide/pipeline-integration/pipe-management/jenkins/use-cases.md)
-        - [Usage Examples](guide/pipeline-integration/pipe-management/jenkins/examples.md)
+        <!-- - [Usage Examples](guide/pipeline-integration/pipe-management/jenkins/examples.md) -->
       - [Azure Pipelines](guide/pipeline-integration/pipe-management/azure-devops.md)
       - [Travis CI](guide/pipeline-integration/pipe-management/travis/use-cases.md)
-        - [Usage Examples](guide/pipeline-integration/pipe-management/travis/examples.md)
+        <!-- - [Usage Examples](guide/pipeline-integration/pipe-management/travis/examples.md) -->
       - [JFrog](guide/pipeline-integration/pipe-management/jfrog.md)
       - [GitLab](guide/pipeline-integration/pipe-management/gitlab/use-cases.md)
-        - [Usage Examples](guide/pipeline-integration/pipe-management/gitlab/examples.md)
+        <!-- - [Usage Examples](guide/pipeline-integration/pipe-management/gitlab/examples.md) -->
 
