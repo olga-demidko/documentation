@@ -15,7 +15,7 @@ To create a script, follow these steps:
     ![Reapeaters-scripts](../media/repeaters-scripts/repeaters-scripts.png ':size=45%')
 
 2. Click ![plus-button](../media/repeaters-scripts/plus-button.png ':size=2%') in the upper left corner.
-3. On the script popup, do the following:
+3. In the script dialog box, do the following:
     * In the Name field, enter the name of your script.
     * _(Optional)_ In the **Description** field, enter some descriptive information about your script.
     * In the **Code** field, write the script code or paste it from your external editor. 
@@ -41,7 +41,7 @@ To edit a specific script, do the following:
 
  ![edit-script](../media/repeaters-scripts/edit-script.png ':size=45%')
 
-3. On the script popup, add any changes you need, and then click **Update**.
+3. In the script dialog box, add any changes you need, and then click **Update**.
 
 ## Deleting a Script
 To delete a specific script, do the following:
@@ -58,7 +58,7 @@ To load a script to a specific Repeater, do the following:
 
  ![edit-script](../media/repeaters-scripts/edit-script.png ':size=45%')
 
-  On the popup, do the following:<br>
+  In the dialog box, do the following:<br>
   a) Select the type of the script coverage:
     * **Single global script** - applied for the requests that should cover all the target hosts. 
     * **Host-specific script** - applied for the requests that aim at only one specific host.

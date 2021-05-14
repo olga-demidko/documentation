@@ -96,7 +96,7 @@ To delete a user, follow these steps:
 
     ![Remove-User](media/remove-user.png ':size=45%')
 
-3. Click the **OK** button in the popup message to confirm the deletion.
+3. Click **OK** on the dialog box to confirm the deletion.
 
 ## Managing Groups
 You can perform the following operations to manage user groups in your organization and define the scope of scanning access permissions assigned to them:
@@ -149,7 +149,7 @@ To create a custom role with specific permissions, follow these steps:
 
 2. On the **Create Role** popup, do the following:
 
-    ![create-role-popup](media/create-role-popup.png ':size=30%')
+    ![create-role-](media/create-role-popup.png ':size=30%')
 
     a.  In the **Name** field, enter a role name.<p>
     b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>

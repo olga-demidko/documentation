@@ -26,7 +26,7 @@ To display scan templates, follow these steps:
     ![Scan-Templates](media/templates-list.png ':size=45%')
 
 3. To display the details of a specific template, select it from the list.<br> 
-   On the popup, you can view all the information about this scan template, including:
+  In the dialog box, you can view all the information about this scan template, including:
    * Scan details
    * Scan targets
    * Network and application settings
@@ -40,7 +40,7 @@ To create a new template, follow these steps:
 
     ![New-Template](media\add-scan-template.png ':size=45%')
 
-2. On the **CREATE SCAN TEMPLATE** popup, define the settings for a new scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md). 
+2. In the **CREATE SCAN TEMPLATE** dialog box, define the settings for a new scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md). 
 
     ![New-Template](media\new-template-popup.png ':size=45%')
 
