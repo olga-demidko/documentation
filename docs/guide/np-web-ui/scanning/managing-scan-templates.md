@@ -32,11 +32,9 @@ To display scan templates, follow these steps:
    * Network and application settings
    * Security tests to be run 
 
-   ![Scan-Templates](media/templates-list.png ':size=45%')
-
 ## Creating a New Template
 To create a new template, follow these steps:
-1. At the top of the **Scan Templates** page,  click ![Plus-Button](media\plus-dark.png ':size=2%').
+1. At the top of the **Scan Templates** page,  click **+ New Scan Template**.
 
     ![New-Template](media\add-scan-template.png ':size=45%')
 
@@ -56,7 +54,7 @@ To edit a template, follow these steps:
     > [!NOTE|label:Note]
 The default templates cannot be edited.
 
-3. On the popup, make changes to the setup of the selected scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md).
+3. In the dialog box, make changes to the setup of the selected scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md).
 4. Once you complete editing the template, click **Update Template**.
 
 ## Deleting a Template
