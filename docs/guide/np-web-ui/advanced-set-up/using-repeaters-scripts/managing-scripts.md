@@ -14,7 +14,7 @@ To create a script, follow these steps:
 
     ![Reapeaters-scripts](../media/repeaters-scripts/repeaters-scripts.png ':size=45%')
 
-2. Click ![plus-button](../media/repeaters-scripts/plus-button.png ':size=2%') in the upper left corner.
+2. In the upper left corner, click **+ New Repeater Script**.
 3. In the script dialog box, do the following:
     * In the Name field, enter the name of your script.
     * _(Optional)_ In the **Description** field, enter some descriptive information about your script.
@@ -56,7 +56,7 @@ To load a script to a specific Repeater, do the following:
 2. From the list of available Repeaters, select the one you need.
 3. Click ![dots-icon](../media/repeaters-scripts/dots-icon.png ':size=2%') next to the selected Repeater, and then select **Edit**.
 
- ![edit-script](../media/repeaters-scripts/edit-script.png ':size=45%')
+ ![edit-script](../media/edit.png ':size=45%')
 
   In the dialog box, do the following:<br>
   a) Select the type of the script coverage:
