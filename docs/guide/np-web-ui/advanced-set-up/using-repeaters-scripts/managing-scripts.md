@@ -62,6 +62,8 @@ To load a script to a specific Repeater, do the following:
   a) Select the type of the script coverage:
     * **Single global script** - applied for the requests that should cover all the target hosts. 
     * **Host-specific script** - applied for the requests that aim at only one specific host.
+    >[!NOTE|label:Note]
+    If you have loaded a local script using the Nexploit CLI, loading remote scripts from the cloud is disabled automatically.   
  
   ![scripts-type](../media/repeaters-scripts/scripts-type.png ':size=30%')
 

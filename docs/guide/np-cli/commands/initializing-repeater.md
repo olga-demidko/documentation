@@ -53,7 +53,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--scripts</code></td>
-<td>Loads scripts to the Repeater from a JSON of <code>{ "host": "filepath" }</code>.<br><br><b><font color="blue">Note:</font></b> Wildcards are also supported, for example: <code>--scripts '{"*": "./hmac.js"}'</code> for a global script for all target hosts, or <code>--scripts '{"*.domain.com": "./hmac.js"}'</code> for all target hosts on sub-domains.<br><br>The loaded scripts are shown as 'read-only' with just a name on the <a href="https://nexploit.app/" target="_blank" rel="noopener">nexploit.app</a>.<br><br>See <a href="#/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview">Repeater Scripts</a> for more information about how the Repeater Scripts work.</td>
+<td>Loads scripts to the Repeater from a JSON of <code>{ "host": "filepath" }</code>.<br><br><b><font color="blue">Note:</font></b> Wildcards are also supported, for example: <code>--scripts '{"*": "./hmac.js"}'</code> for a global script for all target hosts, or <code>--scripts '{"*.domain.com": "./hmac.js"}'</code> for all target hosts on sub-domains.<br><br>If you have loaded a local script to the Repeater using the relative CLI command, loading remote scripts from <a href="https://nexploit.app/" target="_blank" rel="noopener">nexploit.app</a> is disabled automatically.<br><br>See <a href="#/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview">Repeater Scripts</a> for more information about how the Repeater Scripts work.</td>
 </tr>
 <tr>
 <td><code>--cacert</code></td>
