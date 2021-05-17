@@ -1,28 +1,28 @@
 # Managing Repeaters
 NeuraLegion’s Repeater is a local agent that provides a secure connection between NeuraLegion's cloud engine and a target on a local network. A Repeater enables you to securely scan targets on a local network, without having to whitelist NeuraLegion’s IP address in your firewall for incoming traffic. See [On-Premises Repeater (Agent)](guide/introduction/deployment-options.md#On-Premises-Repeater-Agent) for a description of how an on-premise Repeater works in a Nexploit solution.
 
-The following options are provided for managing Repeaters –
-* [Displaying the Repeaters List](#Displaying-the-Repeaters-List)
+The following options are provided for managing Repeaters:
 * [Adding a New Repeater](#Adding-a-New-Repeater)
+* [Displaying the Repeaters List](#Displaying-the-Repeaters-List)
 * [Editing the Repeater Details](#Editing-the-Repeater-Details)
 * [Deactivating and Activating a Repeater](#Deactivating-and-Activating-a-Repeater)
 * [Diagnosing the Connection to Network Tartgets](#Diagnosing-the-Network-Connection)
 * [Deleting a Repeater](#Deleting-a-Repeater)
 
 
-## Displaying the Repeaters List
-To display the Repeater list, select the **Repeaters** option in the left pane to display the list of Repeaters. Each Repeater appears as a single row.
-
- ![Reapeaters](media/repeaters-list.png ':size=45%')
-
 ## Adding a New Repeater
 To add a new Repeater, follow these steps:
-1. Select the **Repeaters** option in the left pane to display the list of Repeaters. 
-2. Click ![plus-icon](media/plus-icon.png ':size=2%') at the top-left. 
+1. Select the **Repeaters** option in the left pane to display the **AVAILABLE REPEATERS** list. 
+2. In the upper left corner, click **+ New Repeater**.
 
     ![new-repeater](media/add-repeater.png ':size=30%')
 
 3. Enter the Repeter details and click **Add**. 
+
+## Displaying the Repeaters List
+To display the Repeaters list, select the **Repeaters** option in the left pane. Each Repeater appears as a single row.
+
+ ![Reapeaters](media/repeaters-list.png ':size=45%')
 
 ## Editing the Repeater Details
 To edit Repeater details, follow these steps:
@@ -36,12 +36,12 @@ To edit Repeater details, follow these steps:
 
 ## Deactivating and Activating a Repeater
 ### Deactivating a Repeater
-To deactivate a Repeater click the ![dots](media/dots-button.png ':size=2%') button next to the Repeater name, and then select the **Deactivate** option.
+To deactivate a Repeater, click the ![dots](media/dots-button.png ':size=2%') button next to the Repeater name, and then select the **Deactivate** option.
 
  ![deactivate-repeater](media/deactivate.png ':size=45%')
 
 ### Activating a Repeater
-To activate a Repeater click the ![dots](media/dots-button.png ':size=2%') button next to the Repeater name, and then select the **Activate** option.
+To activate a Repeater, click the ![dots](media/dots-button.png ':size=2%') button next to the Repeater name, and then select the **Activate** option.
 
  ![activate-repeater](media/activate.png ':size=45%')
 
@@ -67,7 +67,7 @@ You can add up to 1000 target hosts separated with a newline, semicolon or comma
 
 ## Deleting a Repeater
 To delete a Repeater, follow these steps:
-1. Click ![dots](media/dots-button.png ':size=2%') to left of the Repeater name.
+1. Click ![dots](media/dots-button.png ':size=2%') to the left of the Repeater name.
 
     ![delete-repeater](media/delete.png ':size=45%')
 
