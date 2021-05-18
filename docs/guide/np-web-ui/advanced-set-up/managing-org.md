@@ -54,7 +54,7 @@ You can manage the users in your organization:
 
 ### Adding a User
 To add a user, follow these steps:
-1. Click ![Add-User](media/new-user-button.png ':size=3%') at the top of the page.
+1. In the upper-right corner of the **MEMBERS** section, click **Invite Member**.
 
     ![Add-User](media/new-user-fullscreen.png ':size=45%')
 
@@ -90,13 +90,11 @@ To view a user’s profile, in the **MEMBERS** section, select the user you want
 To delete a user, follow these steps:
 1. In the **MEMBERS** section, click the row with the user to be deleted.
 
-    ![Members](media/members.png ':size=45%')
-
 2. Click ![Remove-Button](media/remove-button.png ':size=3%') at the top of the screen.
 
     ![Remove-User](media/remove-user.png ':size=45%')
 
-3. Click **OK** on the dialog box to confirm the deletion.
+3. In the dialog box, click **OK** to confirm the deletion.
 
 ## Managing Groups
 You can perform the following operations to manage user groups in your organization and define the scope of scanning access permissions assigned to them:
@@ -105,7 +103,7 @@ You can perform the following operations to manage user groups in your organizat
 
 ### Creating a New Group
 To create a new group, follow these steps: 
-1. Click ![New-Group-Button](media/new-group-button.png ':size=3%') at the top of the page.
+1. In the upper-right corner of the **GROUPS** section, click **New Group**.
 
     ![New-Group](media/new-group.png ':size=45%')
 
@@ -118,9 +116,6 @@ To create a new group, follow these steps:
 ### Adding/Removing a User from a Group
 To add or remove a user from a group, follow these steps: 
 1. Select the row with the user in the **MEMBERS** section.
-
-    ![Members](media/members.png ':size=45%')
-
 2. Do one of the following:
  * Select the checkboxes next to the group(s) to which to add that user as a member.
  * Clear the checkboxes next to the group(s) from which to remove that user.
@@ -143,11 +138,11 @@ Initially, the list of roles includes only the default options. View the **Descr
 Only the Admin and Owner default roles allow to create and manage custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner
 
 To create a custom role with specific permissions, follow these steps:
-1. At the top of the **ROLES** section, click ![plus-icon](media/plus-icon.png ':size=3%').
+1. In the upper-right corner of the **ROLES** section, click **+ New Role**.
 
     ![create-role](media/create-role.png ':size=45%')
 
-2. On the **Create Role** popup, do the following:
+2. In the **Create Role** dialog box, do the following:
 
     ![create-role-](media/create-role-popup.png ':size=30%')
 
@@ -172,7 +167,7 @@ To edit a custom role, do the following:
 
  ![edit-role](media/edit-role.png ':size=45%')
 
-2. On the **Edit Role** popup, make changes to the role and click **Save**.
+2. In the **Edit Role** dialog box, make changes to the role and click **Save**.
 
     ![edit-role-popup](media/edit-role-popup.png ':size=30%')
 
@@ -194,7 +189,7 @@ The users assigned to the role that you have deleted automatically lose their pe
 On the **Organization** page, you can obtain and manage authentication tokens (also called API keys) for accessing the Nexploit API and CLI.
 
 To create a new API/CLI authentication token (API key), follow these steps:
-1. Go to the **MANAGE YOUR ORGANIZATION API KEYS** section and click **Create new API key** .
+1. Go to the **MANAGE YOUR ORGANIZATION API KEYS** section and click **+ New API key** .
 
     ![New-API-Key](media/new-api-key.png ':size=45%')
 
