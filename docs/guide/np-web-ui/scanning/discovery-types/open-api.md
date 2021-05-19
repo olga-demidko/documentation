@@ -1,5 +1,7 @@
 # Scanning API Endpoints
 
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Bg0ko2Rx_nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 To scan API endpoints using a predefined schema, follow these steps:
 1. Select **Open API** in the **Discovery Type** section to use either an Open API specification (Swagger) or a Postman collection:<br> `*.yml` / `*.yaml` / `*.json`.
 
