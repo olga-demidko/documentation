@@ -74,7 +74,7 @@ All your activity on Nexploit, scan runs and details are time-bound. That is why
 
 The current date and time are shown at the top of the **DATE SETTINGS** section. To change the time and date formats, follow these steps:
 
-1. From the time zone drop-down list, select your time zone.
+1. From the **Time Zone** drop-down list, select your time zone.
 2. From the **Date Format** drop-down list,  select the format for date indication. 
 3. Select the first day of the week and the time format using the relative buttons.
 
@@ -91,7 +91,7 @@ To enable or disable such event notifications, you simply need to select or clea
 ## 	Managing Your Personal API Keys (Authentication Tokens)
 To enable some Nexploit operations and integrations, you will need an authentication token (API key). You can either create an API key in the **Organizatio**n tab or on your **User Settings** page. To create a personal API key, follow these steps:
 
-1. In the **MANAGE YOUR USER API KEYS** section, click **+ Create new API key**.
+1. In the **MANAGE YOUR USER API KEYS** section, click **+ New API key**.
 
     ![Create-new-API-Key-Button](media/new-api-key-button.png ':size=45%') 
 
@@ -102,6 +102,6 @@ To enable some Nexploit operations and integrations, you will need an authentica
 3. Click **Create**.<br>
 
    On the popup, copy the generated key and save it to a safe place since as soon as you navigate away from this popup, you will not be able to restore this key.<br>
-   The created keys without the entire values are listed in the **MANAGE YOUR API KEYS section**.
+   The created keys without the entire values are listed in the **MANAGE YOUR API KEYS** section.
 
 

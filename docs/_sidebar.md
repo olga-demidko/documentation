@@ -27,6 +27,7 @@
           - [Configuring an API Schema](guide/np-web-ui/scanning/discovery-types/schema-requirements.md)
           - [Troubleshooting](guide/np-web-ui/scanning/discovery-types/troubleshooting.md)
       - [Reviewing Scans](guide/np-web-ui/scanning/reviewing-scans.md)
+      - [Reviewing Scan History](guide/np-web-ui/scanning/reviewing-scan-history.md)
       - [Reviewing Scan Details](guide/np-web-ui/scanning/reviewing-scan-details.md)
       - [Handling Discovered Issues](guide/np-web-ui/scanning/discovered-issues.md)
       - [Modifying Future Scan Settings](guide/np-web-ui/scanning/modifying-future-scan-settings.md)

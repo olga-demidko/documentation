@@ -1,5 +1,4 @@
 # Managing Scan Templates
-## Scan Templates
 A scan template enables you to save and reuse a set of scan settings so that you can start another scan more quickly. Nexploit provides the following default scan templates:
 
 * **Deep Scan** – All possible tests are performed during the scan. This is the most thorough scan, which takes the longest time to complete.
@@ -19,11 +18,11 @@ To display scan templates, follow these steps:
 1. In the left pane, select the **Scans** option. 
 2. In the upper right corner, click **My Templates**.
 
-    ![My-Templates](media/my-templates.png ':size=45%')
+    ![My-Templates](media/my-templates.png ':size=60%')
 
     The list of default and custom scan templates is displayed.
 
-    ![Scan-Templates](media/templates-list.png ':size=45%')
+    ![Scan-Templates](media/templates-list.png ':size=60%')
 
 3. To display the details of a specific template, select it from the list.<br> 
   In the dialog box, you can view all the information about this scan template, including:
@@ -36,11 +35,11 @@ To display scan templates, follow these steps:
 To create a new template, follow these steps:
 1. At the top of the **Scan Templates** page,  click **+ New Scan Template**.
 
-    ![New-Template](media\add-scan-template.png ':size=45%')
+    ![New-Template](media\add-scan-template.png ':size=60%')
 
 2. In the **CREATE SCAN TEMPLATE** dialog box, define the settings for a new scan template. These are the same [settings as for creating a new scan](guide/np-web-ui/scanning/creating-new-scan.md). 
 
-    ![New-Template](media\new-template-popup.png ':size=45%')
+    ![New-Template](media\new-template-popup.png ':size=60%')
 
 3. Once you complete the setup, click **Create Template** to save the defined scan template.
 
@@ -49,7 +48,7 @@ To edit a template, follow these steps:
 1. In the **Scan Templates** list, click ![Dots](media/dots-button.png ':size=2%') next to the template you want to edit.
 2. Select the **Edit** option.
 
-    ![Edit-Template](media/edit-template.png ':size=45%')
+    ![Edit-Template](media/edit-template.png ':size=60%')
 
     > [!NOTE|label:Note]
 The default templates cannot be edited.
@@ -62,7 +61,7 @@ To delete a template, follow these steps:
 1. In the **Scan Templates** list, click ![Dots](media/dots-button.png ':size=2%') next to the template you want to delete.
 2. Select the **Delete** option.
 
-    ![Delete-Template](media/delete-template.png ':size=45%')
+    ![Delete-Template](media/delete-template.png ':size=60%')
 
     > [!NOTE|label:Note]
 The default templates cannot be deleted.
