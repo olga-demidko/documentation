@@ -36,33 +36,34 @@ You can start a scan ONLY if a project is selected. If you do not have any proje
 * From the **Integrations** dropdown list, select a specific repository where you want to get the scan reports.
 
 3. In the <u>**Scan Targets** tab</u>, do the following:
-* In the **Discovery Types** field, select one of the following ways your application attack surface should be mapped (depending on your subscription) – Crawler, Recording (HAR) or Open API: 
-  * **Crawler** – This is the simplest option. Simply enter a URL (target host) to scan the whole or a part of the specified application. The crawler will map the entire application attack surface automatically.
+* In the **Discovery Types** field, select one of the following ways your application attack surface should be mapped (depending on your subscription) – Crawler, Recording (HAR) or Open API: <br>
 
-    To scan only specific parts of your application or add multiple hosts, click  ![plus-dark](media/plus-dark.png ':size=3%') at the right side of the **Targets** section .<br> In this case, only the specified sections of the application and everything downstream from them will be scanned. 
+__Crawler –__ This is the simplest option. Simply enter a URL (target host) to scan the whole or a part of the specified application. The crawler will map the entire application attack surface automatically.
+
+To scan only specific parts of your application or add multiple hosts, click  ![plus-dark](media/plus-dark.png ':size=3%') at the right side of the **Targets** section .<br> In this case, only the specified sections of the application and everything downstream from them will be scanned. 
    
-    Note that some hosts may be unreachable or unauthorized for a direct scan from the cloud. If a host cannot be reached by the engine, select a running Repeater for the scan in the **Network Settings** section. If a host is unauthorized for a direct scan from the cloud, either select a running Repeater for the scan or add a `.nex` file to the host root directory (read more information [here](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=defining-the-hosts-authorized-for-scanning)).<br> 
+Note that some hosts may be unreachable or unauthorized for a direct scan from the cloud. If a host cannot be reached by the engine, select a running Repeater for the scan in the **Network Settings** section. If a host is unauthorized for a direct scan from the cloud, either select a running Repeater for the scan or add a `.nex` file to the host root directory (read more information [here](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=defining-the-hosts-authorized-for-scanning)).<br> 
     
-    ![Crawler-settings](media/crawler.png ':size=45%')
+![Crawler-settings](media/crawler.png ':size=45%')
     
-    See [Scanning a website with a crawler](/guide/np-web-ui/scanning/discovery-types/crawler.md) for detailed information.
+See [Scanning a website with a crawler](/guide/np-web-ui/scanning/discovery-types/crawler.md) for detailed information.
 
 
-   * **Recording (HAR)** – Use a pre-recorded session of your application (HAR file), which has been created either manually or automatically (using QA tools, such as Selenium to scan your application). This discovery type enables you to define the scope of a scan and store login information in order to scan areas in your application that require authentication. 
+   **Recording (HAR) –** Use a pre-recorded session of your application (HAR file), which has been created either manually or automatically (using QA tools, such as Selenium to scan your application). This discovery type enables you to define the scope of a scan and store login information in order to scan areas in your application that require authentication. 
   
-    See [Creating a HAR File](/guide/np-web-ui/scanning/discovery-types/create-har.md) to learn how to create a HAR file.
+See [Creating a HAR File](/guide/np-web-ui/scanning/discovery-types/create-har.md) to learn how to create a HAR file.
 
-    Note that some hosts may be unreachable or unauthorized for a direct scan from the cloud. If a host cannot be reached by the engine, select a running Repeater for the scan in the **Network Settings** section. If a host is unauthorized for a direct scan from the cloud, either select a running Repeater for the scan or add a `.nex` file to the host root directory (read more information [here](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=defining-the-hosts-authorized-for-scanning)).
+Note that some hosts may be unreachable or unauthorized for a direct scan from the cloud. If a host cannot be reached by the engine, select a running Repeater for the scan in the **Network Settings** section. If a host is unauthorized for a direct scan from the cloud, either select a running Repeater for the scan or add a `.nex` file to the host root directory (read more information [here](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=defining-the-hosts-authorized-for-scanning)).
 
-    ![Recording](media/recording-har.png ':size=45%')
+![Recording](media/recording-har.png ':size=45%')
 
-     See [Scanning a website with a HAR file](/guide/np-web-ui/scanning/discovery-types/har.md) for detailed information.<br>
+ See [Scanning a website with a HAR file](/guide/np-web-ui/scanning/discovery-types/har.md) for detailed information.<br>
 
 
   >[!TIP|label:Pro Tip]
   To enjoy both full automation and deeper attack surface analysis, you can combine **Crawling** and **Recording (HAR)** in a single scan!
 
-* **Open API** – Use an `*.yml` file to scan APIs. See [Scanning API endpoints](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
+**Open API –** Use an `*.yml` file to scan APIs. See [Scanning API endpoints](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
 
  ![Recording](media/api-scan.png ':size=45%')
 
