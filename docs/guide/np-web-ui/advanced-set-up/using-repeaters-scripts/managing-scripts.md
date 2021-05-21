@@ -1,7 +1,7 @@
 # Managing Repeater Scripts
 The Repeater Scripts allow you to add, change or compute some part of a scan request before it is dispatched to the target. 
 
-The [nexploit.app](https://nexploit.app/) enables you to manage the Repeater scripts in the **Repeaters** section of the Dashboard:
+[Nexploit.app](https://nexploit.app/) enables you to manage the Repeater scripts in the **Repeaters** section of the Dashboard:
 * [Creating a Script](#Creating-a-Script)
 * [Displaying the Scripts List](#Displaying-the-Scripts-List) 
 * [Editing a Script](#Editing-a-Script)
@@ -12,7 +12,7 @@ The [nexploit.app](https://nexploit.app/) enables you to manage the Repeater scr
 To create a script, follow these steps:
 1. In the **Repeaters** section, click **<> Repeater Scripts** in the upper right corner.
 
-    ![Reapeaters-scripts](../media/repeaters-scripts/repeaters-scripts.png ':size=45%')
+![Reapeaters-scripts](../media/repeaters-scripts/repeaters-scripts.png ':size=60%')
 
 2. In the upper left corner, click **+ New Repeater Script**.
 3. In the script dialog box, do the following:
@@ -22,12 +22,12 @@ To create a script, follow these steps:
     >[!NOTE|label:Note]
     The code example given in this field shows how to write a script for calculating a hash message authentication code (HMAC) value.
 
-  ![script-code](../media/repeaters-scripts/script-code.png ':size=45%')
+![script-code](../media/repeaters-scripts/script-code.png ':size=60%')
 
 ## Displaying the Scripts List
 All the created scripts are displayed in the **AVAILABLE SCRIPTS** section on the **Scripts** page.
 
-   ![available-scripts](../media/repeaters-scripts/available-scripts.png ':size=45%')
+![available-scripts](../media/repeaters-scripts/available-scripts.png ':size=60%')
 
 In this section, you can use the following options:
 * To quickly find a certain script, enter its name, description or ID in the search field in the upper right corner.
@@ -39,7 +39,7 @@ To edit a specific script, do the following:
 1. In the **AVAILABLE SCRIPTS** section, select the script you want to change.
 2. Click ![dots-icon](../media/repeaters-scripts/dots-icon.png ':size=2%') next to the selected script, and then select **Edit**.
 
- ![edit-script](../media/repeaters-scripts/edit-script.png ':size=45%')
+![edit-script](../media/repeaters-scripts/edit-script.png ':size=60%')
 
 3. In the script dialog box, add any changes you need, and then click **Update**.
 
@@ -48,7 +48,7 @@ To delete a specific script, do the following:
 1. In the **AVAILABLE SCRIPTS** section, select the script you want to delete.
 2. Click ![dots-icon](../media/repeaters-scripts/dots-icon.png ':size=2%') next to the selected script, and then select **Delete**.
 
- ![script-delete](../media/repeaters-scripts/script-delete.png ':size=45%')
+![script-delete](../media/repeaters-scripts/script-delete.png ':size=60%')
 
 ## Loading a Script to a Repeater 
 To load a script to a specific Repeater, do the following:
@@ -56,18 +56,19 @@ To load a script to a specific Repeater, do the following:
 2. From the list of available Repeaters, select the one you need.
 3. Click ![dots-icon](../media/repeaters-scripts/dots-icon.png ':size=2%') next to the selected Repeater, and then select **Edit**.
 
- ![edit-script](../media/edit.png ':size=45%')
+![edit-script](../media/edit.png ':size=60%')
 
   In the dialog box, do the following:<br>
   a) Select the type of the script coverage:
-    * **Single global script** - applied for the requests that should cover all the target hosts. 
-    * **Host-specific script** - applied for the requests that aim at only one specific host.
-    >[!NOTE|label:Note]
-    If you have loaded a local script using the Nexploit CLI, loading remote scripts from the cloud is disabled automatically.   
- 
-  ![scripts-type](../media/repeaters-scripts/scripts-type.png ':size=30%')
+  * **Single global script** - applied for the requests that should cover all the target hosts. 
+  * **Host-specific script** - applied for the requests that aim at only one specific host.<br>
 
-  b) From the dropdown list, select the script you want to connect, and then click Update.<br>
+> [!NOTE|label:Note]
+If you have loaded a local script using the Nexploit CLI, loading remote scripts from the cloud is disabled automatically.
+ 
+![scripts-type](../media/repeaters-scripts/scripts-type.png ':size=35%')
+
+b) From the dropdown list, select the script you want to connect, and then click Update.<br>
   The uploaded script will be then added to the scan request executed via the specified Repeater.
 
-  ![select-script](../media/repeaters-scripts/select-script.png ':size=30%')
+![select-script](../media/repeaters-scripts/select-script.png ':size=35%')
