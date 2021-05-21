@@ -15,7 +15,7 @@ Nexploit supports the following versions of the API schemas: Swagger 2+, OpenAPI
 
     ![extra-headers](../media/extra-headers.png ':size=60%')
 
-4. Select the API schema file to scan. You can either upload a file from your computer by clicking ![Clip-Button](../media/clip.png ':size=3%') and then filling in the field to the left, or import a file from a link by clicking ![Link-Button](../media/link.png ':size=3%') and then pasting a link in the field to the left.
+4. Select the file with a schema to scan. You can either upload a file from your computer by clicking ![Clip-Button](../media/clip.png ':size=3%') or from the Nexploit storage by clicking ![history-Button](../media/history-icon.png ':size=3%'). You can also import a schema from a cloud by specifying the relative URL.
 
     ![upload-file](../media/upload-file.png ':size=60%')
 
