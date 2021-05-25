@@ -28,7 +28,7 @@
 
     * **API endpoints via schema -** Use an *.yml file to scan APIs. See [Scanning API endpoints](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
 
-    ![standard-api](media/standard-api.png ':size=60%')
+    ![standard-api](media/standard-API.png ':size=60%')
 
 2. From the **Repeater** dropdown list, select a Repeater (local agent) to connect it to the scan. The Repeater is created in the **Repeaters** tab and serves as a request-proxy between Nexploit and the target hosted on a local network.  See [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md) for more information.
 
