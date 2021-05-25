@@ -14,11 +14,11 @@ The form authentication type is set by default when you create an authentication
 
     ![my-authentications](../media/my-authentications.png ':size=45%')
 
-3. On the **My Authentications** page, click ![plus-icon](../media/plus-icon.png ':size=2%') next to **AUTHENTICATION**.
+3. On the **My Authentications** page, click **+ New Authentication**.
 
     ![auth-plus](../media/auth-plus.png ':size=45%')
 
-4. On the **CREATE & TEST AUTHENTICATION** popup, complete the fields of the following configuration sections.
+4. In the **CREATE & TEST AUTHENTICATION** dialog box, complete the fields of the following configuration sections.
 
 #### Authentication Details 
 

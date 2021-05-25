@@ -1,7 +1,9 @@
 # 🔛 Initializing a Repeater
 ```nexploit-cli repeater [options]``` initializes a local Repeater process. When a scan is connected to such a Repeater, all the scan requests are pulled from the cloud through the Repeater to the local target of the scan.
 
-A Repeater enables you to run Nexploit scans on a local compiled application, without exposing your ports externally. This means that you can scan an application without having to deploy the application or to generate external reports.
+The Repeater enables you to run the Nexploit scans on a local compiled application, without exposing your ports externally. This means that you can scan an application without having to deploy it or to generate external reports.
+
+The Repeater relies on the supported versions of the Nexploit CLI. For example, if you have already connected a Repeater, you cannot connect another Repeater with the same ID but a different CLI version. In this case, you first need to install the latest version of the Nexploit CLI and then procceed with the connection.   
 
 For details about how the Repeater works, see [On-Prem Agent Repeater (Agent) Deployment](guide/introduction/deployment-options.md#on-premises-repeater-agent).
 
