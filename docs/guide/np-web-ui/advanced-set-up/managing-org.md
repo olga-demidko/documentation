@@ -12,14 +12,14 @@ The **Organization** option enables Nexploit administrators to manage organizati
 ## Displaying the Organization Dashboard
 To view your organization dashboard, in the left pane, select the **Organization** option. 
 
-![Dashboard](media/dashboard.png ':size=67%')
+![Dashboard](media/dashboard.png ':size=60%')
 
 ## Configuring Two-Factor Authentication Policy
 You can require that all users in your organization use two-factor authentication (2FA). Before applying this policy, we recommend giving your users prior notice so that they have time to enable 2FA for their accounts. 
 
 To apply 2FA to user accounts, select the relevant checkbox in the **ORGANIZATION SETTINGS** section.
 
-![2FA](media/2fa.png ':size=45%')
+![2FA](media/2fa.png ':size=60%')
 
 An administrator can see the 2FA status of each user in the organization in the **MEMBERS** section.
 >[!NOTE|label:Note]
@@ -32,7 +32,7 @@ As a precaution, Nexploit only allows hosts that are in the authorized list defi
 To add a target host to the authorized list of hosts, follow these steps:
 1. Add a `.nex` file to your application root directory. To obtain this file, click the `.nex` link at the bottom of the **ORGANIZATION SETTINGS** section.
 
-    ![Get-Nex-File](media/get-nex-file.png ':size=45%')
+![Get-Nex-File](media/get-nex-file.png ':size=60%')
 
 2. Save this file in a convenient place and then put it in your application root directory. 
 
@@ -44,7 +44,7 @@ You can reuse this file as many times as needed.
 ## Viewing Your Organization Plan
 The organization **PLAN DETAILS** section displays information about your Nexploit account, for example total storage for your organization, number of engines and the plan expiration date. 
 
-![Plan-Details](media/plan-details.png ':size=45%')
+![Plan-Details](media/plan-details.png ':size=60%')
 
 ## Managing Users (Members)
 You can manage the users in your organization: 
@@ -56,12 +56,12 @@ You can manage the users in your organization:
 To add a user, follow these steps:
 1. In the upper-right corner of the **MEMBERS** section, click **Invite Member**.
 
-    ![Add-User](media/new-user-fullscreen.png ':size=45%')
+![Add-User](media/new-user-fullscreen.png ':size=60%')
 
 
 2. Update the user’s information and role in the organization. 
 
-    ![Add-User-Prompt](media/new-user-prompt.png ':size=30%')
+![Add-User-Prompt](media/new-user-prompt.png ':size=35%')
 
 You can assign one of the following roles to the user: 
 * **User –** Has access to scans.
@@ -83,7 +83,7 @@ A user’s profile allows you to view the following information:
 
 To view a user’s profile, in the **MEMBERS** section, select the user you want to view the information about.
 
-![view-profile](media/view-profile.png ':size=45%')
+![view-profile](media/view-profile.png ':size=60%')
 
 
 ### Deleting a User
@@ -92,7 +92,7 @@ To delete a user, follow these steps:
 
 2. Click ![Remove-Button](media/remove-button.png ':size=3%') at the top of the screen.
 
-    ![Remove-User](media/remove-user.png ':size=45%')
+![Remove-User](media/remove-user.png ':size=60%')
 
 3. In the dialog box, click **OK** to confirm the deletion.
 
@@ -105,11 +105,11 @@ You can perform the following operations to manage user groups in your organizat
 To create a new group, follow these steps: 
 1. In the upper-right corner of the **GROUPS** section, click **New Group**.
 
-    ![New-Group](media/new-group.png ':size=45%')
+![New-Group](media/new-group.png ':size=60%')
 
 2. Fill in the details of the group, define the scope of access permissions assigned to the users of this group (integrations, concurrent scans limit) and add members (users) to the group.
 
-    ![New-Group-Form](media/new-group-form.png ':size=45%')
+![New-Group-Form](media/new-group-form.png ':size=60%')
 
 3. In the upper right corner, click **Create**.
 
@@ -120,7 +120,7 @@ To add or remove a user from a group, follow these steps:
  * Select the checkboxes next to the group(s) to which to add that user as a member.
  * Clear the checkboxes next to the group(s) from which to remove that user.
 
-    ![Remove-User-From-Group](media/remove-user-from-group.png ':size=45%')
+![Remove-User-From-Group](media/remove-user-from-group.png ':size=60%')
 
 
 ## Managing User’s Roles
@@ -140,20 +140,20 @@ Only the Admin and Owner default roles allow to create and manage custom roles. 
 To create a custom role with specific permissions, follow these steps:
 1. In the upper-right corner of the **ROLES** section, click **+ New Role**.
 
-    ![create-role](media/create-role.png ':size=45%')
+![create-role](media/create-role.png ':size=60%')
 
 2. In the **Create Role** dialog box, do the following:
 
-    ![create-role-](media/create-role-popup.png ':size=30%')
+![create-role-](media/create-role-popup.png ':size=35%')
 
-    a.  In the **Name** field, enter a role name.<p>
-    b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>
-    c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-roles/overview.md).<br>
-    The list of scopes available for selection depends on your role. You cannot select the roles you do not have access to (such scopes are grayed out).<p>
-    d. Click **Create**.<br>
-    The created role is added to the end of the list. Please switch to another list page or set an extended number of items to be shown on a page to view the recent custom roles.
+a.  In the **Name** field, enter a role name.<p>
+b. _(Optional)_. In the **Description** field, enter a short description of the permissions that a user assigned to this role will be granted.<p>
+c. Select the access scopes for the role. You can find more information about each scope at [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-roles/overview.md).<br>
+The list of scopes available for selection depends on your role. You cannot select the roles you do not have access to (such scopes are grayed out).<p>
+d. Click **Create**.<br>
+The created role is added to the end of the list. Please switch to another list page or set an extended number of items to be shown on a page to view the recent custom roles.
 
-   ![custom-role](media/custom-role.png ':size=45%') 
+![custom-role](media/custom-role.png ':size=60%') 
 
 ### Editing a Custom Role
 
@@ -165,11 +165,11 @@ The default roles are read-only, you cannot edit or delete them.
 To edit a custom role, do the following:
 1. Click ![dots-icon](media/dots-button.png ':size=2%') next to the role you want to edit, and then select **Edit**.
 
- ![edit-role](media/edit-role.png ':size=45%')
+![edit-role](media/edit-role.png ':size=60%')
 
 2. In the **Edit Role** dialog box, make changes to the role and click **Save**.
 
-    ![edit-role-popup](media/edit-role-popup.png ':size=30%')
+![edit-role-popup](media/edit-role-popup.png ':size=35%')
 
 
 ### Deleting a Custom Role
@@ -182,7 +182,7 @@ To delete a custom role, do the following:
     >[!WARNING|label:Important]
 The users assigned to the role that you have deleted automatically lose their permissions and become Guests.
 
-  ![delete-role](media/delete-role.png ':size=45%')
+![delete-role](media/delete-role.png ':size=60%')
 
 
 ## Managing Organization API/CLI Authentication Tokens
@@ -191,11 +191,12 @@ On the **Organization** page, you can obtain and manage authentication tokens (a
 To create a new API/CLI authentication token (API key), follow these steps:
 1. Go to the **MANAGE YOUR ORGANIZATION API KEYS** section and click **+ New API key** .
 
-    ![New-API-Key](media/new-api-key.png ':size=45%')
+![New-API-Key](media/new-api-key.png ':size=60%')
 
 2. Assign the API key a name, select which scope(s) of access to allow it and which type of actions (such as read or write) it is permitted to perform. 
 
-    ![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=30%')
+![New-API-Key-Prompt](media/new-api-key-prompt.png ':size=35%')
 
 3. Click **Create**.
-
+    On the popup, copy the generated key and save it to a safe place since as soon as you navigate away from this popup, you will not be able to restore this key.<br>
+    The created keys without the entire values are listed in the **MANAGE YOUR ORGANIZATION API KEYS** section .

@@ -6,7 +6,7 @@ Nexploit can crawl your web application to define the attack surface. This optio
 
 You can scan either the whole application or its parts. To scan only specific parts of your application, click ![plus-dark](../media/plus-dark.png ':size=3%') at the right side of the **Targets** section to add multiple URLs. In this case, only the specified sections of the application and everything downstream from them will be scanned.
 
-![Crawler-settings](../media/crawler.png ':size=45%')
+![Crawler-settings](../media/crawler.png ':size=60%')
 
 >[!WARNING|label:Important]
  To ensure complete coverage of the scan, you should configure an authentication object so that the crawler can reach the authenticated parts of the target application. See [Managing Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) for detailed information. 

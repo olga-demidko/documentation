@@ -13,4 +13,4 @@ You can apply either the DAST or Fuzzer module, as well as all the discovery typ
 1. In the **Application Settings** tab, select **Authentication object**.
 2. From the **Authentication** dropdown list, select the required object.
 
-    ![select-auth-object](media/select-auth-object.png ':size=45%') 
+    ![select-auth-object](media/select-auth-object.png ':size=60%') 

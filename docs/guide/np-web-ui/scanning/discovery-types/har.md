@@ -6,7 +6,7 @@ You can use a pre-recorded session of a user interaction with the target applica
 
 You can create a HAR file either manually or automatically (using QA tools, such as Selenium). See [Creating a HAR File](/guide/np-web-ui/scanning/discovery-types/create-har.md) to record an interaction session manually.  
 
-![Recording](../media/recording-har.png ':size=45%')
+![Recording](../media/recording-har.png ':size=60%')
 
 >[!WARNING|label:Important]
  To ensure complete coverage of the scan, you should configure an authentication object so that the Nexploit engine can reach the authenticated parts of the target application. See [Managing Your Authentications](/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications.md) for detailed information. 

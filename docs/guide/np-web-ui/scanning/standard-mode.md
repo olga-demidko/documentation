@@ -1,20 +1,34 @@
 # Standard Mode
-1. On the **NEW SCAN** popup, select the **Standard** tab to create a scan with minimal settings.
+1. In the **NEW SCAN** dialog box, select the **Standard** tab to create a scan with minimal settings.
 2. From the **Scan Targets** dropdown list, select one of the following:
-    * _(Default)_ **Website via automatic crawling** - This is the simplest option. Simply enter a URL (target host) to scan the whole or a part of the specified application. To scan only specific parts of your application, click ![plus-dark](media/plus-dark.png ':size=3%') at the right side of the **Targets** section to add multiple URLs. See [Scanning with a Crawler](/guide/np-web-ui/scanning/discovery-types/crawler.md) for detailed information.
+    * _(Default)_ **Website via automatic crawling -** This is the simplest option. Simply enter a URL (target host) to scan the whole or a part of the specified application. To scan only specific parts of your application or add multiple hosts, click ![plus-dark](media/plus-dark.png ':size=3%') at the right side of the **Targets** section. 
+    
+    Note that some hosts may be unreachable or unauthorized for a direct scan from the cloud:
+      - If a host cannot be reached by the engine, select a running Repeater for the scan in the section below.
+      - If a host is unauthorized for a direct scan from the cloud, either select a running Repeater for the scan or add a `.nex` file to the host root directory (read more information [here](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=defining-the-hosts-authorized-for-scanning)).<br> 
+    
+    See [Scanning a website with a crawler](/guide/np-web-ui/scanning/discovery-types/crawler.md) for detailed information.
 
-    ![standard-crawler](media/standard-crawler.png ':size=45%')
+    ![standard-crawler](media/standard-crawler.png ':size=60%')
 
-    * **Website via recorded session (HAR file)** - Use a pre-recorded session of your interaction with the application (HAR file), which has been created either manually or automatically (using QA tools, such as Selenium to scan your application). This discovery type enables you to define the scope of a scan and ensures complete coverage of the attack surface . See [Scanning with a HAR](/guide/np-web-ui/scanning/discovery-types/har.md) for detailed information.
+    * **Website via recorded session (HAR file) -** Use a pre-recorded session of your interaction with the application (HAR file), which has been created either manually or automatically (using QA tools, such as Selenium to scan your application). This discovery type enables you to define the scope of a scan and ensures complete coverage of the attack surface.
+    
+    See [Creating a HAR File](/guide/np-web-ui/scanning/discovery-types/create-har.md) to learn how to create a HAR file.
 
-    ![standard-har](media/standard-har.png ':size=45%')
+    Note that some hosts may be unreachable or unauthorized for a direct scan from the cloud:
+      - If a host cannot be reached by the engine, select a running Repeater for the scan in the section below.
+      - If a host is unauthorized for a direct scan from the cloud, either select a running Repeater for the scan or add a `.nex` file to the host root directory (read more information [here](https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-org?id=defining-the-hosts-authorized-for-scanning)).<br> 
+
+     See [Scanning a website with a HAR file](/guide/np-web-ui/scanning/discovery-types/har.md) for detailed information.
+
+    ![standard-har](media/standard-har.png ':size=60%')
 
   >[!TIP|label:Pro Tip]
   To enjoy both full automation and deeper attack surface analysis, you can combine **Crawling** and **Recording (HAR)** in a single scan.
 
-    * **API endpoints via schema** - Use an *.yml file to scan APIs. See [Scanning an API](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
+    * **API endpoints via schema -** Use an *.yml file to scan APIs. See [Scanning API endpoints](/guide/np-web-ui/scanning/discovery-types/open-api.md) for detailed information.
 
-    ![standard-api](media/standard-api.png ':size=45%')
+    ![standard-api](media/standard-api.png ':size=60%')
 
 2. From the **Repeater** dropdown list, select a Repeater (local agent) to connect it to the scan. The Repeater is created in the **Repeaters** tab and serves as a request-proxy between Nexploit and the target hosted on a local network.  See [On-Premises Repeater (Agent)](/guide/introduction/deployment-onprem.md) for more information.
 

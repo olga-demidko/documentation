@@ -28,7 +28,7 @@ To create an authentication object in Nexploit by using any of the available aut
     > [!TIP|label:Pro Tip]
 Make sure that the **Preserve log** checkbox is selected.
 
-   ![Preserve-log](media/preserve-log.png ':size=45%')
+   ![Preserve-log](media/preserve-log.png ':size=60%')
 
 3. Perform a request by submitting the login call.  
 4. Use the data of the relevant login request when completing the authentication setup fields.
@@ -37,13 +37,3 @@ Make sure that the **Preserve log** checkbox is selected.
   It is important to select the actual login request from the overall list to pass the authentication setup successfully. 
 
 
-
-### Generating Mock Data  <!-- {docsify-ignore} -->
-
-If you need to generate random data to use it during configuration of an authentication object , you can use one of the following  [Faker.js](https://github.com/marak/Faker.js/) data generators:
-
-* `uuid`
-  _Example:_  {{ $faker.datatype.number }}
-
-*  `number`
-  _Example:_  {{ <$faker>.datatype.uuid }}

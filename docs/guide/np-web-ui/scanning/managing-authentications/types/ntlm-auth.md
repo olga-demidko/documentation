@@ -12,11 +12,11 @@ Therefore, you can grant Nexploit access to an NTLM authenticated network you ar
 1. Go to [nexploit.app](https://nexploit.app/scans).
 2. On the default **Scans** page, click **My Authentications**.
 
-    ![my-authentications](../media/my-authentications.png ':size=45%')
+    ![my-authentications](../media/my-authentications.png ':size=60%')
 
 3. On the **My Authentications** page, click **+ New Authentication**.
 
-    ![auth-plus](../media/auth-plus.png ':size=45%')
+    ![auth-plus](../media/auth-plus.png ':size=60%')
 
 4. In the **CREATE & TEST AUTHENTICATION** dialog box, complete the fields of the following configuration sections.
 
@@ -24,7 +24,7 @@ Therefore, you can grant Nexploit access to an NTLM authenticated network you ar
 
 In this section, specify the details of the authentication object you want to create.
 
-![ntlm-details](../media/ntlm-details.png ':size=45%')
+![ntlm-details](../media/ntlm-details.png ':size=60%')
 
 <table id="simple-table">
   <tr>
@@ -55,7 +55,7 @@ In this section, specify the details of the authentication object you want to cr
 
 In this section, set up a valid authentication request to be sent to the end-point API. For that, complete the **Authentication Setup** fields.
 
-![ntlm-setup](../media/ntlm-setup.png ':size=45%')
+![ntlm-setup](../media/ntlm-setup.png ':size=60%')
 
 <table id="simple-table">
   <tr>
@@ -93,7 +93,7 @@ In this section, set up a valid authentication request to be sent to the end-poi
 
 In this section, select the options you want to use during the application scanning to determine if the authentication flow is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication flow fails.
 
-![invalid-response](../media/invalid-response.png ':size=45%') 
+![invalid-response](../media/invalid-response.png ':size=60%') 
 
 <table id="simple-table">
   <tr>
@@ -125,7 +125,7 @@ In this section, select the options you want to use during the application scann
 
 The preliminary testing helps you verify if the authentication object has been configured correctly.
 
-   ![test-authentication](../media/test-authentication.png ':size=45%') 
+   ![test-authentication](../media/test-authentication.png ':size=60%') 
 
 
 <table id="simple-table">
