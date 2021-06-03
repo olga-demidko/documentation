@@ -5,7 +5,7 @@ When creating a personal API key in the user settings, you can predefine access 
 <table id="simple-table">
   <tr>
     <th width="25%"><b>Scope</b></th>
-    <th width="75%"><b>Definition</b></th>
+    <th width="75%"><b>Description</b></th>
   </tr>
   <tr>
     <td width="25%"><code>scans:read </code></td>
@@ -81,7 +81,7 @@ When creating a personal API key in the user settings, you can predefine access 
   <tr>
     <td width="25%"><code>bot</code></td>
     <td width="75%" >
-       Enables communication between a Repeater and the NexPloit engine.   
+       Enables communication between a Repeater and the Nexploit engine.   
     </td>
   </tr>
   <tr>

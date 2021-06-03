@@ -1,4 +1,4 @@
-- Quick Navigation
+
   - [**Welcome**](/ "Documentation Home")
 
   - [**Introducing Nexploit**](guide/introduction/intro.md)
@@ -53,6 +53,7 @@
         - [Personal API Key Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/personal-api-key.md)
         - [Roles Management Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/roles-management.md)
       - [Managing Your Personal Account](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
+      - [Managing Projects](guide/np-web-ui/advanced-set-up/managing-projects.md)
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)
       - [Using Repeater Scripts](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview.md)
         - [Use Cases](guide/np-web-ui/advanced-set-up/using-repeaters-scripts/use-cases.md)  

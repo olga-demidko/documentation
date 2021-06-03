@@ -139,7 +139,7 @@ If a valid AUTH_TOKEN and REPEATER_ID was not added, then the **Unauthorized acc
 Now, when [Starting a New Scan](guide/np-web-ui/scanning/creating-new-scan.md), you can connect the Repeater in the **Network Settings** tab or use the Nexploit CLI to start a scan.
 
 ### Run a New Scan with Docker Startup
-The Docker version of the Repeater comes with a built-in **Nexploit-CLI**, so that additional functions can be added to the docker container to be executed after the Repeater mode is launched.
+The Docker version of the Repeater comes with a built-in **Nexploit CLI**, so that additional functions can be added to the docker container to be executed after the Repeater mode is launched.
 
 Here is an example of a `.yaml` configuration that will launch a new scan as soon as the Docker is running –
 
