@@ -4,7 +4,7 @@ You can view the scanning log of your organization, including completed, pending
 ![scans-list](media/scans-table.png ':size=60%')
 
 ### Managing Scans Table
-You can set the information scope to display in the **MY SCANS** table. Nexploit allows you to select the columns to be visible and adjust their width.
+You can set the information scope to display in the **MY SCANS** table. Nexploit allows you to change the order of the columns, select additional columns to be visible and adjust their width.
 
 By default, the scans table includes the following columns:
 * **Name** - custom name of the scan.
