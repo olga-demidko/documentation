@@ -65,6 +65,10 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 <td><code>--cert</code></td>
 <td>You can load a certificate file per host. The file must contain a certificate in the PKCS or PEM format. <p> <em>Format:</em> <code>--cert "{"hostname": "example.com", "path": "./example.pem", "passphrase": "pa$$word"}"</code><p> <em>Example:</em> <code>nexploit-cli repeater --cert "{\"path\": \"/home/user/example.pfx\", \"hostname\": \"example.com\", \"passphrase\": \"pa$$word\"}"</code><p> The <code>passphrase</code> is optional.</td>
 </tr>
+<tr>
+<td><code>--log-level</code></td>
+<td> Allows setting the level of logs to report. Any logs of a higher level than the one specified are shown.<br> The options to select : 0, 1, 2, 3, 4, "silent", "error", "warn", "notice", "verbose". The default option is 3.</td>
+</tr>
 </table>
 
 
