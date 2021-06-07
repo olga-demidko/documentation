@@ -94,6 +94,7 @@
         - [Slack](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md)
         - [Azure Boards](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/azure.md)
         - [Monday](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/monday.md)
+        - [GitLab Issues](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/gitlab.md)
       - [Adding to Nexploit Project](guide/pipeline-integration/ticketing-systems/adding-to-project/integrating-with-project.md)
     - [**CI Pipelines**](guide/pipeline-integration/pipe-management/pipelines-overview.md)
       - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
