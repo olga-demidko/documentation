@@ -39,12 +39,12 @@ Nexploit enables integrations with the following tools and platforms:
   </tr>
   <tr>
     <td></td>
-     <td> </td>
+     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/gitlab.md">GitLab Boards</a> </td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/jfrog.md">JFrog</a></td>
   </tr>
    <tr>
     <td></td>
-     <td style="text-align:center"><a href="#/guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/gitlab.md">GitLab Issues</a></td>
+     <td></td>
     <td style="text-align:center"><a href="#/guide/pipeline-integration/pipe-management/gitlab/use-cases.md">GitLab CI</a></td>
   </tr>
 </table>
