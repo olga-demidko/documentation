@@ -46,6 +46,11 @@
         - [String Interpolation Syntax](guide/np-web-ui/scanning/managing-authentications/syntax.md)
         - [Authenticated Scanning](guide/np-web-ui/scanning/managing-authentications/authenticated-scanning.md)
         
+    - [Accounting and Billing](guide/np-web-ui/billing/billing-overview.md)
+      - [Managing Your Plan](guide/np-web-ui/billing/manage-plan.md)
+      - [Managing Payment Information](guide/np-web-ui/billing/payment-info.md)
+      - [Managing Payment History](guide/np-web-ui/billing/payment-history.md)
+
     - [Advanced Setup and Configuration](guide/np-web-ui/advanced-set-up.md)
       - [Managing Your Organization](guide/np-web-ui/advanced-set-up/managing-org.md)
       - [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/overview.md)
@@ -94,7 +99,7 @@
         - [Slack](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/slack.md)
         - [Azure Boards](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/azure.md)
         - [Monday](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/monday.md)
-        - [GitLab Issues](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/gitlab.md)
+        - [GitLab Boards](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/gitlab.md)
       - [Adding to Nexploit Project](guide/pipeline-integration/ticketing-systems/adding-to-project/integrating-with-project.md)
     - [**CI Pipelines**](guide/pipeline-integration/pipe-management/pipelines-overview.md)
       - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
