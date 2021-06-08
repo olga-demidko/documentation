@@ -3,7 +3,7 @@ Subscription plans represent different price options for predefined packages of 
 
 You can check the current plan details, payment information and history in the relative sections on the **Accounting and Billing** page. 
 
-### Subsribe to Another Plan 
+### Upgrade a Plan 
 If the current plan capabilities do not meet your scanning needs, you can upgrade the plan by following these steps:
 1. In the upper-right corner of the **Accounting and Billing** page, click **Change Plan**.
 2. From the available plans table, select the plan which better fits your requirements.
