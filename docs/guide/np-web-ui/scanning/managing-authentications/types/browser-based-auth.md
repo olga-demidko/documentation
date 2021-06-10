@@ -110,38 +110,6 @@ In this section, set up a valid authentication request to be sent to the end-poi
 * For some parameters, you can add more fields by clicking ![plus-icon](../media/plus-icon.png ':size=2%') at the upper-right of the relevant setup section. 
 * To delete a parameter, click ![trash-icon](../media/trash-icon.png ':size=3%') next to the relevant **Value** field.
 
- #### Valid Authentication Response
-
- In this section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow passes successfully.
-
-  ![valid-response](../media/valid-response.png ':size=60%')
-
-  <table id="simple-table">
-  <tr>
-    <th width="25%"><b>Field</b></th>
-    <th width="75%"><b>Guidelines</b></th>
-  </tr>
-  <tr>
-    <td width="25%"><b>Detect using response status</b></td>
-    <td width="75%" >
-       Enter the HTTP response that will tell you about the authentication success.
-    </td>
-  </tr>
-  <tr>
-    <td width="25%"><b>Detect using header pattern</b></td>
-    <td width="75%" >
-        Enter the header and Regex pattern that will tell about the authentication success.
-    </td>
-  </tr>
-  <tr>
-    <td width="25%"><b>Detect using body pattern</b></td>
-    <td width="75%" >
-       Enter the body pattern that will tell you about the authentication success.
-    </td>
-  </tr>
-</table>
-
-
 #### Authentication Triggers 
 
 In this section, select the options you want to use during the application scanning to determine if the authentication flow is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication flow fails.

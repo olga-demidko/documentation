@@ -9,6 +9,7 @@ The following options are provided for managing Repeaters:
 * [Diagnosing the Connection to Network Tartgets](#Diagnosing-the-Network-Connection)
 * [Deleting a Repeater](#Deleting-a-Repeater)
 
+<div class="video"><iframe width="560"  src="https://www.youtube.com/embed/ipFkP0od_04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Adding a New Repeater
 To add a new Repeater, follow these steps:
