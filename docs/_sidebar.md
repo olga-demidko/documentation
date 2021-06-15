@@ -84,7 +84,7 @@
   - [**Integrations**](guide/pipeline-integration/pipeline-integration.md)
     - [**SSO**](guide/pipeline-integration/sso/sso-overview.md)
       - [OKTA](guide/pipeline-integration/sso/okta-sso.md)
-      <!-- - [GitHub](guide/pipeline-integration/sso/github-sso.md) -->
+      - [GitHub](guide/pipeline-integration/sso/github-sso.md)
       - [Google](guide/pipeline-integration/sso/google-sso.md)
       - [Azure AD](guide/pipeline-integration/sso/aad-sso.md)
     - [**Ticketing Systems**](guide/pipeline-integration/ticketing-systems/ticketing-overview.md)
@@ -100,11 +100,11 @@
       - [GitHub Actions](guide/pipeline-integration/pipe-management/github-actions.md)
       - [CircleCI](guide/pipeline-integration/pipe-management/circleci.md)
       - [Jenkins](guide/pipeline-integration/pipe-management/jenkins/use-cases.md)
-        <!-- - [Usage Examples](guide/pipeline-integration/pipe-management/jenkins/examples.md) -->
+      - [Usage Examples](guide/pipeline-integration/pipe-management/jenkins/examples.md)
       - [Azure Pipelines](guide/pipeline-integration/pipe-management/azure-devops.md)
       - [Travis CI](guide/pipeline-integration/pipe-management/travis/use-cases.md)
-        <!-- - [Usage Examples](guide/pipeline-integration/pipe-management/travis/examples.md) -->
+      - [Usage Examples](guide/pipeline-integration/pipe-management/travis/examples.md)
       - [JFrog](guide/pipeline-integration/pipe-management/jfrog.md)
       - [GitLab](guide/pipeline-integration/pipe-management/gitlab/use-cases.md)
-        <!-- - [Usage Examples](guide/pipeline-integration/pipe-management/gitlab/examples.md) -->
+      - [Usage Examples](guide/pipeline-integration/pipe-management/gitlab/examples.md)
 
