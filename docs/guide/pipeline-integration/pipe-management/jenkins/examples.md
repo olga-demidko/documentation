@@ -243,7 +243,7 @@ kill -9 $PID_REPEATER
 exit $RESULT;
 ```
 
-##### **STEP 6 -  View the  Results**
+##### **STEP 5 -  View the  Results**
 To view the reports on the detected issues, go to the [nexploit.app](https://nexploit.app).
 
 <!-- tabs:end -->
