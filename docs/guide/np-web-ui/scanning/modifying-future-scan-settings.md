@@ -1,7 +1,7 @@
 # Modifying Future Scan Settings
 By default, the next runs of all scheduled and retested scans are executed with the initial settings defined during creation of the scans.
 You can modify the scan settings for futher runs by folowing these steps:
-1. Go to the **Scans** page.
+1. In the left pane, select the **Scans** option to display the scans list.
 2. Click ![Dots](media/dots-button.png ':size=2%') next to the scan the settings of which you want to edit.
 3. From the drop-down list, select **Edit**.
 
