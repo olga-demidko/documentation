@@ -1,20 +1,22 @@
 # ℹ Command Language Syntax
-Nexploit CLI accepts a wide variety of configuration arguments. You can run ```nexploit-cli --help``` command for comprehensive documentation. Configuration arguments in the command line must be passed after the program command that Nexploit CLI is executing.
+Nexploit CLI accepts a wide variety of configuration arguments. You can run ```nexploit-cli --help``` command for comprehensive documentation. The configuration options in the command line must be passed after the program command that Nexploit CLI is executing.
+
 ```bash
-nexploit-cli command_name required_arg [optional_arg] [options]Copy to clipboardErrorCopied
+ nexploit-cli.exe <command> [options] [<file | scan>]
 ```
 * Most commands and some options have aliases. Aliases are shown in the syntax statement for each command.
-* Option names are prefixed with a double dash (--). Option aliases are prefixed with a single dash (-). Arguments are not prefixed. For example –\
+* Option names are prefixed with a double dash (--). Option aliases are prefixed with a single dash (-). Arguments are not prefixed. For example:
+
 ```bash
-  nexploit-cli scan:stop --token my-jwt-authentication-token my-scan-idCopy to clipboardErrorCopied
+  nexploit-cli scan:stop --token my-jwt-authentication-token
 ```
-* Support is provided for an array of values of a specific argument, separated by a space. For example –\
+* Support is provided for an array of values of a specific argument, separated by a space. For example:
+
 ```bash
   nexploit-cli scan:run
   --token my-jwt-authentication-token
+  --name scan-name
   --crawler target-url
-  --param path query body
-  --test default_login_location dom_xss sqli
 ```
 Nexploit CLI provides multiple global options that can affect the behavior of each command, as follows:
 
