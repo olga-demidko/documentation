@@ -1,5 +1,5 @@
 # 🚨 Checking Scan Status
-```nexploit-cli scan:polling [options] <scan>``` configures ongoing polling of a scan's status and helps you follow its progress during CI/CD flows.
+```nexploit-cli scan:polling [options] <scan>``` configures ongoing polling of a scan status and helps you follow its progress during CI/CD flows.
 
 After a scan’s launch, it frequently checks the scan's status. If the scan finds at least of one issue of medium severity, Nexploit CLI finishes with exit code 50.
 
@@ -20,15 +20,15 @@ After a scan’s launch, it frequently checks the scan's status. If the scan fin
 
 <table id="simple-table">
 <tr>
-<th width="30%"><strong>Option</strong></th>
+<th width="34%"><strong>Option</strong></th>
 <th><strong>Description</strong></th>
 </tr>
 <tr>
-<td><code>--token my-jwt-authentication-token</code></td>
+<td><code>--token=apiKey</code>, <br><code>-t=apiKey</code></td>
 <td>The unique identifier used to authenticate a user. The token (API key) can be issued in your organization’s dashboard.</td>
 </tr>
 <tr>
-<td><code>--breakpoint=any / medium_issue / high_issue</code></td>
+<td><code>--breakpoint=any/ medium_issue/high_issue</code>,<br><code>-b=any/medium_issue/high_issue</code></td>
 <td>A conditional breakpoint that finishes the process with exit code 50 only after fulfilling the predefined condition. The breakpoint option allows you to follow the fail-fast principle when polling the scan results.<br><br> <strong>Default:</strong> <code>--breakpoint any</code></td>
 </tr>
 <tr>
@@ -40,7 +40,7 @@ After a scan’s launch, it frequently checks the scan's status. If the scan fin
 <td>The maximum time allowed for polling to end normally. For example, 60, 2min, 10h or 7d. A numeric value is interpreted in milliseconds.</td>
 </tr>
 <tr>
-<td><code>--api=ApiDomain</code></td>
-<td>Set the API endpoint domain, for VPC, use: <code>--api https://private-domain.nexploit.app</code> <br><br><strong>Default:</strong> <code>--api https://nexploit.app</code></td>
+<td><code>--api=clusterUrl</code></td>
+<td><b><i>(Deprecated)</i></b>. Set the API endpoint domain, for VPC, use: <code>--api https://private-domain.nexploit.app</code> <br><br><strong>Default:</strong> <code>--api https://nexploit.app</code></td>
 </tr>
 </table>
