@@ -1,11 +1,13 @@
 # Managing Scan Templates
 A scan template enables you to save and reuse a set of scan settings so that you can start another scan more quickly. Nexploit provides the following default scan templates:
 
+* **OWASP Top 10 (2017)** – The engine only runs the tests for the vulnerabilities included into the "OWASP Top 10" list for 2017.
+* **MITRE Top 25 (2019)** – The engine only runs the tests for the vulnerabilities included into the "MITRE Top 25" list for 2019.
+* **MITRE Top 25 (2020)** – The engine only runs the tests for the vulnerabilities included into the "MITRE Top 25" list for 2020.
+* **API Scan** – Predefined tests that are relevant for API targets.
+* **Light Scan** – This is a preconfigured optimized scan, during which the engine automatically determines which tests to run, based on the data types that are detected. Some tests will be skipped in favor of speed.
 * **Deep Scan** – All possible tests are performed during the scan. This is the most thorough scan, which takes the longest time to complete.
-* **Light Scan** – This is a preconfigured optimized scan during which the engine automatically determines which tests to run, based on the data types that are detected. Some tests will be skipped in favor of speed.
-* **Passive Scan** - The engine selects only host-based passive tests to be run.
-* **API Scanning** – Predefined tests that are relevant for API targets.
-
+* **Passive Scan** – The engine selects only host-based passive tests to be run.
 
 The following section provides guidelines for the following options:
 * [Displaying Scan Templates](#Displaying-Scan-Templates)
