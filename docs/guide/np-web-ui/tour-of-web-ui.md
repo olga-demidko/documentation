@@ -42,6 +42,14 @@ The following is a quick tour of the options in the Nexploit left side pane:
   </tr>
   <tr>
     <td width="25%">
+    <img src="guide/np-web-ui/scanning/media/credit-card.png" width="30" height="20"></img>&nbsp&nbsp&nbsp <b>Accounting and<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Billing </b>
+    </td>
+    <td width="75%" >
+      This option allows you to manage plan subscriptions, payment details and history. For more info see <a href="https://kb.neuralegion.com/#/guide/np-web-ui/advanced-set-up/managing-np-file-storage">Accounting and Billing</a>.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%">
     <img src="guide/np-web-ui/scanning/media/organization.png" width="28" height="30"></img>&nbsp&nbsp&nbsp <b>Organization</b>
     </td>
     <td width="75%" >
