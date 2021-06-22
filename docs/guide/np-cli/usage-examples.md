@@ -8,7 +8,7 @@ Nexploit CLI provides many features in addition to scan control over our API. Th
 This example describes how to scan an API endpoint directly. The scope of the scan, all the possible interactions and parameters are defined in an OpenAPI schema that is uploaded before starting the scan.
 
 #### Prerequisites
-* An active user on [nexploit.app](www.nexploit.app).
+* An active user on [nexploit.app](https://nexploit.app/scans).
 * A Swagger/OpenAPI schema `FILE_PATH`.
 * A valid `AUTH_TOKEN` (API key) with the following scopes: `files:read`, `files:write`, `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 
@@ -43,7 +43,7 @@ This example describes how to scan an API endpoint directly. The scope of the sc
 This example describes how to re-run a previous scan using all the same scan settings and parameters.
 
 #### Prerequisites
-* An active user on [nexploit.app](www.nexploit.app).
+* An active user on [nexploit.app](https://nexploit.app/scans).
 * A previous `SCAN_ID`.
 * A valid `AUTH_TOKEN` (API key) with the following scopes: `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 
@@ -68,7 +68,7 @@ This example describes how to re-run a previous scan using all the same scan set
 This example describes how to run a scan using a local Repeater.
 
 #### Prerequisites
-* An active user on the www.nexploit.app.
+* An active user on [nexploit.app](https://nexploit.app/scans).
 * A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
@@ -108,7 +108,7 @@ The Docker version of Nexploit CLI comes as a preconfigured Repeater container. 
 
 ### Setup
 #### Prerequisites
-* An active user on [nexploit.app](www.nexploit.app).
+* An active user on [nexploit.app](https://nexploit.app/scans).
 * You must have Docker Compose installed.
 * A valid `AUTH_TOKEN` (API key) with the `bot` scope . You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
@@ -144,7 +144,7 @@ The Docker version of the Repeater comes with a built-in **Nexploit CLI**, so th
 Here is an example of a `.yaml` configuration that will launch a new scan as soon as the Docker is running –
 
 #### Prerequisites
-* An active user on [nexploit.app](www.nexploit.app).
+* An active user on [nexploit.app](https://nexploit.app/scans).
 * You must have Docker Compose installed.
 * A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans:run`, `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.

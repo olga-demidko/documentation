@@ -45,8 +45,13 @@
         - [NTLM Authentication](guide/np-web-ui/scanning/managing-authentications/types/ntlm-auth.md)
         - [String Interpolation Syntax](guide/np-web-ui/scanning/managing-authentications/syntax.md)
         - [Authenticated Scanning](guide/np-web-ui/scanning/managing-authentications/authenticated-scanning.md)
-        
-     - [Advanced Setup and Configuration](guide/np-web-ui/advanced-set-up.md)
+
+    - [Accounting and Billing](guide/np-web-ui/billing/overview.md)
+      - [Managing Your Plan](guide/np-web-ui/billing/manage-plan.md)
+      - [Managing Payment Information](guide/np-web-ui/billing/payment-info.md)
+      - [Managing Payment History](guide/np-web-ui/billing/payment-history.md)
+  
+    - [Advanced Setup and Configuration](guide/np-web-ui/advanced-set-up.md)
       - [Managing Your Organization](guide/np-web-ui/advanced-set-up/managing-org.md)
       - [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/overview.md)
         - [Organization API Key Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/org-api-key.md)
