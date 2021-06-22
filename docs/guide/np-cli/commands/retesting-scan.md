@@ -22,12 +22,12 @@
         <th><strong>Description</strong></th>
     </tr>
     <tr>
-        <td><code>--token my-jwt-authentication-token</code></td>
+        <td><code>--token=apiKey</code>,<br><code>-t=apiKey</code></td>
         <td>The unique identifier used to authenticate a user. The token (API key) can be issued in your organization’s dashboard.</td>
     </tr>
     <tr>
-        <td><code>--api=ApiDomain</code></td>
-        <td>Set the API endpoint domain. For VPC, use <code>--api https://private-domain.nexploit.app</code>.<p>
+        <td><code>--api=clusterUrl</code></td>
+        <td><b><i>(Deprecated)</i></b>. Set the API endpoint domain. For VPC, use <code>--api https://private-domain.nexploit.app</code>.<p>
 <b>Default:</b> <code>--api https://nexploit.app</code> </td>
     </tr>
 </table>
