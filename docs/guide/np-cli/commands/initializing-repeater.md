@@ -22,8 +22,8 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 <th><strong>Description</strong></th>
 </tr>
 <tr>
-<td><code>--id=repeaterId</code>,<br><code>--agent=repeaterId</code></td>
-<td><b><i>(Deprecated)</i></b>. The ID of an existing Repeater that you want to use.</td>
+<td><code>--id=repeaterId</code>,<br><code>--agent=repeaterId <b><i>(Deprecated)</i></b></code></td>
+<td>The ID of an existing Repeater that you want to use.</td>
 </tr>
 <tr>
 <td><code>--token=apiKey</code>,<br><code>-t=apiKey</code></td>

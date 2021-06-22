@@ -1,13 +1,13 @@
 # 🚨 Checking Scan Status
 ```nexploit-cli scan:polling [options] <scan>``` configures ongoing polling of a scan status and helps you follow its progress during CI/CD flows.
 
-After a scan’s launch, it frequently checks the scan's status. If the scan finds at least of one issue of medium severity, Nexploit CLI finishes with exit code 50.
+After a scan launches, it frequently checks the scan status. If the scan finds at least of one issue of medium severity, Nexploit CLI finishes with exit code 50.
 
 ## Arguments
 
 <table id="simple-table">
     <tr>
-        <th width="30%"><strong>Argument</strong></th>
+        <th width="34%"><strong>Argument</strong></th>
         <th><strong>Description</strong></th>
     </tr>
     <tr>
