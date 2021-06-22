@@ -6,8 +6,6 @@ The required settings fields are marked with `*`. The tabs which include the req
 
 1. _(Optional)_ In order to make the scanning definition process quicker, in the <u>**Templates** tab</u>, you can select a predefined set of scan settings. Nexploit provides the following types of predefined scan settings:
 
-![Templates](media/templates.png ':size=60%')
-
 * **OWASP Top 10 (2017)** – The engine only runs the tests for the vulnerabilities included into the "OWASP Top 10" list for 2017.
 * **MITRE Top 25 (2019)** – The engine only runs the tests for the vulnerabilities included into the "MITRE Top 25" list for 2019.
 * **MITRE Top 25 (2020)** – The engine only runs the tests for the vulnerabilities included into the "MITRE Top 25" list for 2020.
