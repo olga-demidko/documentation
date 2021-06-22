@@ -13,7 +13,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 <th><strong>Description</strong></th>
 </tr>
 <tr>
-<td><code>-token=apiKey</code>,<br><code>-t=apiKey</code></td>
+<td><code>--token=apiKey</code>,<br><code>-t=apiKey</code></td>
 <td>The unique identifier used to authenticate a user. The token (API key) can be issued in your organization’s dashboard.</td>
 </tr>
 <tr>
@@ -29,9 +29,9 @@ This command enables you to specify one or more discovery strategies. For exampl
 <td >Specifies a list of specific URLs that should be included during crawler discovery.</td>
 </tr>
 <tr>
-<td><code>--repeater=repeaterId</code>, <br><code>--agent=repeaterId </code>
+<td><code>--repeater=repeaterId</code>, <br><code>--agent=repeaterId <b><i>(Deprecated)</i></b> </code>
 </td>
-<td><b><i>(Deprecated)</i></b>. Specifies a list of Repeater UUIDs that should be connected with the scan.</td>
+<td> Specifies a list of Repeater UUIDs that should be connected with the scan.</td>
 </tr>
 <tr>
 <td><code>--smart</code></td>
