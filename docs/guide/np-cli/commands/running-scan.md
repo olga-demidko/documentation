@@ -58,11 +58,11 @@ This command enables you to specify one or more discovery strategies. For exampl
 <td>Specifies a list of relevant tests to execute during a scan.<br>For example, <code>--test default_login_location dom_xss</code>.</td>
 </tr>
 <tr>
-<td><code>--api=clusterUrl</code></td>
-<td><b><i>(Deprecated)</i></b>. Set the API endpoint domain, for VPC, use: <code>--api https://private-domain.nexploit.app</code> <br><br><strong>Default:</strong> <code>--api https://nexploit.app</code></td>
-</tr>
-<tr>
 <td><code>--auth=authObjectID</code>, <br><code>-o=authObjectID</code></td>
 <td>Specifies the ID of the authentication object to be connect to the scan. Find more info about using an authentication object at <a href="#/guide/np-web-ui/scanning/managing-authentications/managing-your-authentications">Manging Your Authentications</a>.</td>
+</tr>
+<tr>
+<td><code>--api=clusterUrl</code></td>
+<td><b><i>(Deprecated)</i></b>. Set the API endpoint domain, for VPC, use: <code>--api https://private-domain.nexploit.app</code> <br><br><strong>Default:</strong> <code>--api https://nexploit.app</code></td>
 </tr>
 </table>

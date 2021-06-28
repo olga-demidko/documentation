@@ -30,10 +30,6 @@ If an archive with that name already exists, the following error message display
 <td>The unique identifier used to authenticate a user. The token (API key) can be issued in your organization's dashboard.</td>
 </tr>
 <tr>
-<td><code>--api=clusterUrl</code></td>
-<td><b><i>(Deprecated)</i></b>. Set the API endpoint domain. For VPC, use <code>--api https://private-domain.nexploit.app</code> <br><br><strong>Default:</strong> <code>--api https://nexploit.app</code></td>
-</tr>
-<tr>
 <td><code>--type=har/openapi/postman</code>,<br> <code>-t=har/openapi/postman</code></td>
 <td>The specification type, which helps determine the best way to parse passed files.<br><br><strong>Default:</strong> <code>--type har</code></td>
 </tr>
@@ -48,5 +44,9 @@ If an archive with that name already exists, the following error message display
 <tr>
 <td><code>--variable=variableName:variableValue</code>,<br><code>-V=variableName:variableValue</code></td>
 <td>Environment variables passed with the Postman file.</td>
+</tr>
+<tr>
+<td><code>--api=clusterUrl</code></td>
+<td><b><i>(Deprecated)</i></b>. Set the API endpoint domain. For VPC, use <code>--api https://private-domain.nexploit.app</code> <br><br><strong>Default:</strong> <code>--api https://nexploit.app</code></td>
 </tr>
 </table>

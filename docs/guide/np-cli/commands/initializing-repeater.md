@@ -30,10 +30,6 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 <td>The unique identifier used to authenticate a user. It can be issued in your organization’s dashboard.</td>
 </tr>
 <tr>
-<td><code>--bus=eventBusUrl</code></td>
-<td><b><i>(Deprecated)</i></b>. Nexploit event bus URL.<br><br><strong>Default:</strong><code>--bus amqps://amq.nexploit.app:5672</code></td>
-</tr>
-<tr>
 <td><code>--header=headerName:headerValue</code>,<br><code>-H=headerName:headerValue</code></td>
 <td>Extra headers to be passed with each request. Also, it can be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="red">Warning:</font></strong> Headers set with this option override the original headers and are set in all requests.</td>
 </tr>
@@ -64,6 +60,10 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 <tr>
 <td><code>--cert=json</code></td>
 <td>You can load a certificate file per host. The file must contain a certificate in the PKCS or PEM format. <p> <em>Format:</em> <code>--cert "{"hostname": "example.com", "path": "./example.pem", "passphrase": "pa$$word"}"</code><p> <em>Example:</em> <code>nexploit-cli repeater --cert "{\"path\": \"/home/user/example.pfx\", \"hostname\": \"example.com\", \"passphrase\": \"pa$$word\"}"</code><p> The <code>passphrase</code> is optional.</td>
+</tr>
+<tr>
+<td><code>--bus=eventBusUrl</code></td>
+<td><b><i>(Deprecated)</i></b>. Nexploit event bus URL.<br><br><strong>Default:</strong><code>--bus amqps://amq.nexploit.app:5672</code></td>
 </tr>
 </table>
 
