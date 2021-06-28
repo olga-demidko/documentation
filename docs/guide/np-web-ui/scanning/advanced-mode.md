@@ -77,6 +77,7 @@ Note that some hosts may be unreachable or unauthorized for a direct scan from t
 
   **Smart scan** – Specify whether to use automatic smart decisions (such as parameter skipping, detection phases and so on) in order to minimize scan time. When this option is turned off, all tests are run on all the parameters, that increases coverage at the expense of scan time.<br>
   **Skip static parameters** – Specify whether to skip static parameters to minimize scan time.<br>
+    **Skip entry points, if response is longer than** – Set the limit to response duration for entry points to minimize scan time. If the specified duration is exceeded, the entrypoint will be skipped. The default value is 1000 ms.<br>
   **Target Parameter Locators** – Specify the URL scope to be scanned, as follows:
    - **URL Path** – The main part of the URL, after the hostname and before the query parameters is used to identify the specific resource in the host that the client wants to access. In some cases (such as API endpoints), it may contain dynamic parameters (for example, object id).
    - **URL Query** – The query parameters string (after the question mark (?) and, if relevant, before the hash sign (#)) is used to provide additional information from the client to the request, such as data to search for in the target resource.
