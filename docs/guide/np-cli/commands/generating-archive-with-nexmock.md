@@ -62,5 +62,13 @@ The command above creates four .HAR files that comply with following pattern: ``
 <td><code>--split=numberPieces</code>,<br> <code>-s=numberPieces</code></td>
 <td>The number of the HAR pieces. Enables you to split a NexMock file into multiple HAR files.<br><br><strong>Default:</strong> <code>--split 1</code></td>
 </tr>
+<tr>
+<td><code>--config=pathToConfig</code></td>
+<td>Specifies the path to the configuration file. By default, the CLI tries to discover the config in <code>package.json</code> in the root directory of your application or a separate file by a specified name in the working directory. For details, see <a href="/#/guide/np-cli/configuration-files.md">Configuration Files</a> for more information.</td>
+</tr>
+<tr>
+<td><code>--log-level<br>=0/1/2/3/4/silent/<br>error/warn/notice/verbose</code></td>
+<td>Allows setting the level of logs to report. Any logs of a higher level than the one specified are shown. The options to select : 0, 1, 2, 3, 4, "silent", "error", "warn", "notice", "verbose".<br><br><strong>Default:</strong> 3</td>
+</tr>
 </table>
 
