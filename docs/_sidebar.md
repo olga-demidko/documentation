@@ -113,3 +113,4 @@
       - [GitLab](guide/pipeline-integration/pipe-management/gitlab/use-cases.md)
          - [Usage Examples](guide/pipeline-integration/pipe-management/gitlab/examples.md)
 
+  - [**Vulnerabilities Guide**](guide/vulnerabilities/overview.md)

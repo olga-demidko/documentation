@@ -1,0 +1,88 @@
+# Remote File Inclusion
+
+Severity: High
+
+<table id="simple-table">
+<tr>
+<th><strong>Details</strong></th>
+</tr>
+<tr>
+<td>Remote File Inclusion is an attack applicable to web applications that dynamically include external files or scripts. When such web applications take user input (URL, parameter value, etc.) and pass them into file include commands, the web application might be tricked into including remote files with malicious code. As a result, the malicious code can be downloaded and executed on the server with the privileges of the current web server user.
+</td>
+</tr>
+</table>
+
+
+
+<table id="simple-table">
+<tr>
+<th><strong>Impact</strong></th>
+</tr>
+<tr>
+<td>This vulnerability allows an attacker to:<br>
+    <ul>
+        <li>Execute an unauthorized code on the server side application</li>
+        <li>Execute an unauthorized code on the client side application</li>
+        <li>Gain sensitive information</li>
+        <li>Crash the server</li>
+        <li>Other dangerous actions</li>
+    </ul>
+</td>
+</tr>
+</table>
+
+
+
+<table id="simple-table">
+<tr>
+<th><strong>Basic example of Remote File Inclusion (PHP)</strong></th>
+</tr>
+<tr>
+<td>Remote File Inclusion is an attack applicable to web applications that dynamically include external files or scripts. When such web applications take user input (URL, parameter value, etc.) and pass them into file include commands, the web application might be tricked into including remote files with malicious code. As a result, the malicious code can be downloaded and executed on the server with the privileges of the current web server user.
+</td>
+</tr>
+</table>
+
+
+
+<table id="simple-table">
+<tr>
+<th><strong>Location</strong></th>
+</tr>
+<tr>
+<td>
+    <ul>
+        <li>The issue can be found in the <b>source code</b> on the <b>server side</b>.</li>
+        <li>The issue can be found in the <b>source code</b> on the <b>client side</b>.</li>
+    </ul>
+</td>
+</tr>
+</table>
+
+
+
+<table id="simple-table">
+<tr>
+<th><strong>Remedy suggestions</strong></th>
+</tr>
+<tr>
+<td>
+    <ul>
+        <li>The most effective solution is to avoid passing user-submitted input to any file system / framework API.</li>
+        <li>If you have a limited number of the allowed files to include, all of them can be stored as corresponding records in long time storage (for example, database) with specific identifiers. Such identifiers can be used as the request parameters to identify and include only allowed files.</li>
+        <li>If it is not possible to list the allowed files, and user input cannot be avoided, ensure that the supplied values are valid. Sanitize the input by creating a list of trusted files. Use the “whitelist” approach.</li>
+    </ul>
+</td>
+</tr>
+</table>
+
+<table id="simple-table">
+<tr>
+<th><strong>Classifications</strong></th>
+</tr>
+<tr>
+<td>
+PCI v3.2-, CAPEC-193, CWE-98, HIPAA-98, ISO27001-A.14.2.5, WASC-5, OWASP 2013-A1, OWASP 2017-A1, CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L
+</td>
+</tr>
+</table>
