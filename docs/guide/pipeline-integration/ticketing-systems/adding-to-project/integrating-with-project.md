@@ -7,7 +7,7 @@ Only the users with the **Admin** and **Owner** roles have access to integrate a
 
 ### Prerequisites <!-- {docsify-ignore} -->
 * You are an active user on [nexploit.app](https://nexploit.app/).
-* The Nexploit is connected to your ticketing systems with the repositories you want to add to a certain project.
+* Nexploit is connected to your ticketing systems with the repositories you want to add to a certain project.
 
     ![ticketing-list](media/ticketing-list.png ':size=60%')
 
@@ -34,7 +34,21 @@ Only the users with the **Admin** and **Owner** roles have access to integrate a
 
  ![project-selection](media/project-selection.png ':size=45%')
 
-3. Once you complete the projects integration configuration, click **Close** at the bottom of the dialog box.
+3. Once you complete the projects integration configuration, click **Close** at the bottom of the dialog box.<br>
+The associated repositories will be displayed in the **TICKETING SETTINGS** section on the **Project Settings** page.
+
+#### Filter the Severity Level of Issues to be Opened in Integrated Services <!-- {docsify-ignore} -->
+
+You can select a certain severity level of issues (findings) to be sent to a repository/channel associated with your Nexploit project. For example, if you set the high severity level for Monday integration, then only the detected issues of high severity will open tickets on your Monday board. 
+
+>[!NOTE|label:Note]
+The option to filter issue severity is only available to the users whose roles include the `integrations.repos:manage` access scope. For more information, see [Managing Access Scopes](/guide/np-web-ui/advanced-setup/managing-scopes/roles-management.md).
+
+1. In the left pane, select **Projects**.
+2. Click ![dots-button](media/icon-button.png ':size=2%') next to the project which is integrated with the required ticketing service, and then select **Settings**.
+3. In the **TICKETING SETTINGS** section, use the **Issue severity** drop-down menu to filter the issues that will be sent to the associated repository.
+
+    ![issue-severity](media/issue-severity.png ':size=60%')
 
 #### Select Repositories for a New Scan <!-- {docsify-ignore} -->
 
