@@ -13,19 +13,19 @@ The browser-based form authentication is only applicable to the `application/x-w
 1. Go to [nexploit.app](https://nexploit.app/scans).
 2. On the default **Scans** page, click **My Authentications**.
 
-    ![my-authentications](../media/my-authentications.png ':size=45%')
+    ![my-authentications](../media/my-authentications.png ':size=60%')
 
-3. On the **My Authentications** page, click ![plus-icon](../media/plus-icon.png ':size=2%') next to **AUTHENTICATION**.
+3. On the **My Authentications** page, click **+ New Authentication**.
 
-    ![auth-plus](../media/auth-plus.png ':size=45%')
+    ![auth-plus](../media/auth-plus.png ':size=60%')
 
-4. On the **CREATE & TEST AUTHENTICATION** popup, complete the fields of the following configuration sections.
+4. In the **CREATE & TEST AUTHENTICATION** dialog box, complete the fields of the following configuration sections.
 
 #### Authentication Details 
 
 In this section, specify the details of the authentication object you want to create.
 
-![browser-auth-name](../media/browser-auth-name.png ':size=45%')
+![browser-auth-name](../media/browser-auth-name.png ':size=60%')
 
 <table id="simple-table">
   <tr>
@@ -56,7 +56,7 @@ In this section, specify the details of the authentication object you want to cr
 
 In this section, set up a valid authentication request to be sent to the end-point API. For that, complete the **Authentication Setup** fields.
 
-![browser-auth-setup](../media/browser-auth-setup.png ':size=45%')
+![browser-auth-setup](../media/browser-auth-setup.png ':size=60%')
 
 <table id="simple-table">
   <tr>
@@ -110,43 +110,11 @@ In this section, set up a valid authentication request to be sent to the end-poi
 * For some parameters, you can add more fields by clicking ![plus-icon](../media/plus-icon.png ':size=2%') at the upper-right of the relevant setup section. 
 * To delete a parameter, click ![trash-icon](../media/trash-icon.png ':size=3%') next to the relevant **Value** field.
 
- #### Valid Authentication Response
-
- In this section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow passes successfully.
-
-  ![valid-response](../media/valid-response.png ':size=45%')
-
-  <table id="simple-table">
-  <tr>
-    <th width="25%"><b>Field</b></th>
-    <th width="75%"><b>Guidelines</b></th>
-  </tr>
-  <tr>
-    <td width="25%"><b>Detect using response status</b></td>
-    <td width="75%" >
-       Enter the HTTP response that will tell you about the authentication success.
-    </td>
-  </tr>
-  <tr>
-    <td width="25%"><b>Detect using header pattern</b></td>
-    <td width="75%" >
-        Enter the header and Regex pattern that will tell about the authentication success.
-    </td>
-  </tr>
-  <tr>
-    <td width="25%"><b>Detect using body pattern</b></td>
-    <td width="75%" >
-       Enter the body pattern that will tell you about the authentication success.
-    </td>
-  </tr>
-</table>
-
-
 #### Authentication Triggers 
 
 In this section, select the options you want to use during the application scanning to determine if the authentication flow is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication flow fails.
 
-![invalid-response](../media/invalid-response.png ':size=45%') 
+![invalid-response](../media/invalid-response.png ':size=60%') 
 
 <table id="simple-table">
   <tr>
@@ -178,7 +146,7 @@ In this section, select the options you want to use during the application scann
 
 The preliminary testing helps you verify if the authentication object has been configured correctly.
 
-   ![test-authentication](../media/test-authentication.png ':size=45%') 
+   ![test-authentication](../media/test-authentication.png ':size=60%') 
 
 
 <table id="simple-table">
@@ -237,12 +205,13 @@ The preliminary testing helps you verify if the authentication object has been c
 
 Once you have completed the **Valid Session Tester** fields, click **Test Authentication**.
 
- * A valid authentication object returns three success messages indicated in the relevant  **Test Results** sections: 
-     *   **Test Authentication Triggers**
-     *   **Authentication call**
-     *   **Access Protected Resource**
+ * A valid authentication object returns four success messages indicated in the relevant  **Test Results** sections: 
+     *   **Test Authentication Triggers** provides the test request and response data.
+     *   **Authentication call (fillForm)** provides a screenshot of the form filled by the engine.
+     *   **Authentication call(submitForm)** provides a screenshot of the authenticated page after a successful login.
+     *   **Access Protected Resource** provides the test request and response data.
 
-  ![test-results](../media/auth-results.png ':size=45%') 
+  ![test-results-bb](../media/test-results-bb.png ':size=45%') 
 
 In this case, you can save the configured object and add it to your scans.
 

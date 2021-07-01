@@ -8,12 +8,12 @@ In addition, this command has the ability to split NexMock files into multiple H
 
 For example:
 ```bash
-nexploit-cli archive:generate
---output archive.har
---target url-tested-application
---header "Authorization: Bearer my-jwt-authentication-token"
---split 4
-.nexmockCopy to clipboardErrorCopied
+nexploit-cli archive:generate                                  \
+--output archive.har                                           \
+--target url-tested-application                                \
+--header "Authorization: Bearer my-jwt-authentication-token"   \
+--split 4                                                      \
+.nexmock                                                       \
 ```
 The command above creates four .HAR files that comply with following pattern: ```<basename>(_<number>)?.<extension>```. For example, `archive.har`, `archive_2.har` and so on.
 
@@ -21,7 +21,7 @@ The command above creates four .HAR files that comply with following pattern: ``
 
 <table id="simple-table">
     <tr>
-        <th width="30%"><strong>Argument</strong></th>
+        <th width="35%"><strong>Argument</strong></th>
         <th><strong>Description</strong></th>
     </tr>
     <tr>
@@ -34,19 +34,20 @@ The command above creates four .HAR files that comply with following pattern: ``
 
 <table id=simple-table>
 <tr>
-<th width="30%"><strong>Option</strong></th>
+<th width="35%"><strong>Option</strong></th>
 <th><strong>Description</strong></th>
 </tr>
 <tr>
-<td><code>--output=newArchivePath</code>,<br> <code>-f=newArchivePath</code></td>
+<td><code>--output=newArchivePath</code>, <br><code>-f=newArchivePath</code></td>
 <td>The path where the new archives are created, relative to the new workspace root.</td>
 </tr>
 <tr>
-<td><code>--target=hostnameOrIp</code>,<br> <code>-T=hostnameOrIp</code></td>
+<td><code>-target=hostnameOrIp</code>, <br><code>-T=hostnameOrIp</code></td>
 <td>The target hostname or IP address.</td>
 </tr>
 <tr>
-<td><code>--header=extraHeader</code>,<br> <code>-H=extraHeader</code></td>
+<td><code>--header=headerName:headerValue</code>,<br><code>-H=headerName:headerValue</code>
+</td>
 <td>Extra headers to be passed with the NexMock file, which can also be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="red">Warning:</font></strong> Headers set with this option override the archive headers and are set in all requests.</td>
 </tr>
 <tr>
@@ -58,8 +59,16 @@ The command above creates four .HAR files that comply with following pattern: ``
 <td>The time to wait for a server to send response headers (and start the response body) before aborting the request.<br><br><strong>Default:</strong> <code>--timeout 5000</code></td>
 </tr>
 <tr>
-<td><code>--split=numberPieces</code>, <code>-s=numberPieces</code></td>
+<td><code>--split=numberPieces</code>,<br> <code>-s=numberPieces</code></td>
 <td>The number of the HAR pieces. Enables you to split a NexMock file into multiple HAR files.<br><br><strong>Default:</strong> <code>--split 1</code></td>
+</tr>
+<tr>
+<td><code>--config=pathToConfig</code></td>
+<td>Specifies the path to the configuration file. By default, the CLI tries to discover the config in <code>package.json</code> in the root directory of your application or a separate file by a specified name in the working directory. For details, see <a href="/#/guide/np-cli/configuration-files.md">Configuration Files</a> for more information.</td>
+</tr>
+<tr>
+<td><code>--log-level<br>=0/1/2/3/4/silent/<br>error/warn/notice/verbose</code></td>
+<td>Allows setting the level of logs to report. Any logs of a higher level than the one specified are shown. The options to select : 0, 1, 2, 3, 4, "silent", "error", "warn", "notice", "verbose".<br><br><strong>Default:</strong> 3</td>
 </tr>
 </table>
 

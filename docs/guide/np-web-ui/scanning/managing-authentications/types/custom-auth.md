@@ -10,19 +10,19 @@ If you need to create a custom authentication flow consisting of multiple stages
 1. Go to [nexploit.app](https://nexploit.app/scans).
 2. On the default **Scans** page, click **My Authentications**.
 
-  ![my-authentications](../media/my-authentications.png ':size=45%')
+  ![my-authentications](../media/my-authentications.png ':size=60%')
 
-3. On the **My Authentications** page, click ![plus-icon](../media/plus-icon.png ':size=2%') next to **AUTHENTICATION**.
+3. On the **My Authentications** page, click **+ New Authentication**.
 
-  ![auth-plus](../media/auth-plus.png ':size=45%')
+  ![auth-plus](../media/auth-plus.png ':size=60%')
 
-4. On the **CREATE & TEST AUTHENTICATION** popup, complete the fields of the following configuration sections.
+4. In the **CREATE & TEST AUTHENTICATION** dialog box, complete the fields of the following configuration sections.
 
 #### Authentication Details
 
 In this section, specify the details of the authentication object you want to create.
 
-  ![custom-auth](../media/custom-auth-details.png ':size=45%')
+  ![custom-auth](../media/custom-auth-details.png ':size=60%')
 
 <table id="simple-table">
   <tr>
@@ -55,13 +55,13 @@ In this section, build the authentication flow. You can create a single-stage fl
 
 Start the setup with creating the first stage. In the **Name** field, enter the stage name that can be used further for creation of interpolation expressions. 
 
-![stage-name](../media/stage-name.png ':size=45%')
+![stage-name](../media/stage-name.png ':size=60%')
 
 #### Request 
 
 In this section, set up a valid authentication request to be sent to the end-point API. For that, complete the **Authentication Setup** fields.
 
-   ![custom-request](../media/custom-request.png ':size=45%')
+   ![custom-request](../media/custom-request.png ':size=60%')
 
 
 <table id="simple-table">
@@ -112,7 +112,7 @@ In this section, set up a valid authentication request to be sent to the end-poi
 
 In this section, select the options you want to use during the application scanning to determine that the authenticated resource has been reached. The options define how the application responds in case a full authentication flow passes successfully.
 
- ![valid-response](../media/custom-valid-response.png ':size=45%')
+ ![valid-response](../media/custom-valid-response.png ':size=60%')
 
   <table id="simple-table">
   <tr>
@@ -145,7 +145,7 @@ To add another stage required for authentication, click **+ ADD ANOTHER STAGE**.
 
 In this section, specify the values to be appended to each request sent to an authenticated resource.
 
-![custom-auth-request](../media/custom-auth-request.png ':size=45%') 
+![custom-auth-request](../media/custom-auth-request.png ':size=60%') 
 
 <table id="simple-table">
   <tr>
@@ -188,7 +188,7 @@ In this section, specify the values to be appended to each request sent to an au
 
 In this section, select the options you want to use during the application scanning to determine if the authentication flow is no longer valid and the authenticated resources cannot be reached. The options define how the application responds in case the authentication flow fails.
 
-![invalid-response](../media/invalid-response.png ':size=45%') 
+![invalid-response](../media/invalid-response.png ':size=60%') 
 
 <table id="simple-table">
   <tr>
@@ -219,7 +219,7 @@ In this section, select the options you want to use during the application scann
 
 The preliminary testing helps you verify if the authentication object has been configured correctly.
 
- ![test-authentication](../media/test-authentication.png ':size=45%') 
+ ![test-authentication](../media/test-authentication.png ':size=60%') 
 
 <table id="simple-table">
   <tr>

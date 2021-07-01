@@ -1,5 +1,7 @@
 # Repeater Scripts Overview
-If you use a Repeater to scan a target, you can manipulate the scan request before dispatching it to the target. Nexploit allows you to create a script that can add, change or compute some part of the request after you apply it for a specific Repeater. You can load a script file to the Repeater which should modify the request using the [nexpoilt.app](https://nexploit.app/scans) or  Nexploit CLI.
+If you use a Repeater to scan a target, you can manipulate the scan request before dispatching it to the target. Nexploit allows you to create a script that can add, change or compute some part of the request after you apply it for a specific Repeater. 
+
+You can load a script file to the Repeater which should modify the request either remotely from [nexpoilt.app](https://nexploit.app/scans) or locally using the relative [Nexploit CLI command](/guide/np-cli/commands/initializing-repeater.md). If you have loaded a local script using the Nexploit CLI, loading remote scripts from the cloud is disabled automatically.   
 
 You can also create and apply the Repeater scripts using the Nexploit API. More information about it is provided on [our API documentation page](https://nexploit.app/api/v1/docs/#/Scripts).
 

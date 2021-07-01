@@ -15,11 +15,11 @@
   </tr>
 </table>
 
-## Use Cases
+## Use Cases <!-- {docsify-ignore} -->
 ### Scanning a Target in a Private Environment
 You can run fast scans of the application which is currently under development within your pipeline. Nexploit allows you to follow the fail-fast principle by interrupting a scan automatically at the first detected vulnerability. Using this option, you are able to quickly and timely find and fix the security issues at the build level without delaying the whole development process.
 
-As the scan target is closed within your pipeline, NexPlot engine cannot access it directly from the cloud. In this case, you can use the [Repeater](/guide/introduction/deployment-onprem.md) (Nexploit local agent) which serves as a request-proxy between Nexploit and the scan target inside your private environment.  You should first create a Repeater on the [nexploit.app](https://nexploit.app), and then connect it to your pipeline using <br> the created Repeater ID. 
+As the scan target is closed within your pipeline, Nexploit engine cannot access it directly from the cloud. In this case, you can use the [Repeater](/guide/introduction/deployment-onprem.md) (Nexploit local agent) which serves as a request-proxy between Nexploit and the scan target inside your private environment.  You should first create a Repeater on the [nexploit.app](https://nexploit.app), and then connect it to your pipeline using the created Repeater ID. 
 
 To run scans directly from your pipeline, you need to install the Nexploit CLI. It provides an easy-to-use interface and multiple [commands](guide/np-cli/command-list.md) you can use in your Jenkins flow. 
 
