@@ -65,7 +65,7 @@ The following example is made up of the steps above and shows how to run a new s
 pipeline {
  agent any
  environment {
-   NEXPLOIT_TOKEN = 'homipid.nexp.5uniztkhd2uiogzedv09cboaiahv7of9'
+   NEXPLOIT_TOKEN = $NEXPLOIT_TOKEN
    }
  tools {nodejs "node"}
  stages {
