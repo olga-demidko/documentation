@@ -81,7 +81,9 @@ This vulnerability allows an attacker to:
         <th><strong>Classifications</strong></th>
     </tr>
 </table>
-PCI v3.2-, CAPEC-193, CWE-98, HIPAA-98, ISO27001-A.14.2.5, WASC-5, OWASP 2013-A1, OWASP 2017-A1, CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L
+
+* CWE-98
+* CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L
 
 <p>
 
