@@ -70,6 +70,11 @@ When creating a custom role to be assigned to a new user, you can predefine acce
     <td width="75%" >
        Allows viewing associated repositories, for example GitHub repositories , Slack channels, or Jira boards.   
     </td>
+    <tr>
+    <td width="25%"><code>integration.repos:manage </code></td>
+    <td width="75%" >
+       Allows filtering the severity level of issues to be opened in integrated services.   
+    </td>
   </tr>
   <tr>
     <td width="25%"><code>repeaters:read </code></td>
