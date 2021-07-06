@@ -1,51 +1,78 @@
 # Reviewing Scan Details
-* To view the details of a scan –
-    1. Select the Scans option in the left pane to display the Scans List. Each scan appears as a single row.
-    2. Click on the row of a scan to display its details.\
-    ![Scans-List](media/scans-list.png ':size=45%')\
-    The following sections of information are displayed about the selected scan –\
-    ![Scan-Info](media/scan-info.png ':size=45%')
-    * [SCAN SUMMARY](#SCAN-SUMMARY)
-    * [SCAN PROGRESS](#SCAN-PROGRESS)
-    * [SITE MAP](#SITE-MAP)
-    * [DISCOVERED ISSUES](#DISCOVERED-ISSUES)
-    * [RESPONSE STATUSES](#RESPONSE-STATUSES)
-    * [TECHNICAL STACK](#TECHNICAL-STACK)
-    * [USER COMMENTS](#USER-COMMENTS-For-a-Scan)
 
-## SCAN SUMMARY
-This section provides a summary of the runtime parameters of the scan, such as the **Modules** and **Discovery type** of the scan, its lapse time and the quantity of entry points, parameters and requests detected so far.\
-![Scan-Summary](media/scan-summary.png ':size=45%')\
+Nexploit allows you to monitor the scan progress, check the setup and runtime parameters, as well as view the scan results. All these options are available for each scan selected on the **Scans** or **Scans History** page. 
+
+The scan details are provided in the following sections:
+* [Scan summary](#scan-summary)
+* [Scan progress](#scan-progress)
+* [Sitemap](#sitemap)
+* [Entry points](#entry-points)
+* [Discovered issues](#discovered-issues)
+* [Response statuses](#response-statuses)
+* [Technical stack](#technical-stack)
+* [User comments](#user-comments)
+
+
+### Scan summary
+This section provides a summary of the runtime parameters of a scan, such as the module and discovery type of the scan, its lapse time, the number of discovered issues and total requests sent.
+
+You can also check the initial settings of the scan in the Settings on create tab.
+
+![Scan-Summary](media/scan-summary.png ':size=40%')
+
 You can enter comments describing the scan at the **USER COMMENTS** section at the bottom of the page.
 
-## SCAN PROGRESS
-This section shows the progress of the scan, how many tests have been completed and how many still remain.\
-![Scan-Progress](media/scan-progress.png ':size=45%')
+### Scan progress
+This section shows the scan progress, how many tests have been completed and how many still remain.
 
-## SITE MAP
-This section shows a map representing the scope of the scan. This site map shows all the parts of the application that Nexploit has identified and scanned.\
-![Site-Map](media/site-map.png ':size=45%')
+You can view the notifications sent by the engine during the scan and download them. Nexploit also provides the option of downloading the engine log in the relative tab.
 
-## DISCOVERED ISSUES
-See [Handling Discovered Issues](guide/np-web-ui/scanning/discovered-issues.md) for description of the discovered issues list, the details of each discovered issue and the options for viewing, downloading, retesting, marking and resolved and assigning an issue to another user.\
-![Discovered-Issues](media/discovered-issues.png ':size=45%')
-* To open a specific issue –
-    1. Click on the relevant group. A list of all the issues of that category is displayed.
-    2. Click on the relevant issue to see the all [issue’s details](guide/np-web-ui/scanning/discovered-issues.md#Reviewing-Discovered-Issue-Details).
+![Scan-Progress](media/scan-progress.png ':size=40%')
 
-## RESPONSE STATUSES
-This section shows all the kinds of responses received by Nexploit got from the application during the scan and the quantity of each. Check this section to determine whether there may be problems with the scan. For example, if the section shows that Nexploit receives almost all 404 responses, it may indicate that Nexploit is being blocked by a WAF, or that there is a problem with authentication (it may have expired).\
-![Response-Statuses](media/response-statuses.png ':size=45%')
+### Sitemap
 
-## TECHNICAL STACK
-This section shows the technical stack that the scan has detected is being used by the application. For example, which programming language is used, the type of database and/or web server, the front-end stack and so on. 
+This section shows a map representing the scope of the scan (attack surface). This sitemap shows all the parts of the application that Nexploit has identified and scanned.
 
-Discovery of the technical stack by Nexploit may demonstrate to you how easily an external entity can discover it. As a result, you may decide to place more protection around the technical stack.
 
-## 	USER COMMENTS – For a Scan
-The section at the bottom of the page enables you to enter comments and notes describing the scan, notes for yourself or notes for other people in the organization. You can format the comment using markdown or using the provided formatting tools. To mention other users in your organization use the @ symbol. 
+### Entry points
 
-After the comment is ready click the **Preview** button to display it or the **Comment** button to post the comment. After a comment has been entered a new section appears at the bottom called **ALL COMMENTS** showing all previously entered comments.\
-![User-Comment](media/user-comment.png ':size=45%')\
-To include this comment in the scans report, check the **Include in report** checkbox under the comment.\
-![Include-Comment-in-Report](media/inc-comment-in-report.png ':size=45%')
+This section shows all entry points discovered and scanned by Nexploit. You can open an overview for each entry point by selecting it from the table. The overview provides the following details:
+
+* Test run against the entrypoint
+* Tested scenarios
+* Parameters
+* Statuses
+* Request
+* Response 
+
+The tested scenarios represent the number of compromising requests sent to the application to reveal the vulnerability. The information on the tested scenarios is provided in the engine log that you can download from the **SCAN PROGRESS** section. 
+
+![Entry-point](media/entry-point.png ':size=60%')
+
+### Discovered issues
+
+This section shows all the issues (vulnerabilities) detected during the scan. All the issues are grouped by issue type. To open the list of issues related to a certain issue type, select the relevant issue type in the **DISCOVERED ISSUES** table.  You can open the report on a specific issue by selecting it from the opened issue list. Each report provides detailed information about the detected issue and the guidelines on how to fix and prevent the issue.
+
+To learn how to read and download the issue report, mark the issue as resolved, or assign the issues to another user, please see [Handling Discovered Issues](/guide/np-web-ui/scanning/discovered-issues.md).  
+
+![Discovered-Issues](media/discovered-issues.png ':size=60%')
+
+### Response statuses
+
+This section shows the statuses of the responses received by Nexploit from the application during the scan, as well as the number of responses per each status. Check this section to determine whether there may be problems with the scan. For example, if the section shows that Nexploit receives mostly 404 responses, it may indicate that Nexploit is being blocked by a WAF, or that there is a problem with authentication (it may have expired).
+
+### Technical stack 
+
+This section shows the technical stack that the scan has detected is being used by the application. For example, which programming language is used, the type of database and/or web server, the front-end stack, and so on.
+
+The discovery of the technical stack by Nexploit may demonstrate to you how easily an external entity can discover it. As a result, you may decide to improve the protection of the technical stack.
+
+### User comments
+
+The section at the bottom of the page enables you to enter comments and notes describing the scan, notes for yourself, or notes for other members of the organization. You can format the comment using markdown or using the provided formatting tools. To mention other users in your organization, use the @ symbol. 
+
+After the comment is ready, click **Preview** to check the final view of the comment or **Comment** to post the comment immediately. After the comment has been posted, a new section called **TOTAL COMMENTS** appears at the bottom of the page. This section shows all comments posted previously.
+
+![User-Comment](media/user-comments.png ':size=60%')
+
+To include this comment in the scan report, select the **Include in report** checkbox under the comment.
