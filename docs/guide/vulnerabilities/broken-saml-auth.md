@@ -12,8 +12,6 @@ The Security Assertion Markup Language (SAML) is an open standard for exchanging
 
  Most SAML SSO security vulnerabilities are introduced by Service Providers (SPs) improperly validating and processing SAML responses received from Identity Providers (IdPs). To build SAML SSO safely and securely in-house requires significant buy-in and investment by teams. If not done right, you expose your application and your customers to potentially huge security risks.
 
-<p>
-
 <table id="simple-table">
     <tr>
         <th><strong>Impact</strong></th>
@@ -25,8 +23,6 @@ This vulnerability allows an attacker to:
 * Bypass Protection Mechanism
 * Bypass Athentication Mechanism
 
-<p>
-
 <table id="simple-table">
     <tr>
         <th><strong>Location</strong></th>
@@ -34,8 +30,6 @@ This vulnerability allows an attacker to:
 </table>
 
 The issue can be found in the **source code** on the **server side**.
-
-<p>
 
 <table id="simple-table">
     <tr>
@@ -85,7 +79,6 @@ It is necessary to implement the authorization and authentication process accord
 * CWE-287
 * CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 
-<p>
 
 <table id="simple-table">
     <tr>
