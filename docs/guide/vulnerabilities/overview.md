@@ -74,6 +74,26 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         <td><a href="#/guide/vulnerabilities/215-improper-assets-management.md">Improper Assets Management</a></td>
     </tr>
     <tr>
+        <td><b>Insecure TLS Configuration</b></td>
+        <td>Tests SSL/TLS ciphers and configurations for vulnerabilities</td>
+        <td><a href="#/guide/vulnerabilities/220-insecure-tls-configuration.md">Insecure TLS Configuration</a></td>
+    </tr>
+   <tr>
+        <td><b>LDAP Injection</b></td>
+        <td>Tests if various application parameters are vulnerable to unauthorized LDAP access </td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/12-ldap-injection.md">LDAP Injection</a></li>
+                <li><a href="#/guide/vulnerabilities/223-ldap-error.md">LDAP Error</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Local File Inclusion (LFI)</b></td>
+        <td>Tests if various application parameters are vulnerable to loading of unauthorized local system resources</td>
+        <td><a href="#/guide/vulnerabilities/28-local-file-inclusion.md">Local File Inclusion (LFI)</a></td>
+    </tr>
+    <tr>
         <td><b>Remote File Inclusion (RFI)</b></td>
         <td>Tests vulnerable parameters for accessing a remote file</td>
         <td><a href="#/guide/vulnerabilities/remote-file-inclusion.md">Remote File Inclusion (RFI)</a></td>
