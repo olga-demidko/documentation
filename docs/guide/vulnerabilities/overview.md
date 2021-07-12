@@ -94,6 +94,36 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         <td><a href="#/guide/vulnerabilities/28-local-file-inclusion.md">Local File Inclusion (LFI)</a></td>
     </tr>
     <tr>
+        <td><b>Exposed AWS S3 Buckets Details<br><i>(Open Buckets)</i></b></td>
+        <td>Tests if exposed AWS S3 links lead to anonymous read access to the bucket</td>
+        <td><a href="#/guide/vulnerabilities/207-open-bucket.md">Open Bucket</a></td>
+    </tr>
+      <tr>
+        <td><b>Exposed Database Details<br><i>(Open Database)</i></b></td>
+        <td>Tests if exposed database connection strings are open to public connections</td>
+         <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/205-open-database.md">Open Database</a></li>
+                <li><a href="#/guide/vulnerabilities/206-open-database.md">Exposed Database Connection String</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>OS Command Injection</b></td>
+        <td>Tests if various application parameters are vulnerable to Operation System (OS) commands injection</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/23-os-command-injection.md">OS Command Injection</a></li>
+                <li><a href="#/guide/vulnerabilities/209-os-command-injection.md">Blind Time Based OS Command Injection</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Prototype Pollution</b></td>
+        <td>Tests if it is possible to inject properties into existing JavaScript objects</td>
+        <td><a href="#/guide/vulnerabilities/217-prototype-pollution.md">Prototype Pollution</a></td>
+    </tr>
+    <tr>
         <td><b>Remote File Inclusion (RFI)</b></td>
         <td>Tests vulnerable parameters for accessing a remote file</td>
         <td><a href="#/guide/vulnerabilities/remote-file-inclusion.md">Remote File Inclusion (RFI)</a></td>

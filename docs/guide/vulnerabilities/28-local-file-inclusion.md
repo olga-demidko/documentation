@@ -33,7 +33,7 @@ Local File Inclusion is an attack applicable to web applications that dynamicall
 https://www.{your_web_site}.com/page?file=contact-form.php
 ```
 2. On the server side, the script exploits the provided parameter using the following code:
-```
+```php
 <?php
 include("pages/" . $_REQUEST['file']);
 ```
