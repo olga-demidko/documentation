@@ -21,17 +21,29 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
      <tr>
         <td><b>Broken SAML Authentication</b></td>
         <td>Tests for secure implementation of SAML authentication in the application</td>
-        <td><a href="#/guide/vulnerabilities/214-broken-saml-auth.md">Broken SAML Authentication</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/214-broken-saml-auth.md">Broken SAML Authentication</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Brute Force Login</b></td>
         <td>Tests for availability of commonly used credentials</td>
-        <td><a href="#/guide/vulnerabilities/204-brute-force-login.md">Brute Force Login</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/204-brute-force-login.md">Brute Force Login</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Common Files Exposure</b></td>
         <td>Tests if common files that should not be accessible are accessible</td>
-        <td><a href="#/guide/vulnerabilities/203-exposed-common-file.md">Exposed Common File</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/203-exposed-common-file.md">Exposed Common File</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Cookie Security Check</b></td>
@@ -66,17 +78,29 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
      <tr>
         <td><b>Default Login Location</b></td>
         <td>Tests if login form location in the target application is easy to guess and accessible</td>
-        <td><a href="#/guide/vulnerabilities/31-default-login-location.md">Default Login Location</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/31-default-login-location.md">Default Login Location</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Improper Assets Management</b></td>
         <td>Tests if older or development versions of API endpoints are exposed and can be used to get unauthorized access to data and privileges</td>
-        <td><a href="#/guide/vulnerabilities/215-improper-assets-management.md">Improper Assets Management</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/215-improper-assets-management.md">Improper Assets Management</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Insecure TLS Configuration</b></td>
         <td>Tests SSL/TLS ciphers and configurations for vulnerabilities</td>
-        <td><a href="#/guide/vulnerabilities/220-insecure-tls-configuration.md">Insecure TLS Configuration</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/220-insecure-tls-configuration.md">Insecure TLS Configuration</a></li>
+            </ul>
+        </td>
     </tr>
    <tr>
         <td><b>LDAP Injection</b></td>
@@ -91,12 +115,20 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
     <tr>
         <td><b>Local File Inclusion (LFI)</b></td>
         <td>Tests if various application parameters are vulnerable to loading of unauthorized local system resources</td>
-        <td><a href="#/guide/vulnerabilities/28-local-file-inclusion.md">Local File Inclusion (LFI)</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/28-local-file-inclusion.md">Local File Inclusion (LFI)</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Exposed AWS S3 Buckets Details<br><i>(Open Buckets)</i></b></td>
         <td>Tests if exposed AWS S3 links lead to anonymous read access to the bucket</td>
-        <td><a href="#/guide/vulnerabilities/207-open-bucket.md">Open Bucket</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/207-open-bucket.md">Open Bucket</a></li>
+            </ul>
+        </td>
     </tr>
       <tr>
         <td><b>Exposed Database Details<br><i>(Open Database)</i></b></td>
@@ -118,14 +150,31 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
             </ul>
         </td>
     </tr>
-     <tr>
+    <tr>
         <td><b>Prototype Pollution</b></td>
         <td>Tests if it is possible to inject properties into existing JavaScript objects</td>
-        <td><a href="#/guide/vulnerabilities/217-prototype-pollution.md">Prototype Pollution</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/217-prototype-pollution.md">Prototype Pollution</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Directory Listing</b></td>
+        <td>Tests if server-side directory listing is possible</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/26-directory-listing.md">Directory Listing</a></li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td><b>Remote File Inclusion (RFI)</b></td>
         <td>Tests vulnerable parameters for accessing a remote file</td>
-        <td><a href="#/guide/vulnerabilities/remote-file-inclusion.md">Remote File Inclusion (RFI)</a></td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/remote-file-inclusion.md">Remote File Inclusion (RFI)</a></li>
+            </ul>
+        </td>
     </tr>
 </table>
