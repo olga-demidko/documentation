@@ -14,7 +14,6 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         <td>
             <ul>
                 <li><a href="#/guide/vulnerabilities/36-broken-jwt-auth.md">Broken JWT Authentication</a></li>
-                <li><a href="#/guide/vulnerabilities/216-jwt-role-bypass.md">JWT Role Bypass</li>
             </ul>
         </td>
     </tr>
@@ -122,20 +121,20 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         </td>
     </tr>
     <tr>
-        <td><b>Exposed AWS S3 Buckets Details<br><i>(Open Buckets)</i></b></td>
+        <td><b>Exposed AWS S3 Buckets Details</b><br><i>(Open Buckets)</i></td>
         <td>Tests if exposed AWS S3 links lead to anonymous read access to the bucket</td>
         <td>
             <ul>
-                <li><a href="#/guide/vulnerabilities/207-open-bucket.md">Open Bucket</a></li>
+                <li><a href="#/guide/vulnerabilities/207-open-bucket.md">Exposed AWS S3 Buckets Details</a></li>
             </ul>
         </td>
     </tr>
       <tr>
-        <td><b>Exposed Database Details<br><i>(Open Database)</i></b></td>
+        <td><b>Exposed Database Details</b><br><i>(Open Database)</i></td>
         <td>Tests if exposed database connection strings are open to public connections</td>
          <td>
             <ul>
-                <li><a href="#/guide/vulnerabilities/205-open-database.md">Open Database</a></li>
+                <li><a href="#/guide/vulnerabilities/205-open-database.md">Exposed Database Details</a></li>
                 <li><a href="#/guide/vulnerabilities/206-open-database.md">Exposed Database Connection String</a></li>
             </ul>
         </td>
@@ -169,11 +168,102 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         </td>
     </tr>
     <tr>
-        <td><b>Remote File Inclusion (RFI)</b></td>
-        <td>Tests vulnerable parameters for accessing a remote file</td>
+        <td><b>Client-Side XSS</b><br><i>(DOM Cross-Site Scripting)</i></td>
+        <td>Tests if various application DOM parameters are vulnerable to JavaScript injections </td>
         <td>
             <ul>
-                <li><a href="#/guide/vulnerabilities/remote-file-inclusion.md">Remote File Inclusion (RFI)</a></li>
+                <li><a href="#/guide/vulnerabilities/2-xss.md">Reflective Cross-site scripting (rXSS)</a></li>
+                <li><a href="#/guide/vulnerabilities/1-xss.md">Persistent Cross-site scripting (pXSS)</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Email Header Injection</b></td>
+        <td>Tests if it is possible to send emails to other addresses through the target application mailing server, which can lead to spam and phishing</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/222-email-header-injection.md">Email Header Injection</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Unrestricted File Upload</b></td>
+        <td>Tests if file upload mechanisms are validated properly and denies upload of malicious content</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/29-unrestricted-file-upload.md">Unrestricted File Upload</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Full Path Disclosure (FPD)</b></td>
+        <td>Tests if various application parameters are vulnerable to exposure of errors that include full webroot path</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/6-full-path-disclosure.md">Full Path Disclosure</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>HTML Injection</b></td>
+        <td>Tests if various application parameters are vulnerable to HTML injection</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/44-html-injection.md">HTML Injection</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Insecure HTTP Method</b></td>
+        <td>Tests enumeration of possible HTTP methods for vulnerabilities</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/43-insecure-http-method.md">Insecure HTTP Method</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Insecure HTTP Method</b></td>
+        <td>Tests enumeration of possible HTTP methods for vulnerabilities</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/43-insecure-http-method.md">Insecure HTTP Method</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Remote File Inclusion (RFI)</b></td>
+        <td>Tests if various application parameters are vulnerable to loading of unauthorized remote system resources</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/17-remote-file-inclusion.md">Remote File Inclusion (RFI)</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Secret Tokens Leak</b></td>
+        <td>Tests for exposure of secret API tokens or keys in the target application</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/61-secret-tokens-leak.md">Secret Tokens Leak</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Server Side Template Injection (SSTI)</b></td>
+        <td>Tests if various application parameters are vulnerable to server-side code execution</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/30-ssti.md">Server Side Template Injection (SSTI)</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Server Side Request Forgery (SSRF)</b></td>
+        <td>Tests if various application parameters are vulnerable to internal resources access</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/39-ssrf.md">Server Side Request Forgery (SSRF)</a></li>
             </ul>
         </td>
     </tr>

