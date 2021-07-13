@@ -81,13 +81,13 @@ When creating an API key in the organization settings, you can predefine access 
   <tr>
     <td width="25%"><code>scim </code></td>
     <td width="75%" >
-       Enables user and group provisioning from ADFS to a NexPloit organization.   
+       Enables user and group provisioning from ADFS to a Nexploit organization.   
     </td>
   </tr>
   <tr>
     <td width="25%"><code>bot</code></td>
     <td width="75%" >
-       Enables communication between a Repeater and the NexPloit engine.   
+       Enables communication between a Repeater and the Nexploit engine.   
     </td>
   </tr>
   <tr>
