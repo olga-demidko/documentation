@@ -195,12 +195,22 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
             </ul>
         </td>
     </tr>
-    <tr>
+        <tr>
         <td><b>Full Path Disclosure (FPD)</b></td>
         <td>Tests if various application parameters are vulnerable to exposure of errors that include full webroot path</td>
         <td>
             <ul>
                 <li><a href="#/guide/vulnerabilities/6-full-path-disclosure.md">Full Path Disclosure</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Headers Security Check</b></td>
+        <td>Tests for proper Security Headers configuration</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/60-misconfigured-headers.md">Misconfigured Security Headers</a></li>
+                 <li><a href="#/guide/vulnerabilities/60-missing-headers.md">Missing Security Headers</a></li>
             </ul>
         </td>
     </tr>
@@ -312,6 +322,51 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         <td>
             <ul>
                 <li><a href="#/guide/vulnerabilities/33-xml-xxe.md">XML External Entity Injection</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Business Constraint Bypass</b></td>
+        <td>Tests if the limitation of number of retrievable items via an API call is configured properly</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/210-business-constraint-bypass.md">Business Constraint Bypass</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Unsafe Date Range</b></td>
+        <td>Tests if date ranges are set and validated properly</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/18-unsafe-date-range.md">Unsafe Date Range</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>User ID Enumeration</b></td>
+        <td>Tests if it is possible to collect valid user ID data by interacring with the target application</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/213-id-enumeration.md">Enumerable Integer-Based ID</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Known JavaScript Vulnerabilities</b></td>
+        <td>Tests for known JavaScript component vulnerabilities</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/200-js-vulnerabilities.md">JavaScript Component with Known Vulnerabilities</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Mass Assignment</b></td>
+        <td>Tests if it is possible to create requests with additional parameters to gain privilege escalation</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/219-mass-assignment.md">Mass Assignment</a></li>
             </ul>
         </td>
     </tr>

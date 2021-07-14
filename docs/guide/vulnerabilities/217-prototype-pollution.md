@@ -69,7 +69,7 @@ Changing the basic method `toString`:<br>
     </tr>
 </table>
 
-* CWE-400
+* CWE-1321
 * CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
 
 <table id="simple-table">
@@ -78,4 +78,5 @@ Changing the basic method `toString`:<br>
     </tr>
 </table>
 
-[https://github.com/Kirill89/prototype-pollution-explained](https://github.com/Kirill89/prototype-pollution-explained)
+* [https://cwe.mitre.org/data/definitions/1321.html](https://cwe.mitre.org/data/definitions/1321.html)
+* [https://github.com/Kirill89/prototype-pollution-explained](https://github.com/Kirill89/prototype-pollution-explained)

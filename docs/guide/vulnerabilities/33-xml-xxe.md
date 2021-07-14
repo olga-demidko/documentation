@@ -97,7 +97,7 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
-* CWE-209
+* CWE-611
 * CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
 
 
@@ -107,5 +107,6 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
+* [https://cwe.mitre.org/data/definitions/611.html](https://cwe.mitre.org/data/definitions/611.html)
 * [https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
 * [https://www.neuralegion.com/what-is-an-xml-external-entity-xxe-injection/](https://www.neuralegion.com/what-is-an-xml-external-entity-xxe-injection/)
