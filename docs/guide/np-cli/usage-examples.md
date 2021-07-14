@@ -76,8 +76,8 @@ This example describes how to run a scan using a local Repeater.
 **Step 1 – Start a Repeater**
 ```bash
   PID_REPEATER=$(nexploit-cli repeater
-  --token=$AUTH_TOKEN
-  --id=b$REPEATER_ID > /dev/null
+  --token $AUTH_TOKEN
+  --id $REPEATER_ID > /dev/null
   & echo $! )
 
   echo "Repeater PID: $PID_REPEATER"
