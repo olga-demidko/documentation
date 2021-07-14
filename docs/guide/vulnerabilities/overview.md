@@ -267,4 +267,52 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>SQL Injection (SQLI)</b></td>
+        <td>SQL Injection tests vulnerable parameters for SQL database access</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/32-sql-injection.md">SQL Injection: Blind Boolean Based</a></li>
+                <li><a href="#/guide/vulnerabilities/27-sql-injection.md">SQL Injection: Blind Time Based</a></li>
+                <li><a href="#/guide/vulnerabilities/3-sql-injection.md">SQL Injection</a></li>
+                <li><a href="#/guide/vulnerabilities/37-sql-injection.md">SQL Database Error Message in Response</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Version Control System Data Leak</b></td>
+        <td>Tests if it is possible to access Version Control System (VCS) resources</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/22-version-control-systems.md">Version Control System Data Leak</a></li>
+            </ul>
+        </td>
+    </tr>
+      <tr>
+        <td><b>Unsafe Redirect</b></td>
+        <td>Tests if various application parameters are vulnerable to injectinon of a malicious link which can redirect a user without validation</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/15-unsafe-redirect.md">Unsafe Redirect</a></li>
+            </ul>
+        </td>
+    </tr>
+     <tr>
+        <td><b>Known WordPress Vulnerabilities</b></td>
+        <td>Tests for known WordPress vulnerabilities and tries to enumerate a list of users</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/201-wordpress.md">WordPress Component with Known Vulnerabilities</a></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>XML External Entity Injection</b></td>
+        <td>Tests if various XML parameters are vulnerable to XML parsing of unauthorized external entities</td>
+        <td>
+            <ul>
+                <li><a href="#/guide/vulnerabilities/33-xml-xxe.md">XML External Entity Injection</a></li>
+            </ul>
+        </td>
+    </tr>
 </table>
