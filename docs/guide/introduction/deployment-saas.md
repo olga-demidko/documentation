@@ -16,8 +16,8 @@ Before scanning, ensure that –
 
 > [!WARNING|label:Important]
 NeuraLegion has the following public static IPs:\
-&nbsp;&nbsp;&nbsp;&nbsp;**U.S. –** **34.228.94.55** and **54.205.119.224**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;**Europe –** **52.215.195.32** and **54.75.37.42**
+&nbsp;&nbsp;&nbsp;&nbsp;**U.S.** – **54.205.119.2245** <br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Europe** – **54.75.37.42**
 
 ## Deployment Options
 Currently, deployment is only possible on AWS. Deployment to other cloud vendors can be added, if needed, for specific scenarios. NeuraLegion fully manages the deployment process for you.
