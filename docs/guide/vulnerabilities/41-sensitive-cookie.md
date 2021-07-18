@@ -80,7 +80,7 @@ Response.Cookies.Add(
     </tr>
 </table>
 
-* CWE-614
+* CWE-1004
 * CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
 
 <table id="simple-table">

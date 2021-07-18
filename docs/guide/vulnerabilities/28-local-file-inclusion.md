@@ -80,7 +80,7 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
-* CWE-90
+* CWE-22
 * CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 
 <table id="simple-table">
