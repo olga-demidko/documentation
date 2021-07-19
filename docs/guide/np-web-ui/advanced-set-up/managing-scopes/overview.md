@@ -4,4 +4,4 @@ For some Nexploit operations and integrations, you will need specific scanning a
 There are three cases when you can select access scopes:
 * [Creating an organization API key](/guide/np-web-ui/advanced-set-up/managing-scopes/org-api-key.md)
 * [Creating a personal API key](/guide/np-web-ui/advanced-set-up/managing-scopes/personal-api-key.md)
-* [Management of user’s roles](/guide/np-web-ui/advanced-set-up/managing-scopes/roles-management.md)
+* [Management of user’s role](/guide/np-web-ui/advanced-set-up/managing-scopes/roles-management.md)

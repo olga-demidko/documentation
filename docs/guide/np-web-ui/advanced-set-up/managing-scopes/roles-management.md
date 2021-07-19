@@ -1,4 +1,4 @@
-# Roles Management Scopes
+# Role Management Scopes
 
 When creating a custom role to be assigned to a new or an existing user, you can predefine access permissions for this role by selecting the relative scopes. The following table describes the permissions each scope provides.   
 
