@@ -1,6 +1,6 @@
 # Exposed Database Connection String
 
-<b>Severity</b>: <b><font color="blue">Low</font></b><br>
+<b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
 <b>Test name</b>: Exposed Database Details
 
 <table id="simple-table">

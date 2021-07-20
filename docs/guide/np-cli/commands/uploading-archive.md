@@ -39,7 +39,7 @@ If an archive with that name already exists, the following error message display
     </tr>
     <tr>
         <td><code>--header=headerName:headerValue</code>,<br><code>-H=headerName:headerValue</code></td>
-        <td>Extra headers to be passed with the OAS/Postman file. Also, it can be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="red">Warning:</font></strong> Headers set with this option override the archive headers and are set in all requests.</td>
+        <td>Extra headers to be passed with the OAS/Postman file. Also, it can be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="#DB1E54">Warning:</font></strong> Headers set with this option override the archive headers and are set in all requests.</td>
     </tr>
     <tr>
         <td><code>--variable=variableName:variableValue</code>,<br><code>-V=variableName:variableValue</code></td>
@@ -63,7 +63,7 @@ If an archive with that name already exists, the following error message display
     </tr>
     <tr>
         <td><code>--proxy=socksProxyUrl</code></td>
-        <td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="blue">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
+        <td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="#1B49D4">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
     </tr>
     <tr>
         <td><code>--api=clusterUrl</code></td>

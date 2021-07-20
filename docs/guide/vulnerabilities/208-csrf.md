@@ -1,6 +1,6 @@
 # Authorized Cross-Site Request Forgery (CSRF)
 
-<b>Severity</b>: <b><font color="orange">Medium</font></b><br>
+<b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
 <b>Test name</b>: Cross-Site Request Forgery (CSRF)
 
 <table id="simple-table">

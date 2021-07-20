@@ -48,7 +48,7 @@ The command above creates four .HAR files that comply with following pattern: ``
 <tr>
 <td><code>--header=headerName:headerValue</code>,<br><code>-H=headerName:headerValue</code>
 </td>
-<td>Extra headers to be passed with the NexMock file, which can also be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="red">Warning:</font></strong> Headers set with this option override the archive headers and are set in all requests.</td>
+<td>Extra headers to be passed with the NexMock file, which can also be used to remove a header by providing a name without content. For example, -H "Host:".<br><br><strong><font color="#DB1E54">Warning:</font></strong> Headers set with this option override the archive headers and are set in all requests.</td>
 </tr>
 <tr>
 <td><code>--pool=size</code>,<br> <code>-p=size</code></td>

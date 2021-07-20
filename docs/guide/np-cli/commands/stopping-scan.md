@@ -43,11 +43,11 @@
     </tr>
     <tr>
         <td><code>--proxy=socksProxyUrl</code></td>
-        <td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="blue">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
+        <td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="#1B49D4">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
     </tr>
     <tr>
         <td><code>--api=clusterUrl</code></td>
         <td><b><i>(Deprecated)</i></b>. Set the API endpoint domain. For VPC, use <code>--api https://private-domain.nexploit.app</code>.<p>
-<b>Default:</b> <code>--api https://nexploit.app</code> </td>
+        <b>Default:</b> <code>--api https://nexploit.app</code> </td>
     </tr>
 </table>

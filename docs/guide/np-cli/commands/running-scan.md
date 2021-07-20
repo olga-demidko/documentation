@@ -39,7 +39,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 </tr>
 <tr>
 <td><code>--param=path/query/fragment/<br>header/body/artifical-fragment/artifical-query</code></td>
-<td>Defines which part of the request to attack (see <a href="#/guide/np-web-ui/scanning/creating-new-scan?id=target-params-locations">here</a> for more details).<br><br> <strong><font color="#0ba9b8">Note:</font></strong> This argument can be passed multiple times in the same command.<br><br><strong>Default:</strong>&nbsp;<code>--parameter body query fragment</code>.</td>
+<td>Defines which part of the request to attack (see <a href="#/guide/np-web-ui/scanning/creating-new-scan?id=target-params-locations">here</a> for more details).<br><br> <strong><font color="#1B49D4">Note:</font></strong> This argument can be passed multiple times in the same command.<br><br><strong>Default:</strong>&nbsp;<code>--parameter body query fragment</code>.</td>
 </tr>
 <tr>
 <td><code>--module=dast/fuzzer</code></td>
@@ -51,7 +51,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 </tr>
 <tr>
 <td><code>--header=headerName:headerValue</code>, <br><code>-H=headerName:headerValue</code></td>
-<td>Extra headers to be passed with the archive file. It can also be used to remove a header by providing a name without content. For example, -H "Host:". <br><br><strong><font color="red">Warning:</font></strong> Headers set with this option override the archive headers and are set in all the requests.</td>
+<td>Extra headers to be passed with the archive file. It can also be used to remove a header by providing a name without content. For example, -H "Host:". <br><br><strong><font color="#DB1E54">Warning:</font></strong> Headers set with this option override the archive headers and are set in all the requests.</td>
 </tr>
 <tr>
 <td><code>--test=testName</code></td>
@@ -79,7 +79,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 </tr>
 <tr>
 <td><code>--proxy=socksProxyUrl</code></td>
-<td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="blue">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
+<td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="1B49D4">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
 </tr>
 <tr>
 <td><code>--api=clusterUrl</code></td>

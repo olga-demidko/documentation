@@ -1,6 +1,6 @@
 # SQL Injection: Blind Boolean Based
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
 <b>Test name</b>: SQL Injection (SQLI)
 
 <table id="simple-table">

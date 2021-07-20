@@ -1,6 +1,6 @@
 # Business Constraint Bypass
 
-<b>Severity</b>: <b><font color="orange">Medium</font></b><br>
+<b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
 <b>Test name</b>: Business Constraint Bypass
 
 <table id="simple-table">

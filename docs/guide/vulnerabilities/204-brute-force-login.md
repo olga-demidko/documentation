@@ -1,6 +1,6 @@
 # Brute Force Login
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
 <b>Test name</b>: Brute Force Login
 
 <table id="simple-table">

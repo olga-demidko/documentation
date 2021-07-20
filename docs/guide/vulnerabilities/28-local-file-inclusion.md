@@ -1,6 +1,6 @@
 # Local File Inclusion (LFI)
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
 <b>Test name</b>: Local File Inclusion (LFI)
 
 <table id="simple-table">
@@ -89,6 +89,7 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
+* [https://cwe.mitre.org/data/definitions/22.html](https://cwe.mitre.org/data/definitions/22.html)
 * [https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion](https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion)
 * [https://www.neuralegion.com/local-file-inclusion-lfi-what-is-lfi-and-how-to-deal-with-it/](https://www.neuralegion.com/local-file-inclusion-lfi-what-is-lfi-and-how-to-deal-with-it/)
 * [https://www.neuralegion.com/blog/local-file-inclusion-lfi/](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)

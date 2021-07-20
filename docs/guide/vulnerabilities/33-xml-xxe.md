@@ -1,6 +1,6 @@
 # XML External Entity Injection
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
 <b>Test name</b>: XML External Entity Injection
 
 <table id="simple-table">

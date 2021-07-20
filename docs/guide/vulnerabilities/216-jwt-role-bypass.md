@@ -1,6 +1,6 @@
 # JWT Role Bypass
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="red">#DB1E54</font></b><br>
 <b>Test name</b>: Broken JWT Authentication
 
 <table id="simple-table">

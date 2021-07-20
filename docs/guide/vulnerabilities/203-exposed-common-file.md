@@ -1,6 +1,6 @@
 # Brute Force Login
 
-<b>Severity</b>: <b><font color="blue">Low</font></b><br>
+<b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
 <b>Test name</b>: Common Files Exposure
 
 <table id="simple-table">

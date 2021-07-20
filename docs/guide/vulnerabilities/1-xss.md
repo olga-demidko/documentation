@@ -1,6 +1,6 @@
 # Persistent Cross-Site Scripting (pXSS)
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
 <b>Test name</b>: Cross-Site Scripting (XSS)
 
 <table id="simple-table">

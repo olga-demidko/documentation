@@ -1,6 +1,6 @@
 # Remote File Inclusion (RFI)
 
-<b>Severity</b>: <b><font color="red">High</font></b><br>
+<b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
 <b>Test name</b>: Remote File Inclusion (RFI)
 
 <table id="simple-table">
@@ -93,5 +93,6 @@ This vulnerability allows an attacker to:
     </tr>
 </table>
 
-* <a href="http://projects.webappsec.org/w/page/13246955/Remote%20File%20Inclusion">http://projects.webappsec.org/w/page/13246955/Remote%20File%20Inclusion</a>
-* <a href="https://en.wikipedia.org/wiki/File_inclusion_vulnerability">https://en.wikipedia.org/wiki/File_inclusion_vulnerability</a>
+* [https://cwe.mitre.org/data/definitions/98.html](https://cwe.mitre.org/data/definitions/98.html)
+* [http://projects.webappsec.org/w/page/13246955/Remote%20File%20Inclusion](http://projects.webappsec.org/w/page/13246955/Remote%20File%20Inclusion)
+* [https://en.wikipedia.org/wiki/File_inclusion_vulnerability](https://en.wikipedia.org/wiki/File_inclusion_vulnerability)

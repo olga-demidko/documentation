@@ -1,6 +1,6 @@
 # Mass Assignment
 
-<b>Severity</b>: <b><font color="orange">Medium</font></b><br>
+<b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
 <b>Test name</b>: Mass Assignment
 
 <table id="simple-table">

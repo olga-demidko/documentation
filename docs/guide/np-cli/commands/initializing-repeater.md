@@ -43,7 +43,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--daemon</code>,<br> <code>-d</code></td>
-<td>Initializes the Repeater as a local daemon service <br><br> <strong><font color="blue">Note:</font></strong> If you run this command while a service is already running, it will first stop &amp; delete the running service, and restarts it with the new repeater settings.<br><br> <strong><font color="blue">Note:</font></strong> Currently supported operating systems include windows (wscm) &amp; Linux (systemd).</td>
+<td>Initializes the Repeater as a local daemon service <br><br> <strong><font color="#1B49D4">Note:</font></strong> If you run this command while a service is already running, it will first stop &amp; delete the running service, and restarts it with the new repeater settings.<br><br> <strong><font color="#1B49D4">Note:</font></strong> Currently supported operating systems include windows (wscm) &amp; Linux (systemd).</td>
 </tr>
 <tr>
 <td><code>--remove-daemon</code>,<br> <code>--remove</code>,<br> <code>--rm</code></td>
@@ -51,7 +51,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--scripts=json</code>, <br><code>-S=json</code></td>
-<td>Loads scripts to the Repeater from a JSON of <code>{ "host": "filepath" }</code>.<br><br><b><font color="blue">Note:</font></b> Wildcards are also supported, for example: <code>--scripts '{"*": "./hmac.js"}'</code> for a global script for all target hosts, or <code>--scripts '{"*.domain.com": "./hmac.js"}'</code> for all target hosts on sub-domains.<br><br>If you have loaded a local script to the Repeater using the relative CLI command, loading remote scripts from <a href="https://nexploit.app/" target="_blank" rel="noopener">nexploit.app</a> is disabled automatically.<br><br>See <a href="#/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview">Repeater Scripts</a> for more information about how the Repeater Scripts work.</td>
+<td>Loads scripts to the Repeater from a JSON of <code>{ "host": "filepath" }</code>.<br><br><b><font color="#1B49D4">Note:</font></b> Wildcards are also supported, for example: <code>--scripts '{"*": "./hmac.js"}'</code> for a global script for all target hosts, or <code>--scripts '{"*.domain.com": "./hmac.js"}'</code> for all target hosts on sub-domains.<br><br>If you have loaded a local script to the Repeater using the relative CLI command, loading remote scripts from <a href="https://nexploit.app/" target="_blank" rel="noopener">nexploit.app</a> is disabled automatically.<br><br>See <a href="#/guide/np-web-ui/advanced-set-up/using-repeaters-scripts/scripts-overview">Repeater Scripts</a> for more information about how the Repeater Scripts work.</td>
 </tr>
 <tr>
 <td><code>--cacert=pathToCACerts</code></td>
@@ -79,7 +79,7 @@ The Repeater requires a working `AUTH_TOKEN` with the scope repeaters:write.
 </tr>
 <tr>
 <td><code>--proxy=socksProxyUrl</code></td>
-<td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="blue">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
+<td>SOCKS URL to proxy all traffic.</code><br><br> <strong><font color="#1B49D4">Note:</font></strong> SOCKS4, SOCKS5, SOCKS4a, SOCKS5h are currently supported. By default, if you specify <code>SOCKS://&lt;URL&gt;</code> , then SOCKS5h is applied.</td>
 </tr>
 <tr>
 <td><code>--bus=eventBusUrl</code></td>
