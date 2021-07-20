@@ -22,7 +22,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 </tr>
 <tr>
 <td><code>--archive=fileId</code>,<br> <code>-a=fileId</code></td>
-<td>The Archive ID, which can be received via the&nbsp;archive:upload&nbsp;command.</td>
+<td>The archive ID, which can be received via the <code>archive:upload</code> command.</td>
 </tr>
 <tr>
 <td><code>--crawler=url</code>, <br><code>-c=url</code></td>
@@ -47,7 +47,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 <td>Allows connecting a ticketing service with an associated repository for a scan. It enables you to get the reports on every detected vulnerability in automatically opened tickets/issues of the associated repository. <p>
 <strong> <font color="blue">Note:</font></strong> You can only connect a ticketing service (system) that was previously integrated with Nexploit on <a href="https://nexploit.app/scans">nexploit.app</a>. Read more about integrating Nexpoloit with ticketing systems <a href="https://kb.neuralegion.com/#/guide/pipeline-integration/ticketing-systems/ticketing-overview">here</a>. <p> <i> Format:</i> <code> -i "service:repository"</code> <br> <i>Example:</i> <code> -i "github:example-app"</code> <br> If you want to connect several repositories for one scan, you can specify them one after another:<code> -i "github:example-app" -i "jira:example-app"</code><p> <strong> <font color="orange">Important:</font> </strong>    <ul>
     <li> To connect a ticketing service and a repository for a scan, the token (API key) that you use for the scan must include the <code>integration.repos:read</code> scope.</li> 
-    <li>You cannot use the <code>--integration</code> option without specifying the <br> <code>--project</code> (see above). Make sure that you connect a repository associated with the specified project.</li>
+    <li>The <code>--integration (-i)</code> parameter cannot be used without a valid <br> <code>--project (-p)</code> parameter (see above). Make sure that you connect a repository associated with the specified project.</li>
 </ul>
 </tr>
 <tr>

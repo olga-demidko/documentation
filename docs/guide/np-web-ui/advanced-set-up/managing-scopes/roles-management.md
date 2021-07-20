@@ -110,7 +110,7 @@ When creating a custom role to be assigned to a new or an existing user, you can
   <tr>
     <td width="25%"><code>org:read</code></td>
     <td width="75%" >
-      Allows viewing basic information about an organization.   
+      Allows viewing basic information about an organization. This scope is required for running a scan. 
     </td>
   </tr>
   <tr>
@@ -146,7 +146,7 @@ When creating a custom role to be assigned to a new or an existing user, you can
   <tr>
     <td width="25%"><code>projects:read</code></td>
     <td width="75%" >
-     Allows displaying available projects.   
+     Allows displaying available projects. This scope is required for running a scan.    
     </td>
   </tr>
   <tr>

@@ -10,7 +10,7 @@ This example describes how to scan an API endpoint directly. The scope of the sc
 #### Prerequisites
 * An active user on [nexploit.app](https://nexploit.app/scans).
 * A Swagger/OpenAPI schema `FILE_PATH`.
-* A valid `AUTH_TOKEN` (API key) with the following scopes: `files:read`, `files:write`, `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `files:read`, `files:write`, `scans`, `org:read`, and `projects:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 
 #### Step-by-step Guide
 **Step 1 – Upload a Schema**
@@ -45,7 +45,7 @@ This example describes how to re-run a previous scan using all the same scan set
 #### Prerequisites
 * An active user on [nexploit.app](https://nexploit.app/scans).
 * A previous `SCAN_ID`.
-* A valid `AUTH_TOKEN` (API key) with the following scopes: `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `scans`, `org:read` and `projects:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 
 #### Step-by-step Guide
 **Step 1 – Re-run a Previous Scan**
@@ -69,7 +69,7 @@ This example describes how to run a scan using a local Repeater.
 
 #### Prerequisites
 * An active user on [nexploit.app](https://nexploit.app/scans).
-* A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans:run` and `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans`, `org:read`, and `projects:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 #### Step-by-step Guide
@@ -110,7 +110,7 @@ The Docker version of Nexploit CLI comes as a preconfigured Repeater container. 
 #### Prerequisites
 * An active user on [nexploit.app](https://nexploit.app/scans).
 * You must have Docker Compose installed.
-* A valid `AUTH_TOKEN` (API key) with the `bot` scope . You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the `bot` scope. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 #### Step-by-step Guide
@@ -146,7 +146,7 @@ Here is an example of a `.yaml` configuration that will launch a new scan as soo
 #### Prerequisites
 * An active user on [nexploit.app](https://nexploit.app/scans).
 * You must have Docker Compose installed.
-* A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans:run`, `scans:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
+* A valid `AUTH_TOKEN` (API key) with the following scopes: `bot`, `scans`, `org:read`, and `projects:read`. You can set up an [organization-level authentication token](guide/np-web-ui/advanced-set-up/managing-org#Managing-Organization-APICLI-Authentication-Tokens) or a [user-level authentication token](guide/np-web-ui/advanced-set-up/managing-personal-account#Managing-Your-Personal-API-Keys-Authentication-Tokens).
 * An active `REPEATER_ID`. See [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters) for more information about handling Repeaters.
 
 ```yml
