@@ -52,9 +52,9 @@ HMACSHA256(
 </table>
 
 This vulnerability allows an attacker to:
-* Gain Privileges or Assume Identity
-* Bypass Protection Mechanism
-* Bypass Athentication Mechanism
+* Gain privileges or assume identity
+* Bypass protection mechanism
+* Bypass athentication mechanism
 
 <table id="simple-table">
     <tr>
@@ -111,4 +111,5 @@ DecodedJWT decodedToken = verifier.verify(token);
     </tr>
 </table>
 
-[https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet_for_Java.html](https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet_for_Java.html)
+* [https://cwe.mitre.org/data/definitions/287.html](https://cwe.mitre.org/data/definitions/287.html)
+* [https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet_for_Java.html](https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet_for_Java.html)

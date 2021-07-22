@@ -154,7 +154,8 @@ This section lists all vulnerabilities (issues) that can be detected by Nexploit
         <td>
             <ul>
                 <li><a href="#/guide/vulnerabilities/60-misconfigured-headers.md">Misconfigured Security Headers</a></li>
-                 <li><a href="#/guide/vulnerabilities/60-missing-headers.md">Missing Security Headers</a></li>
+                <li><a href="#/guide/vulnerabilities/60-missing-headers.md">Missing Security Headers</a></li>
+                <li><a href="#/guide/vulnerabilities/60-insecure-policy-configuration.md">Insecure Content Secure Policy Configuration</a></li>
             </ul>
         </td>
     </tr>

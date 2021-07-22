@@ -17,7 +17,7 @@ A brute-force attack is an attempt of an attacker to discover a password by syst
     </tr>
 </table>
 
-This vulnerability allows an attacker to get access to privileged information.
+This vulnerability allows an attacker to get access to the privileged information.
 
 <table id="simple-table">
     <tr>
@@ -57,5 +57,6 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
+* [https://cwe.mitre.org/data/definitions/307.html](https://cwe.mitre.org/data/definitions/307.html)
 * [https://en.wikipedia.org/wiki/Brute-force_attack](https://en.wikipedia.org/wiki/Brute-force_attack)
 * [https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks](https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks)

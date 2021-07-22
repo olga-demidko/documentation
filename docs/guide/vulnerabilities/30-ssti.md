@@ -17,7 +17,7 @@ Some web applications use template engines to generate HTML pages. Server Side T
     </tr>
 </table>
 
-Server Side Template Injection allows an attacker to:
+This vulnerability allows an attacker to:
 * Gain sensitive information
 * Execute shell commands
 

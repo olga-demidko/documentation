@@ -18,7 +18,7 @@ Mass Assignment vulnerability allows an attacker to modify object properties, wh
     </tr>
 </table>
 
-Mass Assignment vulnerability may lead to:
+This vulnerability may lead to:
 * Privilege escalation. The attacker is able to change permission related properties
 * Data tampering by changing process related properties (for example, total price)
 * Bypass of security mechanisms

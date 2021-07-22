@@ -1,4 +1,4 @@
-# Brute Force Login
+# Exposed Common File
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
 <b>Test name</b>: Common Files Exposure
@@ -19,7 +19,7 @@ That allows an attacker to gain sensitive information and take control over othe
     </tr>
 </table>
 
-Exposed Common File may allow an attacker to:
+This vulnerability allows an attacker to:
 * Get administrative access to a system and manipulate data or manage the account
 * Gain personal information of the system members 
 * Get log information (access log or error log)

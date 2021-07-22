@@ -23,7 +23,7 @@ An attacker may deliver a dangerous URL to a user in different ways, for example
     </tr>
 </table>
 
-A CSRF attack may be executed for the following purposes:
+The CSRF attack may be executed for the following purposes:
 * Send money from one account to another
 * Change a user's password or a secret question
 * Gain administrative privileges

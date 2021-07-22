@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Кнопка</title>
+ </head>
+ <body> 
+  <form>
+   <p><input type="button" value=" Back to tests "></p>
+  </form>
+ </body>
+</html>
+
+
 # Sensitive Cookie Without HttpOnly Flag
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>

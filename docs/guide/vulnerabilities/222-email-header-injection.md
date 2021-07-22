@@ -20,7 +20,7 @@ Email Header Injection allows an attacker to insert additional malicious headers
     </tr>
 </table>
 
-Email Header Injection vulnerability may lead to:
+This vulnerability may lead to:
 * Sending spam emails.
 * Phishing and spoofing attacks. The recipient is made to believe that the email is legitimate. The email usually redirects the victim to a malicious website, which then steals their credentials or infects their computer with malware (via a drive-by-download).
 * Denial of Service if the attacker sends a huge amount of emails, so the SMTP server can be overloaded.

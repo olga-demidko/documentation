@@ -23,8 +23,8 @@ A successful attack can allow the attacker to execute arbitrary HTML and JavaScr
 This vulnerability allows an attacker to:
 * Execute unauthorized code or commands
 * Bypass protection mechanism
-* Read the target application data
-* Deface the target application
+* Read the application data
+* Deface the application
 
 <table id="simple-table">
     <tr>

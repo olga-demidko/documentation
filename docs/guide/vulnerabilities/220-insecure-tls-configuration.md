@@ -23,7 +23,7 @@ TLS supports multiple ciphers, but not all of them ensure a high level of securi
     </tr>
 </table>
 
-A wrong configuration may lead to the following:
+This vulnerability may lead to the following:
 * An attacker may read the contents of traffic (confidentiality)
 * An attacker may modify traffic (integrity)
 * An attacker may replay requests against the server (replay prevention)
@@ -62,6 +62,7 @@ It is necessary to configure the web server to support the actual versions of th
     </tr>
 </table>
 
+* [https://cwe.mitre.org/data/definitions/295.html](https://cwe.mitre.org/data/definitions/295.html)
 * [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
 * [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 * [https://wiki.mozilla.org/Security/Server_Side_TLS](https://wiki.mozilla.org/Security/Server_Side_TLS)

@@ -19,9 +19,9 @@ The Security Assertion Markup Language (SAML) is an open standard for exchanging
 </table>
 
 This vulnerability allows an attacker to:
-* Gain Privileges or Assume Identity
-* Bypass Protection Mechanism
-* Bypass Athentication Mechanism
+* Gain privileges or assume identity
+* Bypass protection mechanism
+* Bypass athentication mechanism
 
 <table id="simple-table">
     <tr>
@@ -86,4 +86,5 @@ It is necessary to implement the authorization and authentication process accord
     </tr>
 </table>
 
-[https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
+* [https://cwe.mitre.org/data/definitions/287.html](https://cwe.mitre.org/data/definitions/287.html)
+* [https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)

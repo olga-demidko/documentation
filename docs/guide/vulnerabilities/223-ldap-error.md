@@ -20,7 +20,7 @@ LDAP Error is the vulnerability type which relies on error messages thrown by th
     </tr>
 </table>
 
-The LDAP injections may lead to the following:
+This vulnerability may lead to the following:
 * Bypass authentication. An attacker can gain access without password checking.
 * Information disclosure. An attacker can gain a list of some resources or users.
 * Attribute disclosure. An attacker can check if an attribute exists.

@@ -20,7 +20,7 @@ When VCS metadata is deployed along with the source code of the web application,
     </tr>
 </table>
 
-Version Control Systems data leak may lead to:
+This vulnerability may lead to:
 * Leakage of sensitive information, such as hard-coded database credentials, API keys, etc.
 * Gaining access to the entire source code of the application. Afterwards, it can be used to find other vulnerabilities which may escalate to more dangerous attacks, which may be unknown to the attacker since the source code was not accessible.
 

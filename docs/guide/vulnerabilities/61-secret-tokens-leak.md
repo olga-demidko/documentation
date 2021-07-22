@@ -22,7 +22,7 @@ Another case is when an attacker decompiles an Android application and recognize
     </tr>
 </table>
 
-Secret Tokens Leak allows the attacker to perform the following:
+This vulnerability allows the attacker to perform the following:
 * Get administrative access to a system and manipulate data or manage the account
 * Create a new privileged user and use it in the future
 * Gain personal information of the system members
@@ -67,5 +67,6 @@ Secret Tokens Leak allows the attacker to perform the following:
     </tr>
 </table>
 
-[https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html)
+* [https://cwe.mitre.org/data/definitions/200.html](https://cwe.mitre.org/data/definitions/200.html)
+* [https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html)
 

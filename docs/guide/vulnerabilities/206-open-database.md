@@ -63,4 +63,5 @@ It is hardly  necessary for applications to disclose database connection strings
     </tr>
 </table>
 
-[https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database](https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database)
+* [https://cwe.mitre.org/data/definitions/284.html](https://cwe.mitre.org/data/definitions/284.html)
+* [https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database](https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database)

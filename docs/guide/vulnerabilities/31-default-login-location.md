@@ -17,7 +17,7 @@ Some web applications have an administrative login section that allows administr
     </tr>
 </table>
 
-Default Login Location vulnerability opens access for attackers to:
+This vulnerability allows an attacker to get access to:
 * User account provisioning
 * Website design and layout
 * Data manipulation
@@ -66,5 +66,6 @@ Disallow: /admin
     </tr>
 </table>
 
+* [https://cwe.mitre.org/data/definitions/287.html](https://cwe.mitre.org/data/definitions/287.html)
 * [https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration)
 * [https://www.owasp.org/index.php/Enumerate_Infrastructure_and_Application_Admin_Interfaces_(OTG-CONFIG-005)](https://www.owasp.org/index.php/Enumerate_Infrastructure_and_Application_Admin_Interfaces_(OTG-CONFIG-005))

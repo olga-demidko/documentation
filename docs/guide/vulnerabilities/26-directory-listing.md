@@ -18,7 +18,7 @@ Directory Listing vulnerability allows showing a list of directories and files o
     </tr>
 </table>
 
-This vulnerability allows the attacker to do the following:
+This vulnerability allows an attacker to:
 * Expose directory architecture of the web application
 * Get file information (filename, creation time, size)
 * Gain source code of your application or configuration files

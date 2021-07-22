@@ -18,7 +18,7 @@ It may also occur if APIs that are in development have access to data in the pro
     </tr>
 </table>
 
-Improper Assets Management allows the attacker to:
+This vulnerability allows the attacker to:
 * Gain sensitive information
 * Get full access to the server through old vulnerable versions of APIs
 
@@ -59,5 +59,6 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
+* [https://cwe.mitre.org/data/definitions/284.html](https://cwe.mitre.org/data/definitions/284.html)
 * [https://raw.githubusercontent.com/OWASP/API-Security/master/2019/en/dist/owasp-api-security-top-10.pdf](https://raw.githubusercontent.com/OWASP/API-Security/master/2019/en/dist/owasp-api-security-top-10.pdf)
 

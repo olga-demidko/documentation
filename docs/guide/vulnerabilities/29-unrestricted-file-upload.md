@@ -19,7 +19,7 @@ If a malicious file has been uploaded into the file system, the attacker is able
     </tr>
 </table>
 
-Unrestricted File Upload vulnerability allows an attacker to do the following:
+This vulnerability allows an attacker to:
 * Execute code on the server side and the client side.
 * Gain sensitive information. Browse server folders and files.
 * Crash the server. Overload the file system or the database.

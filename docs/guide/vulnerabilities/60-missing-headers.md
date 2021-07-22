@@ -27,6 +27,23 @@ By enabling certain headers in your web application and server settings, you can
 
 <table id="simple-table">
     <tr>
+        <th><strong>Impact</strong></th>
+    </tr>
+</table>
+
+This vulnerability may expose the application to the following attack vectors:
+* Cross-Site Scripting (XSS)
+* Clickjacking
+* Code injection
+
+An attacker may:
+* Download malware or execute malicious script on the user's machine
+* Redirect to the malicious web pages
+* Gain credentials or sensitive information
+
+
+<table id="simple-table">
+    <tr>
         <th><strong>Location</strong></th>
     </tr>
 </table>

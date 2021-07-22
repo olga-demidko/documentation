@@ -18,7 +18,7 @@
     </tr>
 </table>
 
-Full Path Disclosure vulnerability allows an attacker to get the following information:
+This vulnerability allows an attacker to get the following information:
 * Operating system type
 * Web root folder
 * Folder structure

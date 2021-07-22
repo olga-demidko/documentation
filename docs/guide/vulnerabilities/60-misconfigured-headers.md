@@ -27,6 +27,22 @@ By enabling certain headers in your web application and server settings, you can
 
 <table id="simple-table">
     <tr>
+        <th><strong>Impact</strong></th>
+    </tr>
+</table>
+
+This vulnerability may expose the application to the following attack vectors:
+* Cross-Site Scripting (XSS)
+* Clickjacking
+* Code injection
+
+An attacker may:
+* Download malware or execute malicious script on the user's machine
+* Redirect to the malicious web pages
+* Gain credentials or sensitive information
+
+<table id="simple-table">
+    <tr>
         <th><strong>Location</strong></th>
     </tr>
 </table>
@@ -68,7 +84,7 @@ To find the detailed recommendations on correct configuration and all possible v
     </tr>
 </table>
 
-* CWE-16
+* CWE-693
 * CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
 
 
@@ -78,5 +94,5 @@ To find the detailed recommendations on correct configuration and all possible v
     </tr>
 </table>
 
-* [https://cwe.mitre.org/data/definitions/16.html](https://cwe.mitre.org/data/definitions/16.html)
+* [https://cwe.mitre.org/data/definitions/693.html](https://cwe.mitre.org/data/definitions/693.html)
 * [https://owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers)

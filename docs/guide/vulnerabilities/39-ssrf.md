@@ -18,7 +18,7 @@ Some web applications take the input URL parameter and retrieve the response con
     </tr>
 </table>
 
-Server Side Request Forgery attack allows the attacker to:
+This vulnerability allows the attacker to:
 * Gain sensitive information on the server
 * Get access to internal services
 * Get access to Databases if the access is allowed for internal network

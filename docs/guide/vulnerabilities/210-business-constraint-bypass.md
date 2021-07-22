@@ -66,7 +66,7 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
-* CWE-287
+* CWE-639
 * CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
 
 
@@ -76,4 +76,4 @@ The issue can be found in the **source code** on the **server side**.
     </tr>
 </table>
 
-[https://cwe.mitre.org/data/definitions/287.html](https://cwe.mitre.org/data/definitions/287.html)
+* [https://cwe.mitre.org/data/definitions/639.html](https://cwe.mitre.org/data/definitions/639.html)
