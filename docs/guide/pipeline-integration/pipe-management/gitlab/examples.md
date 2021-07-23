@@ -1,4 +1,7 @@
 # Usage Examples
+
+This section provides the GitLab integration examples for different use cases. You can also find these examples directly in the [NeuraLegion GitLab repository](https://gitlab.com/neuralegion/nexploit-cicd).  
+
 ## Example 1. Direct scanning using the Nexploit CLI (NPM installation)
 To apply this option, you only need to install the NexPloit CLI globally on your GitLab machine using the relative NPM command. 
 
