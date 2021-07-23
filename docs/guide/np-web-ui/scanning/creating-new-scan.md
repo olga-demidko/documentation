@@ -1,4 +1,8 @@
 # Creating a New Scan
+
+> [!NOTE|label:Note]
+Currently our scans are capped at maximum 2000 entry points. If you want to get more, please contact our sales at [docs.support@neuralegion.com](mailto:docs.support@neuralegion.com).
+
 1. In the left pane, select the **Scans** option to display **MY SCANS** list. Each scan appears as a single row.
 2. On the **Scans** page, click **New Scan** to create a new scan.
 

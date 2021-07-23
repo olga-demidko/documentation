@@ -1,4 +1,7 @@
 # Usage Examples
+
+This section provides the GitLab integration examples for different use cases. You can also find these examples directly in the [NeuraLegion GitLab repository](https://gitlab.com/neuralegion/nexploit-cicd).  
+
 ## Example 1. Direct scanning using the Nexploit CLI (NPM installation)
 To apply this option, you only need to install the NexPloit CLI globally on your GitLab machine using the relative NPM command. 
 
@@ -333,6 +336,10 @@ before_script:
   - apt update -qq --fix-missing
   - apt install -y --no-install-recommends nodejs npm make g++
   - npm install @neuralegion/nexploit-cli -g --unsafe-perm || true
+script:
+  - echo "Start docker-compose configuration"
+  - docker-compose up --detach
+  - sleep 5s
 ```
 
 ##### **STEP 3 -  Run (Re-Test) a Scan**
@@ -416,6 +423,9 @@ test:
   - apt install -y --no-install-recommends nodejs npm make g++
   - npm install @neuralegion/nexploit-cli -g --unsafe-perm || true
   script:
+  - echo "Start docker-compose configuration"
+  - docker-compose up --detach
+  - sleep 5s
   - echo "Start Nexploit Scan 🏁"
   - >
     SCAN_ID=$(nexploit-cli scan:run --token $NEXPLOIT_TOKEN

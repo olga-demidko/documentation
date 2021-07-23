@@ -22,7 +22,7 @@ This command enables you to specify one or more discovery strategies. For exampl
 </tr>
 <tr>
 <td><code>--archive=fileId</code>,<br> <code>-a=fileId</code></td>
-<td>The Archive ID, which can be received via the&nbsp;archive:upload&nbsp;command.</td>
+<td>The archive ID, which can be received via the <code>archive:upload</code> command.</td>
 </tr>
 <tr>
 <td><code>--crawler=url</code>, <br><code>-c=url</code></td>
@@ -32,6 +32,23 @@ This command enables you to specify one or more discovery strategies. For exampl
 <td><code>--repeater=repeaterId</code>, <br><code>--agent=repeaterId <b><i>(Deprecated)</i></b> </code>
 </td>
 <td> Specifies a list of Repeater UUIDs that should be connected with the scan.</td>
+</tr>
+<tr>
+<td><code>--cluster</code></td>
+<td>Nexploit cluster (domain name).<br><br><strong>Default:</strong><code>nexploit.app</code></td>
+</tr>
+<tr>
+<tr>
+<td><code>--project, -p</code></td>
+<td>Allows specifying the Nexploit project for a scan using the project ID. You can find the project ID  in the <b>Projects</b> section on <a href="https://nexploit.app/scans">nexploit.app</a>.
+</tr>
+<tr>
+<td><code>--integration, -i</code></td>
+<td>Allows connecting a ticketing service with an associated repository for a scan. It enables you to get the reports on every detected vulnerability in automatically opened tickets/issues of the associated repository. <p>
+<strong> <font color="blue">Note:</font></strong> You can only connect a ticketing service (system) that was previously integrated with Nexploit on <a href="https://nexploit.app/scans">nexploit.app</a>. Read more about integrating Nexpoloit with ticketing systems <a href="https://kb.neuralegion.com/#/guide/pipeline-integration/ticketing-systems/ticketing-overview">here</a>. <p> <i> Format:</i> <code> -i "service:repository"</code> <br> <i>Example:</i> <code> -i "github:example-app"</code> <br> If you want to connect several repositories for one scan, you can specify them one after another:<code> -i "github:example-app" -i "jira:example-app"</code><p> <strong> <font color="orange">Important:</font> </strong>    <ul>
+    <li> To connect a ticketing service and a repository for a scan, the token (API key) that you use for the scan must include the <code>integration.repos:read</code> scope.</li> 
+    <li>The <code>--integration (-i)</code> parameter cannot be used without a valid <br> <code>--project (-p)</code> parameter (see above). Make sure that you connect a repository associated with the specified project.</li>
+</ul>
 </tr>
 <tr>
 <td><code>--smart</code></td>
@@ -68,10 +85,6 @@ This command enables you to specify one or more discovery strategies. For exampl
 <tr>
 <td><code>--log-level<br>=0/1/2/3/4/silent/<br>error/warn/notice/verbose</code></td>
 <td>Allows setting the level of logs to report. Any logs of a higher level than the one specified are shown. The options to select : 0, 1, 2, 3, 4, "silent", "error", "warn", "notice", "verbose".<br><br><strong>Default:</strong> 3</td>
-</tr>
-<tr>
-<td><code>--cluster</code></td>
-<td>Nexploit cluster (domain name).<br><br><strong>Default:</strong><code>nexploit.app</code></td>
 </tr>
 <tr>
 <td><code>--insecure</code></td>

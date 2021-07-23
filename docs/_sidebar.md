@@ -56,7 +56,7 @@
       - [Managing Access Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/overview.md)
         - [Organization API Key Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/org-api-key.md)
         - [Personal API Key Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/personal-api-key.md)
-        - [Roles Management Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/roles-management.md)
+        - [Role Management Scopes](guide/np-web-ui/advanced-set-up/managing-scopes/roles-management.md)
       - [Managing Your Personal Account](guide/np-web-ui/advanced-set-up/managing-personal-account.md)
       - [Managing Projects](guide/np-web-ui/advanced-set-up/managing-projects.md)
       - [Managing Repeaters](guide/np-web-ui/advanced-set-up/managing-repeaters.md)

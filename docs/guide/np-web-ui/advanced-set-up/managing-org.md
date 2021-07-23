@@ -124,7 +124,7 @@ To add or remove a user from a group, follow these steps:
 
 
 ## Managing User’s Roles
-You can create a custom role with specific access scopes and assign it to a new user (member) of your organization.  Therefore, all the created users can be granted different scanning and management permissions. 
+You can create a custom role with specific access scopes and assign it to a new or an existing user (member) of your organization.  Therefore, all the created users can be granted different scanning and management permissions. 
 
 * [Creating a Custom Role](#creating-a-custom-role)
 * [Editing a Custom Role](#editing-a-custom-role)
@@ -135,7 +135,7 @@ You can create a custom role with specific access scopes and assign it to a new 
 Initially, the list of roles includes only the default options. View the **Description** column to check the access permissions provided by each role. 
 
 >[!NOTE|label:Note]
-Only the Admin and Owner default roles allow to create and manage custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner
+Only the Admin and Owner default roles allow creating and managing custom roles. A Team Lead can only view the custom roles created by an Admin or an Owner
 
 To create a custom role with specific permissions, follow these steps:
 1. In the upper-right corner of the **ROLES** section, click **+ New Role**.

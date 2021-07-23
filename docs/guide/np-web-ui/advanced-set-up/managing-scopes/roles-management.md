@@ -1,6 +1,6 @@
-# Roles Management Scopes
+# Role Management Scopes
 
-When creating a custom role to be assigned to a new user, you can predefine access permissions for this role by selecting the relative scopes. The following table describes the permissions each scope provides.   
+When creating a custom role to be assigned to a new or an existing user, you can predefine access permissions for this role by selecting the relative scopes. The following table describes the permissions each scope provides.   
 
 <table id="simple-table">
   <tr>
@@ -70,6 +70,11 @@ When creating a custom role to be assigned to a new user, you can predefine acce
     <td width="75%" >
        Allows viewing associated repositories, for example GitHub repositories , Slack channels, or Jira boards.   
     </td>
+    <tr>
+    <td width="25%"><code>integration.repos:manage </code></td>
+    <td width="75%" >
+       Allows filtering the severity level of issues to be opened in integrated services.   
+    </td>
   </tr>
   <tr>
     <td width="25%"><code>repeaters:read </code></td>
@@ -105,7 +110,7 @@ When creating a custom role to be assigned to a new user, you can predefine acce
   <tr>
     <td width="25%"><code>org:read</code></td>
     <td width="75%" >
-      Allows viewing basic information about an organization.   
+      Allows viewing basic information about an organization. This scope is required for running a scan. 
     </td>
   </tr>
   <tr>
@@ -141,7 +146,7 @@ When creating a custom role to be assigned to a new user, you can predefine acce
   <tr>
     <td width="25%"><code>projects:read</code></td>
     <td width="75%" >
-     Allows displaying available projects.   
+     Allows displaying available projects. This scope is required for running a scan.    
     </td>
   </tr>
   <tr>

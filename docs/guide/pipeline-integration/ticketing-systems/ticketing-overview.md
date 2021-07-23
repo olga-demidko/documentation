@@ -11,4 +11,6 @@ To enable Nexploit to send the scan reports to multiple repositories (projects, 
     * [Monday](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/monday.md)
     * [GitLab Boards](guide/pipeline-integration/ticketing-systems/integrating-with-nexploit/gitlab.md)
 
+
 2. Associate the connected repository(ies) with a specific Nexploit project, and then select the associated repositories for a new scan. To do that, go to the [Adding to Nexploit Project](guide/pipeline-integration/ticketing-systems/adding-to-project.md) section.
+
