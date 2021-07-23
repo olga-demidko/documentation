@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # LDAP Error
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -64,3 +66,6 @@ The issue can be found in the **source code** on the **server side**.
 * [https://www.owasp.org/index.php/LDAP_injection](https://www.owasp.org/index.php/LDAP_injection)
 * [https://cwe.mitre.org/data/definitions/90.html](https://cwe.mitre.org/data/definitions/90.html)
 * [https://cwe.mitre.org/data/definitions/116.html](https://cwe.mitre.org/data/definitions/116.html)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Server Side Template Injection (SSTI)
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -104,3 +106,4 @@ The issue can be found in the **source code** on the **server side**.
 * [https://www.owasp.org/index.php/Server-Side_Includes_(SSI)_Injection](https://www.owasp.org/index.php/Server-Side_Includes_(SSI)_Injection)
 * [https://www.owasp.org/images/7/7e/Owasp_SSTI_final.pdf](https://www.owasp.org/images/7/7e/Owasp_SSTI_final.pdf)
 
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # SQL Database Error Message in Response
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -88,3 +90,5 @@ The issue can be found in the **source code** on the **server side**.
 * [https://cwe.mitre.org/data/definitions/89.html](https://cwe.mitre.org/data/definitions/89.html)
 * [https://www.owasp.org/index.php/Testing_for_SQL_Server](https://www.owasp.org/index.php/Testing_for_SQL_Server)
 * [https://www.neuralegion.com/what-are-sql-injections-and-how-can-they-be-prevented/](https://www.neuralegion.com/what-are-sql-injections-and-how-can-they-be-prevented/)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

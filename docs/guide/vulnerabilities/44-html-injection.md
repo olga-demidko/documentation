@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # HTML Injection
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -65,3 +67,5 @@ General recommendations are the following:
 
 [https://cwe.mitre.org/data/definitions/80.html](https://cwe.mitre.org/data/definitions/80.html)
 
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

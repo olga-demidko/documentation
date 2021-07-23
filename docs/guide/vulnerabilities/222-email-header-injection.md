@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Email Header Injection
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -110,3 +112,6 @@ The issue can be found in the **source code** on the **server side**.
 * [https://cwe.mitre.org/data/definitions/20.html](https://cwe.mitre.org/data/definitions/20.html)
 * [https://sites.cs.ucsb.edu/~chris/research/doc/sac18_email.pdf](https://sites.cs.ucsb.edu/~chris/research/doc/sac18_email.pdf)
 * [https://security.elarlang.eu/cve-2016-4803-dotcms-email-header-injection-vulnerability-full-disclosure.html](https://security.elarlang.eu/cve-2016-4803-dotcms-email-header-injection-vulnerability-full-disclosure.html)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

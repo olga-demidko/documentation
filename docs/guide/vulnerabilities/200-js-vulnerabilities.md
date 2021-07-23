@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # JavaScript Component with Known Vulnerabilities
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -54,3 +56,5 @@ A JavaScript component was found to have a known public vulnerability, please se
 
 * [https://cve.mitre.org/](https://cve.mitre.org/)
 * [https://nvd.nist.gov/](https://nvd.nist.gov/)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

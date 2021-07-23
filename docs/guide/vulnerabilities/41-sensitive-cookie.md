@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Sensitive Cookie Without HttpOnly Flag
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -91,3 +93,5 @@ Response.Cookies.Add(
 
 * [https://www.owasp.org/index.php/HttpOnly](https://www.owasp.org/index.php/HttpOnly)
 * [https://cwe.mitre.org/data/definitions/1004.html](https://cwe.mitre.org/data/definitions/1004.html)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Insecure Content Secure Policy Configuration
 
 <b>Severity</b>: <b><font color="#DE8800">Low</font></b><br>
@@ -86,3 +88,6 @@ To find the detailed recommendations on correct configuration and all possible v
 * [https://cwe.mitre.org/data/definitions/693.html](https://cwe.mitre.org/data/definitions/693.html)
 * [https://cwe.mitre.org/data/definitions/16.html](https://cwe.mitre.org/data/definitions/16.html)
 * [https://owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # LDAP Injection
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -97,3 +99,5 @@ The issue can be found in the **source code** on the **server side**.
 * [https://cwe.mitre.org/data/definitions/90.html](https://cwe.mitre.org/data/definitions/90.html)
 * [https://www.owasp.org/index.php/LDAP_injection](https://www.owasp.org/index.php/LDAP_injection)
 * [https://www.neuralegion.com/blog/ldap-injection/](https://www.neuralegion.com/blog/ldap-injection/)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

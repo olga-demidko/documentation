@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Unsafe Redirect
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -68,3 +70,5 @@ The best solution to avoid unvalidated redirects is not to use any redirects or 
 * [https://cwe.mitre.org/data/definitions/601.html](https://cwe.mitre.org/data/definitions/601.html)
 * [https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet](https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet)
 * [https://www.neuralegion.com/discovering-and-remediating-open-redirect-vulnerabilities/](https://www.neuralegion.com/discovering-and-remediating-open-redirect-vulnerabilities/ )
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

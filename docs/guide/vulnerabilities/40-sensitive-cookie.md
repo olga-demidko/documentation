@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Sensitive Cookie in HTTPS Session Without Secure Attribute
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -90,3 +92,6 @@ Response.Cookies.Add(
 
 * [https://owasp.org/www-community/controls/SecureCookieAttribute](https://owasp.org/www-community/controls/SecureCookieAttribute)
 * [https://cwe.mitre.org/data/definitions/614.html](https://cwe.mitre.org/data/definitions/614.html)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

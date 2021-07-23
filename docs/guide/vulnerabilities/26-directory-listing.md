@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Directory Listing
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -99,3 +101,5 @@ The issue can be found in the **server configuration**.
 
 * [https://cwe.mitre.org/data/definitions/548.html](https://cwe.mitre.org/data/definitions/548.html)
 * [https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

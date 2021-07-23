@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Unsafe Date Range
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -81,3 +83,6 @@ In the situations where you need to keep an extensive date range (for example, p
 
 * [https://cwe.mitre.org/data/definitions/20.html](https://cwe.mitre.org/data/definitions/20.html)
 * [https://www.owasp.org/index.php/Improper_Data_Validation](https://www.owasp.org/index.php/Improper_Data_Validation)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

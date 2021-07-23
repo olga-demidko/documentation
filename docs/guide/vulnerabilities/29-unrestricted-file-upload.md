@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Unrestricted File Upload
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -113,3 +115,5 @@ https://www.{your_web_site}.com/account-photos/malicious-file.php?c=<any-command
 * [https://www.owasp.org/index.php/Unrestricted_File_Upload](https://www.owasp.org/index.php/Unrestricted_File_Upload)
 * [https://cwe.mitre.org/data/definitions/434.html](https://cwe.mitre.org/data/definitions/434.html)
 
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

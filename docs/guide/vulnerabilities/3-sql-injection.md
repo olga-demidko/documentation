@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # SQL Injection
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -90,3 +92,5 @@ The issue can be found in the **source code** on the **server side**.
 * [https://cwe.mitre.org/data/definitions/89.html](https://cwe.mitre.org/data/definitions/89.html)
 * [https://www.owasp.org/index.php/Blind_SQL_Injection](https://www.owasp.org/index.php/Blind_SQL_Injection)
 * [https://www.neuralegion.com/what-are-sql-injections-and-how-can-they-be-prevented/](https://www.neuralegion.com/what-are-sql-injections-and-how-can-they-be-prevented/)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Misconfigured Security Headers 
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -96,3 +98,6 @@ To find the detailed recommendations on correct configuration and all possible v
 
 * [https://cwe.mitre.org/data/definitions/693.html](https://cwe.mitre.org/data/definitions/693.html)
 * [https://owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

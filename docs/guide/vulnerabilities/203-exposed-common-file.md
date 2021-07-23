@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Exposed Common File
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -76,3 +78,5 @@ This vulnerability allows an attacker to:
 </table>
 
 https://cwe.mitre.org/data/definitions/200.html
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

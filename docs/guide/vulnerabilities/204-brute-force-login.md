@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Brute Force Login
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -60,3 +62,6 @@ The issue can be found in the **source code** on the **server side**.
 * [https://cwe.mitre.org/data/definitions/307.html](https://cwe.mitre.org/data/definitions/307.html)
 * [https://en.wikipedia.org/wiki/Brute-force_attack](https://en.wikipedia.org/wiki/Brute-force_attack)
 * [https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks](https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

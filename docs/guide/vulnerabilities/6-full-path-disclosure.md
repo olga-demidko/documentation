@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Full Path Disclosure
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -98,3 +100,6 @@ Disallow: /
 
 * [https://cwe.mitre.org/data/definitions/200.html](https://cwe.mitre.org/data/definitions/200.html)
 * [https://www.owasp.org/index.php/Full_Path_Disclosure](https://www.owasp.org/index.php/Full_Path_Disclosure)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

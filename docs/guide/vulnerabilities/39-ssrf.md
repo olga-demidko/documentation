@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Server Side Request Forgery (SSRF)
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -95,3 +97,6 @@ The issue can be found in the **source code** on the **server side**.
 * [https://cwe.mitre.org/data/definitions/918.html](https://cwe.mitre.org/data/definitions/918.html)
 * [https://owasp.org/www-community/attacks/Server_Side_Request_Forgery](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
 * [https://www.neuralegion.com/blog/ssrf-server-side-request-forgery/](https://www.neuralegion.com/blog/ssrf-server-side-request-forgery/)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

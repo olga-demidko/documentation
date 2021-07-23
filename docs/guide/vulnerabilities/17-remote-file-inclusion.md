@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Remote File Inclusion (RFI)
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -96,3 +98,5 @@ This vulnerability allows an attacker to:
 * [https://cwe.mitre.org/data/definitions/98.html](https://cwe.mitre.org/data/definitions/98.html)
 * [http://projects.webappsec.org/w/page/13246955/Remote%20File%20Inclusion](http://projects.webappsec.org/w/page/13246955/Remote%20File%20Inclusion)
 * [https://en.wikipedia.org/wiki/File_inclusion_vulnerability](https://en.wikipedia.org/wiki/File_inclusion_vulnerability)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

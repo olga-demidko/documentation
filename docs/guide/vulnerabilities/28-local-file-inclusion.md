@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Local File Inclusion (LFI)
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -93,3 +95,6 @@ The issue can be found in the **source code** on the **server side**.
 * [https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion](https://www.owasp.org/index.php/Testing_for_Local_File_Inclusion)
 * [https://www.neuralegion.com/local-file-inclusion-lfi-what-is-lfi-and-how-to-deal-with-it/](https://www.neuralegion.com/local-file-inclusion-lfi-what-is-lfi-and-how-to-deal-with-it/)
 * [https://www.neuralegion.com/blog/local-file-inclusion-lfi/](https://www.neuralegion.com/blog/local-file-inclusion-lfi/)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

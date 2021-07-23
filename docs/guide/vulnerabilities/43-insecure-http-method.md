@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Insecure HTTP Method
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
 <b>Test name</b>: HTML Injection
@@ -82,3 +84,5 @@ This vulnerability allows an attcker to modify the application data.
 
 [https://owasp.org/www-project-web-security-testing-guide/](https://owasp.org/www-project-web-security-testing-guide/)
 
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

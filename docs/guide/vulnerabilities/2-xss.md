@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Reflective Cross-Site Scripting (rXSS)
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -72,3 +74,6 @@ The issue can be found in the **source code** on the **client side**.
 * [https://www.neuralegion.com/cross-site-scripting-xss-everything-you-need-to-know-about-xss-attacks/](https://www.neuralegion.com/cross-site-scripting-xss-everything-you-need-to-know-about-xss-attacks/)
 * [https://www.neuralegion.com/blog/xss/](https://www.neuralegion.com/blog/xss/)
 * [https://www.neuralegion.com/blog/cross-site-scirpting-prevention/](https://www.neuralegion.com/blog/cross-site-scirpting-prevention/)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

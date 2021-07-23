@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Insecure TLS Configuration
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -66,3 +68,6 @@ It is necessary to configure the web server to support the actual versions of th
 * [https://ssl-config.mozilla.org/](https://ssl-config.mozilla.org/)
 * [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 * [https://wiki.mozilla.org/Security/Server_Side_TLS](https://wiki.mozilla.org/Security/Server_Side_TLS)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

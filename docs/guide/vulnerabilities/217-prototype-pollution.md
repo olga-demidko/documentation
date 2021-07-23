@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Prototype Pollution
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -80,3 +82,5 @@ Changing the basic method `toString`:<br>
 
 * [https://cwe.mitre.org/data/definitions/1321.html](https://cwe.mitre.org/data/definitions/1321.html)
 * [https://github.com/Kirill89/prototype-pollution-explained](https://github.com/Kirill89/prototype-pollution-explained)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

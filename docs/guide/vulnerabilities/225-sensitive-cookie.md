@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Кнопка</title>
- </head>
- <body> 
-  <form>
-   <p><input type="button" value=" Back to tests "></p>
-  </form>
- </body>
-</html>
+<input type="button" onclick="guide/" value="Назад"/>
 
 
 # Sensitive Cookie Without HttpOnly Flag
@@ -93,4 +82,7 @@ The disclosure, capture, prediction, brute force, or fixation of the session ID 
     </tr>
 </table>
 
-https://developer.mozilla.org/en-US/docs/Glossary/Session_Hijacking
+[https://developer.mozilla.org/en-US/docs/Glossary/Session_Hijacking](https://developer.mozilla.org/en-US/docs/Glossary/Session_Hijacking)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

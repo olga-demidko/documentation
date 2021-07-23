@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Enumerable Integer-Based ID
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -92,3 +94,6 @@ The issue can be found in the **source code** on the **server side**.
 
 * [https://cwe.mitre.org/data/definitions/203.html](https://cwe.mitre.org/data/definitions/203.html)
 * [https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account)
+
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Persistent Cross-Site Scripting (pXSS)
 
 <b>Severity</b>: <b><font color="#DB1E54">High</font></b><br>
@@ -66,3 +68,6 @@ The general recommendations are the following:
 * [https://www.neuralegion.com/blog/cross-site-scripting-xss/](https://www.neuralegion.com/blog/cross-site-scripting-xss/)
 * [https://www.neuralegion.com/blog/xss/](https://www.neuralegion.com/blog/xss/)
 * [https://www.neuralegion.com/blog/cross-site-scirpting-prevention/](https://www.neuralegion.com/blog/cross-site-scirpting-prevention/)
+
+<p>
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

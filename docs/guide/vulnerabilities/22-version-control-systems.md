@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Version Control System Data Leak
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -93,3 +95,5 @@ https://www.{your_web_site}.com/.git
 </table>
 
 [https://cwe.mitre.org/data/definitions/527.html](https://cwe.mitre.org/data/definitions/527.html)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

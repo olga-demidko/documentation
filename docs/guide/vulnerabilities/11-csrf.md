@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Unauthorized Cross-Site Request Forgery (CSRF)
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -143,3 +145,5 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 * [https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF))
 * [https://www.neuralegion.com/blog/csrf-vs-xss/](https://www.neuralegion.com/blog/csrf-vs-xss/)
 * [https://www.neuralegion.com/blog/cross-site-request-forgery-csrf/](https://www.neuralegion.com/blog/cross-site-request-forgery-csrf/)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

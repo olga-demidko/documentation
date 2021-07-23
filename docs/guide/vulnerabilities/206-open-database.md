@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # Exposed Database Connection String
 
 <b>Severity</b>: <b><font color="#1B49D4">Low</font></b><br>
@@ -65,3 +67,5 @@ It is hardly  necessary for applications to disclose database connection strings
 
 * [https://cwe.mitre.org/data/definitions/284.html](https://cwe.mitre.org/data/definitions/284.html)
 * [https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database](https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>

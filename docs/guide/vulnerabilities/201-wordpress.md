@@ -1,3 +1,5 @@
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
+
 # WordPress Component with Known Vulnerabilities
 
 <b>Severity</b>: <b><font color="#DE8800">Medium</font></b><br>
@@ -52,3 +54,5 @@ A one-time fix will solve the current issue, but will not prevent similar cases 
 
 * [https://cve.mitre.org/](https://cve.mitre.org/)
 * [https://nvd.nist.gov/](https://nvd.nist.gov/)
+
+<a class="not-decorated-link" href="#/guide/vulnerabilities/overview.md">< Back to tests</a>
